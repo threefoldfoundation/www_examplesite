@@ -1,3 +1,16 @@
+id: christine
+name: Christine
+tags: crystaltwin, planned, grid
+rank: 1
+bio: Primis vitae mauris turpis ornare libero odio torquent vehicula proin consequat curabitur mattis
+facebook: https://www.facebook.com
+twitter: https://www.twitter.com
+linkedin: https://www.linkedin.com
+image: ./images/author1.png
+projects: seeds,threefold
+countries: 
+cities: 
+
 # Isabelle Peters
 
 ### data
