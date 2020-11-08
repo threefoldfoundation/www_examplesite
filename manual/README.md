@@ -75,5 +75,11 @@ the section for vimeo
 ```
 
 to use breaks do ```enter <BR> enter```
+
+see https://github.com/threefoldtech/www_partners_v2/blob/main/content/project/vlinder/vlinder.md
+
+## person
+
+exammple: https://github.com/threefoldtech/www_partners_v2/blob/main/content/person/adnan_fatayerji/adnan_fatayerji.md
   
   
