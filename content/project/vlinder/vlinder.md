@@ -3,10 +3,10 @@ title: Increasing happiness by providing a new perspective on people's lifestyle
 tags: crystaltwin, planned, experience
 countries: austria, russia
 cities: Salzburg, Perm
-team: Sergey Ivliev
+team: sergey_ivliev
 rank: 1
 category: crystaltwin
-excerpt: Vlinder means butterfly in Dutch. We believe in the butterfly effect of a small behavioral change in a connected world. We envision the Vlinder app as a tool empowering you to make those changes. You will be able to know and mitigate your personal environmental footprint by investing in high-impact products and connecting with sustainability-focused businesses. We will provide you with a helicopter view of your bank cards, crypto wallets, and cash expenses while automatically estimating your carbon footprint. You will be able to contribute to community projects and make a profit from offsetting your CO2 emissions by investing in green products with high return.
+excerpt: ... need excerpt which is smaller ...
 created: 2019-03-20
 image: ./vlinder.png
 image_caption: vlinder
@@ -52,43 +52,11 @@ Vlinder is included in ThreeFold’s [Token Distribution Event (TDE)](https://wi
 The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
 Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Vlinder, and the growth of a new Conscious Internet.
 
+## TFGrid solution
+
 ### Roadmap
 
-```python
+- Q1 2021
+- Integration of personal planet first finance app on top of 3bot/Crystal Twin.
 
-[milestone]
-name = "Integrate on ThreeFold Grid, 3Bot"
-#date format: Q YYYY
-date = "Q3 2020"
-funding_required_tft = "500,000"
-funding_required_usd = ""
-description = "Integration of personal planet first finance app on top of 3bot/Crystal Twin."
 
-```
-
-### data
-
-```python
-
-[links]
-linkedin = ""
-websites = ["https://vlinder.app"]
-wiki = ""
-video = "https://player.vimeo.com/video/434681704"
-
-[info]
-name = "Vlinder"
-rank = 3
-mission = "Increasing happiness by providing a new perspective on people's lifestyle empowering them to act on Earth’s global problems."
-description = "Vlinder means butterfly in Dutch. We believe in the butterfly effect of a small behavioral change in a connected world. We envision the Vlinder app as a tool empowering you to make those changes. You will be able to know and mitigate your personal environmental footprint by investing in high-impact products and connecting with sustainability-focused businesses. We will provide you with a helicopter view of your bank cards, crypto wallets, and cash expenses while automatically estimating your carbon footprint. You will be able to contribute to community projects and make a profit from offsetting your CO2 emissions by investing in green products with high return."
-team = ["Sergey Ivliev"]
-countries = ["Austria", "Russia"]
-cities = ["Salzburg", "Perm"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["experience"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = []
-
-```
