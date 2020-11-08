@@ -14,20 +14,24 @@
         pricing="$299 USD per night"
         url="/vacations/cancun"
       />
-
-
+      <vue-markdown>
+# This is markdown
+### Hello world!
+      </vue-markdown>
     </div>
-
-
-
-  </Layout>
+</Layout>
 </template>
 
 <script>
+import VueMarkdown from 'vue-markdown'
 
 export default {
   metaInfo: {
     title: "About us"
+  },
+
+  components: {
+    VueMarkdown
   }
 };
 </script>
