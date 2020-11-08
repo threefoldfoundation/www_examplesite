@@ -42,6 +42,9 @@ module.exports = {
       options: {
         typeName: 'Blog',
         path: './content/blog/**/*.md',
+        templates: {
+          BlogPost: '/blog/:id'
+        },
         refs: {
           author: 'Author',
           tags: {
@@ -70,18 +73,18 @@ module.exports = {
   },
   templates: {
     Blog: [{
-      path: '/blog/:title'
+      path: '/blog/:id'
     }],
     Category: [{
-      path: '/category/:title',
+      path: '/category/:id',
       component: '~/templates/Category.vue'
     }],
     Author: [{
-      path: '/author/:name',
+      path: '/author/:id',
       component: '~/templates/Author.vue'
     }],
     Tag: [{
-      path: '/tags/:title',
+      path: '/tags/:id',
       component: '~/templates/Tag.vue'
     }],
   }
