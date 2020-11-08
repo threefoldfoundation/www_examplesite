@@ -1,6 +1,11 @@
 ---
 id: word_first_time_token2
 title: Worlds First Time Token
+name: Blog
+status: Published
+rank: 1
+team: teama
+startdate: 2019-03-20
 tags: grid, solution
 category: gridusecase
 excerpt: World First Time Token enables 200.000+ users for exchanging value.
