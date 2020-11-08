@@ -1,3 +1,4 @@
+# metadata
 
 ## metadata per project page
 
@@ -18,7 +19,9 @@ image: ./seeds.png
 image_caption: seeds
 author: christine, kristof
 members: kristof
-websites = https://threefold.io/, https://www.mazraa.io/
+websites: https://threefold.io/, https://www.mazraa.io/
+memberships: wisdomcouncil, ambassador, freeflowcitizen, farmer, gridcouncil
+
 ---
 ```
 
@@ -35,7 +38,7 @@ websites = https://threefold.io/, https://www.mazraa.io/
 - created: when the project was registered
 - author: 1 or more authors who created the content
 - members: 1 or more people behind project (the member of the project)
-
+- # can be chosen from: freeflowcitizen, matchmaker, ambassador, farmer, wisdomcouncil, friend, gridcouncil, techcouncil
 
 ## metadata per user/author page
 
@@ -47,7 +50,7 @@ tags: crystaltwin, planned, grid
 rank: 1
 bio: The business / other life experience of the person
 linkedin: https://www.linkedin.com/...
-websites = https://threefold.io/, https://www.mazraa.io/
+websites: https://threefold.io/, https://www.mazraa.io/
 image: ./images/author1.png
 projects: seeds, threefold
 countries: 
@@ -56,3 +59,21 @@ cities:
 ```
 
 - ... 
+
+# page
+
+## project
+
+the section for vimeo
+```
+<BR>
+
+<iframe src="https://player.vimeo.com/video/434681704" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
+```
+
+to use breaks do ```enter <BR> enter```
+  
+  
