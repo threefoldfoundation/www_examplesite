@@ -1,6 +1,7 @@
 
 ## metadata per project page
 
+```
 ---
 id: seeds
 title: seeds
@@ -18,6 +19,7 @@ image_caption: seeds
 author: christine, kristof
 members: kristof
 ---
+```
 
 - id: uniquely chosen name, which should not change over time
 - title which shows on overview
@@ -36,6 +38,7 @@ members: kristof
 
 ## metadata per user/author page
 
+```
 ---
 id: christine
 name: Christine
@@ -50,5 +53,6 @@ projects: seeds,threefold
 countries: 
 cities: 
 ---
+```
 
 - ... 
