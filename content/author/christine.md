@@ -5,6 +5,10 @@ bio: Primis vitae mauris turpis ornare libero odio torquent vehicula proin conse
 facebook: https://www.facebook.com
 twitter: https://www.twitter.com
 linkedin: https://www.linkedin.com
+rank: 3
+projects: threefold
+countries: 
+cities: 
 image: ./images/author1.png
 ---
 
@@ -18,3 +22,5 @@ image: ./images/author1.png
 test
 
 ![](./images/author1.png)
+
+
