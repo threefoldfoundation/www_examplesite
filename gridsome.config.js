@@ -34,7 +34,13 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Author',
-        path: './content/author/*.md'
+        path: './content/author/*.md',
+        refs: {
+          category: {
+            typeName: 'Category',
+            create: true
+          }
+        }
       }
     }, 
     {

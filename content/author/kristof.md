@@ -1,6 +1,7 @@
 ---
 id: kristof
 name: kds
+category: team
 bio: Primis vitae mauris turpis ornare libero odio torquent vehicula proin consequat curabitur mattis
 facebook: https://www.facebook.com
 twitter: https://www.twitter.com

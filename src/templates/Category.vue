@@ -70,6 +70,25 @@
               }
             }
           }
+
+          node {
+            ... on Author {
+              name
+              path
+              bio
+              bio
+              image(width:150, height:150)
+              facebook
+              twitter
+              linkedin
+              content
+              category {
+                id
+                title
+              }
+             
+            }
+          }
         }
       }
     }  
