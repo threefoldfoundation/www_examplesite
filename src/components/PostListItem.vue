@@ -29,9 +29,13 @@
           </div>
            <div class="ml-3 pl-3 border-l flex flex-col text-xs leading-none uppercase">
              <p>
+                <g-link :to="record.path">
                <time :datetime="record.datetime" >{{ record.humanTime }}</time>
+                </g-link>
              </p>
-             <time :datetime="record.datetime" >{{ record.startDate }}</time>             
+             <g-link :to="record.path">
+               <time :datetime="record.datetime" >{{ record.startDate }}</time>             
+               </g-link>
              {{ record.status }}
              </p>
           </div>

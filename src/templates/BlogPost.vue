@@ -42,10 +42,14 @@
                 </span>
               </p>
               <p class="text-gray-700">
+                 <g-link :to="$page.blog.path">
                 <time :datetime="$page.blog.datetime">{{ $page.blog.humanTime }}</time>
+                 </g-link>
                 <!-- &nbsp;&middot;&nbsp; {{ $page.blog.timeToRead }} min read -->
                  &nbsp;&middot;&nbsp;
+                 <g-link :to="$page.blog.path">
                 <time :datetime="$page.blog.datetime" >{{ $page.blog.startDate }}</time>
+                </g-link>
               </p>
             </div>
           </div>

@@ -1,14 +1,14 @@
 ---
-id: word_first_time_token
-title: Worlds First Time Token
-name: Blog
+id: word_first_time_token2
+title: Worlds First Time Token 2
+name: Blog 2
 status: Published
-rank: 1
+rank: 2
 team: teama
 startdate: 2019-03-20
 tags: grid, solution
-category: gridusecase
-excerpt: World First Time Token enables 200.000+ users for exchanging value.
+category: crystaltwin
+excerpt: World First Time Token 2 enables 200.000+ users for exchanging value.
 created: 2019-03-20
 image: ./beliive.png
 image_caption: beliive
