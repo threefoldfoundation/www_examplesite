@@ -18,6 +18,7 @@ image: ./seeds.png
 image_caption: seeds
 author: christine, kristof
 members: kristof
+websites = https://threefold.io/, https://www.mazraa.io/
 ---
 ```
 
@@ -44,12 +45,11 @@ id: christine
 name: Christine
 tags: crystaltwin, planned, grid
 rank: 1
-bio: Primis vitae mauris turpis ornare libero odio torquent vehicula proin consequat curabitur mattis
-facebook: https://www.facebook.com
-twitter: https://www.twitter.com
-linkedin: https://www.linkedin.com
+bio: The business / other life experience of the person
+linkedin: https://www.linkedin.com/...
+websites = https://threefold.io/, https://www.mazraa.io/
 image: ./images/author1.png
-projects: seeds,threefold
+projects: seeds, threefold
 countries: 
 cities: 
 ---
