@@ -38,7 +38,7 @@ memberships: wisdomcouncil, ambassador, freeflowcitizen, farmer, gridcouncil
 - created: when the project was registered
 - author: 1 or more authors who created the content
 - members: 1 or more people behind project (the member of the project)
-- # can be chosen from: freeflowcitizen, matchmaker, ambassador, farmer, wisdomcouncil, friend, gridcouncil, techcouncil
+- can be chosen from: freeflowcitizen, matchmaker, ambassador, farmer, wisdomcouncil, friend, gridcouncil, techcouncil
 
 ## metadata per user/author page
 
