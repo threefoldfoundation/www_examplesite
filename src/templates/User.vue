@@ -4,18 +4,18 @@
       <div class="flex flex-row flex-wrap items-center mx-4 sm:mx-0">
         <div class="w-full md:w-1/6 mx-auto sm:mx-0">
           <g-image
-            :src="$page.author.image"
+            :src="$page.user.image"
             class="rounded-full bg-gray-200 w-32 h-32 border-4 border-gray-400 mx-auto md:mx-0"
           ></g-image>
         </div>
         <div class="w-full md:w-5/6 text-center md:text-left md:pl-8 lg:pl-0">
-          <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">{{ $page.author.name }}</h1>
-          <p class="text-gray-700 text-xl" v-if="$page.author.bio">{{ $page.author.bio }}</p>
+          <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">{{ $page.user.name }}</h1>
+          <p class="text-gray-700 text-xl" v-if="$page.user.bio">{{ $page.user.bio }}</p>
           <div class="author-social">
-            {{ $page.author.belongsTo.totalCount }} Projects
+            {{ $page.user.belongsTo.totalCount }} Projects
             &nbsp;&middot;&nbsp;
             <!-- <a
-              :href="$page.author.facebook"
+              :href="$page.user.facebook"
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-400 hover:text-black"
@@ -24,7 +24,7 @@
             </a>
             &nbsp;
             <a
-              :href="$page.author.twitter"
+              :href="$page.user.twitter"
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-400 hover:text-black"
@@ -33,7 +33,7 @@
             </a>
             &nbsp; -->
             <a
-              :href="$page.author.linkedin"
+              :href="$page.user.linkedin"
               target="_blank"
               rel="noopener noreferrer"
               class="text-gray-400 hover:text-black"
@@ -47,14 +47,15 @@
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
 
         <section class="post-content container mx-auto relative font-serif text-gray-700">
-          <div class="post-content-text text-xl" v-html="$page.author.content"></div>
+          <div class="post-content-text text-xl" v-html="$page.user.content"></div>
         </section>
+
 
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
 
       <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
-          v-for="edge in $page.author.belongsTo.edges"
+          v-for="edge in $page.user.belongsTo.edges"
           :key="edge.node.id"
           :record="edge.node"
         />
@@ -62,11 +63,11 @@
 
       <div class="pagination flex justify-center mb-8">
         <Pagination
-          :baseUrl="$page.author.path"
-          :currentPage="$page.author.belongsTo.pageInfo.currentPage"
-          :totalPages="$page.author.belongsTo.pageInfo.totalPages"
+          :baseUrl="$page.user.path"
+          :currentPage="$page.user.belongsTo.pageInfo.currentPage"
+          :totalPages="$page.user.belongsTo.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="$page.author.belongsTo.pageInfo.totalPages > 1"
+          v-if="$page.user.belongsTo.pageInfo.totalPages > 1"
         />
       </div>
     </div>
@@ -75,7 +76,7 @@
 
 <page-query>
   query($id: ID!, $page:Int) {
-    author(id: $id) {
+    user(id: $id) {
       name
       path
       bio
@@ -104,7 +105,7 @@
                 id
                 title
               }
-              author {
+              user {
                 id
                 name
                 image(width:64, height:64, fit:inside)
@@ -130,12 +131,12 @@ export default {
   computed: {
     postLabel: function() {
       var pluralize = require("pluralize");
-      return pluralize("post", this.$page.author.belongsTo.totalCount);
+      return pluralize("post", this.$page.user.belongsTo.totalCount);
     }
   },
   metaInfo() {
     return {
-      title: this.$page.author.name
+      title: this.$page.user.name
     };
   }
 };

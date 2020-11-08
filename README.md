@@ -46,14 +46,3 @@ prev: '/docs/wiki-publisher/'
 next: '/docs/digitalme/'
 ---
 ```
-## You want to go deeper ?
-
-![https://docc-theme.netlify.app](https://docc-theme.netlify.app)
-
-
-to install a new version of this
-
-```
-gridsome create threefold-now https://github.com/mrcrmn/docc
-```
-

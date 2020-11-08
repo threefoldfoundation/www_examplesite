@@ -56,7 +56,7 @@
               path
               timeToRead
               startDate : startdate(format:"MM YYYY")
-              humanTime : created(format:"DD MMM YYYY")
+              humanTime : created(format:"MM YYYY")
               datetime : created
               category {
                 id

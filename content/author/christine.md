@@ -18,8 +18,3 @@ image: ./images/author1.png
 test
 
 ![](./images/author1.png)
-
-
-
-
-
