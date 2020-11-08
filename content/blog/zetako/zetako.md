@@ -1,0 +1,90 @@
+---
+title: zetako
+tags: crystaltwin, planned, grid
+countries: 
+team: 
+rank: 1
+category: crystaltwin
+excerpt: 
+created: 2019-03-20
+image: ./zetako.png
+image_caption: zetako
+author: christine
+---
+
+
+# Zetako
+
+## About
+
+We are creating, storing, and sending more data than ever before, and this trend will certainly continue as more people come online and with trends such as Internet of Things and 5G, as examples. More data means more energy consumption, which is not good for our planet.
+
+For many years, research has been focused on increasing the capacity of 40 year old compressions algorithms (LZW) instead of developing new approaches. We believe that the world’s exponential data creation, processing and storage needs cannot be met with old optimized algorithms. To use Albert Einstein's words: “We cannot solve our problems with the same thinking we used when we created them.”
+
+This next part is a little geeky. :) We have developed a brand new mathematical theory based on Statistical Predictive modeling and applied this to a new lossless data compression technology. The result is a technology that provides 30% more compression and Speed and uses 70% less energy in the process. In addition to this, the technology is capable of doing bit-by-bit compression allowing for real time bandwidth reduction - the technology does NOT need a prior knowledge of the dataset to start compression. In layman terms, this means that our technology does not require the data stream to be chopped up into chunks - we apply compression the moment the first bit (1 or 0) comes in.
+
+## Mission
+
+Zetako is dedicated to reducing energy usage &  CO2 emission for the transmission and storage of data by applying a new lossless data compression technology.
+
+## Impact
+
+We are in a position to become the standard of lossless data compression for the next decades that will provide a solution to the problem of every growing amount of data and the energy used to transport and store it.
+
+By reducing the size of data files - whether when transported or stored - we reduce the amount of energy that is required to do so and by reducing energy consumption we reduce C02 emissions.
+
+## Powered by ThreeFold  
+
+We would like to be embedded into the backbone of ThreeFold - to be the de facto lossless data compression algorithm being used - benefitting all stakeholders. In combination with ThreeFold's already-efficient infrastructure, we will provide State-of-the-Art lossless compression made for the 21st century, culminating it less use of resources for the benefit of all.
+
+## Join saving our planet!
+
+It is expected that in 2025 the world will produce 175 ZB of data and an eye-watering 9.000 Terawatt will be used to operate and handle this - We need to look at reducing the energy consumption that goes into our digital lives.
+
+## Support this project
+
+Zetako is included in ThreeFold’s [Token Distribution Event (TDE)](https://wiki.threefold.io/#/tdeoverview)</a> for the impact it brings to our planet, humanity and the ThreeFold Grid.
+The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
+Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Zetako, and the growth of a new Conscious Internet.
+
+### Roadmap
+
+```python
+
+[milestone]
+name = "Integrate within ThreeFold Grid"
+#date format: Q YYYY
+date = "Q3 2020"
+funding_required_tft = "500,000"
+funding_required_usd = ""
+description = "Integration of new data lossless compression technology in TF Grid."
+
+```
+
+### data
+
+```python
+[links]
+linkedin = "https://www.linkedin.com/company/zetako/"
+websites = ["https://zetako.ai/"]
+wiki = ""
+video = "https://player.vimeo.com/video/427718385"
+
+[info]
+name = "Zetako"
+rank = 2
+mission = "Reducing energy usage and CO2 emissions for data transmission and storage with a new lossless data compression technology."
+#description = "For many years, research has been focused on increasing the capacity of 40 year old compressions algorithms (LZW) instead of developing new approaches.  We believe that the world’s exponential data creation, processing and storage needs cannot be met with old optimized algorithms. To use Albert Einstein's words: “We cannot solve our problems with the same thinking we used when we created them.” We have developed a brand mathematical theory based on Statistical Predictive modeling and applied this to a new lossless data compression technology. The result is a technology that provides 30% more compression and Speed and using 70% less energy in the process. In addition to this, the technology is capable of doing bit-by-bit compression allowing for real time bandwidth reduction - the technology does NOT need a prior knowledge of the dataset to start compression. We are in a position to become the standard of lossless data compression for the next decades that will provide a solution to the problem of every growing amount of data and the energy used to transport and store it."
+
+team = ["Claus Rosenberg Gotthard"]
+countries = ["Luxembourg", "France", "Portugal"]
+cities = ["Luxembourg", "St. Florent", "Lisbon"]
+
+[ecosystem]
+# can be chosen from: experience, solution, farmer, infrastructure
+categories = ["solution", "infrastructure"]
+# can be chosen from: tftgranted (receiving TFT Grant)
+badges = []
+
+
+```
