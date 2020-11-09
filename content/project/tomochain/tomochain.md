@@ -10,7 +10,6 @@ category: crystaltwin
 excerpt: ... need excerpt which is smaller ...
 created: 2019-03-20
 image: ./vlinder.png
-logo: ./logo.png
 image_caption: vlinder
 author: kristine
 ---
@@ -50,9 +49,6 @@ If you are in Germany or Austria and run a sustainable business or manage an imp
 
 ## Support this project
 
-Vlinder is included in ThreeFold’s [Token Distribution Event (TDE)](https://wiki.threefold.io/#/tdeoverview)</a> for the impact it brings to our planet, humanity and the ThreeFold Grid.
-The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
-Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Vlinder, and the growth of a new Conscious Internet.
 
 ## TFGrid solution
 
@@ -60,5 +56,3 @@ Each project on the TDE benefits from TFT fund allocations. You can buy TFT's an
 
 - Q1 2021
   - Integration of personal planet first finance app on top of 3bot/Crystal Twin.
-
-
