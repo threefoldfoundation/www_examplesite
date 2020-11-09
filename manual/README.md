@@ -19,6 +19,7 @@ author: kristine, kristof
 members: kristof
 websites: https://threefold.io/, https://www.mazraa.io/
 tags: crystaltwin, planned, grid
+private: 0
 
 ---
 ```
@@ -56,6 +57,7 @@ image: ./images/author1.png
 project_ids: seeds, threefold
 countries: 
 cities: 
+private: 0
 ---
 ```
 
