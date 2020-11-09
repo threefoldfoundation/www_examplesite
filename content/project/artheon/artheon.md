@@ -1,4 +1,3 @@
-```
 ---
 id: artheon
 title: Virtual Reality Museum
@@ -20,7 +19,6 @@ private: 0
 potential:
 
 ---
-```
 
 # Artheon
 

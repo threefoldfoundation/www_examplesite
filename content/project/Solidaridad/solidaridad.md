@@ -13,7 +13,7 @@ image_caption: solidaridad
 author: Weynand
 members: 
 websites: www.solidaridadnetwork.org
-tags: planned
+tags: planned, tfgrid
 private: 0
 potential: 
 
