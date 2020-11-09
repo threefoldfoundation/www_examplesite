@@ -1,26 +1,23 @@
 ---
 id: threefold tech
-title: Powering the Information Technology workloads of tomorrow.
-tags: crystaltwin, planned, experience
-countries: Belgium
-cities: Lochristi
-team: tbd
+title: threefold tech
+status: public
+startdate: 
+countries: 
+cities: 
 rank: 1
-category: 
-excerpt: ... need excerpt which is smaller ...
+excerpt: 
 created: 
 image: ./threefold_tech.png
 image_caption: threefold tech
 author: sabrina
+members: 
+websites: https://threefold.tech/
+tags: grid
+private: 0
+potential: 
 ---
 
-# ThreeFold Tech
-
-## About
-
-ThreeFold Tech believes believe that doing good for the world and growing a successful software company can go hand in hand. It has a decentralized peer-to-peer system insprired by nature. This leads to better security, more uptime, greater efficiencies and endless scalability. 
-
-Simplicity is key. 3Bots and 3Nodes come together to create a decentralized Autonomous IT solution that works like cells in the human body.
 
 
 <BR>
