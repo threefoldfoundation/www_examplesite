@@ -11,7 +11,7 @@ excerpt: ... need excerpt which is smaller ...
 created: 2019-03-20
 image: ./vlinder.png
 image_caption: vlinder
-author: christine
+author: kristine
 ---
 
 # Vlinder
@@ -58,6 +58,6 @@ Each project on the TDE benefits from TFT fund allocations. You can buy TFT's an
 ### Roadmap
 
 - Q1 2021
-- Integration of personal planet first finance app on top of 3bot/Crystal Twin.
+  - Integration of personal planet first finance app on top of 3bot/Crystal Twin.
 
 
