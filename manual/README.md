@@ -13,8 +13,9 @@ cities:
 rank: 1
 excerpt: 
 created: 2019-03-20
-image: ./seeds.png
+image: ./image.png
 image_caption: seeds
+logo: ./logo.png
 author: kristine, kristof
 members: kristof
 websites: https://threefold.io/, https://www.mazraa.io/
@@ -27,11 +28,6 @@ potential:
 
 - id: uniquely chosen name, which should not change over time
 - title which shows on overview
-- tags: generic to allow us to search & shows
-  - choose from 
-    - crystaltwin : for project who crystal twin as backend
-    - tfgrid : for project will use tfgrid
-    - only relevant for author/person
 - status: planned, internal, test, public
 - startdate: when then project will start and be available on crystaltwin or tfgrid
 - countries: where is the team, can be comma separated list
@@ -39,8 +35,17 @@ potential:
 - rank: 1 is lowest prio, 5 highest (what to show first)
 - excerpt: short content to show in overview (DONT MAKE IT TOO LONG)
 - created: when the project was registered
+- image:
+- image caption:
+- logo: 
 - author: 1 or more persons who created the content
 - members: 1 or more persons behind project (the members of the project, use the id)
+- websites:
+- tags: generic to allow us to search & shows. Choose from: 
+    - crystaltwin : for project who crystal twin as backend
+    - tfgrid : for project will use tfgrid
+    - only relevant for author/person
+- private:
 - potential: describe the potential for a project e.g. 1m users in X months, X TB of storage, ... can use multiple lanes
 
 ## metadata per person page
@@ -64,7 +69,7 @@ private: 0
 ```
 
 - mebership: 
-    - choose from guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil, wisdomcouncil
+    - choose from guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil
 
 
 # page

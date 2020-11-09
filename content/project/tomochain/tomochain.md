@@ -1,26 +1,18 @@
-```
 ---
 id: vlinder
-title: Personal Finance App
-status: planned
-startdate: 2021-03-20
-countries: Russia, Austria
-cities: Perm, Salzburg
-rank: 3
-excerpt: Increasing happiness by providing a new perspective on people's lifestyle empowering them to act on Earth’s global problems.
-created: 2020-04-20
+title: Increasing happiness by providing a new perspective on people's lifestyle empowering them to act on Earth’s global problems.
+tags: crystaltwin, planned, experience
+countries: austria, russia
+cities: Salzburg, Perm
+team: sergey_ivliev
+rank: 1
+category: crystaltwin
+excerpt: ... need excerpt which is smaller ...
+created: 2019-03-20
 image: ./vlinder.png
 image_caption: vlinder
-logo: ./logo.png
-author: kristine_vilnite
-members: sergey_ivliev
-websites: https://vlinder.app
-tags: tfgrid
-private: 0
-potential:
-
+author: kristine
 ---
-```
 
 # Vlinder
 
@@ -34,6 +26,8 @@ Vlinder means butterfly in Dutch. We believe in the butterfly effect of a small 
 <iframe src="https://player.vimeo.com/video/434681704" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <BR>
+
+
 
 ## Mission
 
@@ -55,9 +49,6 @@ If you are in Germany or Austria and run a sustainable business or manage an imp
 
 ## Support this project
 
-Vlinder is included in ThreeFold’s [Token Distribution Event (TDE)](https://wiki.threefold.io/#/tdeoverview)</a> for the impact it brings to our planet, humanity and the ThreeFold Grid.
-The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
-Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Vlinder, and the growth of a new Conscious Internet.
 
 ## TFGrid solution
 
@@ -65,5 +56,3 @@ Each project on the TDE benefits from TFT fund allocations. You can buy TFT's an
 
 - Q1 2021
   - Integration of personal planet first finance app on top of 3bot/Crystal Twin.
-
-

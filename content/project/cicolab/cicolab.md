@@ -1,15 +1,26 @@
+```
 ---
+id: cicolab
 title: Collective Intelligence Collaboratory
-tags: crystaltwin, planned
+status: planned
+startdate: 2021-03-20
 countries: france, switzerland
-team: Lauren Moore Nignon, Charles Blass
+cities:
 rank: 1
-excerpt: CICOLAB brings together visionaries from diverse fields to develop simple, practical ways to amplify network intelligence
-created: 2019-03-20
+excerpt: Bringing together visionaries from diverse fields to develop simple, practical ways to amplify network intelligence.
+created: 2020-04-20
 image: ./cicolab.png
 image_caption: cicolab
+logo: ./logo.png
 author: kristine_vilnite
+members: lauren_moore_nignon, charles_blass
+websites: https://www.collectiveintelligencecollaboratory.com
+tags: tfgrid, crystaltwin
+private: 0
+potential:
+
 ---
+```
 
 # Collective Intelligence Collaboratory
 
@@ -80,8 +91,7 @@ We’re also developing innovative gaming methods to assess risk and minimize mi
 We invite you to [join the conversation](https://www.collectiveintelligencecollaboratory.com/the-collaboratory), explore our [knowledge repository](https://workflowy.com/s/collective-intellige/j4VFPGtdeKapOPmH), get involved in and support our [Rapid Learning Network](https://docs.google.com/presentation/d/1fJyb323YcNEdXBlhbMd5OtLd4zRhXJsd-dGkCysXGBs/edit#slide=id.g6cb7bf93bd_0_19).
 
 
-## links
+## TFGrid Solution
 
-* linkedin: https://www.linkedin.com/company/cicollaboratory
-* website: https://www.collectiveintelligencecollaboratory.com
+### Roadmap
 
