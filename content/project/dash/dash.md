@@ -37,8 +37,15 @@ Dash is a digital currency that enables anyone, anywhere in the world to make qu
 
 ## Powered by ThreeFold
 
-ThreeFold will provide a decentralized capacity to host Dash nodes for the Dash community. Futhermore, ThreeFold and Dash are planning more deeper integration that will allow to use ThreeFold storage and compute capacity for Dash blockchain developers.
+Dash  has established itself as a leader in the digital currency and Blockchain space with their advanced payment mechanism and highly-efficient governance model.
 
+With ThreeFold, Dash and its community of Full node and Masternode operators have access to the world's largest P2P cloud capacity.
+With that, they have the ability to easily run Dash nodes at scale and further distribute the network all over the globe, bringing even greater decentralization and data privacy to its DAO infrastructure.
+Dash enthusiasts, developers, and non-developers use ThreeFold and its 3Bot Admin Panel to be part of the Dash network by:
+
+running their own Dash full nodes to help secure the network and get incentivized by doing so
+or by running a Dash Masternode for a more advanced contribution to the Dash governance ecosystem. 
+Futhermore, ThreeFold and Dash are planning more deeper integration that will allow to use ThreeFold storage and compute capacity for Dash blockchain developers.
 
 
 ### Roadmap
