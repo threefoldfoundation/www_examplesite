@@ -59,6 +59,24 @@ module.exports = {
           }
         }
       }
+    },
+
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Project',
+        path: './content/project/**/*.md',
+        templates: {
+          Project: '/project/:id'
+        },
+        refs: {
+          author: 'Person',
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
+      }
     }
   ],
   transformers: {
@@ -84,6 +102,10 @@ module.exports = {
     Tag: [{
       path: '/tags/:id',
       component: '~/templates/Tag.vue'
+    }],
+    Project: [{
+      path: '/project/:id',
+      component: '~/templates/Project.vue'
     }],
   }
 }
