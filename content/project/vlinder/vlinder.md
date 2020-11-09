@@ -1,4 +1,3 @@
-```
 ---
 id: vlinder
 title: Personal Finance App
@@ -20,7 +19,6 @@ private: 0
 potential:
 
 ---
-```
 
 # Vlinder
 

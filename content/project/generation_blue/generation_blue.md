@@ -1,24 +1,37 @@
 ---
-title: generation_blue
-tags: crystaltwin, planned, grid
-countries: 
-team: 
-rank: 1
-excerpt: 
-created: 2019-03-20
+id: generation_blue
+title: Tokenized Regeneration
+status: planned
+startdate: 2021-03-20
+countries: Portugal
+cities: 
+rank: 2
+excerpt: Empower every global citizen to protect and regenerate nature.
+created: 2020-04-20
 image: ./generation_blue.png
 image_caption: generation_blue
+logo: ./logo.png
 author: kristine_vilnite
+members: alan_laubsch
+websites: https://generation.blue/
+tags: tfgrid
+private: 0
+potential:
+
 ---
-
-
-
 
 # Generation Blue
 
 ## About
 
 Earth positive means taking responsibility for our footprint and leaving the planet better than when we found it. We enable the shift to an Earth Positive economy based on reciprocity, where every act of consumption is met with an opposite act of regeneration and protection of nature. We do this by building a marketplace of products and services powered by positive impact assets – tokens that when purchased, go directly and verifiably (via blockchain) to regenerative impact like the protection of rainforest or restoration of mangroves.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/430716502" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
 
 ## Mission
 
@@ -44,47 +57,6 @@ Each project on the TDE benefits from TFT fund allocations. You can buy TFT's an
 
 ### Roadmap
 
-```python
-[milestone]
-name = "Integrate on ThreeFold Grid, 3Bot and TF Wallet"
-#date format: Q YYYY 
-date = "Q3 2020"
-funding_required_tft = "333,333"
-funding_required_usd = ""
-description = "Creating a next generation token to protect natural forests and empowere anyone to make investments to receive natural capital dividends utilizing TF Grid and technology"
-
-[milestone]
-name = "Crowdfunding event"
-date = "Q4 2020"
-funding_required_tft = "tbd"
-funding_required_usd = ""
-description = "Allowing European investors to invest in tokenized rainforest bond 1eur at a time. Using platforms like Vlinder to list the tokens. Target fundraise from 500k EUR to 5m EUR."
+- Q1 2021
+    - Integrate on ThreeFold Grid, ThreeFold Connect
     
-```
-
-### data
-
-```python
-
-[links]
-linkedin = "https://www.linkedin.com/company/genblue/"
-websites = ["https://generation.blue/"]
-wiki = ""
-video = "https://player.vimeo.com/video/430716502"
-
-[info]
-name = "Generation Blue"
-rank = 2
-mission = "Empowering every global citizen to protect and regenerate nature."
-description = "We enable the shift to an Earth Positive economy based on reciprocity, where every act of consumption is met with an opposite act of regeneration and protection of nature. Our blockchain based ecosystems accounting system enables anyone to get Earth Positive by investing in environmental impact tokens."
-team = ["Alan Laubsch"]
-countries = ["Global"]
-cities = ["Global"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["experience", "solution"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = ["tftgranted"]
-
-```
