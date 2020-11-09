@@ -1,15 +1,15 @@
 ---
-id: artheon
-title: Virtual Reality Museum
-name: Blog
+id: money of good
+title: Money Of Good
+name: Blog 3
 status: Published
-rank: 1
+rank: 3
 team: teama
 startdate: 2019-03-20
 tags: grid, solution
-excerpt: World First Time Token enables 200.000+ users for exchanging value.
+excerpt: World First Time Token 2 enables 200.000+ users for exchanging value.
 created: 2019-03-20
-image: ./artheon.jpg
+image: ./money_of_good.jpg
 image_caption: beliive
 author: kristine_vilnite
 ---

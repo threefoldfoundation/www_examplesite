@@ -5,47 +5,42 @@
     </g-link>
     <div class="post-card-content">
       <g-link :to="record.path">
-        <h2 class="post-card-title mt-0">
-          {{ record.title }}
-        </h2>
+        <h2 class="post-card-title mt-3">{{ record.title }}</h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
       </g-link>
       <div class="w-full post-card-meta pt-4">
-      <div class="avatars">
-        <div class="flex items-center">
-          <div class="flex justify-between items-center">
-            <ul class="list-none flex author-list">
-              <li v-for="author in record.author" :key="author.id" class="author-list-item">
-                <g-link :to="author.path" v-tooltip="author.name">
-                  <g-image
-                    :src="author.image"
-                    :alt="author.name"
-                    class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
-                  />
-                </g-link>
-              </li>
-            </ul>
-          </div>
-           <div class="ml-3 pl-3 border-l flex flex-col text-xs leading-none uppercase">
-             <p>
+        <div class="avatars">
+          <div class="flex items-center">
+            <div class="flex justify-between items-center">
+              <ul class="list-none flex author-list">
+                <li v-for="author in record.author" :key="author.id" class="author-list-item">
+                  <g-link :to="author.path" v-tooltip="author.name">
+                    <g-image
+                      :src="author.image"
+                      :alt="author.name"
+                      class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
+                    />
+                  </g-link>
+                </li>
+              </ul>
+            </div>
+            <div class="ml-3 pl-3 border-l flex flex-col text-xs leading-none uppercase">
+              <p>
                 <g-link :to="record.path">
-               <time :datetime="record.datetime" >{{ record.humanTime }}</time>
+                  <time :datetime="record.datetime">{{ record.humanTime }}</time>
                 </g-link>
-             </p>
-             <g-link :to="record.path">
-               <time :datetime="record.datetime" >{{ record.startDate }}</time>             
-               </g-link>
-             {{ record.status }}
-             </p>
+              </p>
+              <p>
+                <g-link :to="record.path">
+                  <time :datetime="record.datetime">{{ record.startDate }}</time>
+                </g-link>
+                {{ record.status }}
+              </p>
+            </div>
           </div>
         </div>
-       
       </div>
-
     </div>
-    </div>
-    
-    
   </div>
 </template>
 
@@ -55,11 +50,16 @@ export default {
     record: {},
     border: {
       type: Boolean,
-      default: true
-    }
+      default: true,
+    },
   },
 };
 </script>
 
-<style>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.post-card-excerpt {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+}
 </style>

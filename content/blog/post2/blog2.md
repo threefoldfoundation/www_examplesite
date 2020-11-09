@@ -1,15 +1,15 @@
 ---
-id: word_first_time_token2
-title: Worlds First Time Token 2
+id: internet
+title: The Humanized Internet
 name: Blog 2
 status: Published
 rank: 2
 team: teama
 startdate: 2019-03-20
-tags: grid, solution
+tags: crystaltwin, planned, grid
 excerpt: World First Time Token 2 enables 200.000+ users for exchanging value.
 created: 2019-03-20
-image: ./beliive.png
+image: ./the_humanized_internet.png
 image_caption: beliive
 author: kristine_vilnite
 ---
