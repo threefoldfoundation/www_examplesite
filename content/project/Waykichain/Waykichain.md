@@ -5,7 +5,7 @@ tags: tfgrid
 countries: Hong Kong, Global
 team: Richard_Chen 
 rank: 3 
-excerpt: 
+excerpt: Community-driven Blockchain for DeFi and financial dApps
 created: 2019-07-20
 image: ./waykichain_image.png
 logo: ./waykichain_logo.png
