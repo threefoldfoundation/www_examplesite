@@ -3,16 +3,16 @@
 id: vlinder
 title: Personal Finance App
 status: planned
-startdate: 
-countries: 
-cities:
+startdate: 2021-03-20
+countries: Russia, Austria
+cities: Perm, Salzburg
 rank: 3
 excerpt: Increasing happiness by providing a new perspective on people's lifestyle empowering them to act on Earth’s global problems.
 created: 2020-04-20
 image: ./vlinder.png
 image_caption: vlinder
 logo: ./logo.png
-author: Kristine
+author: kristine_vilnite
 members: sergey_ivliev
 websites: https://vlinder.app
 tags: planned
