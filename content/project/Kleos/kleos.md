@@ -13,7 +13,7 @@ image_caption: seeds
 author: kristine
 members: kristof
 websites: www.kleos.net
-tags: planned, grid
+tags: planned, tfgrid
 private: 0
 potential: 
 
