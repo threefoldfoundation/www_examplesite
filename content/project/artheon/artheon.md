@@ -1,22 +1,26 @@
+```
 ---
 id: artheon
-title: Artheon Virtual Reality Museum
-tags: grid
-status: planned
-startdate: 2020-03-01
+title: Virtual Reality Museum
+status: test
+startdate: 2021-03-20
 countries: Russia
 cities: Moscow
-rank: 4
+rank: 3
 excerpt: A virtual museum online with 50.000+ pieces of art on top of TFGrid.
-created: 2019-03-20
+created: 2020-04-20
 image: ./artheon.png
 image_caption: artheon
-author: kristine
+logo: ./logo.png
+author: kristine_vilnite
 members: vasily_gnuchev
 websites: https://artheon.co/
-memberships:
+tags: grid
+private: 0
+potential:
 
 ---
+```
 
 # Artheon
 
