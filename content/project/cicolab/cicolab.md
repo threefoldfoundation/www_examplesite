@@ -1,4 +1,3 @@
-```
 ---
 id: cicolab
 title: Collective Intelligence Collaboratory
@@ -20,7 +19,6 @@ private: 0
 potential:
 
 ---
-```
 
 # Collective Intelligence Collaboratory
 
