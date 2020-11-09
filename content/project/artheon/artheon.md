@@ -15,7 +15,7 @@ logo: ./logo.png
 author: kristine_vilnite
 members: vasily_gnuchev
 websites: https://artheon.co/
-tags: grid
+tags: tfgrid
 private: 0
 potential:
 
