@@ -8,7 +8,8 @@ team: sergey_ivliev
 rank: 4
 excerpt: The efficient blockchain powered by prood of stake voting consensus
 created: 2019-06-20
-image: 
+image: ./tomochain_image.png
+logo: ./tomochain_logo.png
 image_caption: Tomochain
 author: Benjelloun Oussama
 ---
