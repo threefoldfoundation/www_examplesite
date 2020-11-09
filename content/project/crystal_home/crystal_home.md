@@ -4,7 +4,6 @@ tags: crystaltwin, planned, grid
 countries: 
 team: 
 rank: 1
-category: crystaltwin
 excerpt: Our planet needs a different approach to housing. The construction industry is one of the most polluting sectors out there, and we are changing it. We are building circular and fully self-sufficient homes that make housing construction affordable and sustainable without compromising on quality. All of the construction materials are second hand and refurbished for a new life.
 created: 2019-03-20
 image: ./crystal_home.jpg

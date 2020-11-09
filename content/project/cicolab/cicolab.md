@@ -4,7 +4,6 @@ tags: crystaltwin, planned
 countries: france, switzerland
 team: Lauren Moore Nignon, Charles Blass
 rank: 1
-category: crystaltwin
 excerpt: CICOLAB brings together visionaries from diverse fields to develop simple, practical ways to amplify network intelligence
 created: 2019-03-20
 image: ./cicolab.png

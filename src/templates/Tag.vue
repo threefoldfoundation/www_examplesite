@@ -55,10 +55,6 @@
               timeToRead
               humanTime : created(format:"DD MMM YYYY")
               datetime : created
-              category {
-                id
-                title
-              }
               author {
                 id
                 name

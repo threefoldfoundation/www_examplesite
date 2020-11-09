@@ -6,7 +6,6 @@ countries: austria, russia
 cities: Salzburg, Perm
 team: sergey_ivliev
 rank: 1
-category: crystaltwin
 excerpt: ... need excerpt which is smaller ...
 created: 2019-03-20
 image: ./vlinder.png

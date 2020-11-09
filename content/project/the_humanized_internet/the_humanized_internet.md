@@ -4,7 +4,6 @@ tags: crystaltwin, planned, grid
 countries: 
 team: 
 rank: 1
-category: crystaltwin
 excerpt: 
 created: 2019-03-20
 image: ./the_humanized_internet.png

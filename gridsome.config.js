@@ -36,8 +36,8 @@ module.exports = {
         typeName: 'Author',
         path: './content/author/*.md',
         refs: {
-          category: {
-            typeName: 'Category',
+          tags: {
+            typeName: 'Tag',
             create: true
           }
         }
@@ -55,10 +55,6 @@ module.exports = {
           author: 'Author',
           tags: {
             typeName: 'Tag',
-            create: true
-          },
-          category: {
-            typeName: 'Category',
             create: true
           }
         }
@@ -80,10 +76,6 @@ module.exports = {
   templates: {
     Blog: [{
       path: '/blog/:id'
-    }],
-    Category: [{
-      path: '/category/:id',
-      component: '~/templates/Category.vue'
     }],
     Author: [{
       path: '/author/:id',

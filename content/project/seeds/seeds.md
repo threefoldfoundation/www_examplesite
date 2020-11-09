@@ -7,7 +7,6 @@ startdate: 2021-03-01
 countries: 
 team: 
 rank: 1
-category: crystaltwin
 excerpt: 
 created: 2019-03-20
 image: ./seeds.png

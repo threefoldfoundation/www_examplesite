@@ -4,7 +4,6 @@ tags: crystaltwin, active
 countries: 
 team: 
 rank: 1
-category: crystaltwin
 excerpt: Your digital twin serving as a gateway to the new digital world of peer-to-peer experiences.
 created: 2019-03-20
 image: ./crystal_twin.png

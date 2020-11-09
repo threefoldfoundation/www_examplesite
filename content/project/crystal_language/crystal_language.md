@@ -4,7 +4,6 @@ tags: technology, active
 countries: 
 team: 
 rank: 1
-category: crystaltwin
 excerpt: A programming language adjusting to the needs of the programmer and the computer - the best of both worlds.
 created: 2019-03-20
 image: ./crystal_language.png

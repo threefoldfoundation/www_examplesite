@@ -7,7 +7,6 @@ rank: 2
 team: teama
 startdate: 2019-03-20
 tags: grid, solution
-category: crystaltwin
 excerpt: World First Time Token 2 enables 200.000+ users for exchanging value.
 created: 2019-03-20
 image: ./beliive.png

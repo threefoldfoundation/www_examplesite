@@ -1,7 +1,6 @@
 ---
 title: Worlds First Time Token
 tags: grid, solution
-category: gridusecase
 excerpt: World First Time Token enables 200.000+ users for exchanging value.
 created: 2019-03-20
 image: ./beliive.png
