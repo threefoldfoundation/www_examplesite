@@ -1,19 +1,26 @@
+```
 ---
 id: vlinder
-title: Increasing happiness by providing a new perspective on people's lifestyle empowering them to act on Earth’s global problems.
-tags: crystaltwin, planned, experience
-countries: austria, russia
-cities: Salzburg, Perm
-team: sergey_ivliev
-rank: 1
-category: crystaltwin
-excerpt: ... need excerpt which is smaller ...
-created: 2019-03-20
+title: Personal Finance App
+status: planned
+startdate: 2021-03-20
+countries: Russia, Austria
+cities: Perm, Salzburg
+rank: 3
+excerpt: Increasing happiness by providing a new perspective on people's lifestyle empowering them to act on Earth’s global problems.
+created: 2020-04-20
 image: ./vlinder.png
-logo: ./logo.png
 image_caption: vlinder
-author: kristine
+logo: ./logo.png
+author: kristine_vilnite
+members: sergey_ivliev
+websites: https://vlinder.app
+tags: tfgrid
+private: 0
+potential:
+
 ---
+```
 
 # Vlinder
 
@@ -27,8 +34,6 @@ Vlinder means butterfly in Dutch. We believe in the butterfly effect of a small 
 <iframe src="https://player.vimeo.com/video/434681704" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <BR>
-
-
 
 ## Mission
 
