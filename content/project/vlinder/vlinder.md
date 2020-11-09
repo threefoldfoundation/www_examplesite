@@ -15,7 +15,7 @@ logo: ./logo.png
 author: kristine_vilnite
 members: sergey_ivliev
 websites: https://vlinder.app
-tags: planned
+tags: tfgrid
 private: 0
 potential:
 
