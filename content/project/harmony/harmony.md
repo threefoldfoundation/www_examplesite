@@ -8,8 +8,8 @@ team: Li_Jiang, Nikalos_Kost
 rank: 4
 excerpt: Open consensus for 10 Billion people 
 created: 2019-07-20
-image: ./dash.png
-logo: ./logo.png
+image: ./harmony_image.png
+logo: ./harmony_logo.png
 image_caption: harmony
 author: Benjelloun Oussama
 ---
