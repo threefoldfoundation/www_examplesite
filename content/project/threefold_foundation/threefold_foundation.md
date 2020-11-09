@@ -8,7 +8,7 @@ excerpt:
 created: 2019-03-20
 image: ./threefold_foundation.png
 image_caption: threefold_foundation
-author: christine
+author: kristine_vilnite
 ---
 
 # ThreeFold Foundation (The TF Grid)

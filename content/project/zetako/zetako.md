@@ -8,7 +8,7 @@ excerpt:
 created: 2019-03-20
 image: ./zetako.png
 image_caption: zetako
-author: christine
+author: kristine_vilnite
 ---
 
 

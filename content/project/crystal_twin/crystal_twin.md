@@ -8,7 +8,7 @@ excerpt: Your digital twin serving as a gateway to the new digital world of peer
 created: 2019-03-20
 image: ./crystal_twin.png
 image_caption: crystal_twin
-author: christine
+author: kristine_vilnite
 ---
 
 

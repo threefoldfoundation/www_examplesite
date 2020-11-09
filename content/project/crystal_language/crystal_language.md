@@ -8,7 +8,7 @@ excerpt: A programming language adjusting to the needs of the programmer and the
 created: 2019-03-20
 image: ./crystal_language.png
 image_caption: crystal_language
-author: christine
+author: kristine_vilnite
 ---
 
 

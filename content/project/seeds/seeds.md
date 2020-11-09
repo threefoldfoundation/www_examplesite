@@ -11,7 +11,7 @@ excerpt:
 created: 2019-03-20
 image: ./seeds.png
 image_caption: seeds
-author: christine, kristof
+author: kristine_vilnite, kristof_de_spiegeleer
 ---
 
 

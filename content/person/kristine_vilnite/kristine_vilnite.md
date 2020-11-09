@@ -1,3 +1,16 @@
+---
+id: kristine_vilnite
+name: Kristine Vilnite
+bio: Primis vitae mauris turpis ornare libero odio torquent vehicula proin consequat curabitur mattis
+linkedin: https://www.linkedin.com
+rank: 3
+projects: threefold
+countries: 
+cities: 
+image: ./kristine_vilnite.jpg
+---
+
+
 # Kristine Vilnite
 
 ### data

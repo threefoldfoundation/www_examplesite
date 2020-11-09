@@ -8,7 +8,7 @@ excerpt:
 created: 2019-03-20
 image: ./shareitt.png
 image_caption: shareitt
-author: christine
+author: kristine_vilnite
 ---
 
 

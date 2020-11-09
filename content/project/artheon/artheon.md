@@ -5,7 +5,7 @@ excerpt: A virtual museum online with 50.000+ pieces of art on top of TFGrid.
 created: 2019-03-20
 image: ./artheon.jpg
 image_caption: artheon
-author: christine
+author: kristine_vilnite
 ---
 
 # Artheon

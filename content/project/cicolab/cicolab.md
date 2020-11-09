@@ -8,7 +8,7 @@ excerpt: CICOLAB brings together visionaries from diverse fields to develop simp
 created: 2019-03-20
 image: ./cicolab.png
 image_caption: cicolab
-author: Christine
+author: kristine_vilnite
 ---
 
 # Collective Intelligence Collaboratory

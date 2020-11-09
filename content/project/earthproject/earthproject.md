@@ -8,7 +8,7 @@ excerpt:
 created: 2019-03-20
 image: ./earthproject.png
 image_caption: earthproject
-author: christine
+author: kristine_vilnite
 ---
 
 

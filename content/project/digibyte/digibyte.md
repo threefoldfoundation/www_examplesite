@@ -8,7 +8,7 @@ excerpt: DigiByte is a rapidly growing open-source blockchain created in late 20
 created: 2019-03-20
 image: ./digibyte.png
 image_caption: digibyte
-author: christine
+author: kristine_vilnite
 ---
 
 

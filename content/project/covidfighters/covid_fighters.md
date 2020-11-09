@@ -11,7 +11,7 @@ excerpt: People are social individuals and need contact with each other. On the 
 created: 2019-03-20
 image: ./covid_fighters.png
 image_caption: covid_fighters
-author: christine
+author: kristine_vilnite
 ---
 
 

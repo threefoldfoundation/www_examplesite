@@ -8,7 +8,7 @@ excerpt:
 created: 2019-03-20
 image: ./money_of_good.png
 image_caption: money_of_good
-author: christine
+author: kristine_vilnite
 ---
 
 

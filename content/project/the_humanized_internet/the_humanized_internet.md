@@ -8,7 +8,7 @@ excerpt:
 created: 2019-03-20
 image: ./the_humanized_internet.png
 image_caption: the_humanized_internet
-author: christine
+author: kristine_vilnite
 ---
 
 

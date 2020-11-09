@@ -8,7 +8,7 @@ excerpt: Our planet needs a different approach to housing. The construction indu
 created: 2019-03-20
 image: ./crystal_home.jpg
 image_caption: crystal_home
-author: christine
+author: kristine_vilnite
 ---
 
 

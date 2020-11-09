@@ -8,7 +8,7 @@ excerpt:
 created: 2019-03-20
 image: ./generation_blue.png
 image_caption: generation_blue
-author: christine
+author: kristine_vilnite
 ---
 
 
