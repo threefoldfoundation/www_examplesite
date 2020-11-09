@@ -17,7 +17,7 @@ tags: planned, tfgrid
 private: 0
 potential: 
 
----
+
 
 # Sequoyah
 
@@ -28,3 +28,5 @@ Built on top of the TF Network and using 3Bots to secure both identity and digit
 
 A pilot version of the decentralized wallet will launch in Q3.
 Integration with Forex Markets is expected in Q4
+
+---

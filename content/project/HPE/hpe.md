@@ -17,7 +17,7 @@ tags: tfgrid
 private: 0
 potential: 
 
----
+
 
 
 #HPE
@@ -25,3 +25,4 @@ potential:
 ## About
 HPE is a global, edge-to-cloud Platform-as-a-Service company built to transform your business. How? By helping you connect, protect, analyze, and act on all your data and applications wherever they live, from edge to cloud, so you can turn insights into outcomes at the speed required to thrive in today’s complex world.
 
+---
