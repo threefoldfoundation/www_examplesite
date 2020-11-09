@@ -8,7 +8,7 @@ cities:
 rank: 3
 excerpt: The world’s first Artificial Intelligence (AI) Nation.
 created:
-image: ./aiqom.png
+image: ./logo.png
 image_caption: aiqom
 logo: ./logo.png
 author: kristof

@@ -9,6 +9,11 @@
       "name": "Values",
       "link": "/about",
       "external": false
+    },
+    {
+      "name": "Projects",
+      "link": "/projects",
+      "external": false
     }
   ],
   "footerNavigation": [{
