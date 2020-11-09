@@ -31,29 +31,4 @@ Simplicity is key. 3Bots and 3Nodes come together to create a decentralized Auto
 
 
 
-## Mission
-
-Our mission is to create a decentralized peer-to-peer system inspired by nature.
-
-## Impact
-
-
-
-## Powered by ThreeFold
-
-
-
-## Join saving our planet!
-
-
-
-## Support this project
-
-
-
-## TFGrid solution
-
-### Roadmap
-
-
 
