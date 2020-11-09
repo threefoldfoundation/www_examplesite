@@ -29,5 +29,3 @@ ThreeFold and NEO came together to solve one major problem, which is IT decentra
 
 Through our collaboration, ThreeFold is empowering NEO dApp developers with peer-to-peer cloud capacity for decentralized storage, compute, and networking to further cost-efficiently decentralize their IT infrastructure – escaping the monopolies of centralized cloud providers, without compromising on security and efficiency.
 With the ThreeFold P2P Cloud as a decentralized IT infrastructure, NEO dApp developers have the ability to build highly-scalable and decentralized, cloud-native, and blockchain-based applications using the open-source frameworks and tools they need (Docker, Kubernetes clusters, S3 storage, Database clusters, etc) and with an autonomous IT workload execution through ThreeFold’s Smart contract for IT.
-
-
