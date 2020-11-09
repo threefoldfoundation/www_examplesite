@@ -20,6 +20,7 @@ members: kristof
 websites: https://threefold.io/, https://www.mazraa.io/
 tags: crystaltwin, planned, grid
 private: 0
+potential: 
 
 ---
 ```
@@ -40,6 +41,7 @@ private: 0
 - created: when the project was registered
 - author: 1 or more persons who created the content
 - members: 1 or more persons behind project (the members of the project, use the id)
+- potential: describe the potential for a project e.g. 1m users in X months, X TB of storage, ... can use multiple lanes
 
 ## metadata per person page
 
