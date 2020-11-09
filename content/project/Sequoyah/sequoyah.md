@@ -13,7 +13,7 @@ image_caption: sequoyah
 author: 
 members: 
 websites: https://sequoyah.dk/
-tags: planned, grid
+tags: planned, tfgrid
 private: 0
 potential: 
 
