@@ -1,4 +1,3 @@
-```
 ---
 id: beliive
 title: World's First Time Token
@@ -20,7 +19,6 @@ private: 0
 potential:
 
 ---
-```
 
 # Beliive
 
