@@ -1,7 +1,10 @@
 ---
+id: covidfighters
 title: Testing solution for Covid using Crystal Twin.
-tags: crystaltwin, planned
+status: 
+tags: 
 countries: 
+cities:
 team: 
 rank: 1
 category: crystaltwin
