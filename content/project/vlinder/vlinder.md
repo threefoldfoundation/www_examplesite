@@ -10,6 +10,7 @@ category: crystaltwin
 excerpt: ... need excerpt which is smaller ...
 created: 2019-03-20
 image: ./vlinder.png
+logo: ./logo.png
 image_caption: vlinder
 author: kristine
 ---
