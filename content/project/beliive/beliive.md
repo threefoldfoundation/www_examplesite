@@ -1,20 +1,39 @@
+```
 ---
-title: Worlds First Time Token
-tags: grid, solution
-category: gridusecase
-excerpt: World First Time Token enables 200.000+ users for exchanging value.
-created: 2019-03-20
+id: beliive
+title: World's First Time Token
+status: planned
+startdate: 2021-03-20
+countries: Brazil, US
+cities: San Francisco
+rank: 4
+excerpt: Empowering people to recognize abundance by living new experiences one hour at a time.
+created: 2020-04-20
 image: ./beliive.png
 image_caption: beliive
-author: christine
----
+logo: ./logo.png
+author: kristine_vilnite
+members: lorrana_scarpioni
+websites: https://beliive.com
+tags: tfgrid, crystaltwin
+private: 0
+potential:
 
+---
+```
 
 # Beliive
 
 ## About
 
 *Beliive* is a community where people can exchange experiences and services using time as the only currency. With 200.000 members to date Beliive is the world's largest time bank. Our vision is to be a movement that rethinks and rebuilds the value of money, the value of time and the way we collaborate with each other. When the money economy is failing at giving us a way to exchange our value independently of the circumstances, Beliive decided to create a complimentary economy based on an abundant resource available to everyone equally.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/413225889" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
 
 ## Mission
 
@@ -39,50 +58,12 @@ Beliive is included in ThreeFold’s [Token Distribution Event (TDE)](https://wi
 The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
 Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Beliive, and the growth of a new Conscious Internet.
 
+## TFGrid Solution
 
 ### Roadmap
 
-```python
-[milestone]
-name = "API integration"
-#date format: Q YYYY
-date = "Q4 2020"
-funding_required_tft = "333,333"
-funding_required_usd = ""
-description = "API integration of users ID and balance of time credits"
+- Q1 2021
+    - API integration
+- Q3 2021
+    - Crystal Twin Integration
 
-[milestone]
-name = "Crystal Twin Integration"
-date = "Q1 2021"
-funding_required_tft = "tbd"
-funding_required_usd = ""
-description = "Full integration with the 3bot (Crystal Twin optioanlly)"
-    
-```
-
-### data
-
-```python
-
-[links]
-linkedin = "https://www.linkedin.com/company/beliive"
-websites = ["https://beliive.com"]
-wiki = ""
-video = "https://player.vimeo.com/video/413225889"
-
-[info]
-name = "Beliive"
-rank = 4
-mission = "Inspiring people to recognize abundance by living new experiences one hour at a time."
-description = "Beliive is a community where people can exchange experiences and services using time as the only currency. With 200.000 members to date Beliive is the world's largest time bank. Our vision is to be a movement that rethinks and rebuilds the value of money, the value of time and the way we collaborate with each other. When the money economy is failing at giving us a way to exchange our value independently of the circumstances, Beliive decided to create a complimentary economy based on an abundant resource available to everyone equally. The world has 3 trillion idle hours per year and Beliive is using TIME as the common currency to promote reciprocal exchanges and financial inclusion. With Beliive you can offer one hour of Spanish Lessons receiveing a time credit of one hour in return, then you can exchange this credit for any activity available in the community, like financial advice, dance lessons or someone to fix your computer. Beliive and ThreeFold recognize the power of equality to include and connect people to their unlimited abundance. We are peer-to-peer systems that are here to support the awakening of humanity to it's own potential. Beliive is going to connect users wallet and identity with ThreeFold Network. Using their time exchange balance and reputation, users can transfer time credits and use their reviews as an additional way to showcase their skills and experiences. We aim towards global impact providing platform where low-income and unemployed people can exchannge their time (hours) of volunteering for knowledge and skills. Beliive already have an open API and a web widget that can integrate our time banking technology with different platforms and systems. Soon our time credits will use blockchain technology."
-team = ["Lorrana Scarpioni"]
-countries = ["Global"]
-cities = ["Global"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["experience"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = ["tftgranted"]
-
-```
