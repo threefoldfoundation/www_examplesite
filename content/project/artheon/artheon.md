@@ -57,4 +57,4 @@ Each project on the TDE benefits from TFT fund allocations. You can buy TFT's an
 ### Roadmap
 
 - Q4 2020
- - Integration with ThreeFold Grid
+  - Integration with ThreeFold Grid
