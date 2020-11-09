@@ -58,6 +58,6 @@ Each project on the TDE benefits from TFT fund allocations. You can buy TFT's an
 ### Roadmap
 
 - Q1 2021
-- Integration of personal planet first finance app on top of 3bot/Crystal Twin.
+  - Integration of personal planet first finance app on top of 3bot/Crystal Twin.
 
 
