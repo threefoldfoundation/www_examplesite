@@ -5,21 +5,21 @@
 ```
 ---
 id: seeds
-title: seeds
-status: planned
+title: Planet Regenerative Economy
+status: planned, internal, test, public
 startdate: 2021-03-01
 countries: 
 cities: 
 rank: 1
 excerpt: 
 created: 2019-03-20
-image: ./image.png
+image: ./seeds.png
 image_caption: seeds
 logo: ./logo.png
-author: kristine, kristof
-members: kristof
-websites: https://threefold.io/, https://www.mazraa.io/
-tags: crystaltwin, planned, grid
+author: kristine_vilnite
+members: franz_josef_allmayer
+websites: 
+tags: crystaltwin, tfgrid
 private: 0
 potential: 
 
@@ -52,18 +52,17 @@ potential:
 
 ```
 ---
-id: kristine
-name: Kristine
-tags: crystaltwin, planned, grid
-rank: 1
-memberships: 
+id: kristine_vilnite
+name: Kristine Vilnite
+rank: 4
+memberships: threefold
 bio: The business / other life experience of the person
 linkedin: https://www.linkedin.com/...
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./images/author1.png
-project_ids: seeds, threefold
-countries: 
-cities: 
+image: ./images/kristine_vilnite.png
+project_ids: threefold_foundation
+countries: Latvia
+cities: Riga
 private: 0
 ---
 ```
