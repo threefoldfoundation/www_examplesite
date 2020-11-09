@@ -7,9 +7,8 @@ team: Richard_Chen
 rank: 3 
 excerpt: Community-driven Blockchain for DeFi and financial dApps
 created: 2019-07-20
-image: ./waykichain_image.png
 logo: ./waykichain_logo.png
-image_caption: waykichain
+logo_caption: waykichain
 author: Benjelloun Oussama
 ---
 
