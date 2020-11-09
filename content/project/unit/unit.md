@@ -1,12 +1,15 @@
 ---
-title: unit
-tags: crystaltwin, planned, grid
-countries: 
-team: 
+id: unit
+title: Unit
+tags: tfgrid 
+countries: Indonesia", Uae, Uk
+cities: Bali, Singapore, Dubai, London
+team: michael_healy
 rank: 1
-excerpt: 
-created: 2019-03-20
+excerpt: Powering the Global Economy
+created: 2020-07-08
 image: ./unit.png
+logo: ./logo.png
 image_caption: unit
 author: kristine_vilnite
 ---
@@ -33,6 +36,12 @@ We believe well-being of all is important, and are committed to creating opportu
 
 We are planning to use ThreeFold's peer-to-peer infrastructure for the Unit.
 
+<BR>
+ 
+<iframe src="https://player.vimeo.com/video/438885099" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+ 
 ## Join saving our planet
  
 Reach out to one of our community members, to join the platforms or events, as well as if you’re interested in being a provider or customer to support the circular economy.
