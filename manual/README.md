@@ -68,7 +68,8 @@ id: kristine_vilnite
 name: Kristine Vilnite
 rank: 4
 memberships: threefold
-bio: project manager, partnerships..
+bio: info about the person (values, mission, experience, current occupation etc.)
+excerpt: very short line highliting person (from description)
 linkedin: https://www.linkedin.com/...
 websites: https://threefold.io/, https://www.mazraa.io/
 image: ./kristine_vilnite.png
@@ -83,11 +84,7 @@ private: 0
     - guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil
 - bio: business experience/skills
 - project_ids: which projects person is part of
-- private: 
-
-### Full Name
-
-Short description / bio of mission, values, hobbies etc.
+- private:
 
 the section for vimeo:
 ```
