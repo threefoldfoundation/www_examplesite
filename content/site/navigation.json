@@ -5,14 +5,20 @@
       "link": "/",
       "external": false
     },
-    {
-      "name": "Values",
-      "link": "/about",
-      "external": false
-    },
+    
     {
       "name": "Projects",
       "link": "/projects",
+      "external": false
+    },
+    {
+      "name": "People",
+      "link": "/people",
+      "external": false
+    },
+    {
+      "name": "Values",
+      "link": "/about",
       "external": false
     }
   ],

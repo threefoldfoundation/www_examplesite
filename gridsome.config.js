@@ -96,7 +96,7 @@ module.exports = {
       path: '/blog/:id'
     }],
     Person: [{
-      path: '/author/:id',
+      path: '/people/:id',
       component: '~/templates/Person.vue'
     }],
     Tag: [{

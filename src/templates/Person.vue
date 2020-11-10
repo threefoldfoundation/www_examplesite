@@ -77,13 +77,20 @@
 <page-query>
   query($id: ID!, $page:Int) {
     person(id: $id) {
-      name
-      path
-      bio
-      image(width:150, height:150)
-      linkedin
-      content
-      belongsTo(perPage: 5, page: $page) @paginate {
+       path
+        content
+        name
+        rank
+        memberships
+        bio
+        linkedin
+        websites
+        project_ids
+        countries
+        cities
+        private
+        image(width:150, height:150)
+        belongsTo(perPage: 5, page: $page) @paginate {
         totalCount
         pageInfo {
           totalPages

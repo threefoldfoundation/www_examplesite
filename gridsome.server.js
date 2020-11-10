@@ -38,6 +38,15 @@ module.exports = function (api) {
         ...options
       };
     }
+
+
+    if (options.internal.typeName === 'Person') {
+      options.countries = (typeof options.countries === 'string') ? options.countries.split(',').map(string => string.trim()) : options.countries;
+      options.cities = (typeof options.cities === 'string') ? options.cities.split(',').map(string => string.trim()) : options.cities;
+      return {
+        ...options
+      };
+    }
   })
 
     api.createPages(async ({
