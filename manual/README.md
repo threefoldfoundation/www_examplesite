@@ -85,8 +85,6 @@ private: 0
 - project_ids: which projects person is part of
 - private: 
 
-### Kristine Vilnite
-
 the section for vimeo:
 ```
 <BR>
