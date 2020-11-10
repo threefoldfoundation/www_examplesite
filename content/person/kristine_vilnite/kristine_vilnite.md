@@ -6,7 +6,7 @@ memberships: threefold
 bio: project manager, partnerships, communication
 linkedin: https://www.linkedin.com/in/kristinevilnite/
 websites: https://threefold.io/, https://threefold.me/
-image: ./images/kristine_vilnite.png
+image: ./kristine_vilnite.png
 project_ids: threefold_foundation
 countries: Latvia
 cities: Riga
