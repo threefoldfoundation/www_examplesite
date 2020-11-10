@@ -48,6 +48,18 @@ potential:
 - private:
 - potential: describe the potential for a project e.g. 1m users in X months, X TB of storage, ... can use multiple lanes
 
+the section for vimeo:
+```
+<BR>
+
+<iframe src="https://player.vimeo.com/video/434681704" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
+```
+
+to use breaks do ```enter <BR> enter```
+
 ## metadata per person page
 
 ```
@@ -67,37 +79,29 @@ private: 0
 ---
 ```
 
-### Full Name
+- meberships, choose from:
+    - guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil
+- bio: short description
+- project_ids: which projects person is part of
+- private: 
 
+### Kristine Vilnite
+
+the section for vimeo:
 ```
----
 <BR>
 
 <iframe src="https://player.vimeo.com/video/417088459" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <BR>
----
 ```
 
-- mebership - choose from:
-    - guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil
 
 
-# page
+# examples
 
 ## project
 
-the section for vimeo
-```
-<BR>
-
-<iframe src="https://player.vimeo.com/video/434681704" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
-
-```
-
-to use breaks do ```enter <BR> enter```
 
 see https://github.com/threefoldtech/www_partners_v2/blob/main/content/project/vlinder/vlinder.md
 
