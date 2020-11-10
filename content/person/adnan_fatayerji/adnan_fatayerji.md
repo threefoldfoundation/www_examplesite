@@ -6,7 +6,7 @@ memberships: wisdomcouncil, ambassador, freeflowcitizen, farmer, gridcouncil
 bio: to be defined (business experience)
 linkedin: https://www.linkedin.com/in/adnansf/
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./images/author1.png
+image: ./adnan_fatayerji.png
 project_ids: threefold
 countries: UAE, Spain
 cities: Dubai, Ibiza
