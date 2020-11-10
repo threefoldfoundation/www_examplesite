@@ -1,25 +1,21 @@
-# Claus Rosenberg Gotthard
+---
+id: claus_rosenberg_gotthard
+name: Claus Rosenberg Gotthard
+rank: 3
+memberships: project
+bio: Danish, born entrepreneur with over 30 years of venture building experience, failures and success along the way. I have lived in Lisbon since 2018 with my wife who is an Artist.
+excerpt: Danish, born entrepreneur with over 30 years of venture building experience.
+linkedin: https://www.linkedin.com/in/clausrosenberg/
+websites: https://www.zetako.ai/
+image: ./claus_rosenberg_gotthard.jpg
+project_ids: zetako
+countries: Denmark, Portugal
+cities: Copenhagen, Lisbon
+private: 0
+---
 
-### data
+<BR>
 
+<iframe src="https://player.vimeo.com/video/427718526" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-```python
-[links]
-linkedin = "https://www.linkedin.com/in/clausrosenberg/"
-websites = ["https://www.zetako.ai/"]
-video = "https://player.vimeo.com/video/427718526"
-
-[info]
-rank = 3
-full_name = "Claus Rosenberg Gotthard"
-circles = []
-countries = ["Denmark", "Portugal"]
-cities = ["Copenhagen", "Lisbon"]
-companies = ["Zetako"] 
-bio = "Danish, born entrepreneur with over 30 years of venture building experience, failures and success along the way. I have lived in Lisbon since 2018 with my wife who is an Artist."
-
-[ecosystem]
-# can be chosen from: freeflowcitizen, matchmaker, ambassador, farmer, wisdomcouncil, friend, gridcouncil, techcouncil
-memberships = ["freeflowcitizen"]
-
-```
+<BR>

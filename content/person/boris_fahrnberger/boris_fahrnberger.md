@@ -1,7 +1,7 @@
 ---
 id: boris_fahrnberger
 name: Boris Fahrnberger
-tags: grid, ambassador, projects
+tags: grid, ambassador, project
 rank: 1
 memberships: project, ambassador, farmer, freeflowcitizen
 bio: Internet made a local-based mankind a global one. 'Artichoke in association with the Threefold network enables it to take the advantage of both. As a service to the public, we act as #covidfighters as civil society initiative to help our environment in this critical situation.
@@ -14,28 +14,8 @@ cities: Vienna
 private: 0
 ---
 
-# Boris Fahrnberger
+<BR>
 
-### data
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-
-```python
-[links]
-linkedin = "https://www.linkedin.com/in/bojofa/"
-websites = ["https://www.artichoke-computing.com/#"]
-video = ""
-
-[info]
-rank = 1
-full_name = "Boris Fahrnberger"
-circles = [["covid fighters",  "coordinator"]]
-countries = ["Austria"]
-cities = ["Vienna"]
-companies = ["Artichoke Computing"]
-bio = ""
-
-[ecosystem]
-# can be chosen from: freeflowcitizen, matchmaker, ambassador, farmer, wisdomcouncil, friend, gridcouncil, techcouncil
-memberships = ["farmer", "ambassador", "freeflowcitizen"]
-
-```
+<BR>

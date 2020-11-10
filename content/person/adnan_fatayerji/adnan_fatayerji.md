@@ -7,7 +7,7 @@ bio: Honored to be part of a team that has the potential to make the world a bet
 excerpt: An international entrepreneur and part of a diverse team of innovators.
 linkedin: https://www.linkedin.com/in/adnansf/
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./adnan_fatayerji.png
+image: ./adnan_fatayerji.jpg
 project_ids: threefold
 countries: UAE, Spain
 cities: Dubai, Ibiza
