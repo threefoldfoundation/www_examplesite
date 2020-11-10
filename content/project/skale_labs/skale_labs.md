@@ -9,7 +9,7 @@ rank: 3
 excerpt: Elasic Blockhain network for Ethereum dApps
 created: 2019-08-20
 image: ./skale_image.png
-logo: ./skale_logo.png
+logo: ./logo.png
 image_caption: Skale_labs
 author: Benjelloun Oussama
 members:
