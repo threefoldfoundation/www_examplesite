@@ -85,7 +85,7 @@ private: 0
 - project_ids: which projects person is part of
 - private: 
 
-# Kristine Vilnite
+### Full Name
 
 Short description / bio of mission, values, hobbies etc.
 
