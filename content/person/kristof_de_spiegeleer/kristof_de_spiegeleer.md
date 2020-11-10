@@ -6,7 +6,7 @@ memberships: ambassador, farmer, gridcouncil
 bio: to be defined (business experience)
 linkedin: https://www.linkedin.com/in/despiegk/
 websites: https://www.threefold.io, https://www.threefold.me, https://www.incubaid.com/
-image: ./kristof_de_spiegeleer.png
+image: ./kristof_de_spiegeleer.jpeg
 project_ids: threefold
 countries: Belgium, Switzerland, Egypt
 cities: Ghent, Lugano, El Ghouna
