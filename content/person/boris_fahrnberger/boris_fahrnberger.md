@@ -1,4 +1,3 @@
-# Boris Fahrnberger
 
 ---
 id: boris_fahrnberger
@@ -15,6 +14,8 @@ countries: Austria
 cities: Vienna
 private: 0
 ---
+
+# Boris Fahrnberger
 
 ### data
 
