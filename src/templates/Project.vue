@@ -28,7 +28,7 @@
 
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
 
-        <section class="post-content container mx-auto relative font-serif text-gray-700">
+        <section class="post-content container mx-auto relative text-gray-700">
           <div class="post-content-text text-xl" v-html="$page.project.content"></div>
         </section>
 
@@ -133,3 +133,10 @@ export default {
   }
 };
 </script>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.post-content-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+</style>

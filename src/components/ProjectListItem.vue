@@ -12,7 +12,7 @@
         <div class="avatars">
           <div class="flex items-center">
             <div class="flex justify-between items-center">
-              <ul class="list-none flex author-list">
+              <ul class="list-none flex author-list m-0">
                 <li v-for="author in record.author" :key="author.id" class="author-list-item">
                   <g-link :to="author.path" v-tooltip="author.name">
                     <g-image
