@@ -1,15 +1,16 @@
 ---
 id: adnan_fatayerji
 name: Adnan Fatayerji
+rank: 4
+memberships: wisdomcouncil, ambassador, freeflowcitizen, farmer, gridcouncil
 bio: to be defined (business experience)
 linkedin: https://www.linkedin.com/in/adnansf/
 websites: https://threefold.io/, https://www.mazraa.io/
-rank: 4
-projects: threefold
+image: ./images/author1.png
+project_ids: threefold
 countries: UAE, Spain
 cities: Dubai, Ibiza
-image: ./images/author1.png
-memberships: wisdomcouncil, ambassador, freeflowcitizen, farmer, gridcouncil
+private: 0
 
 ---
 
