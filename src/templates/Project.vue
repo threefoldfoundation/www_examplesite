@@ -12,26 +12,8 @@
           <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">{{ $page.project.title }}</h1>
           <p class="text-gray-700 text-xl" v-if="$page.project.bio">{{ $page.project.bio }}</p>
           <div class="author-social">
-            {{ $page.project.belongsTo.totalCount }} Projects
             &nbsp;&middot;&nbsp;
-            <!-- <a
-              :href="$page.project.facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-gray-400 hover:text-black"
-            >
-              <font-awesome :icon="['fab', 'facebook']" />
-            </a>
-            &nbsp;
-            <a
-              :href="$page.project.twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-gray-400 hover:text-black"
-            >
-              <font-awesome :icon="['fab', 'twitter']" />
-            </a>
-            &nbsp; -->
+          
             <a
               :href="$page.project.linkedin"
               target="_blank"
@@ -52,15 +34,22 @@
 
 
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
-
+      
       <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
-        <PostListItem
+        <ProjectListItem
           v-for="edge in $page.project.belongsTo.edges"
           :key="edge.node.id"
           :record="edge.node"
         />
       </div>
-
+ <section class="post-tags container mx-auto relative py-10">
+          <g-link
+            v-for="tag in $page.project.tags"
+            :key="tag.id"
+            :to="tag.path"
+            class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+          >{{ tag.title }}</g-link>
+        </section>
       <div class="pagination flex justify-center mb-8">
         <Pagination
           :baseUrl="$page.project.path"
@@ -81,6 +70,9 @@
       title
       status
       countries
+      startDate : startdate(format:"MM YYYY")
+      humanTime : created(format:"DD MMMM YYYY")
+      datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
       image(width:150, height:150)
       image_caption
       logo
@@ -88,13 +80,12 @@
       timeToRead
       path
       timeToRead
+      linkedin
       tags {
         id
         title
         path
-      }
-     
-    
+      }    
       members
       websites
       private

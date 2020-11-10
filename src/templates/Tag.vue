@@ -7,7 +7,7 @@
           A collection of
           <span
             class="self-center"
-          >{{ $page.tag.belongsTo.totalCount }} {{ postLabel }}</span>
+          >{{ $page.tag.belongsTo.totalCount }} items</span>
         </p>
       </div>
 
@@ -92,12 +92,7 @@ export default {
     Pagination,
     PostListItem
   },
-  computed: {
-    postLabel: function() {
-      var pluralize = require("pluralize");
-      return pluralize("post", this.$page.tag.belongsTo.totalCount);
-    }
-  },
+ 
   metaInfo() {
     return {
       title: this.$page.tag.title

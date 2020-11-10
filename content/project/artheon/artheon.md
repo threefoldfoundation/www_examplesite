@@ -14,10 +14,10 @@ logo: ./logo.png
 author: kristine_vilnite
 members: vasily_gnuchev
 websites: https://artheon.co/
-tags: tfgrid
+tags: tfgrid, grid
 private: 0
 potential:
-
+linkedin: ''
 ---
 
 # Artheon
