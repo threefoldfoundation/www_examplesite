@@ -3,18 +3,17 @@ id: kristine_vilnite
 name: Kristine Vilnite
 rank: 4
 memberships: threefold
-bio: project manager, partnerships, communication
+bio: A loving, kind, explorer fully dedicating her professional path to build a sustainable foundaton for the future. Kristine is a compassionate innovator, founder, advisor, sustainable development advocate, adding value by unlocking power of diversity, simplicity and genuinity towards complex challenges assuring that a positive net impact on the planet is a norm.
+excerpt: A loving, kind, explorer building a sustainable foundaton for the future.
 linkedin: https://www.linkedin.com/in/kristinevilnite/
 websites: https://threefold.io/, https://threefold.me/
 image: ./kristine_vilnite.jpg
 project_ids: threefold_foundation
 countries: Latvia
 cities: Riga
+purpose: 0
 ---
 
-# Kristine Vilnite
-
-A loving, kind, explorer fully dedicating her professional path to build a sustainable foundaton for the future. Kristine is a compassionate innovator, founder, advisor, sustainable development advocate, adding value by unlocking power of diversity, simplicity and genuinity towards complex challenges assuring that a positive net impact on the planet is a norm.
 
 <BR>
 
