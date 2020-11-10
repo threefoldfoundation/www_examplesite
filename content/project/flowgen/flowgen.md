@@ -1,6 +1,6 @@
 ---
 id: flowgen
-title: FlowGen
+title: Flow Gen
 status: planned
 startdate: 2021-03-20
 countries:
@@ -11,12 +11,12 @@ created: 2020-04-20
 image: ./flowgen.png
 logo: ./logo.png
 image_caption: flowgen
-author: kristof_de_spiegeleer
-members: kristof_de_spiegeleer
+author: kristine_vilnite
+members:
 websites: https://www.flowgen.com/
 tags: planned, grid
 private: 0
-potential: 
+potential:
 linkedin: ''
 ---
 
