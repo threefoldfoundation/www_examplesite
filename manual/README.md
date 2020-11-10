@@ -71,7 +71,7 @@ memberships: threefold
 bio: project manager, partnerships..
 linkedin: https://www.linkedin.com/...
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./images/kristine_vilnite.png
+image: ./kristine_vilnite.png
 project_ids: threefold_foundation
 countries: Latvia
 cities: Riga
