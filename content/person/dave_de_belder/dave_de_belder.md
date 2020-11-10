@@ -1,25 +1,21 @@
-# Dave De Belder
+---
+id: dave_de_belder
+name: Dave De Belder
+rank: 3
+memberships: ambassador, guardian
+bio: As the michelin star chef, Dave has always been very conscious about food and how it ties in with spirituality, healing and peoples conscience. Dave has worked in the best kitchens this world has to offer. Elbulli (ES), Librije (NL), El Celler de Can Roca (ES) and his own Godevaart (BE) & Cara & Co (AU).
+excerpt: Michelin star chef, conscious about food and how it ties in with spirituality and healing.
+linkedin: https://www.linkedin.com/in/ahmed-te-youssef/
+websites: https://threefold.io/
+image: ./dave_de_belder.jpeg
+project_ids: threefold
+countries: Spain
+cities: Ibiza
+private: 0
+---
 
-### data
+<BR>
 
+<iframe src="https://player.vimeo.com/video/414231309" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-```python
-[links]
-linkedin = ""
-websites = []
-video = "https://player.vimeo.com/video/414231309"
-
-[info]
-rank = 2
-full_name = "Dave De Belder"
-circles = []
-countries = ["Spain"]
-cities = ["Ibiza"]
-companies = []
-bio = "As the michelin star chef, Dave has always been very conscious about food and how it ties in with spirituality, healing and peoples conscience. Dave has worked in the best kitchens this world has to offer. Elbulli (ES), Librije (NL), El Celler de Can Roca (ES) and his own Godevaart (BE) & Cara & Co (AU)."
-
-[ecosystem]
-# can be chosen from: freeflowcitizen, matchmaker, ambassador, farmer, wisdomcouncil, friend, gridcouncil, techcouncil
-memberships = ["freeflowcitizen", "ambassador", "wisdomcouncil", "gridcouncil"]
-
-```
+<BR>
