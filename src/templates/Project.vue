@@ -36,7 +36,7 @@
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
       
       <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
-        <ProjectListItem
+        <PostListItem
           v-for="edge in $page.project.belongsTo.edges"
           :key="edge.node.id"
           :record="edge.node"
@@ -112,13 +112,13 @@
 </page-query>
 
 <script>
-import ProjectListItem from "~/components/ProjectListItem.vue";
+import PostListItem from "~/components/PostListItem.vue";
 import Pagination from "~/components/Pagination.vue";
 
 export default {
   components: {
     Pagination,
-    ProjectListItem
+    PostListItem
   },
   computed: {
     postLabel: function() {

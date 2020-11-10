@@ -2,7 +2,7 @@
   <Layout>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <ProjectListItem v-for="edge in $page.entries.edges" :key="edge.node.id" :record="edge.node" />
+        <PostListItem v-for="edge in $page.entries.edges" :key="edge.node.id" :record="edge.node" />
       </div>
     </div>
   </Layout>
@@ -46,14 +46,14 @@ query($page:Int) {
 
 <script>
 
-import ProjectListItem from '~/components/ProjectListItem.vue';
+import PostListItem from '~/components/PostListItem.vue';
 
 export default {
   metaInfo: {
     title: "Hello, world!"
   },
   components: {
-    ProjectListItem
+    PostListItem
   }
 };
 </script>
