@@ -2,8 +2,6 @@
 id: adnan_fatayerji
 name: Adnan Fatayerji
 bio: to be defined (business experience)
-  dsss
-  sss
 linkedin: https://www.linkedin.com/in/adnansf/
 websites: https://threefold.io/, https://www.mazraa.io/
 rank: 4
@@ -12,6 +10,7 @@ countries: UAE, Spain
 cities: Dubai, Ibiza
 image: ./images/author1.png
 memberships: wisdomcouncil, ambassador, freeflowcitizen, farmer, gridcouncil
+
 ---
 
 # Adnan Fatayerji
