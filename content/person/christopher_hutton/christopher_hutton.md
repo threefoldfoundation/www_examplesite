@@ -7,7 +7,7 @@ bio: A serial entrepreneur and technology fanatic for 25 years now. Always resea
 excerpt: A serial entrepreneur and technology fanatic.
 linkedin: https://www.linkedin.com/in/chris-hutton-a3034777/
 websites: https://threefold.tech
-image: ./christhoper_hutton.png
+image: ./christhoper_hutton.jpg
 project_ids: threefold, tftech
 countries: South Africa
 cities: Capetown
