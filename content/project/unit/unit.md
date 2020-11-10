@@ -1,17 +1,24 @@
 ---
-title: unit
-tags: crystaltwin, planned, grid
-countries: 
-team: 
-rank: 1
-category: crystaltwin
-excerpt: 
-created: 2019-03-20
+id: unit
+title: UNIT
+status: planned
+startdate: 2021-03-20
+countries: Global
+cities: 
+rank: 3
+excerpt: Powering the Global Economy
+created: 2020-04-20
 image: ./unit.png
 image_caption: unit
-author: christine
----
+logo: ./logo.png
+author: kristine_vilnite
+members: michael_healy
+websites: https://unit.ventures/
+tags: tfgrid, crystaltwin
+private: 0
+potential:
 
+---
 
 
 # Unit
@@ -21,6 +28,13 @@ author: christine
 We want to support people who are passionate about something by helping them develop a business around it, by connecting them with clients, so they can support themselves, their family and friends.  So if someone wants to teach yoga, make art, sell cars, or design clothing - we support them by helping them develop a business around it. 
 
 We have an underlying UNIT technology which powers two-sided marketplaces (like uber, or airbnb) which powers a platform for a specific vertical or industry. We invest in these projects and companies, with the vision to create millions of jobs, and support projects by allocating funds and resources to them.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/438885099" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
 
 ## Mission
 
@@ -34,6 +48,12 @@ We believe well-being of all is important, and are committed to creating opportu
 
 We are planning to use ThreeFold's peer-to-peer infrastructure for the Unit.
 
+<BR>
+ 
+<iframe src="https://player.vimeo.com/video/438885099" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+ 
 ## Join saving our planet
  
 Reach out to one of our community members, to join the platforms or events, as well as if you’re interested in being a provider or customer to support the circular economy.
@@ -43,50 +63,10 @@ Unit is included in ThreeFold’s [Token Distribution Event (TDE)](https://wiki.
 The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
 Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Unit, and the growth of a new Conscious Internet.
 
+## TFGrid Solution
+
 ### Roadmap
 
-```python
+- Q1 2021
+  - Integration on TF Grid, 3Bot
 
-[milestone]
-name = "Integration on TF Grid, 3Bot"
-#date format: Q YYYY
-date = "Q3 2020"
-funding_required_tft = "150,000"
-funding_required_usd = ""
-description = "Integration of Unit on top of TFGrid / 3bot to empower small businesses."
-
-[milestone]
-name = "Financing next round for Unit"
-date = "Q3 2020"
-funding_required_tft = "n/a"
-funding_required_usd = ""
-description = "We are putting together and allocating 25mil in capital to support, invest and develop the unit ventures."
-
-```
-
-### data
-
-```python
-
-[links]
-linkedin = "https://www.linkedin.com/company/unitventures"
-websites = ["https://unit.ventures/"]
-wiki = ""
-video = "https://player.vimeo.com/video/438885099"
-
-[info]
-name = "Unit"
-rank = 3
-mission = "To build the next economy."
-description = "We want to support people who are passionate about something by helping them develop a business around it, by connecting them with clients, so they can support themselves, their family and friends. So if someone wants to teach yoga, make art, sell cars, or design clothing - we support them by helping them develop a business around it. We have an underlying UNIT technology which powers two-sided marketplaces (like uber, or airbnb) which powers a platform for a specific vertical or industry. We invest in these projects and companies, with the vision to create millions of jobs, and support projects by allocating funds and resources to them."
-team = ["Michael Healy"]
-countries = ["Indonesia", "UAE", "UK"]
-cities = ["Bali", "Singapore", "Dubai", "London"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["experience"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = ["tftgranted"]
-
-```

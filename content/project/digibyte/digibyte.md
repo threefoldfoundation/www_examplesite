@@ -4,12 +4,11 @@ tags: planned, grid
 countries: 
 team: 
 rank: 1
-category: crystaltwin
 excerpt: DigiByte is a rapidly growing open-source blockchain created in late 2013 and released in early 2014. After 6 years of forward-thinking development, DigiByte has become one of the safest, fastest, longest and most decentralized UTXO blockchain in existence. Thousands of volunteers from all over the world have contributed to DigiByte in countless ways for years to make it what it is today. It is a truly grassroots movement to protect and promote the true principles of decentralization and empower DigiByte and its community to establish and maintain a sustainable decentralized world. Planet first!
 created: 2019-03-20
 image: ./digibyte.png
 image_caption: digibyte
-author: christine
+author: kristine_vilnite
 ---
 
 

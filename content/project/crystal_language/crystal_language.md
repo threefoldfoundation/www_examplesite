@@ -1,15 +1,23 @@
 ---
+id: crystal_language
 title: Crystal Programming Language
-tags: technology, active
-countries: 
-team: 
-rank: 1
-category: crystaltwin
-excerpt: A programming language adjusting to the needs of the programmer and the computer - the best of both worlds.
-created: 2019-03-20
+status: internal
+startdate: 2021-03-20
+countries: Argentina
+cities: Buenos Aires
+rank: 2
+excerpt: A programming language for programmer and the computer - the best of both worlds.
+created: 2020-04-20
 image: ./crystal_language.png
 image_caption: crystal_language
-author: christine
+logo: ./logo.png
+author: kristine_vilnite
+members: juan_wajnerman, brian_j_cardiff
+websites: https://crystal-lang.org/
+tags: tfgrid
+private: 0
+potential:
+
 ---
 
 
@@ -18,6 +26,13 @@ author: christine
 ## About
 
 It started out, like many things at [Manas.Tech](https://manas.tech/), as an experiment. Easy to write languages used to mean that you had to sacrifice speed. And getting fast meant enduring difficult syntax. So it began with asking ourselves: “What if we didn’t have to choose one or the other”, “what if we could compile Ruby?”. It turned out that it worked, so we decided to turn that experiment into an actual project and give it our best shot. It is our pride and joy: time and time again, we find that it is delightful to write code in Crystal, and that it outperforms everything else out there.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/65515595" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
 
 ## Mission
 
@@ -42,72 +57,11 @@ The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and 
 Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Crystal Programming Language, and the growth of a new Conscious Internet.
 
 
+## TFGrid Solution
+
 ### Roadmap
 
-```python
-
-[milestone]
-name = "Base language for some future workloads like Crystal Twin"
-#date format: Q YYYY
-date = "Q3 2020"
-funding_required_tft = "n/a"
-funding_required_usd = ""
-description = "The project Crystal Twin is working with Crystal Lang and runs on top of the grid."
-
-[milestone]
-name = "Improve developer tools"
-date = "Q4 2020"
-funding_required_tft = "500,000"
-funding_required_usd = ""
-description = "Improve developer tools, including a language server, editor tooling and debugging tools. With that, we want to continue improving the Crystal experience for developers and bringing it up to par with other languages."
-
-[milestone]
-name = "Serverless Functions/Actors based on Crystal Lang on top of TFGrid"
-date = "Q1 2021"
-funding_required_tft = "1,000,000"
-funding_required_usd = ""
-description = "By using Crystal Lang as serverless functions, everyone developer in world can use the TFGrid in green and super efficient way. Serverless functions are the new hype, we want to show how this can be done more sustainable"
-
-[milestone]
-name = "Improve compilation times"
-date = "Q1 2021"
-funding_required_tft = "500,000"
-funding_required_usd = ""
-description = "Research and develop ways to improve compiling times, either by incremental compilation or alternative strategies."
-
-[milestone]
-name = "Digital Twin Core v2.0"
-date = "Q2 2021"
-funding_required_tft = "2,000,000"
-funding_required_usd = ""
-description = "New version of our core engine for Crystal Twin & 3bot, created in Crystal lang, leading to even more efficiency."
-
-```
-
-
-### data
-
-```python
-
-[links]
-linkedin = "https://www.linkedin.com/company/65515595/"
-websites = ["https://crystal-lang.org/"]
-wiki = ""
-video = ""
-
-[info]
-name = "Crystal Programming Language"
-rank = 3
-mission = "A programming language adjusting to the needs of the programmer and the computer - the best of both worlds."
-description = "It started out, like many things at Manas.Tech, as an experiment. Easy to write languages used to mean that you had to sacrifice speed. And getting fast meant enduring difficult syntax. So it began with asking ourselves: “What if we didn’t have to choose one or the other”, “what if we could compile Ruby?”. It turned out that it worked, so we decided to turn that experiment into an actual project and give it our best shot. It is our pride and joy: time and time again, we find that it is delightful to write code in Crystal, and that it outperforms everything else out there."
-team = ["Juan Wajnerman", "Brian J. Cardiff"]
-countries = ["Argentina"]
-cities = ["Buenos Aires"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["solution"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = ["tftgranted"]
-
-```
+- Q1 2021
+  - Serverless Functions/Actors based on Crystal Lang on top of TFGrid
+- Q2 2021
+  - Crystal Twin Core v2.0

@@ -1,17 +1,24 @@
 ---
-title: shareitt
-tags: crystaltwin, planned, grid
-countries: 
-team: 
-rank: 1
-category: crystaltwin
-excerpt: 
-created: 2019-03-20
+id: shareitt
+title: Community Platform
+status: planned
+startdate: 2021-03-20
+countries: Global
+cities: 
+rank: 3
+excerpt: Impact technology startup empowering communities socially, financially, and environmentally.
+created: 2020-04-20
 image: ./shareitt.png
 image_caption: shareitt
-author: christine
----
+logo: ./logo.png
+author: kristine_vilnite
+members: arie_ben_david
+websites: https://www.shareitt.com
+tags: tfgrid
+private: 0
+potential:
 
+---
 
 
 # Shareitt
@@ -42,43 +49,11 @@ Shareitt is included in ThreeFold’s [Token Distribution Event (TDE)](https://w
 The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
 Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Shareitt, and the growth of a new Conscious Internet.
 
+
+## TFGrid Solution
+
 ### Roadmap
 
-```python
+- Q1 2021
+  - Integrate on ThreeFold Grid, 3Bot and TF Wallet
 
-[milestone]
-name = "Integrate on ThreeFold Grid, 3Bot and TF Wallet"
-#date format: Q YYYY
-date = "Q3 2020"
-funding_required_tft = "500,000"
-funding_required_usd = ""
-description = "Integration of Shareitt app on TFGrid & Crystal Twin"
-
-```
-
-### data
-
-```python
-
-[links]
-linkedin = "https://www.linkedin.com/company/shareitt/"
-websites = ["https://www.shareitt.com"]
-wiki = ""
-video = ""
-
-[info]
-name = "Shareitt"
-rank = 4
-mission = "Enhance world prosperity to create a better world, where doing good becomes easy and rewarding."
-description = "Shareitt aims to do good while doing well. We believe that changing the economic system and moving towards a sustainable business, cities, and communities is essential to create a healthy environment. Shareitt is an impact technology startup to empower communities socially, financially, and environmentally. Our unique technology redefines collaborative economies and mutual support and provides the tools to “Community Assets Based UBI” by nurturing long term capacities. All of Shareitt employees, management, and shareholders support the social impact, purpose, and objectives of the company. Among the company goals for 2025 is Recycling more than 250 million items and creating an additional average save of 200 euros per month per user - in over 2500 communities using Shareitt."
-team = ["Arie Ben David", "Mickey Malul", "Roel Wofert"]
-countries = ["Global"]
-cities = ["Global"]
-
-[ecosystem]
-# can be chosen from: experiencecreator, experiencepartner, solutionprovider, farmer, systemintegrator
-categories = ["experiencepartner"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = []
-
-```

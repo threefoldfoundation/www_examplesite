@@ -1,12 +1,12 @@
 ---
 id: dash
-title: Instant transactions and micro-fees. Any amount, anytime, anywhere.
+title: Dash
 tags: tfgrid
 countries: global
 cities: 
 team: felix_mago, sascha_jochum
 rank: 1
-excerpt: Dash gives you the freedom to move your money any way you want. Grab a coffee, split a check, or pay your phone bill. Dash moves money anywhere, to anyone, instantly, for less than a cent.
+excerpt: Instant transactions and micro-fees. Any amount, anytime, anywhere. 
 startdate: 2020-12-01
 created: 2020-04-28
 image: ./dash.png
@@ -32,6 +32,8 @@ Learn more about Dash on their [website](https://www.dash.org).
 
 
 ## Mission and Impact
+
+Dash gives you the freedom to move your money any way you want. Grab a coffee, split a check, or pay your phone bill. Dash moves money anywhere, to anyone, instantly, for less than a cent.
 
 Dash is a digital currency that enables anyone, anywhere in the world to make quick, easy and cheap payments at any time without going through a central authority. Based on a decentralized peer-to-peer network, and secured by strong cryptography, Dash offers a safe and user-friendly payment method without barriers. Dash is portable, inexpensive, divisible and fast digital cash for both the internet and everyday life.
 

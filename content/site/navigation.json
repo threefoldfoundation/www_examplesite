@@ -9,17 +9,7 @@
       "name": "Values",
       "link": "/about",
       "external": false
-    },
-    {
-      "name": "Grid",
-      "link": "/category/gridusecase",
-      "external": false
-    } ,
-    {
-      "name": "CrystalTwin",
-      "link": "/category/crystaltwin",
-      "external": false
-    }          
+    }
   ],
   "footerNavigation": [{
       "name": "Latest Posts",
@@ -27,19 +17,9 @@
       "external" : false
     },
     {
-      "name": "Facebook",
-      "link": "https://www.facebook.com",
-      "external": true
-    },
-    {
       "name": "Gridsome",
       "link": "https://www.gridsome.org",
       "external": true
-    },
-    {
-      "name": "RSS",
-      "link": "/rss.xml",
-      "external": false
     }
   ]
 }

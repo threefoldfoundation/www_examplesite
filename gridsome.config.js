@@ -33,11 +33,11 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Author',
-        path: './content/author/*.md',
+        typeName: 'Person',
+        path: './content/person/**/*.md',
         refs: {
-          category: {
-            typeName: 'Category',
+          tags: {
+            typeName: 'Tag',
             create: true
           }
         }
@@ -52,13 +52,9 @@ module.exports = {
           BlogPost: '/blog/:id'
         },
         refs: {
-          author: 'Author',
+          author: 'Person',
           tags: {
             typeName: 'Tag',
-            create: true
-          },
-          category: {
-            typeName: 'Category',
             create: true
           }
         }
@@ -81,13 +77,9 @@ module.exports = {
     Blog: [{
       path: '/blog/:id'
     }],
-    Category: [{
-      path: '/category/:id',
-      component: '~/templates/Category.vue'
-    }],
-    Author: [{
+    Person: [{
       path: '/author/:id',
-      component: '~/templates/Author.vue'
+      component: '~/templates/Person.vue'
     }],
     Tag: [{
       path: '/tags/:id',

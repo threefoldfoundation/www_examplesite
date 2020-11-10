@@ -1,23 +1,36 @@
 ---
-title: the_humanized_internet
-tags: crystaltwin, planned, grid
-countries: 
-team: 
-rank: 1
-category: crystaltwin
-excerpt: 
-created: 2019-03-20
+id: the_humanized_internet
+title: The Humanized Internet
+status: planned
+startdate: 2021-03-20
+countries: Switzerland, Germany
+cities: Zürich, Berlin
+rank: 3
+excerpt: Providing digital identity for those individuals most underserved.
+created: 2020-04-20
 image: ./the_humanized_internet.png
 image_caption: the_humanized_internet
-author: christine
----
+logo: ./logo.png
+author: kristine_vilnite
+members: monique_morrow, akram_alfawakheeri
+websites: https://www.thehumanizedinternet.org/
+tags: tfgrid
+private: 0
+potential:
 
+---
 
 # The Humanized Internet
 
 ## About
 
 *The Humanized Internet* is working to use new technologies to defend the rights of vulnerable people, and give every human being worldwide secure, sovereign control over their own digital identity. The Humanized Internet is building a broad coalition of NGOs, international organizations and other actors to build a global consensus regarding each human being’s sovereign digital rights.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/442276485" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
 
 ## Mission
 
@@ -35,58 +48,9 @@ ThreeFold has technology in place to run decentralized programs created by The H
  
 “Human dignity is based upon freedom, and freedom upon human dignity. The one presupposes the other.” Join us in creating Conscious Humanized Internet for everyone.
 
+## TFGrid Solution
 
 ### Roadmap
 
-```python
-
-[milestone]
-name = "Publishing a book"
-date = "Q3 2020"
-funding_required_tft = "n/a"
-funding_required_usd = ""
-description = "The goal of the book is to define the next generation Internet: the Humanized Internet. The authors describe the trust deficit and the polarities between institutions as we know today. Has the Internet evolved to a control by a few rather than inclusive for everyone? The Humanized Internet book is also focused on identity as a basic human right as foundational to the overall narrative."
-
-[milestone]
-name = "Integrate on ThreeFold Grid, 3Bot"
-#date format: Q YYYY
-date = "Q4 2020"
-funding_required_tft = "500,000"
-funding_required_usd = ""
-description = "The Humanized Internet projects integration on TFGrid, 3Bot."
-
-[milestone]
-name = "Standardizing THI tenets on ITSA"
-date = "Q4 2020"
-funding_required_tft = "n/a"
-funding_required_usd = ""
-description = "The International Token Standardization Association (ITSA) is a Berlin-based association of German law with more than 100 associated founding members. ITSA is a non-profit organization and special interest group aiming at the development and implementation of comprehensive market standards for the identification, classification, and analysis of cryptographic tokens."
-
-```
-
-### data
-
-```python
-
-[links]
-linkedin = ""
-websites = ["https://www.thehumanizedinternet.org/"]
-wiki = ""
-video = "https://player.vimeo.com/video/442276485"
-
-[info]
-name = "The Humanized Internet"
-rank = 4
-mission = "A non-profit organization focused on providing digital identity for those individuals most underserved."
-description = "The Humanized Internet is working to use new technologies to defend the rights of vulnerable people, and give every human being worldwide secure, sovereign control over their own digital identity. The Humanized Internet is building a broad coalition of NGOs, international organizations and other actors to build a global consensus regarding each human being’s sovereign digital rights. "
-team = ["Monique Morrow", "Akram Alfawakheeri"]
-countries = ["Switzerland", "Germany"]
-cities = ["Zürich", "Berlin"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["experience", "solution"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = []
-
-```
+- Q1 2021
+  - Integrate on ThreeFold Grid, 3Bot

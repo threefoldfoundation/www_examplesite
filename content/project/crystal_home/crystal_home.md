@@ -1,15 +1,23 @@
 ---
-title: Circular & self-sufficient homes reducing the CO2 footprint and the waste flow of the construction industry.
-tags: crystaltwin, planned, grid
-countries: 
-team: 
-rank: 1
-category: crystaltwin
-excerpt: Our planet needs a different approach to housing. The construction industry is one of the most polluting sectors out there, and we are changing it. We are building circular and fully self-sufficient homes that make housing construction affordable and sustainable without compromising on quality. All of the construction materials are second hand and refurbished for a new life.
-created: 2019-03-20
+id: crystal_home
+title: Circular & Self-sufficient Homes
+status: planned
+startdate: 2021-03-20
+countries: The Netherlands
+cities:
+rank: 4
+excerpt: Circular & self-sufficient homes reducing the CO2 footprint and the waste flow of the construction industry.
+created: 2020-04-20
 image: ./crystal_home.jpg
 image_caption: crystal_home
-author: christine
+logo: ./logo.png
+author: kristine_vilnite
+members: bert_van_decraen
+websites: https://www.crystalhome.org/
+tags: tfgrid, crystaltwin
+private: 0
+potential:
+
 ---
 
 
@@ -18,6 +26,12 @@ author: christine
 ## About
 
 Our planet needs a different approach to housing. The construction industry is one of the most polluting sectors out there, and we are changing it. We are building circular and fully self-sufficient homes that make housing construction affordable and sustainable without compromising on quality. All of the construction materials are second hand and refurbished for a new life.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/432586040" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
 
 ## Mission
 
@@ -43,50 +57,11 @@ Crystal Home is included in ThreeFold’s [Token Distribution Event (TDE)](https
 The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
 Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Crystal Home, and the growth of a new Conscious Internet.
 
+## TFGrid Solution
+
 ### Roadmap
 
-```python
-
-[milestone]
-name = "First 10 Crystal Homes Sold"
-#date format: Q YYYY
-date = "Q4 2020"
-funding_required_tft = "n/a"
-funding_required_usd = ""
-description = "Selling first 10 Crystal Homes to kick off the project."
-
-[milestone]
-name = "Ingegrate 3bot"
-date = "Q1 2021"
-funding_required_tft = "150,000"
-funding_required_usd = ""
-description = "Integration of the 3bot into the Crystal Home as an operating system of the home."
-    
-```
-
-### data
-
-```python
-
-[links]
-linkedin = ""
-websites = ["https://www.crystalhome.org/"]
-wiki = ""
-video = "https://player.vimeo.com/video/432586040"
-
-[info]
-name = "Crystal Home"
-rank = 4
-mission = "Crystal home is building circular & self-sufficient homes reducing the CO2 footprint and the waste flow of the construction industry."
-description = "Our planet needs a different approach to housing. The construction industry is one of the most polluting sectors out there, and we are changing it. We are building circular and fully self-sufficient homes that make housing construction affordable and sustainable without compromising on quality. All of the construction materials are second hand and refurbished for a new life."
-team = ["Bert Van Decraen"]
-countries = ["Global"]
-cities = ["Global"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["experience"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = ["tftgranted"]
-
-```
+- Q1 2021
+    - First 10 Crystal Homes Sold
+- Q3 2021
+    - Ingegrate 3Bot/Crystal Twin in Crystal Home

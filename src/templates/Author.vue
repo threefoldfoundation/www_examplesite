@@ -10,14 +10,7 @@
         </div>
         <div class="w-full md:w-5/6 text-center md:text-left md:pl-8 lg:pl-0">
           <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">{{ $page.author.name }}</h1>
-           <section class="post-header container mx-auto px-0 mb-4 border-b">
-           <span class="text-blue-500 font-medium uppercase tracking-wide text-sm">
-            <g-link
-              :to="$page.author.category.path"
-              class="hover:underline"
-            >{{ $page.author.category.title }}</g-link>
-          </span>
-           </section>
+          
           <p class="text-gray-700 text-xl" v-if="$page.author.bio">{{ $page.author.bio }}</p>
           <div class="author-social">
             {{ $page.author.belongsTo.totalCount }} Projects
@@ -85,22 +78,6 @@
   query($id: ID!, $page:Int) {
     author(id: $id) {
       name
-      category {
-        id
-        title
-        path
-        belongsTo(limit:4) {
-          totalCount
-          edges {
-            node {
-              ... on Blog {
-                title
-                path
-              }
-            }
-          }
-        }
-      }
       path
       bio
       image(width:150, height:150)
@@ -124,11 +101,6 @@
               timeToRead
               humanTime : created(format:"DD MMM YYYY")
               datetime : created
-              category {
-                id
-                title
-                path
-              }
               author {
                 id
                 name

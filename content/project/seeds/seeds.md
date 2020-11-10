@@ -1,20 +1,24 @@
 ---
-name: seeds
-title: seeds
-tags: crystaltwin, planned, grid
+id: seeds
+title: Regenerative Economy
 status: planned
-startdate: 2021-03-01
-countries: 
-team: 
-rank: 1
-category: crystaltwin
-excerpt: 
-created: 2019-03-20
+startdate: 2021-03-20
+countries: Global
+cities:
+rank: 3
+excerpt: Creating a regenerative financial system for a thriving global society.
+created: 2020-04-20
 image: ./seeds.png
 image_caption: seeds
-author: christine, kristof
----
+logo: ./logo.png
+author: kristine_vilnite
+members: rieki_cordon, nikolaus_heger, franz_josef_allmaye
+websites: https://www.joinseeds.com/
+tags: tfgrid
+private: 0
+potential:
 
+---
 
 
 # SEEDS
@@ -22,6 +26,12 @@ author: christine, kristof
 ## About
 
 *SEEDS* is a regenerative financial system for a thriving global society. A global movement that aligns radical empowerment of purpose with finance with the mission to bring about a modern day Renaissance. Since its alpha release on November 5th 2019 and its public launch in March 2020, SEEDS has gathered 150+ alliance members from across multiple bioregions. We're leaving the age of siloed competition where people and planet were exploited by systems and entering an age of cooperation where the people are in direct control and ownership of the abundant systems they inhabit. We are in the stage of cultivating a grassroots movement uniting the people and organizations dedicated to a breakthrough towards genuine sustainability, freedom, and peace. 
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/412275062" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
 
 ## Mission
 
@@ -40,28 +50,6 @@ SEEDS and ThreeFold are a natural pair of decentralized cooperative internet to 
 The evidence is clear, the current system is reaching a historical moment that demands a paradigmatic shift. Join us!
 
 
+## TFGrid Solution
 
-### data
-
-```python
-[links]
-linkedin = "https://www.linkedin.com/company/seeds-the-conscious-currency/"
-websites = ["https://www.joinseeds.com/"]
-wiki = ""
-video = "https://player.vimeo.com/video/412275062"
-
-[info]
-name = "SEEDS"
-rank = 3
-mission = "Creating a regenerative financial system for a thriving global society aligning radical empowerment of purpose with finance."
-description = "We're leaving the age of siloed competition where people and planet were exploited by systems and entering an age of cooperation where the people are in direct control and ownership of the abundant systems they inhabit. SEEDS and Threefold are a natural pair a decentralized cooperative internet to run a decentralized cooperative financial system. We intend to integrate our systems. Together we provide essential tools for shaping a civilization which is more resilient, rewarding, and regenerative."
-team = ["Rieki Cordon", "Nikolaus Heger", "Franz Josef Allmayer"]
-countries = ["Global"]
-cities = ["Global"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["experience", "solution"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = []
-```
+### Roadmap

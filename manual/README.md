@@ -48,34 +48,7 @@ potential:
 - private:
 - potential: describe the potential for a project e.g. 1m users in X months, X TB of storage, ... can use multiple lanes
 
-## metadata per person page
-
-```
----
-id: kristine_vilnite
-name: Kristine Vilnite
-rank: 4
-memberships: threefold
-bio: The business / other life experience of the person
-linkedin: https://www.linkedin.com/...
-websites: https://threefold.io/, https://www.mazraa.io/
-image: ./images/kristine_vilnite.png
-project_ids: threefold_foundation
-countries: Latvia
-cities: Riga
-private: 0
----
-```
-
-- mebership: 
-    - choose from guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil
-
-
-# page
-
-## project
-
-the section for vimeo
+the section for vimeo:
 ```
 <BR>
 
@@ -86,6 +59,51 @@ the section for vimeo
 ```
 
 to use breaks do ```enter <BR> enter```
+
+## metadata per person page
+
+```
+---
+id: kristine_vilnite
+name: Kristine Vilnite
+rank: 4
+memberships: threefold
+bio: project manager, partnerships..
+linkedin: https://www.linkedin.com/...
+websites: https://threefold.io/, https://www.mazraa.io/
+image: ./kristine_vilnite.png
+project_ids: threefold_foundation
+countries: Latvia
+cities: Riga
+private: 0
+---
+```
+
+- meberships, choose from:
+    - guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil
+- bio: business experience/skills
+- project_ids: which projects person is part of
+- private: 
+
+### Full Name
+
+Short description / bio of mission, values, hobbies etc.
+
+the section for vimeo:
+```
+<BR>
+
+<iframe src="https://player.vimeo.com/video/417088459" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+```
+
+
+
+# examples
+
+## project
+
 
 see https://github.com/threefoldtech/www_partners_v2/blob/main/content/project/vlinder/vlinder.md
 

@@ -1,17 +1,24 @@
 ---
-title: zetako
-tags: crystaltwin, planned, grid
-countries: 
-team: 
-rank: 1
-category: crystaltwin
-excerpt: 
-created: 2019-03-20
+id: zetako
+title: Lossless Data Compression
+status: planned
+startdate: 2021-03-20
+countries: Luxembourg, France, Portugal
+cities: Luxembourg, St. Florent, Lisbon
+rank: 3
+excerpt: Reducing energy usage & CO2 emission of the transmission and storage of data
+created: 2020-04-20
 image: ./zetako.png
 image_caption: zetako
-author: christine
----
+logo: ./logo.png
+author: kristine_vilnite
+members: claus_rosenberg_gotthard
+websites: https://zetako.ai
+tags: tfgrid
+private: 0
+potential:
 
+---
 
 # Zetako
 
@@ -22,6 +29,13 @@ We are creating, storing, and sending more data than ever before, and this trend
 For many years, research has been focused on increasing the capacity of 40 year old compressions algorithms (LZW) instead of developing new approaches. We believe that the world’s exponential data creation, processing and storage needs cannot be met with old optimized algorithms. To use Albert Einstein's words: “We cannot solve our problems with the same thinking we used when we created them.”
 
 This next part is a little geeky. :) We have developed a brand new mathematical theory based on Statistical Predictive modeling and applied this to a new lossless data compression technology. The result is a technology that provides 30% more compression and Speed and uses 70% less energy in the process. In addition to this, the technology is capable of doing bit-by-bit compression allowing for real time bandwidth reduction - the technology does NOT need a prior knowledge of the dataset to start compression. In layman terms, this means that our technology does not require the data stream to be chopped up into chunks - we apply compression the moment the first bit (1 or 0) comes in.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/427718385" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
 
 ## Mission
 
@@ -49,42 +63,5 @@ Each project on the TDE benefits from TFT fund allocations. You can buy TFT's an
 
 ### Roadmap
 
-```python
-
-[milestone]
-name = "Integrate within ThreeFold Grid"
-#date format: Q YYYY
-date = "Q3 2020"
-funding_required_tft = "500,000"
-funding_required_usd = ""
-description = "Integration of new data lossless compression technology in TF Grid."
-
-```
-
-### data
-
-```python
-[links]
-linkedin = "https://www.linkedin.com/company/zetako/"
-websites = ["https://zetako.ai/"]
-wiki = ""
-video = "https://player.vimeo.com/video/427718385"
-
-[info]
-name = "Zetako"
-rank = 2
-mission = "Reducing energy usage and CO2 emissions for data transmission and storage with a new lossless data compression technology."
-#description = "For many years, research has been focused on increasing the capacity of 40 year old compressions algorithms (LZW) instead of developing new approaches.  We believe that the world’s exponential data creation, processing and storage needs cannot be met with old optimized algorithms. To use Albert Einstein's words: “We cannot solve our problems with the same thinking we used when we created them.” We have developed a brand mathematical theory based on Statistical Predictive modeling and applied this to a new lossless data compression technology. The result is a technology that provides 30% more compression and Speed and using 70% less energy in the process. In addition to this, the technology is capable of doing bit-by-bit compression allowing for real time bandwidth reduction - the technology does NOT need a prior knowledge of the dataset to start compression. We are in a position to become the standard of lossless data compression for the next decades that will provide a solution to the problem of every growing amount of data and the energy used to transport and store it."
-
-team = ["Claus Rosenberg Gotthard"]
-countries = ["Luxembourg", "France", "Portugal"]
-cities = ["Luxembourg", "St. Florent", "Lisbon"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["solution", "infrastructure"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = []
-
-
-```
+- Q1 2021
+  - Integrate within ThreeFold Grid
