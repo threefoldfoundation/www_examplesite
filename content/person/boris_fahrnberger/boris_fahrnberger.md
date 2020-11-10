@@ -1,4 +1,3 @@
-
 ---
 id: boris_fahrnberger
 name: Boris Fahrnberger
