@@ -1,29 +1,26 @@
 ---
 id: kristof_de_spiegeleer
-name: kds
+name: Kristof de Spiegeleer
+rank: 4
+memberships: ambassador, farmer, gridcouncil
+bio: to be defined (business experience)
+linkedin: https://www.linkedin.com/in/despiegk/
+websites: https://www.threefold.io, https://www.threefold.me, https://www.incubaid.com/
+image: ./images/kristof_de_spiegeleer.png
+project_ids: threefold
+countries: Belgium, Switzerland, Egypt
+cities: Ghent, Lugano, El Ghouna
+private: 0
+
 ---
 
-## Kristof De Spiegeleer
 
-### data
+# Kristof De Spiegeleer
 
-```python
-[links]
-linkedin = "https://www.linkedin.com/in/despiegk/"
-websites = ["https://www.threefold.io", "https://www.incubaid.com/", "https://www.freeflownation.org/"]
-video = ""
+Humanist & motivated entrepreneur, passionate to help make the world a better place. Kristof strongly believes there is need for a neutral internet owned by millions.
 
-[info]
-rank = 4
-full_name = "Kristof De Spiegeleer"
-circles = [["threefold foundation",  "coordinator"], ["3bot",  "coordinator"]]
-countries = ["Belgium", "Spain", "Egypt"]
-cities = ["Ghent", "Ibiza", "El Ghouna"]
-companies = ["ThreeFold", "Incubaid"] 
-bio = "Humanist & motivated entrepreneur, passionate to help make the world a better place. Kristof strongly believes there is need for a neutral internet owned by millions."
+<BR>
 
-[ecosystem]
-# can be chosen from: freeflowcitizen, matchmaker, ambassador, farmer, wisdomcouncil, friend, gridcouncil, techcouncil
-memberships = ["wisdomcouncil", "matchmaker", "freeflowcitizen", "ambassador", "gridcouncil"]
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-```
+<BR>
