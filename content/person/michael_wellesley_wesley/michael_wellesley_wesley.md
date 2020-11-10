@@ -9,7 +9,7 @@ websites: https://green-edge.net, https://www.inogesis.com/
 image: ./mmichael_wellesley_wesley.jpeg
 project_ids: threefold, green_edge
 countries: England, Austria, US
-cities = London, Vienna, New York
+cities: London, Vienna, New York
 private: 0
 ---
 

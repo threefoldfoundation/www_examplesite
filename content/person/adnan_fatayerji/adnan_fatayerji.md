@@ -12,7 +12,6 @@ project_ids: threefold
 countries: UAE, Spain
 cities: Dubai, Ibiza
 private: 0
-
 ---
 
 <BR>

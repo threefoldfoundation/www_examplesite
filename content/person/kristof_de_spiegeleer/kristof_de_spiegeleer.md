@@ -11,9 +11,7 @@ project_ids: threefold
 countries: Belgium, Switzerland, Egypt
 cities: Ghent, Lugano, El Ghouna
 private: 0
-
 ---
-
 
 # Kristof De Spiegeleer
 

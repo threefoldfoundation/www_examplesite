@@ -11,7 +11,6 @@ project_ids: threefold
 countries: Egypt
 cities: Cairo
 private: 0
-
 ---
 
 # Ahmed Thabet

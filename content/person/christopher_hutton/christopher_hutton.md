@@ -1,3 +1,4 @@
+---
 id: chris
 name: Chris Hutton
 tags: grid
@@ -11,3 +12,4 @@ project_ids: tftech
 countries: South Africa
 cities: Capetown
 private: 0
+---
