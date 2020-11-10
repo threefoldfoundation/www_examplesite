@@ -67,8 +67,17 @@ private: 0
 ---
 ```
 
-- mebership: 
-    - choose from guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil
+### Full Name
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/417088459" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
+
+- mebership - choose from:
+    - guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil
 
 
 # page
