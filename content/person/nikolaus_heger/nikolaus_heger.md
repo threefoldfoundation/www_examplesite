@@ -1,26 +1,22 @@
+---
+id: nikolaus_heger
+name: Nikolaus Heger
+rank: 4
+memberships: project
+bio: Ex Apple, Ex Silicon Valley, full stack developer, meditator, blockchain wizard, 20 years experience as software architect, mobile app developer, and full stack developer.
+excerpt: Wizard of Integrity @ SEEDS, Hypha Ltd
+linkedin: https://www.linkedin.com/in/nikolausheger/
+websites: https://www.joinseeds.com, https://hypha.earth
+image: ./nikolaus_heger.jpg
+project_ids: seeds
+countries: Thailand, Indonesia, Austria
+cities: Bali, Ubud, Vienna
+private: 0
+---
 # Nikolaus Heger
 
-### data
+<BR>
 
-```python
-[links]
-linkedin = "https://www.linkedin.com/in/nikolausheger/"
+<iframe src="https://player.vimeo.com/video/412277211" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-websites = ["https://www.joinseeds.com, https://hypha.earth"]
-video = "https://player.vimeo.com/video/412277211"
-
-[info]
-rank = 2
-full_name = "Nikolaus Heger"
-circles = [["seeds",  "coordinator"]]
-countries = ["Thailand", "Indonesia", "Austria"]
-cities = ["Bali", "Ubud", "Vienna"]
-companies = ["Seeds", "Hypha"]
-bio = "Ex Apple, Ex Silicon Valley, full stack developer, meditator, blockchain wizard, 20 years experience as software architect, mobile app developer, and full stack developer."
-
-
-[ecosystem]
-# can be chosen from: freeflowcitizen, matchmaker, ambassador, farmer, wisdomcouncil
-memberships = ["freeflowcitizen"]
-
-```
+<BR>
