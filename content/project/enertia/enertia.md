@@ -20,4 +20,3 @@ potential:
 linkedin: ''
 ---
 
-# Enertia
