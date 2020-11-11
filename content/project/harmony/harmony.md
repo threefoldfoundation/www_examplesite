@@ -1,17 +1,23 @@
 ---
 id: harmony
-title: harmony.
-tags: tfgrid
-countries: USA, Global
+title: Harmony
+status: planned
+startdate: 2021-03-20
+countries: USA
 cities: San Francisco
-team: Li_Jiang, Nikalos_Kost 
 rank: 4
 excerpt: Open consensus for 10 Billion people 
 created: 2019-07-20
-image: ./harmony_image.png
-logo: ./harmony_logo.png
+image: ./harmony.png
 image_caption: harmony
-author: Benjelloun Oussama
+logo: ./harmony_logo.png
+author: benjelloun_oussama
+members: li_jiang, nikalos_kost
+websites: https://www.harmony.one/
+tags: tfgrid
+private: 0
+potential:
+linkedin: 
 ---
 
 # Harmony
@@ -26,6 +32,13 @@ Harmony is a fast and open blockchain for decentralized applications.
 - Harmony aims to build an open network of nodes operated and governed by a large community.
 - Harmony has designed a novel Proof-of-Stake (PoS) mechanism for network security and economics - Effective Proof-of-Stake (EPoS) which reduces centralization and distributes rewards fairly to thousands of validators
 
+<BR>
+
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
+
 ## Harmony and ThreeFold
 
 Harmony.one and ThreeFold joined forces to provide a performant, decentralized and customizable solution that enables anyone (with the right knowledge) to easily and cost-effectively deploy and run a Harmony validator node (or many) and access the growing staking ecosystem of Harmony's Blockchain.
@@ -35,6 +48,7 @@ This gives its node operators control over their containerized validator nodes, 
 By Leveraging ThreeFold's decentralized storage, compute, and networking, as well as its compatibility with Docker, Kubernetes, S3 storage, containerized databases, and other open-source software, Harmony's developer community unlocks an additional alternative to centralized cloud providers
 This brings the ability to build highly-scalable cloud-native and Blockchain-based applications and deploy them close to where their users are.
 
+## TFGrid Solution
 
 ### Roadmap
 
