@@ -1,9 +1,9 @@
 ---
 id: dash
-title: Dash
+title: Digital Cash
 status: internal
 startdate: 2020-12-01
-countries: global
+countries: Global
 cities: 
 rank: 1
 excerpt: Instant transactions and micro-fees. Any amount, anytime, anywhere. 
@@ -29,7 +29,7 @@ Learn more about Dash on their [website](https://www.dash.org).
 
 <BR>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4OvRs8sT5FM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <BR>
 
