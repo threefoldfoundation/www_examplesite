@@ -11,7 +11,7 @@ image: ./kristine_vilnite.jpg
 project_ids: threefold_foundation
 countries: Latvia
 cities: Riga
-purpose: 0
+purpose:
 private: 0
 ---
 
