@@ -1,6 +1,6 @@
 ---
 id: kleos
-title: kleos
+title: Kleos
 status: planned
 startdate: 2021-03-20
 countries: Australia, Kingdom of Bahrein, United Kingdom, Cyprus, Lebanon, France, Mozambique, DRC & Ghana
