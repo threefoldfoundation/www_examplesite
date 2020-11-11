@@ -1,6 +1,6 @@
 ---
 id: flowgen
-title: Flow Gen
+title: FlowGen
 status: planned
 startdate: 2021-03-20
 countries:
@@ -21,3 +21,26 @@ linkedin: ''
 ---
 
 # Flow Gen
+
+## About
+
+
+## Mission
+
+
+## Impact
+
+
+## Powered by ThreeFold
+
+
+## Join saving our planet
+ 
+
+## Support this project
+
+
+## TFGrid Solution
+
+### Roadmap
+
