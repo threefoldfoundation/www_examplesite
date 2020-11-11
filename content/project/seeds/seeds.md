@@ -17,7 +17,7 @@ websites: https://www.joinseeds.com/
 tags: tfgrid
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/seeds-the-conscious-currency/about/
 ---
 
 
