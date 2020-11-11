@@ -20,6 +20,7 @@ query($page:Int) {
     edges {
       node {
         path
+        excerpt
         content
         name
         rank

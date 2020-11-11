@@ -5,7 +5,7 @@
     </g-link>
     <div class="post-card-content">
       <g-link :to="record.path">
-        <h2 class="post-card-title mt-3">{{ record.title }}</h2>
+        <h2 class="post-card-title mt-3">{{ record.title || record.name}}</h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
       </g-link>
       <div class="w-full post-card-meta pt-4">

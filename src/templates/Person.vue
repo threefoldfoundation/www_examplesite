@@ -83,6 +83,7 @@
         rank
         memberships
         bio
+        excerpt
         linkedin
         websites
         project_ids
