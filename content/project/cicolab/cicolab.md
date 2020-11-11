@@ -3,7 +3,7 @@ id: cicolab
 title: Collective Intelligence Collaboratory
 status: planned
 startdate: 2021-03-20
-countries: france, switzerland
+countries: France, Switzerland
 cities:
 rank: 1
 excerpt: Bringing together visionaries from diverse fields to develop simple, practical ways to amplify network intelligence.
@@ -17,7 +17,7 @@ websites: https://www.collectiveintelligencecollaboratory.com
 tags: tfgrid, crystaltwin
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/cicollaboratory/
 ---
 
 # Collective Intelligence Collaboratory
