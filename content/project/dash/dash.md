@@ -1,23 +1,22 @@
 ---
 id: dash
 title: Dash
-tags: tfgrid
+status: internal
+startdate: 2020-12-01
 countries: global
 cities: 
-team: felix_mago, sascha_jochum
 rank: 1
 excerpt: Instant transactions and micro-fees. Any amount, anytime, anywhere. 
-startdate: 2020-12-01
 created: 2020-04-28
 image: ./dash.png
-logo: ./logo.png
 image_caption: dash
-author: nickolay
-members: ''
-websites: ''
+logo: ./logo.png
+author: nickolay_victorovich_babenko
+members: felix_mago, sascha_jochum
+websites: https://www.dash.org/
 private: 0
 potential:
-linkedin: ''
+linkedin:
 ---
 
 # Dash
