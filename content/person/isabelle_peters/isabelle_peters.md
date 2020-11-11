@@ -1,7 +1,7 @@
 ---
 id: isabelle_peters
 name: Isabelle Peters
-rank: guardian
+rank: 5
 bio: Isabelle's dream is to help people grow in awareness, and make the world a more peaceful place by doing so. She is the owner of Veda and hosts retreats on the beautiful river Nile.
 excerpt: Isabelle's dream is to help people grow in awareness.
 linkedin: https://www.linkedin.com/in/isabelle-peeters-54305589/

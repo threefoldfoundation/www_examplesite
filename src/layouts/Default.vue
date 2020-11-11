@@ -24,7 +24,7 @@ export default {
   props: {
     hideHeader: {
       type: Boolean,
-      default: false
+      default: true
     },
     disableScroll: {
       type: Boolean,
@@ -49,7 +49,7 @@ export default {
   
   metaInfo: {
     bodyAttrs: {
-      class: "m-0"
+      class: "m-0 pt-12"
     }
   }
 }

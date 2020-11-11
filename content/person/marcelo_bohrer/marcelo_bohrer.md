@@ -7,7 +7,7 @@ bio: Marcelo Bohrer is a creative thinker, focused on design and innovation, pas
 excerpt: A creative thinker, focused on design and innovation, passionate about bringing transformative ideas to life.
 linkedin: https://www.linkedin.com/in/marcelobohrer/
 websites: https://www.thefutureofgood.info, https://www.marcelobohrer.com.br
-image: ./marcelo_bohrer.png
+image: ./marcelo_bohrer.jpg
 project_ids: money_of_good
 countries: Germany
 cities: Munich

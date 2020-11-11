@@ -1,10 +1,10 @@
 <template>
-  <Layout :hideHeader="false" :disableScroll="true">
+  <Layout :hideHeader="true" :disableScroll="true">
 
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
 
       <VacationCard
-        img="/img/garden.jpg"
+        img="/img/about.jpg"
         imgAlt="Beach in Cancun"
         eyebrow="Private Villa"
         title="

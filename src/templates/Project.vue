@@ -4,7 +4,7 @@
       <div class="flex flex-row flex-wrap items-center mx-4 sm:mx-0">
         <div class="w-full md:w-1/6 mx-auto sm:mx-0">
           <g-image
-            :src="$page.project.image"
+            :src="$page.project.logo"
             class="rounded-full bg-gray-200 w-32 h-32 border-4 border-gray-400 mx-auto md:mx-0"
           ></g-image>
         </div>

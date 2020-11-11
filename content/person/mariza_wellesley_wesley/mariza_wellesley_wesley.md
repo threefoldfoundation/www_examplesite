@@ -7,7 +7,7 @@ bio: For me, ThreeFold is both the end and the beginning of a long journey. From
 excerpt: I always strived to combine my professional work with a tangible, positive societal impact.
 linkedin: https://www.linkedin.com/in/dr-mariza-wellesley-wesley-ll-m-105aa5a7/
 websites: https://www.green-edge.net/
-image: ./mariza_wellesley_wesley.png
+image: ./mariza_wellesley_wesley.jpg
 project_ids: green_edge
 countries: Austria, UK
 cities: Vienna, London

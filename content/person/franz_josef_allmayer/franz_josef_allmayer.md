@@ -7,7 +7,7 @@ bio: Franz Josef Allmayer is a universal citizen with roots between Austria and 
 excerpt: Dedicated to the fields of innovation and global development.
 linkedin: https://www.linkedin.com/in/franz-josef-allmayer-0a76661b/
 websites: https://www.joinseeds.com, https://hypha.earth, https://www.integrity.earth
-image: ./franz_josef_allmayer.png
+image: ./franz_josef_allmayer.jpg
 project_ids: seeds
 countries: Guatemala, Austria, Liechtenstein
 cities: Quetzaltenango, Vienna, Vaduz
