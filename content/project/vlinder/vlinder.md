@@ -17,7 +17,7 @@ websites: https://vlinder.app
 tags: tfgrid
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/vlinderapp/
 ---
 
 # Vlinder

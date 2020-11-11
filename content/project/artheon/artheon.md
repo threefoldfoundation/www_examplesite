@@ -17,7 +17,7 @@ websites: https://artheon.co/
 tags: tfgrid
 private: 0
 potential:
-linkedin: ''
+linkedin: 
 ---
 
 # Artheon

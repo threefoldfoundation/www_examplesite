@@ -1,21 +1,23 @@
 ---
-id: Waykichain
+id: waykichain
 title: Waykichain
-tags: tfgrid
-countries: Hong Kong, Global
-team: Richard_Chen 
+status: planned
+startdate: 2021-03-20
+countries: Hong Kong
+cities:
 rank: 3 
-excerpt: Community-driven Blockchain for DeFi and financial dApps
+excerpt: Community driven Blockchain for DeFi and financial dApps.
 created: 2019-07-20
-logo: ./logo.png
 image: ./waykichain.png
-logo_caption: waykichain
-author: Benjelloun Oussama
-members:
-websites:
+image_caption: waykichain
+logo: ./logo.png
+author: benjelloun_oussama
+members: richard_chen 
+websites: https://www.waykichain.com/
+tags: tfgrid
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/waykichain%E7%BB%B4%E5%9F%BA%E9%93%BE/
 ---
 
 # Waykichain 
@@ -28,6 +30,12 @@ It is a DPoS (Delegated Proof of Stake) public blockchain that is highly scalabl
 WaykiChain has a variety of product lines, with the WaykiChain core wallet, the WaykiTimes and their DeFi-vertical technologies that are built within the core layer of blockchain, i.e. the crypto-asset backed stablecoin technology as well as its built-in decentralized exchange.
 Waykichain’s blockchain enables developers to build performing dApps on top of it using its developer tools, and has throughout these 3 years, built an extended ecosystem of Dapps.
 
+<BR>
+
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
 ## WaykiChain and ThreeFold
 
 ThreeFold and WaykiChain found clear alignment on decentralizing the Internet for people and businesses and share the same core values that encompass their respective visions.
@@ -35,5 +43,9 @@ ThreeFold and WaykiChain found clear alignment on decentralizing the Internet fo
 By using The ThreeFold P2P cloud and the 3Bot, The WaykiChain community of developers, non-developers, and node operators are enabled to deploy and maintain their WaykiChain nodes and any of their IT workloads in just a few clicks directly from the browser or from a local machine.
 ThreeFold's compute, storage, and networking capacities empower them to decentralize their cloud-computing infrastructures, with far more affordability and distribution compared to centralized cloud-providers, and with native cloud automation via ThreeFold’s Smart contract for IT.
 Get started
+
+## TFGrid Solution
+
+### Roadmap
 
 

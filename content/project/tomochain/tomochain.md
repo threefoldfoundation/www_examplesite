@@ -1,22 +1,23 @@
 ---
-id: Tomochain
-title: Tomochain.
-tags: tfgrid
-countries: Vietnam, Global
+id: tomochain
+title: Tomochain
+status: planned
+startdate: 2021-03-20
+countries: Vietnam
 cities: Saigon
-team: sergey_ivliev
 rank: 4
-excerpt: The efficient blockchain powered by prood of stake voting consensus
+excerpt: The efficient blockchain powered by proof of stake voting consensus.
 created: 2019-06-20
-image: ./tomochain_image.png
+image: ./tomochain.png
+image_caption: tomochain
 logo: ./logo.png
-image_caption: Tomochain
-author: Benjelloun Oussama
+author: benjelloun_oussama
 members: 
-websites:
+websites: https://tomochain.com/
+tags: tfgrid
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/tomochain/
 ---
 
 # Tomochain
@@ -27,6 +28,13 @@ TomoChain is a scalable blockchain-powered via Proof-of-Stake Voting consensus a
 
 Fast & Near-Zero Fees: 2000 TPS, 2-second block time, ~$0 gas fees, and EVM compatible
 An array of original features and protocols is designed to support speed, privacy, usability, and liquidity needs all in one platform
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+  
 
 ## TomoChain and ThreeFold
 

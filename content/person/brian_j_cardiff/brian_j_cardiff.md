@@ -8,7 +8,7 @@ excerpt: Brian has a passion for creating solutions that go beyond the screen.
 linkedin: https://www.linkedin.com/in/bcardiff/
 websites: https://manas.tech/
 image: ./brian_j_cardiff.jpg
-project_ids: crystsl_language, manas_tech
+project_ids: crystal_language, manas_tech
 countries: Argentina
 cities: Buenos Aires
 private: 0

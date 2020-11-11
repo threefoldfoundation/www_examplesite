@@ -17,7 +17,7 @@ websites: https://unit.ventures/
 tags: tfgrid, crystaltwin
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/unitventures/
 ---
 
 
