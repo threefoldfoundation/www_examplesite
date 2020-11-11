@@ -1,6 +1,6 @@
 ---
 id: threefold_tech
-title: threefold tech
+title: ThreeFold Tech
 status: public
 startdate: 2021-03-20
 countries: Belgium
@@ -11,14 +11,42 @@ created:
 image: ./threefold_tech.png
 image_caption: threefold tech
 logo: ./logo.png
-author: Christopher Hutton
-members:
- Kristof De Spiegeleer, Christopher Hutton, Andreas Hartl, Peter Van der Henst, Owen Kemp, Didem Gordon, Simin Gerards, Dieter Legat, Roel van Sabben, Sabrina Sadik, Geert Machtelinckx, Peter Richter, Daniela Nikolova, Lucie Nguyen, Abdelrahman Ghanem, Ashraf Fouda, Maxime Daniel, Christophe de Carvalho Pereira Martins, Ramez Saeed, Jan de Landtsheer, Atef Nazmy, Rob Van Mieghem, Rafy Benjamin, Dina Abdel Rahman, Ahmed Samir, Waleed Hammam, Lee Smet, Bola E. Nasr, Abdul Rehman, Ahmed Thabet, Rana Hassan, Hamdy Farag, Samar Adel, Maged Motawea, Abdelrahaman Hussein, Ahmed Siddique, Samir Hosny, Reem Khamis, Mohamed Azmy, Mahmoud Ayoub, Ehab Hassan, Evon Yacoub, Bishoy Mikhaiel, Peter Nashaat, Ahmed Hanafy,  Dylan Verstraete
+author: christopher_hutton
+members: kristof_de_spiegeleer, christopher_hutton, andreas_hartl, roel_van_sabben, sabrina_sadik, owen_kemp
 websites: https://threefold.tech/
 tags: tfgrid
 private: 0
 potential: 
-linkedin: ''
+linkedin: https://www.linkedin.com/company/threefold-tech/
 ---
 
 # Threefold Tech
+
+## About
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
+
+## Mission
+
+
+## Impact
+
+
+## Powered by ThreeFold
+
+
+## Join saving our planet
+ 
+
+## Support this project
+
+
+## TFGrid Solution
+
+### Roadmap
+
