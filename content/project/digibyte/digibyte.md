@@ -8,7 +8,7 @@ cities:
 rank: 5
 excerpt: An innovative blockchain that can be used for digital assets, smart contracts, decentralized applications and secure authentication.
 created: 2020-04-20
-image: ./digibyte.jpg
+image: ./digibyte.png
 image_caption: digibyte
 logo: ./logo.png
 author: kristine_vilnite
