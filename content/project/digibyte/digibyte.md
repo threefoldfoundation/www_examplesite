@@ -1,15 +1,23 @@
 ---
-id: digibyte
-title: Most secure & decentralized money blockchain.
-tags: planned, grid
-countries: 
-team: 
-rank: 1
-excerpt: DigiByte is a rapidly growing open-source blockchain created in late 2013 and released in early 2014. After 6 years of forward-thinking development, DigiByte has become one of the safest, fastest, longest and most decentralized UTXO blockchain in existence. Thousands of volunteers from all over the world have contributed to DigiByte in countless ways for years to make it what it is today. It is a truly grassroots movement to protect and promote the true principles of decentralization and empower DigiByte and its community to establish and maintain a sustainable decentralized world. Planet first!
-created: 2019-03-20
-image: ./digibyte.png
+id: digibyte_foundation
+title: Digibyte Foundation
+status: test
+startdate: 2021-03-20
+countries: Global
+cities:
+rank: 5
+excerpt: An innovative blockchain that can be used for digital assets, smart contracts, decentralized applications and secure authentication.
+created: 2020-04-20
+image: ./digibyte.jpg
 image_caption: digibyte
+logo: ./logo.png
 author: kristine_vilnite
+members: hans_koning, rudy_bouwman, rutger_krijnen
+websites: https://digibyte.io/, https://digibytefoundation.io/
+tags: tfgrid
+private: 0
+potential:
+linkedin: https://www.linkedin.com/company/digibyte-payment-network/
 ---
 
 
@@ -18,6 +26,13 @@ author: kristine_vilnite
 ## About
 
 The Digibyte Foundation's vision is to empower a sustainable decentralized world. The core values of the Digibyte community are decentralization, inclusiveness, permissionless, integrity, transparency - openness, consensus, thought leadership. We aim to stimulate global adoption of our blockchain and similar technologies that fulfil the core principles of decentralization in general. Decentralization needs to happen to see a better redistribution of opportunities, growth and value within our global society.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/413179934" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
 
 ## Mission
 
@@ -41,44 +56,9 @@ Digibyte Foundation is included in ThreeFold’s [Token Distribution Event (TDE)
 The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
 Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Digibyte Foundation, and the growth of a new Conscious Internet.
 
+## TFGrid Solution
 
 ### Roadmap
 
-```python
-
-[milestone]
-name = "Go to market integration for TF Token"
-#date format: Q YYYY
-date = "Q3 2020"
-funding_required_tft = "1,000,000"
-funding_required_usd = ""
-description = "Onboarding token for ThreeFold Grid and go to market partner, integration in TF Wallet."
-
-```
-
-### data
-
-```python
-
-[links]
-linkedin = "https://www.linkedin.com/company/digibyte-payment-network/"
-websites = ["https://digibyte.io/"]
-wiki = ""
-video = "https://player.vimeo.com/video/413179934"
-
-[info]
-name = "DigiByte Foundation"
-rank = 4
-mission = "An innovative blockchain that is a truly grassroots movement, protecting and promoting the true principles of decentralization."
-description = "DigiByte is a rapidly growing open-source blockchain created in late 2013 and released in early 2014. After 6 years of forward-thinking development, DigiByte has become one of the safest, fastest, longest and most decentralized UTXO blockchain in existence. Thousands of volunteers from all over the world have contributed to DigiByte in countless ways for years to make it what it is today. It is a truly grassroots movement to protect and promote the true principles of decentralization and empower DigiByte and its community to establish and maintain a sustainable decentralized world. Planet first!"
-team = ["Hans Koning", "Rudy Bouwman", "Rutger Krijnen"]
-countries = ["Global"]
-cities = ["Global"]
-
-[ecosystem]
-# can be chosen from: experience, solution, farmer, infrastructure
-categories = ["solution"]
-# can be chosen from: tftgranted (receiving TFT Grant)
-badges = ["tftgranted"]
-
-```
+- Q1 2021
+  - Go to market integration for TF Token
