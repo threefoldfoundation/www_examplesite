@@ -7,7 +7,7 @@ bio: I am a passionate developer who likes to travel the world. Trying to improv
 excerpt: Passionate developer who likes to travel the world.
 linkedin: https://www.linkedin.com/in/christophe-de-carvalho-pereira-martins-919504a1/
 websites: https://threefold.io/
-image: ./christophe_de_carvalho_pereira_martins.jpeg
+image: ./christophe_de_carvalho.jpeg
 project_ids: threefold
 countries: Egypt
 cities: Cairo

@@ -7,7 +7,7 @@ bio: Anna has developed “Solutions of Harmony for the Highest Good” by apply
 excerpt: A Social Scientist, she is Globally known as a renowned Advisor, Author, & Alchemist.
 linkedin: https://www.linkedin.com/in/annanaturalista/
 websites: https://www.annanaturalista.com/
-image: ./anna_allen.jpg
+image: ./anna_allen.jpeg
 project_ids: anna_naturalista
 countries: Italy
 cities: Damanhur
