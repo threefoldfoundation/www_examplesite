@@ -22,7 +22,7 @@ websites:
 tags: crystaltwin, tfgrid
 private: 0
 potential: 
-
+linkedin:
 ---
 ```
 
@@ -47,6 +47,7 @@ potential:
     - only relevant for author/person
 - private:
 - potential: describe the potential for a project e.g. 1m users in X months, X TB of storage, ... can use multiple lanes
+- linkedin: link to projects linkedin page
 
 the section for vimeo:
 ```
