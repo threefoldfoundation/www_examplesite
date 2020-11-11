@@ -17,7 +17,7 @@ websites: https://www.shareitt.com
 tags: tfgrid
 private: 0
 potential:
-
+linkedin: https://www.linkedin.com/company/shareitt/
 ---
 
 
@@ -26,6 +26,12 @@ potential:
 ## About
 
 Shareitt aims to do good while doing well. We believe that changing the economic system and moving towards a sustainable business, cities, and communities is essential to create a healthy environment. Shareitt is an impact technology startup to empower communities socially, financially, and environmentally. Our unique technology redefines collaborative economies and mutual support and provides the tools to “Community Assets Based UBI” by nurturing long term capacities. All of Shareitt employees, management, and shareholders support the social impact, purpose, and objectives of the company.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
 
 ## Mission
 
