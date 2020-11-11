@@ -49,7 +49,7 @@ export default {
   
   metaInfo: {
     bodyAttrs: {
-      class: "m-0"
+      class: "m-0 pt-12"
     }
   }
 }

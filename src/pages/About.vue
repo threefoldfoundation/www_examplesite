@@ -1,5 +1,5 @@
 <template>
-  <Layout :hideHeader="false" :disableScroll="true">
+  <Layout :hideHeader="true" :disableScroll="true">
 
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
 

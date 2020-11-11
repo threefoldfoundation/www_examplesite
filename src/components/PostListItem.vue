@@ -84,8 +84,4 @@ export default {
   max-width: 100%;
   height: auto;
 }
-
-.flex-post:first-child {
-  margin-top: 60px;
-}
 </style>
