@@ -17,7 +17,7 @@ websites: https://green-edge.net/
 tags: tfgrid
 private: 0
 potential:
-
+linkedin: https://www.linkedin.com/company/green-edge-cloud/
 ---
 
 # Green Edge Sustainable Development
