@@ -1,25 +1,24 @@
+---
+id: sacha_obeegadoo
+name: Sacha Obeegadoo
+rank: 4
+memberships: threefold_foundation
+bio: Sacha is a positive and outgoing individual. Seeking challenging and dynamic opportunities, he invests himself in sustainable activities with a view to producing real results and doing good for the world. He believes that change is the only constant.
+excerpt: Organisational and Ecosystem Strategy
+linkedin: https://www.linkedin.com/in/sachaobeegadoo/
+websites: https://threefold.io/, https://www.mazraa.io/
+image: ./sacha_obeegadoo.jpg
+project_ids: threefold_foundation
+countries: Nomad
+cities: Nomad
+private: 0
+---
+
 # Sacha Obeegadoo
 
-### data
+<BR>
 
-```python
-[links]
-linkedin = "https://www.linkedin.com/in/sachaobeegadoo/"
-websites = ["https://threefold.io/"]
-video = "https://player.vimeo.com/video/413265125"
+<iframe src="https://player.vimeo.com/video/413265125" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-[info]
-rank = 3
-full_name = "Sacha Obeegadoo"
-circles = [["threefoldfoundation",  "member"], ["threefoldmarketing",  "member"]]
-countries = ["Nomad"]
-cities = ["Nomad"]
-companies = ["ThreeFold Foundation"]
-bio = "Sacha is a positive and outgoing individual. Seeking challenging and dynamic opportunities, he invests himself in sustainable activities with a view to producing real results and doing good for the world. He believes that change is the only constant."
-
-[ecosystem]
-# can be chosen from: freeflowcitizen, matchmaker, ambassador, farmer, wisdomcouncil
-memberships = ["freeflowcitizen", "ambassador"]
-
-```
+<BR>
 
