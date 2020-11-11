@@ -1,23 +1,22 @@
 ---
 id: dash
-title: Dash
-tags: tfgrid
-countries: global
+title: Digital Cash
+status: internal
+startdate: 2020-12-01
+countries: Global
 cities: 
-team: felix_mago, sascha_jochum
 rank: 1
 excerpt: Instant transactions and micro-fees. Any amount, anytime, anywhere. 
-startdate: 2020-12-01
 created: 2020-04-28
 image: ./dash.png
-logo: ./logo.png
 image_caption: dash
-author: nickolay
-members: ''
-websites: ''
+logo: ./logo.png
+author: nickolay_victorovich_babenko
+members: felix_mago, sascha_jochum
+websites: https://www.dash.org/
 private: 0
 potential:
-linkedin: ''
+linkedin:
 ---
 
 # Dash
@@ -30,7 +29,7 @@ Learn more about Dash on their [website](https://www.dash.org).
 
 <BR>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4OvRs8sT5FM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <BR>
 

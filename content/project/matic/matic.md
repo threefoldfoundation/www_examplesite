@@ -1,20 +1,23 @@
 ---
-id: Matic_Network
-title: Matic_Network
-tags: tfgrid
-countries: India, Global
-team: Anurag_Arjun ,Arjun_Kalsy
-rank: 4
-excerpt: Scalable and instant Blockchain transaction
+id: matic_network
+title: Matic Network
+status: planned
+startdate: 2021-03-20
+countries: Global
+cities: 
+rank: 3
+excerpt: Scalable and instant Blockchain transactions.
+created: 2020-04-20
 image: ./matic.png
-logo: ./logo.png
 image_caption: Matic
-author: Benjelloun Oussama
-members:
-websites:
+logo: ./logo.png
+author: benjelloun_oussama
+members: anurag_arjun, arjun_kalsy
+websites: https://matic.network/
+tags: tfgrid
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/matic-network/
 ---
 
 # Matic network 
@@ -25,6 +28,12 @@ Matic Network is a decentralized scalability platform solution using an adapted 
 
 - With 60+ DApps building on their network already, Matic Network is one of the most widely adopted DApp platforms in the industry.
 - The Matic Network blockchain achieves finality using PoS checkpoints which are pushed to the Ethereum mainchain. This enables a single Matic sidechain to theoretically achieve 65,535 transactions per block, and possibly millions of transactions on multiple chains in the future.
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
 
 ## Matic Network and ThreeFold
 

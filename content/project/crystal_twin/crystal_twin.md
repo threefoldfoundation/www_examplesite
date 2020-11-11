@@ -3,7 +3,7 @@ id: crystal_twin
 title: Your Digital Twin
 status: internal
 startdate: 2021-03-20
-countries:
+countries: Global
 cities:
 rank: 5
 excerpt: Your digital twin serving as a gateway to the new digital world of peer-to-peer experiences.

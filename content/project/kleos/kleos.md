@@ -1,6 +1,6 @@
 ---
 id: kleos
-title: kleos
+title: Kleos
 status: planned
 startdate: 2021-03-20
 countries: Australia, Kingdom of Bahrein, United Kingdom, Cyprus, Lebanon, France, Mozambique, DRC & Ghana
@@ -11,13 +11,42 @@ created: 2020-04-20
 image: ./kleos.png
 image_caption: kleos
 logo: ./logo.png
-author: kristine_vilnite
-members: kristof
+author: kristof_de_spiegeleer
+members: 
 websites: www.kleos.net
-tags: planned, tfgrid
+tags: tfgrid
 private: 0
 potential: 
-linkedin: ''
+linkedin: https://www.linkedin.com/company/kleos/
 ---
 
 # Kleos
+
+## About
+
+<BR>
+
+<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
+
+## Mission
+
+
+## Impact
+
+
+## Powered by ThreeFold
+
+
+## Join saving our planet
+ 
+
+## Support this project
+
+
+## TFGrid Solution
+
+### Roadmap
+

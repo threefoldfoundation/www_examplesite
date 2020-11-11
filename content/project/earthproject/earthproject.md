@@ -17,7 +17,7 @@ websites: http://projectkakuma.com, http://innovationlabschools.com, http://take
 tags: tfgrid, crystaltwin
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/take-action-global/
 ---
 
 

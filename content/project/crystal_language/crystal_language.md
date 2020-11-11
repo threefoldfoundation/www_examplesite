@@ -17,7 +17,7 @@ websites: https://crystal-lang.org/
 tags: tfgrid
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/crystal-language/about/
 ---
 
 
