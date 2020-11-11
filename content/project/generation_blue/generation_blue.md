@@ -17,7 +17,7 @@ websites: https://generation.blue/
 tags: tfgrid
 private: 0
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/genblue/
 ---
 
 # Generation Blue
