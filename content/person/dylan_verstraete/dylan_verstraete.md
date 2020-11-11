@@ -1,3 +1,4 @@
+---
 id: dylan
 name: Dylan Verstraete
 tags: grid
@@ -11,3 +12,4 @@ project_ids: tftech, threefold
 countries: Belgium
 cities: Lochristi
 private: 0
+---
