@@ -12,6 +12,7 @@ project_ids: threefold_foundation
 countries: Latvia
 cities: Riga
 purpose: 0
+private: 0
 ---
 
 

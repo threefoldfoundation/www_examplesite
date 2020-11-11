@@ -12,7 +12,7 @@ image: ./solidaridad.jpg
 image_caption: solidaridad
 logo: ./logo.png
 author: weynand_kuijpers
-members: 
+members: jeroen_douglas
 websites: www.solidaridadnetwork.org
 tags: tfgrid, crystaltwin
 private: 0
