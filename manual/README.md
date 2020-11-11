@@ -68,7 +68,7 @@ to use breaks do ```enter <BR> enter```
 id: kristine_vilnite
 name: Kristine Vilnite
 rank: 4
-memberships: threefold
+memberships: threefold_foundation
 bio: info about the person (values, mission, experience, current occupation etc.)
 excerpt: very short line highliting person (from description)
 linkedin: https://www.linkedin.com/...
@@ -82,7 +82,7 @@ private: 0
 ```
 
 - meberships, choose from:
-    - guardian, ambassador, farmer, threefold, tftech, project, techcouncil, gridcouncil
+    - guardian, ambassador, farmer, threefold_foundation, threefold_tech, project, techcouncil, gridcouncil
 - bio: business experience/skills
 - project_ids: which projects person is part of
 - private:
