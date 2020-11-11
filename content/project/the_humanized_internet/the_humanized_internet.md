@@ -10,7 +10,7 @@ excerpt: Providing digital identity for those individuals most underserved.
 created: 2020-04-20
 image: ./the_humanized_internet.png
 image_caption: the_humanized_internet
-logo: ./logo.png
+logo: ./logo_the_humanized_internet.png
 author: kristine_vilnite
 members: monique_morrow, akram_alfawakheeri
 websites: https://www.thehumanizedinternet.org/
