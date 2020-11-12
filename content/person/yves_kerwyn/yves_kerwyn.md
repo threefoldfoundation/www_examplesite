@@ -7,7 +7,7 @@ bio: The internet should treated as a human right for all, and I love contributi
 excerpt: Future-proof Competence Developer | Matchmaker | Inspirator | Passionate about People & Technology
 linkedin: https://www.linkedin.com/in/yveskerwyn/
 websites: 
-image: ./yves_kerwyn.png
+image: ./yves_kerwyn_processed.jpg
 project_ids: 
 countries: Belgium
 cities: Ghent
