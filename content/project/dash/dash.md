@@ -11,7 +11,7 @@ created: 2020-04-28
 image: ./dash.png
 image_caption: dash
 logo: ./logo.png
-author: nickolay_victorovich_babenko
+author: nickolay_babenko
 members: felix_mago, sascha_jochum
 websites: https://www.dash.org/
 private: 0
