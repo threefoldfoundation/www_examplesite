@@ -1,6 +1,6 @@
 ---
 id: skale_labs
-title: Powerful Etherium dApps
+title: Powerful Ethereum dApps
 status: planned
 startdate: 2021-03-20
 countries: USA
