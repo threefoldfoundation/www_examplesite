@@ -7,7 +7,7 @@ bio: Wieger have been working for several companies in the field of communicatio
 excerpt: Ambassador at ThreeFold Foundation
 linkedin: https://www.linkedin.com/in/wiegeratsma/
 websites: https://threefold.io/
-image: ./kristine_vilnite.png
+image: ./wieger_atsma_processed.jpg
 project_ids: 
 countries: Netherland
 cities: Riga
