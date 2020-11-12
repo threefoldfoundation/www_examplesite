@@ -11,7 +11,7 @@ created:
 image: ./aiqom.png
 image_caption: aiqom
 logo: ./logo.png
-author: kristof
+author: kristof_de_spiegeleer
 members: samer_obeidat
 websites: https://aiqom.ai/
 tags: tfgrid, crystaltwin
