@@ -7,7 +7,7 @@ bio: Wolfgang is an IT Sales and Service veteran with 38 years at Hewlett Packar
 excerpt: 
 linkedin: https://www.linkedin.com/in/wolfgang-wittmer-4248a525/
 websites: https://threefold.io/
-image: ./kristine_vilnite.png
+image: ./wolfgang_wittmer_processed.jpg
 project_ids: threefold_foundation, hpe
 countries: Austria
 cities: 
