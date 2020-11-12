@@ -7,7 +7,7 @@ bio: With Great passion for solving problems thinking outside the box. Andrea co
 excerpt: ThreeFold Connector building the ThreeFold Grid as a global ecosystem.
 linkedin: https://www.linkedin.com/in/castiglioneand/
 websites: https://threefold.io/
-image: ./andrea_castiglione.jpeg
+image: ./andrea_castiglione.jpg
 project_ids: threeFold_tech
 countries: Switzerland
 cities: Zurich
