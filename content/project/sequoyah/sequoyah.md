@@ -11,7 +11,7 @@ created:
 image: ./sequoyah.png
 image_caption: sequoyah
 logo: ./logo.png
-author: 
+author: kristine_vilnite
 members: 
 websites: https://sequoyah.dk/
 tags: planned, tfgrid
