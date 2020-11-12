@@ -10,6 +10,7 @@ excerpt: Build a decentralized banking system where by each user will have acces
 created: 
 image: ./sequoyah.png
 image_caption: sequoyah
+logo: ./logo.png
 author: 
 members: 
 websites: https://sequoyah.dk/
