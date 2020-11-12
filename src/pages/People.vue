@@ -11,7 +11,7 @@
 <page-query>
 
 query($page:Int) {
-  entries: allPerson(perPage: 60, page: $page) @paginate {
+  entries: allPerson(perPage: 80, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages
