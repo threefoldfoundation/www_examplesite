@@ -13,9 +13,3 @@ countries: Switzerland
 cities: Zurich
 private: 0
 ---
-
-<BR>
-
-<iframe src="https://player.vimeo.com/video/413150039" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
