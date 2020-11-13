@@ -12,7 +12,7 @@ image: ./skale_image.png
 image_caption: skale_labs
 logo: ./logo.png
 author: benjelloun_oussama
-members:
+members: christine_renee_perry
 websites: https://skale.network/
 tags: tfgrid
 private: 0
