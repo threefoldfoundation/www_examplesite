@@ -7,7 +7,7 @@ bio: Ahmed is a legal consultant specializing in civil & criminal dispute resolu
 excerpt: Managing Consultant - MIO Law Firm
 linkedin: https://www.linkedin.com/in/ahmed-odeh-615a9740/
 websites: 
-image: ./kristine_vilnite.png
+image: ./ahmed_odeh_processed.jpg
 project_ids: 
 countries: Jordan
 cities: 
