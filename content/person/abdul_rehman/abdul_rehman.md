@@ -7,7 +7,7 @@ bio: A dynamic hardworking individual, a dreamer, a thinker, a planner, an explo
 excerpt: Engineer
 linkedin: https://www.linkedin.com/in/arrajput/
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./kristine_vilnite.png
+image: ./abdul_rehman_processed.jpg
 project_ids: threefold_foundation
 countries: UAE
 cities: Dubai
