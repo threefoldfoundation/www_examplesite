@@ -7,7 +7,7 @@ bio: A hardworking individual and a casual guy who loves to explore new ideas in
 excerpt: Engineer
 linkedin: https://www.linkedin.com/in/ahmed-siddique-a4126a98/
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./kristine_vilnite.png
+image: ./ahmed_siddique_processed.jpg
 project_ids: threefold_foundation
 countries: UAE
 cities: Dubai
