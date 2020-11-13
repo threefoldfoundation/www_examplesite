@@ -68,8 +68,8 @@ to use breaks do ```enter <BR> enter```
 id: kristine_vilnite
 name: Kristine Vilnite
 rank: 4
-memberships: threefold_foundation
-bio: info about the person (values, mission, experience, current occupation etc.)
+memberships: threefold_foundation (threefold_tech, project, ambassador, farmer, gridcouncil.. see other options below)
+bio: info about the person (values, mission, why threefold, experience, current occupation etc.)
 excerpt: very short line highliting person (from description)
 linkedin: https://www.linkedin.com/...
 websites: https://threefold.io/, https://www.mazraa.io/
