@@ -1,0 +1,15 @@
+---
+id: dina_magdy
+name: Dina Magdy
+rank: 1
+memberships:
+bio: Dina Magdy is working as an Automation Software Testing Engineer, starting her carreer at codescalers , and now has about 2 year experience in cloudcomputing software .
+excerpt: Engineer fell in love with Threefold Threefold create future internet,so it amazing to be part of this 
+linkedin: https://www.linkedin.com/in/dina-magdy/
+websites:
+project_ids: [1, 8]
+image: ./dina_magdy_processed.jpg
+countries: Egyptian
+cities:
+private: 0
+---
