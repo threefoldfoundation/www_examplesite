@@ -6,8 +6,8 @@ memberships: ambassador
 bio: With 40 years of experience in the ICT Industry he covered most areas including Electronics, Telecommunications, Software Development, Business Development, and Innovation and with roles of Executive Director, Technical Director, Chief Information Officer and Chief Technology Officer. He also served on the Meraka Advisory Panel at the Council for Scientific and Industrial research in South Africa and as an advisor to Enterprise Ireland.   Previously Chief Technology Officer of Business Connexion, the largest Information and Communications technology company in Africa. Currently focused on Self Healing Technology, Deep Learning, as well an advance renewable energy. He has received Citation Awards for innovation.  His philosophy is to keep on learning.
 excerpt: Brautech Innovation
 linkedin: https://www.linkedin.com/in/andy-brauer-617a902/
-websites: https://threefold.io/, https://www.mazraa.io/
-image: ./kristine_vilnite.png
+websites: 
+image: ./andy_brauer_processed.jpg
 project_ids: 
 countries: South Africa
 cities: Johannesburg
