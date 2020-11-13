@@ -113,6 +113,20 @@
                 image(width:64, height:64, fit:inside)
                 path
               }
+            },
+            ... on Project {
+              title
+              excerpt
+              image(width:800)
+              path
+              humanTime : startdate(format:"DD MMM YYYY")
+              datetime : created
+              author {
+                id
+                name
+                image(width:64, height:64, fit:inside)
+                path
+              }
             }
           }
         }
