@@ -7,7 +7,7 @@ bio: The appetite to travel and work was already created before she even entered
 excerpt: small description
 linkedin: 
 websites: https://threefold.io/
-image: ./kristine_vilnite.png
+image: ./karoline_ziska.jpeg
 project_ids: threefold_foundation
 countries: Austria
 cities: Vienna

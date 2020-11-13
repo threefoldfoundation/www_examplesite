@@ -7,7 +7,7 @@ bio: I am an engineer and a marketer with 10 years of experience in advertising 
 excerpt: I am convinced that the world needs a new democratized Internet. I believe in ThreeFold technology.
 linkedin: https://www.linkedin.com/in/arrajput/
 websites: https://www.linkedin.com/in/valentin-korobko-087573188/
-image: ./valentin_korobko.jpg
+image: ./valentin_koroboko.jpg
 project_ids: threefold_foundation
 countries: Ukraine 
 cities:
