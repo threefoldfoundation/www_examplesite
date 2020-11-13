@@ -7,7 +7,7 @@ bio: Ahmed is a passionate Engineer who loves learning new stuff.
 excerpt: Software Engineer
 linkedin: 
 websites: https://threefold.io/
-image: ./kristine_vilnite.png
+image: ./ahmed_samir_processed.jpg
 project_ids: threefold_tech
 countries: Egypt
 cities: Cairo
