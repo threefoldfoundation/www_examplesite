@@ -32,7 +32,7 @@ module.exports = function (api) {
       options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
       options.countries = (typeof options.countries === 'string') ? options.countries.split(',').map(string => string.trim()) : options.countries;
       options.cities = (typeof options.cities === 'string') ? options.cities.split(',').map(string => string.trim()) : options.cities;
-      options.members = (typeof options.cities === 'string') ? options.members.split(',').map(string => string.trim()) : options.members;
+      options.members = (typeof options.members === 'string') ? options.members.split(',').map(string => string.trim()) : options.members;
       options.author = (typeof options.author === 'string') ? options.author.split(',').map(string => string.trim()) : options.author;
       return {
         ...options

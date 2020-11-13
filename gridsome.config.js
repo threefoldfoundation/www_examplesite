@@ -71,6 +71,8 @@ module.exports = {
         },
         refs: {
           author: 'Person',
+          members: 'Person',
+          
           tags: {
             typeName: 'Tag',
             create: true
