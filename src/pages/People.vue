@@ -5,13 +5,22 @@
         <PostListItem v-for="edge in $page.entries.edges" :key="edge.node.id" :record="edge.node" />
       </div>
     </div>
+    <div class="pagination flex justify-center mb-8">
+        <Pagination
+          :baseUrl="baseurl"
+          :currentPage="$page.entries.pageInfo.currentPage"
+          :totalPages="$page.entries.pageInfo.totalPages"
+          :maxVisibleButtons="5"
+          v-if="$page.entries.pageInfo.totalPages > 1"
+        />
+      </div>
   </Layout>
 </template>
 
 <page-query>
 
 query($page:Int) {
-  entries: allPerson(perPage: 80, page: $page) @paginate {
+  entries: allPerson(perPage: 20, page: $page, sortBy: "rank", order: DESC) @paginate {
     totalCount
     pageInfo {
       totalPages
@@ -41,7 +50,7 @@ query($page:Int) {
 </page-query>
 
 <script>
-
+import Pagination from "~/components/Pagination.vue";
 import PostListItem from '~/components/PostListItem.vue';
 
 export default {
@@ -49,7 +58,13 @@ export default {
     title: "People"
   },
   components: {
-    PostListItem
-  }
+    PostListItem,
+    Pagination
+  },
+  computed: {
+    baseurl: function() {
+     return "/people/"
+    }
+  },
 };
 </script>
