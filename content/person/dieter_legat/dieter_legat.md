@@ -7,7 +7,7 @@ bio: More than 50 years experience as business manager in I.T. (AEG-Telefunken, 
 excerpt: Coach in operational management fell in love with Threefold https://www.linkedin.com/in/dieterlegat/ 
 linkedin: https://www.linkedin.com/in/dieterlegat/
 websites:
-project_ids: [1, 2]
+project_ids:
 image: ./dieter_legat_processed.jpg
 countries: Austria
 cities:

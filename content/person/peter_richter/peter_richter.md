@@ -15,7 +15,7 @@ Peter is the Chairman of the Expert Council at the Chamber of Commerce & Industr
 excerpt: Business Development fell in love with Threefold Threefold is a wonderful Ecosystem based on cutting edge & disruptive information technology, bringing together amazing people and offering a range of great business models, as well as incredible social impact opportunities, hopefully allowing us to contribute to making this a better world for generations to come 
 linkedin: https://www.linkedin.com/in/richterpeter/
 websites:
-project_ids: [1, 2]
+project_ids:
 image: ./peter_richter_processed.jpg
 countries: German/Dutch
 cities:

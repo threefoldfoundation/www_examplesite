@@ -7,7 +7,7 @@ bio: Philip is based in Munich Germany, 48 (in 2018). Studied chemistry and comp
 excerpt: Ambassador fell in love with Threefold I love ThreeFold because of its disruptive technology with groundbreaking design integrated into a great philosophy to democratize the Internet. It makes clever use of blockchain to back transactions and has security and data privacy deeply embedded and thus has more than just the potential to make the world a better place 
 linkedin: https://www.linkedin.com/in/hornphilip/
 websites:
-project_ids: [1]
+project_ids:
 image: ./phil_horn_processed.jpg
 countries: German
 cities:

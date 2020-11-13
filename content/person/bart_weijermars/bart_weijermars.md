@@ -7,7 +7,7 @@ bio: Bart Weijermars has extensive international experience in the telecommunica
 excerpt: Ambassador fell in love with Threefold I strongly believe that new technologies can help people to make this world a better place. This requires neutral and equal access to internet infrastructure, all over the world. The ThreeFold Foundation enables just that. 
 linkedin: https://www.linkedin.com/in/bart-weijermars-88236a/
 websites:
-project_ids: [1]
+project_ids:
 image: ./bart_weijermars_processed.jpg
 countries: Dutch
 cities:

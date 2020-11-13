@@ -7,7 +7,7 @@ bio: Judi holds qualifications in Information Systems having spent 12 years work
 excerpt: Ambassador fell in love with Threefold It was love at first byte! When you know, you know.ThreeFold has an admirable and worthy mission to expand and revolutionize the way the global community connects online in a responsible, sustainable, future-minded way. 
 linkedin: https://www.linkedin.com/in/josef-ehrenhoefer/
 websites:
-project_ids: [1]
+project_ids:
 image: ./judi_bechard_processed.jpg
 countries: Canadian
 cities:

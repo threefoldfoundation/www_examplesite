@@ -7,7 +7,7 @@ bio: Experienced business lawyer, assisting founders, investors and private comp
 excerpt: Legal Advisor fell in love with Threefold As a lawer I thrive in fast paced environments. ThreeFold is one of them where I get challenged enough but also add to a better world. 
 linkedin: https://www.linkedin.com/in/pierre-van-hoorebeke-5958343/
 websites:
-project_ids: [1, 2]
+project_ids:
 image: ./pierre_van_hoorebeke_processed.jpg
 countries: Belgian
 cities:

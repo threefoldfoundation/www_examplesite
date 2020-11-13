@@ -7,7 +7,7 @@ bio: Experienced Office Manager with a demonstrated history of working in the co
 excerpt: Admin Coordinator fell in love with Threefold I dream about a world where everyone can be happy 
 linkedin: https://www.linkedin.com/in/evon-yacoub-phri-b6028025/
 websites:
-project_ids: [1, 8]
+project_ids:
 image: ./evon_yacoub_processed.jpg
 countries: Egyptian
 cities:

@@ -7,7 +7,7 @@ bio: After completing school and sports education (focus on skiing, swimming, vo
 excerpt: Ambassador fell in love with Threefold I believe in the ThreeFold Token Foundation because I am one of the first generations growing up with the internet. However, current developments show, companies are making internet users very dependent on all their technologies. So as I see it, an opportunity to have alternative ways of providing cyber space without contributing to the „vitreous human“, will be a major stepping stone. 
 linkedin: https://www.linkedin.com/in/olivia-kemp-810a419a/
 websites:
-project_ids: [1]
+project_ids:
 image: ./olivia_kemp_processed.png
 countries: Austrian, British
 cities:

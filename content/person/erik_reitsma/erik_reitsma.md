@@ -7,7 +7,7 @@ bio: Erik is an entrepreneur and designer from Holland. Together with his compan
 excerpt: Ambassador fell in love with Threefold I love the TFF’s decentralized solution for the future of internet and like to help making it a reality for everyone in any way i can. 
 linkedin: https://www.linkedin.com/in/erik-reitsma-2262072b/
 websites:
-project_ids: [1]
+project_ids:
 image: ./erik_reitsma_processed.jpeg
 countries: Dutch
 cities:

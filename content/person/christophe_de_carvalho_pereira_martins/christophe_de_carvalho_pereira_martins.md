@@ -7,7 +7,7 @@ bio: Christophe is a passionate developer that likes to travel the world. Trying
 excerpt: Engineer fell in love with Threefold I joined Threefold cause I bielive the web needs to evolve into a more decentralized and faire network. Threefold is trying to create this new internet so that was my chance to contribute to this effort. 
 linkedin: https://www.linkedin.com/in/christophe-de-carvalho-pereira-martins-919504a1/
 websites:
-project_ids: [1, 2, 17]
+project_ids:
 image: ./christophe_de_carvalho_pereira_martins_processed.jpg
 countries: Belgian
 cities:

@@ -7,7 +7,7 @@ bio: 44 years, living close to Stuttgart in Germany. Almost 20 years professiona
 excerpt: Ambassador fell in love with Threefold I believe the world needs positive changes - end to end- the way we communicate, the way we support each other, the way we care - in all aspects of life - including the IT side. TF has a great approach - and I’m excited to get closer into the TF mission. Therefore- THANK YOU Owen and Peter for the chance to gather more insight about TF technology and the people involved. 
 linkedin: 
 websites:
-project_ids: [1]
+project_ids:
 image: ./katja_luik_processed.jpg
 countries: German
 cities:

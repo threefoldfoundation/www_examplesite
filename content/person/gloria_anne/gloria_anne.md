@@ -6,7 +6,7 @@ memberships:
 bio: The relentlessly helpful office administrator in Mazraa, but she is also like a bookkeeper.
 excerpt: Admin & Bookkeeping fell in love with Threefold The feeling of contributing to something larger than myself... very significant 
 websites:
-project_ids: [1, 5]
+project_ids:
 image: ./gloriaanne-processed.jpg
 countries: Filipino
 cities:

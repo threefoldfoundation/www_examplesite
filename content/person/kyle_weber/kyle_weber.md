@@ -7,7 +7,7 @@ bio: Kyle has spent the last 10 years working in/on sustainability projects rang
 excerpt: Ambassador fell in love with Threefold I believe in ThreeFold Foundation because I believe in the people behind the movement. 
 linkedin: https://www.linkedin.com/in/kylegweber/
 websites:
-project_ids: [1]
+project_ids:
 image: ./kyle_weber_processed.jpg
 countries: American
 cities:

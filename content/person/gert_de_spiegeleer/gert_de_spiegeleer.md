@@ -7,7 +7,7 @@ bio: After a brief period of working in the financial world, Gert fell in love w
 excerpt: Ambassador fell in love with Threefold I strongly believe that IT can help to create a better world and that is exactly the mission of the ThreeFold Foundation. Every human being, born on this planet should have acces to good education and equal chances in the pursuit of happiness. We need to create a legacy of a greener, healthier and happier world for our children. 
 linkedin: https://www.linkedin.com/in/gertdespiegeleer/
 websites:
-project_ids: [1]
+project_ids:
 image: ./gert_de_spiegeleer_processed.jpg
 countries: Belgian
 cities:

@@ -7,7 +7,7 @@ bio: A graduate of Cambridge University, Chris has spent most of his career to d
 excerpt: Ambassador fell in love with Threefold ThreeFold Foundation offers new channels of access and investment to a very diverse audience and so deserves to succeed. It is a step into the future whose potential for good knows no boundaries 
 linkedin: https://www.linkedin.com/in/chris-hurd-29a5581b/
 websites:
-project_ids: [1]
+project_ids:
 image: ./chris_hurd_processed.jpg
 countries: British
 cities:

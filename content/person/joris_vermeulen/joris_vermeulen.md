@@ -7,7 +7,7 @@ bio: Joris Vermeulen is a passionate entrepreneur always ready for new challenge
 excerpt: Advisor fell in love with Threefold Threefold is where we can give something back to the world and to humanity, to contribute to a better future, to make sure that everybody gets the same opportunities, and for that everybody needs to have at least access to the internet. 
 linkedin: https://www.linkedin.com/in/jorisvermeulen/
 websites:
-project_ids: [1, 2, 4]
+project_ids:
 image: ./joris_vermeulen_processed.jpg
 countries: Belgian
 cities:

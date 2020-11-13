@@ -7,7 +7,7 @@ bio: Isabelle is a fun-loving person, besides being an advit evangelist of the T
 excerpt: Co-Founder fell in love with Threefold  
 linkedin: https://www.linkedin.com/in/isabelle-peeters-54305589/
 websites:
-project_ids: [1, 10]
+project_ids:
 image: ./isabelle_peeters_processed.jpg
 countries: Belgian
 cities:

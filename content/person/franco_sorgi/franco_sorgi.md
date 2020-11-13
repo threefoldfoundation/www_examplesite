@@ -7,7 +7,7 @@ bio: Born and raised in Italy, living in the USA, Citizen of the world, let's se
 excerpt: Ambassador fell in love with Threefold I strongly believe in decentralization, net neutrality, privacy, open source organizations, transparancy, equal distribution, and the freedom to connect to anyone in the world without any filter. But then again... I may be crazy! I believe that the ThreeFold Foundation falls exactly in the categories I just mentioned, thus I'd love to give my support. 
 linkedin: 
 websites:
-project_ids: [1]
+project_ids:
 image: ./franco_sorgi_processed.jpg
 countries: Italian/American
 cities:

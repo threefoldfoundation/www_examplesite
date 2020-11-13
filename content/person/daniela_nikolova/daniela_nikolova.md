@@ -7,7 +7,7 @@ bio: Daniela Nikolova is an Integrative Nutrition Health Coach, Emotional and Sp
 excerpt: Company life coach & spiritual healer fell in love with Threefold Why do I believe in ThreeFold? How can I not believe as I know the heart of ThreeFold is pure love . The core of the people , the vision ... ThreeFold is not a revolutionary but rather evolutionary movement that needs to flood the world with love and light . This needs to happen as we all seek growth as a collective consciousness. ThreeFold for me is a heart based foundation which comes from love and is built from love for love , peace and equality. 
 linkedin: https://www.linkedin.com/in/danielaart1/
 websites:
-project_ids: [1]
+project_ids:
 image: ./daniela_nikolova_processed.jpg
 countries: Ukranian
 cities:

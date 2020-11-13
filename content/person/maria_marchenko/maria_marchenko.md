@@ -7,7 +7,7 @@ bio: Maria has over 10 years experience on Russian IT market. Now she is the Fou
 excerpt: Ambassador fell in love with Threefold I believe in the ThreeFold Foundation since it provides the innovative solutions to the revolutionary crypto currency technology. It solves challenges of complexity, costs and energy usage. 
 linkedin: https://www.linkedin.com/in/maria-marchenko-6065609/
 websites:
-project_ids: [1]
+project_ids:
 image: ./maria_marchenko_processed.jpg
 countries: Russian
 cities:

@@ -7,7 +7,7 @@ bio: Mr. Krish R. Krishnan is a founder director and CEO of Green Village Ventur
 excerpt: Ambassador fell in love with Threefold The ability to deliver positive social, climate change and economic returns carves out an unique position for the ThreeFold Foundation. Such a mission has the inherent ability to effect transformative changes to Emerging Economies 
 linkedin: https://www.linkedin.com/in/kristian-j%C3%A4rnefelt-518b14/
 websites:
-project_ids: [1]
+project_ids:
 image: ./krish_r_krishnan_processed.jpg
 countries: Indian
 cities:

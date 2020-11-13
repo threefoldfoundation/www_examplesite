@@ -7,7 +7,7 @@ bio: Lucia has been working in Human Resources for most of her life and has a pa
 excerpt: Ambassador fell in love with Threefold ThreeFold's vision is an ambitious one: to create a neutral, private, efficient and affordable internet. ThreeFold's team has breakthrough technology that will create a new, distributed and accessible for anyone internet. The world is dying for an alternative to large, non-transparent and privacy-invading service providers of today. Equal chances for every one of us, not a happy few of us. 
 linkedin: https://www.linkedin.com/in/lucia-k-3996861/
 websites:
-project_ids: [1]
+project_ids:
 image: ./lucia_groenfelt_processed.jpg
 countries: Dutch
 cities:

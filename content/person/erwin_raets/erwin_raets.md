@@ -7,7 +7,7 @@ bio: Erwin has always been interested by the latest technologies, and always eag
 excerpt: Ambassador fell in love with Threefold I strongly believe that blockchain technology will bring about big changes in the foreseeable future, and what the ThreeFold Foundation has set forth as goals, and the way they want to do it, has my full support.The edge computing backbone combined with a value-backed token will provide a solid foundation to expand the internet to those that currently have no access to the world’s information highway. 
 linkedin: 
 websites:
-project_ids: [1]
+project_ids:
 image: ./erwin_raets_processed.jpg
 countries: Belgian
 cities:

@@ -7,7 +7,7 @@ bio: Kanwal Sibal, with 41 years of experience in diplomacy, is a former Foreign
 excerpt: Ambassador fell in love with Threefold The use of the internet will explode in the years ahead as more and more people across the globe connect to it as countries lagging behind in internet usage catch up with the rest. Energy use will grow commensurately and hence the need for “green” solutions which, I believe, the model proposed by the ThreeFold foundation will promote through highly efficient energy storage, distributed computing, anti-hacking safeguards, and protecting our rights to privacy through blockchain, and all this through an innovative financial structure. 
 linkedin: 
 websites:
-project_ids: [1]
+project_ids:
 image: ./his_excellency_dr_kanwal_sibal_processed.jpg
 countries: Indian
 cities:

@@ -7,7 +7,7 @@ bio: George Gesek is the founder and CEO of NOVARION.systems, the high performan
 excerpt: Ambassador fell in love with Threefold I see the ThreeFold Foundation as the first comprehensive attempt to create a fail-safe and non-manipulable algorithmic transaction system, which will be capable of distributing fundamental resources, like compute power or food, equally and suitably to all humans. 
 linkedin: 
 websites:
-project_ids: [1]
+project_ids:
 image: ./georges_gesek_processed.jpg
 countries: Austrian
 cities:

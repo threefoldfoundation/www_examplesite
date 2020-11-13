@@ -7,7 +7,7 @@ bio: Ragheb Abushahba, Independent Egyptologist, intuitive life coach, Siddha Yo
 excerpt: Ambassador fell in love with Threefold  
 linkedin: https://www.linkedin.com/in/ragheb-abushahba-a101034/
 websites:
-project_ids: [1]
+project_ids:
 image: ./ragheb_abushahba_processed.jpg
 countries: Egyptian
 cities:

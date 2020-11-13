@@ -7,7 +7,7 @@ bio: Front-end developer at Jimber
 excerpt: Front-end developer fell in love with Threefold  
 linkedin: https://www.linkedin.com/in/ivancoene/
 websites:
-project_ids: [9]
+project_ids:
 image: ./None
 countries: Belgian
 cities:

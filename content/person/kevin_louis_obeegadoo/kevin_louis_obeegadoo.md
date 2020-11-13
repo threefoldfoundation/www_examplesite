@@ -7,7 +7,7 @@ bio: Kevin enjoys 20+ years’ consulting across private and government sectors,
 excerpt: Ambassador fell in love with Threefold With a unique, realistic, and achievable solution to building a green, decentralised, distributed, and neutral IT infrastructure globally, committed to true values and charity, how can anyone not believe in the ThreeFold Foundation vision ? 
 linkedin: https://www.linkedin.com/in/klobeegadoo/
 websites:
-project_ids: [1]
+project_ids:
 image: ./kevin_louis_obeegadoo_processed.jpg
 countries: British - Mauritian
 cities:

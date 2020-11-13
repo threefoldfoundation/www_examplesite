@@ -7,7 +7,7 @@ bio: Kristian Järnefelt is the Executive Vice President of Consumer security of
 excerpt: Ambassador fell in love with Threefold The internet has turned into a centralized mainframe like phenomena dominated by a few global giants and ThreeFold Foundation’s grid-like distributed & eco-friendly internet is taking it back to its roots providing an alternative. Using this infrastructure to back-up the new Coin Offering brings also a solid alternative to the speculative virtual currencies making it also more tangible. 
 linkedin: 
 websites:
-project_ids: [1]
+project_ids:
 image: ./kristian_jarnefeld_processed.jpg
 countries: Finnish
 cities:

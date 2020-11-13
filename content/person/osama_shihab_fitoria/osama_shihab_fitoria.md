@@ -7,7 +7,7 @@ bio: Osama is a cryptoeconomy investor and entrepreneur. He has been based in th
 excerpt: Ambassador fell in love with Threefold ThreeFold's vision is an ambitious one: to create a neutral, efficient and affordable net. ThreeFold's team has already developed breakthrough technology which can and will enable this 
 linkedin: https://www.linkedin.com/in/osamashihabf/
 websites:
-project_ids: [1]
+project_ids:
 image: ./osama_shihab_firtoria_processed.jpg
 countries: Nicaraguan/Jordanian
 cities:

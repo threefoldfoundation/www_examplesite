@@ -7,7 +7,7 @@ bio: Dina Magdy is working as an Automation Software Testing Engineer, starting 
 excerpt: Engineer fell in love with Threefold Threefold create future internet,so it amazing to be part of this 
 linkedin: https://www.linkedin.com/in/dina-magdy/
 websites:
-project_ids: [1, 8]
+project_ids:
 image: ./dina_magdy_processed.jpg
 countries: Egyptian
 cities:

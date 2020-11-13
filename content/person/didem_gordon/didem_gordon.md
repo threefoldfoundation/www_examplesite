@@ -7,7 +7,7 @@ bio: Didem has over 25 years of experience in building and developing businesses
 excerpt: Business Developer fell in love with Threefold I joined ThreeFold as part of my lifeworks to make the world a better place.  Passion and courage  to create positiveimpact , working out of  love and respect  not striving for power based on ego, that is what Threefold  means to me.  Use of technology and consciousness; exponential good for humanity. 
 linkedin: https://www.linkedin.com/in/didem-gordon-a4734528/
 websites:
-project_ids: [1, 2]
+project_ids:
 image: ./didem_gordon_processed.jpg
 countries: Turkish
 cities:

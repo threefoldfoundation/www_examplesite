@@ -7,7 +7,7 @@ bio: Peter is HR-manager and Financial Advisor For TF Tech. Besides that Peter i
 excerpt: Co-Founder fell in love with Threefold I believe in equal chances for everyone across the globe 
 linkedin: https://www.linkedin.com/in/petervanderhenst/
 websites:
-project_ids: [1, 2, 5]
+project_ids:
 image: ./peter_vanderhenst_processed.jpg
 countries: Belgian
 cities:

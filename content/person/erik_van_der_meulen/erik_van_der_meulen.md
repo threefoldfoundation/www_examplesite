@@ -7,7 +7,7 @@ bio: Erik firmly believes that entrepreneurship provides the only sustainable so
 excerpt: Ambassador fell in love with Threefold The Treefold Foundation aims to solve some of the fundamental shortcomings of the technologies that shape our future. I strongly support the values and the goals of the team and am exited about the opportunity to support them as ambassador. 
 linkedin: https://www.linkedin.com/in/evdm66/
 websites:
-project_ids: [1]
+project_ids:
 image: ./erik_van_der_meulen_processed.jpg
 countries: Dutch
 cities:

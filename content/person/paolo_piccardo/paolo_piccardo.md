@@ -7,7 +7,7 @@ bio: Moved by the passion for the knowledge and for our role in this time, Paolo
 excerpt: Ambassador fell in love with Threefold To change is possible, it is always a possible way in front of us, but to change is an opportunity to wisely use. When a change is felt positive, it is because of a new balance between us and the place and time in which we live has increased and this change can be called improvement. Transforming the economy seems impossible, but we made it the way it is today and we are the only element in the universe able to improve it by making it more natural. The ThreeFold Token project is for me a clear step forward in this direction heading to a more balanced future to be profited by all of us. 
 linkedin: https://www.linkedin.com/in/paolo-piccardo-87a87a6/
 websites:
-project_ids: [1]
+project_ids:
 image: ./paolo_piccardo_processed.jpg
 countries: italian
 cities:

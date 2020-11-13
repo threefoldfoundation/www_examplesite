@@ -7,7 +7,7 @@ bio: Former derivatives trader now involved as an owner or active investor in va
 excerpt: Ambassador fell in love with Threefold People can't use it if they don't know about it, so it's vital that we spread the word about ThreeFold and raise awareness in the private and business communities. Even though I don't have a technology background, and have much to learn, being the only farmer this far east I feel compelled to step up and try to assist as much as I can. On the plus side, I have a wide network across the region, and should be able to open the right doors to allow us in over here. 
 linkedin: https://www.linkedin.com/in/colincarlbaker/
 websites:
-project_ids: [1]
+project_ids:
 image: ./colin_baker_processed.jpg
 countries: Your nationality
 cities:

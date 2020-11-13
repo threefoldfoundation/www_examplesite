@@ -7,7 +7,7 @@ bio: Josef Ehrenhoefer - also called Pepo - is the founder and owner of consult2
 excerpt: Ambassador fell in love with Threefold I'm very passionate and excited about the opportunities of Digital Transformation for our economies, societies and lifes. However it is obvious that the current System is heavily centralized and extremely tuned to the success of a few. ThreeFold Tech and Threefold Foundation are perfectly positioned to fundamentally transform the Status Quo and to better serve future internet demand and to benefit many - not just a few. 
 linkedin: https://www.linkedin.com/in/josef-ehrenhoefer/
 websites:
-project_ids: [1]
+project_ids:
 image: ./josef_ehrenhoefer_processed.jpg
 countries: Austrian
 cities:

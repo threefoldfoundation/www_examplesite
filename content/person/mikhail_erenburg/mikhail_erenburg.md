@@ -7,7 +7,7 @@ bio: Mikhail Erenburg, 38, is the former Senior Vice President at Sberbank, East
 excerpt: Ambassador fell in love with Threefold There is no doubt anymore, that the world wants digital currency. At the same time, existing solutions, although highly popular already, lack critical attributes to become truly sustainable long term. I know Kristof good enough to be sure that ThreeFold token can become the next Big Thing. 
 linkedin: 
 websites:
-project_ids: [1]
+project_ids:
 image: ./mikhail_erenburg_processed.jpg
 countries: Russian
 cities:

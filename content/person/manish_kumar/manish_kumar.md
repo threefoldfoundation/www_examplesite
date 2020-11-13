@@ -9,7 +9,7 @@ excerpt: ThreeFold Foundation fell in love with Threefold I see great potential 
 I would like to devote my time and resources for evangelism, adoption and promulgation of ThreeFold technology.  
 linkedin: https://www.linkedin.com/in/manishkumar87/
 websites:
-project_ids: [1]
+project_ids:
 image: ./manish-kumar_processed.jpg
 countries: Indian
 cities:

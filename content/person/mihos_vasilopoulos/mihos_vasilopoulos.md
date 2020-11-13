@@ -7,7 +7,7 @@ bio: A serial entrepreuner: Co-Founder and until recently Executive Vice Preside
 excerpt: Ambassador fell in love with Threefold The world is fast adopting e-currencies (against artificial FIAT); Backed by Capacity and supported by unique disruptive green technology, the TFT Token is a unique IT monetary instrument, that unlike other cryptocurrencies, has real value. In fact, ThreeFold Token is the pre-cursor of an exciting IT-created utility. 
 linkedin: https://www.linkedin.com/in/mihos-vasilopoulos-243839145/
 websites:
-project_ids: [1]
+project_ids:
 image: ./mihos_vasilopoulos_processed.jpg
 countries: Greek
 cities:

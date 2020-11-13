@@ -7,7 +7,7 @@ bio: Erik fell in love with Unix/Linux/Open Source in 1989 on his Highschool and
 excerpt: Ambassador fell in love with Threefold After the software/OS revolution that Linux invoked, we need a similar revolution in compute and storage and the ThreeFold foundation may be the spark we need to start this. 
 linkedin: https://www.linkedin.com/in/erikd5/
 websites:
-project_ids: [1]
+project_ids:
 image: ./erik_de_rijk_processed.jpg
 countries: Dutch
 cities:

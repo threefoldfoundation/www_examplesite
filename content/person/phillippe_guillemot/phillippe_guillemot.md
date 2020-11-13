@@ -7,7 +7,7 @@ bio: Philippe Guillemot, 58, is the former Chief Operating Officer at Alcatel-Lu
 excerpt: Ambassador fell in love with Threefold Access to the digital world has become as essential as access to water and electricity. Internet and cloud, even though a utility, is today dominated by a few large multinational companies. ThreeFold Foundation ambition is to build an internet and cloud that is close and belong to its users. 
 linkedin: https://www.linkedin.com/in/pierre-van-hoorebeke-5958343/
 websites:
-project_ids: [1]
+project_ids:
 image: ./phillippe_guillemot_processed.jpg
 countries: French
 cities:

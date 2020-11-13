@@ -7,7 +7,7 @@ bio: Oscar is working in IT for 30 years, being active international for almost 
 excerpt: Ambassador fell in love with Threefold ThreeFold to me, is a new-age organization (driven from love and believe instead of ego), combining a couple of true new technologies. With this global movement, it is time to start a new economy. An economy based on other values, where responsibility and going Green are key words. 
 linkedin: https://www.linkedin.com/in/olandman/
 websites:
-project_ids: [1]
+project_ids:
 image: ./oscar_landman_processed.jpg
 countries: Dutch
 cities:

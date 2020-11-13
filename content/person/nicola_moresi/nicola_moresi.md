@@ -7,7 +7,7 @@ bio: Nicola is a non-stop entrepreneur and connects technology concepts with bus
 excerpt: Ambassador fell in love with Threefold Finally with ThreeFold Foundation the positive impact that technology has on our life, can be brought in a neutral and secure way to all people around the world. Living in a Digital world where our life, our memories, our history is digital, the help of a secure and neutral Internet is the basis for building up our new distributed life. 
 linkedin: https://www.linkedin.com/in/nicolamoresi/
 websites:
-project_ids: [1]
+project_ids:
 image: ./nicola_moresi_processed.jpg
 countries: Swiss
 cities:

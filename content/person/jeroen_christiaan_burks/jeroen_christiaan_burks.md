@@ -7,7 +7,7 @@ bio: I grew up in the south of Holland with a passion for mathematics, physics a
 excerpt: Ambassador fell in love with Threefold So I’m active in the datacenter / renewable energy sector. Next to that I’m an enthusiast about the opportunities that Blockchain can bring us, apart from the transfer of money. I think Threefold is a nice intersection between my working field and interests. In my work I come across a lot of people who are working on projects, where they need to be facilitated with a digital infrastructure like VM’s and Kubernetes. In part we can accommodate them with the necessary services, but services like geo redundancy is something we cannot offer at the moment without the help of a platform like threefold. Next to that it might be an interesting administration and virtualization tool.  
 linkedin: https://www.linkedin.com/in/jeroenburks/
 websites:
-project_ids: [1]
+project_ids:
 image: ./jeroen_burks_processed.jpg
 countries: Dutch
 cities:

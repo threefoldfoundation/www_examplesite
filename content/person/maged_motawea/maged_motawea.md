@@ -7,7 +7,7 @@ bio: Maged is a passionate Computer Scientist who loves exploring new areas in l
 excerpt: Software Developer fell in love with Threefold because threefold is the future of technology 
 linkedin: https://linkedin.com/in/maged-motawea-b760a5117
 websites:
-project_ids: [1, 2]
+project_ids:
 image: ./maged_motawea_processed.jpg
 countries: Egyptian
 cities:

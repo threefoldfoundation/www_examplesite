@@ -7,7 +7,7 @@ bio: In 1999, I started my own business in the market of recruitment, the time i
 excerpt: Ambassador fell in love with Threefold Thanks to ThreeFold Foundation robust technology comes available in good organisational design. A design that takes in account that humankind strives for prosperity for all. 
 linkedin: https://www.linkedin.com/in/lvereycken/
 websites:
-project_ids: [1]
+project_ids:
 image: ./lieve_vereycken_processed.jpg
 countries: Belgian
 cities:

@@ -7,7 +7,7 @@ bio: Extensive international experience in senior management positions with The 
 excerpt: Ambassador fell in love with Threefold I believe ThreeFold Foundation’s idea holds great promise to empower local communities, develop much needed skills to face the challenges of the impending fourth industrial revolution and make businesses more competitive by making available low cost affordable digital resources. 
 linkedin: https://www.linkedin.com/in/milind-sathe-336a0b68/
 websites:
-project_ids: [1]
+project_ids:
 image: ./milind_sathe_processed.jpg
 countries: Indian
 cities:

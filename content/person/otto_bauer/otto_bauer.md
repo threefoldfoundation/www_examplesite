@@ -7,7 +7,7 @@ bio: Having worked for a multinational technology company, I have 35+ years of e
 excerpt: Ambassador fell in love with Threefold Whatever you can do or dream you can, begin it; Boldness has genius, power, and magic in it” – This quote from Johann Wolfgang von Goethe has accompanied me throughout my life. I view the Threefold Foundation of being the intersection between technology and sustainability, thus helping coming generations finding the world a good place to live. I am excited and passionate about the vision, values and ideas of the Foundation. 
 linkedin: https://www.linkedin.com/in/otto-bauer-946a863/
 websites:
-project_ids: [1]
+project_ids:
 image: ./otto_bauer_processed.jpg
 countries: Austrian
 cities:

@@ -7,7 +7,7 @@ bio: Osman is a Chartered Accountant (Ontario, Canada & Pakistan) and CPA (Massa
 excerpt: Ambassador fell in love with Threefold Virtual currencies are the future and the foundation is enabling a new mechanism for IT currency payments that can / will be the defect standard and a means of utilising capacity from day 1. They are educating and developing the market at the same time. 
 linkedin: https://www.linkedin.com/in/osman-khan-267178/
 websites:
-project_ids: [1]
+project_ids:
 image: ./osman_khan_processed.jpg
 countries: Pakistani/UK
 cities:

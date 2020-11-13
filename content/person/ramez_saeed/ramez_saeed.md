@@ -7,7 +7,7 @@ bio: Ramez has about 10 years of experience in CloudComputing software. He joine
 excerpt: Engineer fell in love with Threefold Threefold is the upcoming internet future, we are creating conscious futures together 
 linkedin: https://www.linkedin.com/in/ramez-saeed-a9801819/
 websites:
-project_ids: [1, 8]
+project_ids:
 image: ./ramez_saeed_processed.jpg
 countries: Egyptian
 cities:

@@ -7,7 +7,7 @@ bio: Ahmed is an Automation Software Testing Engineer, started his carreer at Co
 excerpt: Engineer fell in love with Threefold I believe that Threefold is changing the world by building the new neutral internet, it's a great experience to be part of this. 
 linkedin: 
 websites:
-project_ids: [1, 8]
+project_ids:
 image: ./ahmed_hanafy_processed.png
 countries: Egyptian
 cities:

@@ -7,7 +7,7 @@ bio: Federico,46, holds a Bachelor in Economy and an Executive Management certif
 excerpt: Ambassador fell in love with Threefold I firmly believe that TFF fills at the best the huge mid-long term gap between availability and demand for one of the key resources: IT capacity. I share the vision of granting whoever and wherever a fair priced, nature friendly and close-by internet capacity. TFF is backed not only with assets but with the right core human values. 
 linkedin: 
 websites:
-project_ids: [1]
+project_ids:
 image: ./frederico_fumagalli_processed.jpg
 countries: Italian
 cities:

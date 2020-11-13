@@ -7,7 +7,7 @@ bio: Binoy R. V. Meghraj is the Executive Vice Chairman of Meghraj Group, an inv
 excerpt: Ambassador fell in love with Threefold I believe in the TFF project because it is addressing fundamental challenges to the growth in data requirements through a green ecosystem, which combines a crypto currency backed by an efficient, distributed, less power hungry data network. It provides an innovative solution to the challenges, and believes in important principles including education and equality, benefits to the environment and that a currency should be backed by tangible assets. 
 linkedin: https://www.linkedin.com/in/binoy-meghraj-19146b/
 websites:
-project_ids: [1]
+project_ids:
 image: ./binoy_r_v_meghraj_processed.jpg
 countries: British
 cities:

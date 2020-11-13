@@ -7,7 +7,7 @@ bio: My name is Marina Achillea and I am a 36 year old fashion designer from Swe
 excerpt: Ambassador fell in love with Threefold I believe that the internet should be a fundamental right for every person in the world. That belief is shared by the ThreeFold foundation in it’s quest to expand the reach of the web to every corner of the world. 
 linkedin: https://www.linkedin.com/in/marina-achillea-94694040/
 websites:
-project_ids: [1]
+project_ids:
 image: ./marina_achillea_processed.jpg
 countries: Swedish
 cities:

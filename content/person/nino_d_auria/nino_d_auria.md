@@ -7,7 +7,7 @@ bio: Nino has 25+ years of experience in the ICT market, building and leading wi
 excerpt: Ambassador fell in love with Threefold Internet capacity is the fastest growing commodity in the world and the creation of an exclusive currency for buying and selling it is ingenious. Based on the stability, neutrality and transparency principles I do believe the TF Token can be recognized as 'The currency' in the IT capacity exchange. 
 linkedin: https://www.linkedin.com/in/ninodauria/
 websites:
-project_ids: [1]
+project_ids:
 image: ./nino_d_auria_processed.jpg
 countries: Italian
 cities:

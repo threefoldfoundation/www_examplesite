@@ -7,7 +7,7 @@ bio: Mahmoud is a passionate Computer Scientist who loves exploring new areas in
 excerpt: Software Engineer fell in love with Threefold because threefold is the future of technology 
 linkedin: https://www.linkedin.com/in/dmahmou
 websites:
-project_ids: [1, 2]
+project_ids:
 image: ./mahmoud_ayoub_processed.jpg
 countries: Egyptian
 cities:

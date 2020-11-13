@@ -7,7 +7,7 @@ bio: Christian is the founder and managing partner of Seidl Consult GmbH, which 
 excerpt: Ambassador fell in love with Threefold Christian is a strong believer and early supporter of the TFF dream „…to make the Internet accessible for all people; securely, equally and seamlessly ​through ​environmentally-sustainable ​technology.“ Access to internet capacity will become a basic right and necessity for all humans and existing technology and network infrastructure will not be able to cope with the growing demand. TFF’s vision and solution to tackle these shortcomings is unique and groundbreaking and Christian is proud and exited to be part of the TFF community and support TFF’s great team as an ambassador. 
 linkedin: https://www.linkedin.com/in/christian-seidl-56b22210/
 websites:
-project_ids: [1]
+project_ids:
 image: ./christian_seidl_processed.jpg
 countries: German
 cities:

@@ -7,7 +7,7 @@ bio: Bruce is an internationally recognized astrophysicist specializing in studi
 excerpt: Ambassador fell in love with Threefold I believe that access to a neutral, efficient, and secure internet is essential to the survival of humanity Planet Earth. The ThreeFold foundation is a shining example of facing these challenges with pragmatism and conscience. 
 linkedin: https://www.linkedin.com/in/bruce-lites-74555811/
 websites:
-project_ids: [1, 15]
+project_ids:
 image: ./bruce_lites_processed.jpg
 countries: American
 cities:

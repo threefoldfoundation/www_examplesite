@@ -7,7 +7,7 @@ bio: Gregor lives in Vienna, Austria and is currently a Digital Marketing Manage
 excerpt: Ambassador fell in love with Threefold I am sure the concept and strategy of ThreeFold is exactly what the world/markets needs now. Most importantly I believe in the people and Ambassadors who are part of the movement/mission. 
 linkedin: https://www.linkedin.com/in/gregorsideris/
 websites:
-project_ids: [1, 2]
+project_ids:
 image: ./gregor_sideris_processed.jpg
 countries: Austrian
 cities:
