@@ -7,7 +7,7 @@ bio: Software Engineer with passion in new technologies, love every thing that i
 excerpt: Engineer
 linkedin: https://www.linkedin.com/in/ashraffouda/
 websites: https://threefold.io/
-image: ./kristine_vilnite.png
+image: ./ashraf_fouda_processed.jpg
 project_ids: threefold_tech
 countries: Egypt
 cities: Cairo
