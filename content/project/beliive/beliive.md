@@ -1,6 +1,6 @@
 ---
 id: beliive
-title: World's First Time Token
+title: World's Largest Time Bank
 status: planned
 startdate: 2021-03-20
 countries: Brazil, US

@@ -11,7 +11,7 @@ created: 2020-04-20
 image: ./flowgen.png
 logo: ./logo.png
 image_caption: flowgen
-author: kristine_vilnite
+author: sabrina_sadik
 members:
 websites: https://www.flowgen.com/
 tags: planned, grid

@@ -11,7 +11,7 @@ created: 2020-04-20
 image: ./digibyte.png
 image_caption: digibyte
 logo: ./logo.png
-author: kristine_vilnite
+author: benjelloun_oussama
 members: hans_koning, rudy_bouwman, rutger_krijnen
 websites: https://digibyte.io/, https://digibytefoundation.io/
 tags: tfgrid

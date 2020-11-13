@@ -1,6 +1,6 @@
 ---
-id: sabrina
-name: Sabrina
+id: sabrina_sadik
+name: Sabrina Sadik
 tags: grid
 rank: 1
 memberships: threefold, tftech
