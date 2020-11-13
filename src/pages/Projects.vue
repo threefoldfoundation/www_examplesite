@@ -30,7 +30,12 @@ query($page:Int) {
       node {
         title
         path
-        members
+        members {
+          id
+          name
+          image(width:64, height:64, fit:inside)
+          path
+      }
         rank
         linkedin
         startDate : startdate(format:"MM YYYY")

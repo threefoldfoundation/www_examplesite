@@ -10,8 +10,47 @@
         </div>
         <div class="w-full md:w-5/6 text-center md:text-left md:pl-8 lg:pl-0">
           <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">{{ $page.project.title }}</h1>
+          
           <p class="text-gray-700 text-xl" v-if="$page.project.bio">{{ $page.project.bio }}</p>
-          <div class="author-social">
+          <div class="avatars">
+            <div class="flex items-center">
+            <div class="flex justify-between items-center">
+              <ul class="list-none flex author-list m-0">
+                <li
+                  v-for="author in $page.project.author"
+                  :key="author.id"
+                  class="author-list-item"
+                >
+                  <g-link :to="author.path" v-tooltip="author.name">
+                    <g-image
+                      :src="author.image"
+                      :alt="author.name"
+                      class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
+                    />
+                  </g-link>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ml-3 pl-3 border-l flex flex-col text-xs leading-none uppercase"
+            >
+              <p>
+                <g-link :to="$page.project.path">
+                  <time :datetime="$page.project.datetime">{{
+                    $page.project.humanTime
+                  }}</time>
+                </g-link>
+              </p>
+              <p>
+                <g-link :to="$page.project.path">
+                  <time :datetime="$page.project.datetime">{{
+                    $page.project.startDate
+                  }}</time>
+                </g-link>
+                {{ $page.project.status }}
+              </p>
+            </div>
+            <div class="author-social">
             &nbsp;&middot;&nbsp;
           
             <a
@@ -23,6 +62,41 @@
               <font-awesome :icon="['fab', 'linkedin']" />
             </a>
           </div>
+          
+          </div>
+          <section>
+            <br/>
+    <div class="avatars">
+            <div class="flex items-center">
+              <div class="flex justify-between items-center">
+                <ul class="list-none flex author-list m-0">
+                  <li
+                    v-for="member in $page.project.members"
+                    :key="member.id"
+                    class="author-list-item"
+                  >
+                    <g-link :to="member.path" v-tooltip="member.name">
+                      <g-image
+                        :src="member.image"
+                        :alt="member.name"
+                        class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
+                      />
+                    </g-link>
+                  </li>
+                </ul>
+            </div>
+            </div>
+    </div>
+    </section>
+    <section class="post-tags container mx-auto relative py-10">
+          <g-link
+            v-for="tag in $page.project.tags"
+            :key="tag.id"
+            :to="tag.path"
+            class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+          >{{ tag.title }}</g-link>
+  </section>
+        </div>
         </div>
       </div>
 
@@ -30,25 +104,6 @@
 
         <section class="post-content container mx-auto relative text-gray-700">
           <div class="post-content-text text-xl" v-html="$page.project.content"></div>
-        </section>
-
-
-      <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
-      
-      <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
-        <PostListItem
-          v-for="edge in $page.project.belongsTo.edges"
-          :key="edge.node.id"
-          :record="edge.node"
-        />
-      </div>
- <section class="post-tags container mx-auto relative py-10">
-          <g-link
-            v-for="tag in $page.project.tags"
-            :key="tag.id"
-            :to="tag.path"
-            class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
-          >{{ tag.title }}</g-link>
         </section>
       <div class="pagination flex justify-center mb-8">
         <Pagination
@@ -86,10 +141,20 @@
         title
         path
       }    
-      members
+      members {
+        id
+        name
+        image(width:64, height:64, fit:inside)
+        path
+      }
       websites
       private
-      
+      author {
+          id
+          name
+          image(width:64, height:64, fit:inside)
+          path
+      }
       rank
       excerpt
       content
@@ -102,7 +167,10 @@
         edges {
           node {
             ... on Person {
+              id
               name
+              image(width:64, height:64, fit:inside)
+              path
             }
           }
         }
