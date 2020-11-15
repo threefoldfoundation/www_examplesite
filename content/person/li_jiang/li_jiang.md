@@ -8,7 +8,7 @@ bio: Li Jiang 蒋犁 has been a founder, a documentary producer, and an active a
 excerpt: Li has backed over a dozen tech entrepreneurs working on workforce productivity, resource management, life extension, and blockchain.
 linkedin: https://www.linkedin.com/in/lijiang2087/
 websites: https://Harmony.one
-image: ./li_jiang.jpg
+image: ./li_jiang.jpeg
 project_ids: harmony
 countries: USA
 cities: San francisco
