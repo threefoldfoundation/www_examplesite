@@ -1,14 +1,14 @@
 ---
-id: dylan
+id: dylan_verstraete
 name: Dylan Verstraete
-tags: grid
 rank: 3
-memberships: threefold, tftech
+memberships: threefold_foundation, threefold_tech
 bio: Coffee drinking cat lover that commits code to multiple projects within the Threefold Ecosystem. Has a passion for wakeboarding and webtechnologies.
+excerpt: Coffee drinking cat lover that commits code to multiple projects within the Threefold Ecosystem.
 linkedin: https://www.linkedin.com/in/dylan-verstraete-229539a4/
 websites: https://threefold.io/, https://www.threefold.tech
 image: ./dylan_verstraete.jpeg
-project_ids: tftech, threefold
+project_ids: threefold_foundation, threefold_tech
 countries: Belgium
 cities: Lochristi
 private: 0
