@@ -75,7 +75,7 @@
           <li
             :key="element.name"
             v-for="(element, index) in $static.metadata.navigation"
-            class="hover:text-white"
+            class="hover:text-white py-1"
             v-bind:class="{
               'mr-4':
                 index != Object.keys($static.metadata.navigation).length - 1,
@@ -94,11 +94,35 @@
             }}</g-link>
           </li>
         </ul>
+        <div class="md:hidden inline-flex rounded-full border-grey-light border w-1/2">
+          <button>
+            <span class="w-auto flex justify-end items-center text-grey p-2">
+              <font-awesome :icon="['fas', 'search']" />
+            </span>
+          </button>
+          <input
+            class="w-full rounded mr-4 bg-black"
+            type="text"
+            placeholder="Search..."
+          />
+        </div>
       </nav>
       <div
         class="hidden text-gray-400 md:ml-auto md:inline-block md:order-last"
       >
-        <ul class="list-none flex justify-center md:justify-end">
+        <div class="inline-flex rounded-full border-grey-light border w-1/2">
+          <button>
+            <span class="w-auto flex justify-end items-center text-grey p-2">
+              <font-awesome :icon="['fas', 'search']" />
+            </span>
+          </button>
+          <input
+            class="w-full rounded mr-4 bg-black"
+            type="text"
+            placeholder="Search..."
+          />
+        </div>
+        <ul class="list-none inline-flex justify-center md:justify-end">
           <li class="mr-0 sm:mr-6">
             <theme-switcher v-on="$listeners" :theme="theme" />
           </li>
@@ -190,3 +214,9 @@ query {
   }
 }
 </static-query>
+
+<style scoped>
+input:focus {
+  outline: 0;
+}
+</style>
