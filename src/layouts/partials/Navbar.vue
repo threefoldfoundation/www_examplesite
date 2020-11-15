@@ -9,15 +9,17 @@
     >
       <div class="block flex-grow flex items-center w-auto">
         <div class="inline-flex items-center flex-shrink-0 text-white mr-6">
-          <img
-            src="../../../static/img/ACI_icon-01.png"
-            class="mr-3"
-            width="50"
-            alt=""
-          />
-          <span class="font-semibold text-xl tracking-tight">{{
-            $static.metadata.siteName
-          }}</span>
+          <a href="/" class="flex">
+            <img
+              src="../../../static/img/ACI_icon-01.png"
+              class="mr-3"
+              width="50"
+              alt=""
+            />
+            <span class="font-semibold text-xl tracking-tight">{{
+              $static.metadata.siteName
+            }}</span>
+          </a>
         </div>
         <div class="text-sm flex-grow uppercase">
           <ul
@@ -97,7 +99,7 @@ export default {
   props: {
     disableScroll: {
       type: Boolean,
-      default: true
+      default: true,
     },
     theme: {
       type: String,
@@ -116,7 +118,7 @@ export default {
     },
     setHeaderHeight(height) {
       this.headerHeight = height;
-    }
+    },
   },
 
   mounted() {

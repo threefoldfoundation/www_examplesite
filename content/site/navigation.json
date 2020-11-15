@@ -1,12 +1,6 @@
 {
   "headerNavigation": [
     {
-      "name": "Home",
-      "link": "/",
-      "external": false
-    },
-    
-    {
       "name": "Projects",
       "link": "/projects",
       "external": false
@@ -22,10 +16,11 @@
       "external": false
     }
   ],
-  "footerNavigation": [{
+  "footerNavigation": [
+    {
       "name": "Latest Posts",
       "link": "/",
-      "external" : false
+      "external": false
     },
     {
       "name": "Gridsome",
