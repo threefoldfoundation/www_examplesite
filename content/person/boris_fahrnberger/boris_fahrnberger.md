@@ -1,14 +1,14 @@
 ---
 id: boris_fahrnberger
 name: Boris Fahrnberger
-tags: grid, ambassador, project
 rank: 1
-memberships: project, ambassador, farmer, freeflowcitizen
-bio: Internet made a local-based mankind a global one. 'Artichoke in association with the Threefold network enables it to take the advantage of both. As a service to the public, we act as #covidfighters as civil society initiative to help our environment in this critical situation.
+memberships: project, ambassador, farmer
+bio: Boris has worked in nearly all main sectors, including IT, finance, media and politics. As a senior andragogist and consultant he has helped thousands of people to develop and get inspired. The communication scientist founded Artichoke Computing, a Threefold farming company, in 2019 and recently the project “COVID Fighters”, the quickest biomolecular SARS-CoV-2 testing method on the planet.
+excerpt: Boris has worked in nearly all main sectors, including IT, finance, media and politics.
 linkedin: https://www.linkedin.com/in/bojofa/
 websites: https://threefold.io/, https://www.mazraa.io/
 image: ./boris.jpeg
-project_ids: covid_fighters, threefold, artichoke_computing
+project_ids: covid_fighters
 countries: Austria
 cities: Vienna
 private: 0
@@ -16,6 +16,6 @@ private: 0
 
 <BR>
 
-<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/412336565" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <BR>
