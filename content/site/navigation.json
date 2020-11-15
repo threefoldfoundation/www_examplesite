@@ -21,11 +21,7 @@
       "name": "Latest Posts",
       "link": "/",
       "external": false
-    },
-    {
-      "name": "Gridsome",
-      "link": "https://www.gridsome.org",
-      "external": true
     }
+    
   ]
 }
