@@ -8,7 +8,33 @@ module.exports = {
     siteName: 'ACI',
     siteDescription: 'ThreeFold Partners',
     siteUrl: 'http://localhost:8080',
-    plugins: [{
+    plugins: [
+      {
+        use: 'gridsome-plugin-flexsearch',
+        options: {
+          searchFields: ['name', 'title','excerpt', 'author', 'content'],
+          collections: [
+            {
+              typeName: 'Blog',
+              indexName: 'Blog',
+              fields: ['name', 'title', 'rank', 'excerpt', 'image', 'path', 'datetime', 'author', 'pageInfo']
+            },
+  
+            {
+              typeName: 'Project',
+              indexName: 'Project',
+              fields: ['title', 'rank', 'excerpt', 'image', 'path', 'datetime', 'author', 'pageInfo']
+            },
+            
+            {
+              typeName: 'Person',
+              indexName: 'Person',
+              fields: ['name', 'rank', 'excerpt', 'image', 'path', 'bio', 'pageInfo']
+            },
+          ]
+        }
+      },
+      {
             use: 'gridsome-plugin-tailwindcss',
             options: {
                 tailwindConfig: './tailwind.config.js',
