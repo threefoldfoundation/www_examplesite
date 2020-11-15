@@ -9,14 +9,8 @@
           ></g-image>
         </div>
         <div class="w-full md:w-5/6 text-center md:text-left md:pl-8 lg:pl-0">
-          <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">{{ $page.project.title }}</h1>
-          
-          <p class="text-gray-700 text-xl" v-if="$page.project.bio">{{ $page.project.bio }}</p>
-          <div class="avatars">
-            <div class="flex items-center">
-            
-            <div class="author-social">
-          
+          <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">
+            {{ $page.project.title }}
             <a
               :href="$page.project.linkedin"
               target="_blank"
@@ -25,56 +19,62 @@
             >
               <font-awesome :icon="['fab', 'linkedin']" />
             </a>
+          </h1>
+
+          <p class="text-gray-700 text-xl" v-if="$page.project.bio">
+            {{ $page.project.bio }}
+          </p>
+          <div class="avatars">
+            <section>
+              <div class="avatars">
+                <div class="flex items-center">
+                  <div class="flex justify-between items-center">
+                    <ul class="list-none flex author-list m-0">
+                      <li
+                        v-for="member in $page.project.members"
+                        :key="member.id"
+                        class="author-list-item"
+                      >
+                        <g-link :to="member.path" v-tooltip="member.name">
+                          <g-image
+                            :src="member.image"
+                            :alt="member.name"
+                            class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
+                          />
+                        </g-link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="post-tags container mx-auto relative py-5">
+              <g-link
+                v-for="tag in $page.project.tags"
+                :key="tag.id"
+                :to="tag.path"
+                class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+                >{{ tag.title }}</g-link
+              >
+            </section>
           </div>
-          
-          </div>
-          <section>
-            <br/>
-    <div class="avatars">
-            <div class="flex items-center">
-              <div class="flex justify-between items-center">
-                <ul class="list-none flex author-list m-0">
-                  <li
-                    v-for="member in $page.project.members"
-                    :key="member.id"
-                    class="author-list-item"
-                  >
-                    <g-link :to="member.path" v-tooltip="member.name">
-                      <g-image
-                        :src="member.image"
-                        :alt="member.name"
-                        class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
-                      />
-                    </g-link>
-                  </li>
-                </ul>
-            </div>
-            </div>
-    </div>
-    </section>
-    <section class="post-tags container mx-auto relative py-10">
-          <g-link
-            v-for="tag in $page.project.tags"
-            :key="tag.id"
-            :to="tag.path"
-            class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
-          >{{ tag.title }}</g-link>
-  </section>
-        </div>
         </div>
       </div>
 
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
 
-        <section class="post-content container mx-auto relative text-gray-700">
-          <div class="post-content-text text-xl" v-html="$page.project.content"></div>
-        </section>
+      <section class="post-content container mx-auto relative text-gray-700">
+        <div
+          class="post-content-text text-xl"
+          v-html="$page.project.content"
+        ></div>
+      </section>
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
-        <br/>
-        
-        <section>
-          <div class="avatars">
-            <div class="flex items-center">
+      <br />
+
+      <section>
+        <div class="avatars">
+          <div class="flex items-center">
             <div class="flex justify-between items-center">
               <ul class="list-none flex author-list m-0">
                 <li
@@ -82,13 +82,12 @@
                   :key="author.id"
                   class="author-list-item"
                 >
-                  <g-link :to="author.path" v-tooltip="author.name"> 
+                  <g-link :to="author.path" v-tooltip="author.name">
                     <g-image
                       :src="author.image"
                       :alt="author.name"
                       class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
                     />
-                    
                   </g-link>
                 </li>
               </ul>
@@ -112,9 +111,9 @@
                 {{ $page.project.status }}
               </p>
             </div>
-            </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
       <div class="pagination flex justify-center mb-8">
         <Pagination
           :baseUrl="$page.project.path"
@@ -196,19 +195,19 @@ import Pagination from "~/components/Pagination.vue";
 export default {
   components: {
     Pagination,
-    PostListItem
+    PostListItem,
   },
   computed: {
-    postLabel: function() {
+    postLabel: function () {
       var pluralize = require("pluralize");
       return pluralize("post", this.$page.project.belongsTo.totalCount);
-    }
+    },
   },
   metaInfo() {
     return {
-      title: this.$page.project.title
+      title: this.$page.project.title,
     };
-  }
+  },
 };
 </script>
 <style scoped>

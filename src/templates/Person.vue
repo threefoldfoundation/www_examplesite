@@ -9,9 +9,21 @@
           ></g-image>
         </div>
         <div class="w-full md:w-5/6 text-center md:text-left md:pl-8 lg:pl-0">
-          <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">{{ $page.person.name }}</h1>
-          
-          <p class="text-gray-700 text-xl" v-if="$page.person.bio">{{ $page.person.bio }}</p>
+          <h1 class="pb-0 mb-0 mt-0 text-4xl font-medium">
+            {{ $page.person.name }}
+            <a
+              :href="$page.person.linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-400 hover:text-black"
+            >
+              <font-awesome :icon="['fab', 'linkedin']" />
+            </a>
+          </h1>
+
+          <p class="text-gray-700 text-xl" v-if="$page.person.bio">
+            {{ $page.person.bio }}
+          </p>
           <div class="author-social">
             {{ $page.person.belongsTo.totalCount }} Projects
             &nbsp;&middot;&nbsp;
@@ -33,23 +45,20 @@
               <font-awesome :icon="['fab', 'twitter']" />
             </a>
             &nbsp; -->
-            <a
-              :href="$page.person.linkedin"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-gray-400 hover:text-black"
-            >
-              <font-awesome :icon="['fab', 'linkedin']" />
-            </a>
           </div>
         </div>
       </div>
 
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
 
-        <section class="post-content container mx-auto relative font-serif text-gray-700">
-          <div class="post-content-text text-xl" v-html="$page.person.content"></div>
-        </section>
+      <section
+        class="post-content container mx-auto relative font-serif text-gray-700"
+      >
+        <div
+          class="post-content-text text-xl"
+          v-html="$page.person.content"
+        ></div>
+      </section>
 
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
 
@@ -142,18 +151,18 @@ import Pagination from "~/components/Pagination.vue";
 export default {
   components: {
     Pagination,
-    PostListItem
+    PostListItem,
   },
   computed: {
-    postLabel: function() {
+    postLabel: function () {
       var pluralize = require("pluralize");
       return pluralize("post", this.$page.person.belongsTo.totalCount);
-    }
+    },
   },
   metaInfo() {
     return {
-      title: this.$page.person.name
+      title: this.$page.person.name,
     };
-  }
+  },
 };
 </script>
