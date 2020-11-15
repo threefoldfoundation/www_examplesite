@@ -1,6 +1,6 @@
 ---
 id: christine_renee_perry
-name: christine_renee_perry
+name: Christine Renee Perry
 tags: project
 rank: 3
 memberships: project
@@ -8,7 +8,7 @@ bio: VP of Global solutions engineering, my goal is to increase blockchain usabi
 linkedin: https://www.linkedin.com/in/christinerpm/
 websites: https://skale.network/
 image: ./christine_renee-perry.jpg
-project_ids: Skale_labs
+project_ids: skale_labs
 countries: USA
 cities: San francisco
 private: 0
