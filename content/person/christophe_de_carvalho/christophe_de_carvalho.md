@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/christophe-de-carvalho-pereira-martins-919
 websites: https://threefold.io/
 image: ./christophe_de_carvalho.jpeg
 project_ids: threefold
-countries: Egypt
+countries: Egypt, Belgium
 cities: Cairo
 private: 0
 ---

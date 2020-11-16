@@ -1,6 +1,6 @@
 ---
 id: anurag_arjun
-name: anurag_arjun
+name: Anurag Arjun
 tags: project
 rank: 3
 memberships: project

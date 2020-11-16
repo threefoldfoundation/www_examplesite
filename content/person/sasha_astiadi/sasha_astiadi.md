@@ -13,7 +13,6 @@ countries: Indonesia, Spain, Germany
 cities: Bali, Barcelona, Berlin
 private: 0
 ---
-# Sasha Astiadi
 
 <BR>
 
