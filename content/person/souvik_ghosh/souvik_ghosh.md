@@ -7,7 +7,7 @@ bio: I have been working in the financial industry mainly IT as engineer, archit
 excerpt: I am passionate about technology and along with my day-job, I am also working as a freelance ML specialist.
 linkedin: https://www.linkedin.com/in/souvik-ghosh-aaa30470/
 websites: https://threefold.io/
-image: ./souvik_ghosh.jpg
+image: ./souvik-ghosh.jpg
 project_ids: threefold_foundation
 countries: Belgium
 cities:

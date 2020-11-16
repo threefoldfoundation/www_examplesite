@@ -8,7 +8,7 @@ excerpt: Application Engineer working for Jimber.
 linkedin: https://www.linkedin.com/in/jonaswijne/
 websites: https://www.jimber.org/
 project_ids: jimber
-image:
+image: ./jonas_wijne.jpeg
 countries: Belgium
 cities:
 private: 0

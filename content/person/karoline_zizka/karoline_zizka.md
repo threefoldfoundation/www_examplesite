@@ -7,7 +7,7 @@ bio: The appetite to travel and work was already created before she even entered
 excerpt: Currently serving by coordinating with people on particular projects, always having the most productive and playful outcomes for the Highest Good of all in mind and heart.
 linkedin: https://www.linkedin.com/in/karoline-zizka-52a287b6/
 websites: https://threefold.io/
-image: ./karoline_ziska.jpeg
+image: ./karoline_zizka.jpeg
 project_ids: threefold_foundation
 countries: Austria
 cities: Vienna
