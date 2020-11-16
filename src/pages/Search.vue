@@ -2,11 +2,11 @@
   <Layout>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <PostListItem
+        <!-- <PostListItem
           v-for="edge in searchResults"
           :key="edge.node.id"
           :record="edge.node"
-        />
+        /> -->
       </div>
     </div>
     <!-- <div class="pagination flex justify-center mb-8">
@@ -18,7 +18,6 @@
           v-if="searchResults.pageInfo.totalPages > 1"
         />
       </div> -->
-    {{ searchResults }}
   </Layout>
 </template>
 
@@ -31,7 +30,7 @@ export default {
     title: "Search",
   },
   data: () => ({
-    q: "the",
+    q: "",
   }),
   computed: {
     searchResults() {
