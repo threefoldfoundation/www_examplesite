@@ -7,7 +7,7 @@ bio: Ecosystem Growth at NEO blockchain
 excerpt: Ecosystem Growth at NEO blockchain
 linkedin: https://www.linkedin.com/in/dsuslov/
 websites: https://neo.org/
-image: ./denis_suslov.jpg
+image: ./denis_suslov.jpeg
 project_ids: neo
 countries: China
 cities: Shanghai
