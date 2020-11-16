@@ -2,10 +2,14 @@
   <Layout>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <PostListItem v-for="edge in searchResults" :key="edge.node.id" :record="edge.node" />
+        <PostListItem
+          v-for="edge in searchResults"
+          :key="edge.node.id"
+          :record="edge.node"
+        />
       </div>
     </div>
-     <!-- <div class="pagination flex justify-center mb-8">
+    <!-- <div class="pagination flex justify-center mb-8">
         <Pagination
           :baseUrl="baseurl"
           :currentPage="searchResults.pageInfo.currentPage"
@@ -14,32 +18,34 @@
           v-if="searchResults.pageInfo.totalPages > 1"
         />
       </div> -->
-      {{searchResults}}
+    {{ searchResults }}
   </Layout>
 </template>
 
 <script>
-import PostListItem from '~/components/PostListItem.vue';
+import PostListItem from "~/components/PostListItem.vue";
 import Pagination from "~/components/Pagination.vue";
 
 export default {
   metaInfo: {
-    title: "Search"
+    title: "Search",
   },
   data: () => ({
-    q: 'the'
+    q: "the",
   }),
   computed: {
-    searchResults () {
-      const searchTerm = this.q
-      if (searchTerm.length < 3) return []
-      return this.$search.search({ query: searchTerm, limit: 5 })
-    }
+    searchResults() {
+      const searchTerm = this.q;
+      if (searchTerm.length < 3) return [];
+      return this.$search.search({ query: searchTerm, limit: 5 });
+    },
+  },
+  mounted() {
+    this.q = new URL(location.href).searchParams.get("query");
   },
   components: {
     PostListItem,
-    Pagination
+    Pagination,
   },
-
-}
+};
 </script>

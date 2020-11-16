@@ -1,6 +1,12 @@
 <template>
   <div class="fixed inset-0 h-16 bg-black">
-    <header class="container sm:flex sm:items-center sm:px-4 sm:py-3 mx-auto">
+    <header
+      class="flex items-center justify-between flex-wrap container mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
+      v-bind:class="{
+        'opacity-100': !disableScroll && scrollPosition > headerHeight,
+        'opacity-0': !disableScroll && scrollPosition < headerHeight,
+      }"
+    >
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div class="inline-flex items-center flex-shrink-0 text-white mr-6">
           <a href="/" class="flex">
@@ -94,16 +100,18 @@
             }}</g-link>
           </li>
         </ul>
-        <div class="md:hidden inline-flex rounded-full border-grey-light border w-1/2">
-          <button>
-            <span class="w-auto flex justify-end items-center text-grey p-2">
-              <font-awesome :icon="['fas', 'search']" />
-            </span>
-          </button>
+        <div
+          class="md:hidden inline-flex rounded-full border-grey-light border w-1/2"
+        >
+          <span class="w-auto flex justify-end items-center text-grey p-2">
+            <font-awesome :icon="['fas', 'search']" />
+          </span>
           <input
             class="w-full rounded mr-4 bg-black"
             type="text"
             placeholder="Search..."
+            v-model="search"
+            @keyup.enter="result"
           />
         </div>
       </nav>
@@ -111,15 +119,15 @@
         class="hidden text-gray-400 md:ml-auto md:inline-block md:order-last"
       >
         <div class="inline-flex rounded-full border-grey-light border w-1/2">
-          <button>
-            <span class="w-auto flex justify-end items-center text-grey p-2">
-              <font-awesome :icon="['fas', 'search']" />
-            </span>
-          </button>
+          <span class="w-auto flex justify-end items-center text-grey p-2">
+            <font-awesome :icon="['fas', 'search']" />
+          </span>
           <input
             class="w-full rounded mr-4 bg-black"
             type="text"
             placeholder="Search..."
+            v-model="search"
+            @keyup.enter="result"
           />
         </div>
         <ul class="list-none inline-flex justify-center md:justify-end">
@@ -176,6 +184,7 @@ export default {
       scrollPosition: null,
       headerHeight: 0,
       isOpen: false,
+      search: "",
     };
   },
 
@@ -185,6 +194,9 @@ export default {
     },
     setHeaderHeight(height) {
       this.headerHeight = height;
+    },
+    result() {
+      window.location.href = `/search?query=${this.search}`;
     },
   },
 
@@ -216,7 +228,8 @@ query {
 </static-query>
 
 <style scoped>
-input:focus {
+input:focus,
+button:focus {
   outline: 0;
 }
 </style>
