@@ -6,7 +6,7 @@ startdate: 2021-03-20
 countries: USA
 cities: San Francisco
 rank: 4
-excerpt: Open consensus for 10 Billion people 
+excerpt: Open consensus for 10 Billion people to scale trust and create a radically fair economy.
 created: 2019-07-20
 image: ./harmony.png
 image_caption: harmony
@@ -17,7 +17,7 @@ websites: https://www.harmony.one/
 tags: tfgrid
 private: 0
 potential:
-linkedin: 
+linkedin: https://www.linkedin.com/company/harmony-one/
 ---
 
 # Harmony
