@@ -55,3 +55,5 @@ Both Flowgen and ThreeFold are focused on the need for decentralisation, making 
 
 ### Roadmap
 
+Planning for the deployment of a joint showcase to demonstrate the viability and integration of our technologies.
+Pursuing joint sales opportunities for the deployment of our decentralized renewable power + decentralized IT proposition
