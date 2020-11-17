@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./erik_reitsma_processed.jpeg
 countries: Dutch
 cities:
-private: 0
+private: 1
 ---

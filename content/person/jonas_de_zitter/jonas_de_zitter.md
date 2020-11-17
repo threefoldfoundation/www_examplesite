@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./jonas_de_zitter_processed.jpg
 countries: Belgium
 cities:
-private: 0
+private: 1
 ---

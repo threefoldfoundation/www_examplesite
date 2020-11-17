@@ -5,9 +5,9 @@ status: public
 startdate: 2021-03-20
 countries: Belgium
 cities: Lochristi
-rank: 1
+rank: 4
 excerpt: Powering the Information Technology workloads of tomorrow.
-created: 
+created: 2021-03-20
 image: ./threefold_tech.png
 image_caption: threefold tech
 logo: ./logo.png
@@ -24,27 +24,31 @@ linkedin: https://www.linkedin.com/company/threefold-tech/
 
 ## About
 
-<BR>
+ThreeFold Tech is a company based on 15+ years of tech experience. (Established in Belgium.) Their Autonomous IT technology is positioned to disrupt IT infrastructure across sectors – internet, banking, telco, etc.
 
-<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
-
+ThreeFold Technology empowers a grid of IT capacity, which today is 10x bigger than all other blockchain players combined. More than $15MM USD has been spent creating this technology.
 
 ## Mission
 
+Create a decentralized peer-to-peer system inspired by nature.
 
 ## Impact
 
+- Better security
+- More uptime
+- Greater effeciencies 
+- Endles scalability
 
 ## Powered by ThreeFold
 
+ThreeFold Foundation is focused on democratizing internet compute and storage capacity to enable a responsible internet for all. This is the primary reference of ThreeFold Tech. TFTech software empowers people to create neutral, green and private capacity across the globe that’s blockchain-driven and 100% decentralized. This “hyper-distributed” network enables developers from all over the world to bring to life decentralized applications and solutions, and digital service/application providers to host their applications closer to end users.
 
-## Join saving our planet
- 
+# Support this project
 
-## Support this project
+Make a wise investment.
+Make a positive impact.
 
+Become a TF Tech investor https://www.threefold.tech/investors.html
 
 ## TFGrid Solution
 

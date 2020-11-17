@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./christian_seidl_processed.jpg
 countries: German
 cities:
-private: 0
+private: 1
 ---

@@ -11,5 +11,5 @@ image: ./virgil_ilian.jpg
 project_ids: threefold_foundation
 countries: Romania
 cities: 
-private: 0
+private: 1
 ---

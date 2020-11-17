@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./ragheb_abushahba_processed.jpg
 countries: Egypt
 cities:
-private: 0
+private: 1
 ---

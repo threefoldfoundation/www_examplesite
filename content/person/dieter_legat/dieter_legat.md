@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./dieter_legat_processed.jpg
 countries: Austria
 cities:
-private: 0
+private: 1
 ---

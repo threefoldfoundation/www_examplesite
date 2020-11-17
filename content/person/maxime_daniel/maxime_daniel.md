@@ -1,7 +1,7 @@
 ---
 id: maxime_daniel
 name: Maxime Daniel
-rank: 1
+rank: 3
 memberships: threefold_foundation, threefold_tech
 bio: C, python and nodejs developer, Gentoo user, Linux and Music addict
 excerpt: C, python and nodejs developer, Gentoo user, Linux and Music addict

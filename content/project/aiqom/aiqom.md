@@ -5,17 +5,17 @@ status: planned
 startdate: 
 countries: Global
 cities: 
-rank: 3
+rank: 4
 excerpt: The world’s first Artificial Intelligence (AI) Nation.
 created:
 image: ./aiqom.png
 image_caption: aiqom
 logo: ./logo.png
-author: kristof_de_spiegeleer
+author: kristine_vilnite
 members: samer_obeidat
 websites: https://aiqom.ai/
 tags: tfgrid, crystaltwin
-private: 0
+private: 1
 potential:
 linkedin: ''
 ---

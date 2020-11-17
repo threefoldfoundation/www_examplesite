@@ -11,5 +11,5 @@ image: ./rob_tol.jpg
 project_ids: threefold_foundation
 countries: Dutch
 cities: 
-private: 0
+private: 1
 ---

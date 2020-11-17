@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./osama_shihab_firtoria_processed.jpg
 countries: Nicaraguan/Jordanian
 cities:
-private: 0
+private: 1
 ---

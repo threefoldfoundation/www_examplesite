@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./frederico_fumagalli_processed.jpg
 countries: Italian
 cities:
-private: 0
+private: 1
 ---

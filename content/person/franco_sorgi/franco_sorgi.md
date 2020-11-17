@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./franco_sorgi_processed.jpg
 countries: Italy, US
 cities:
-private: 0
+private: 1
 ---

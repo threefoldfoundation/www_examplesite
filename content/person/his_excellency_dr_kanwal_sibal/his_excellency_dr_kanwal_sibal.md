@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./his_excellency_dr_kanwal_sibal_processed.jpg
 countries: India
 cities:
-private: 0
+private: 1
 ---

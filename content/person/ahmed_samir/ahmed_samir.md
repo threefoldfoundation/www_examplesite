@@ -5,9 +5,9 @@ rank: 4
 memberships: threefold_tech
 bio: Ahmed is a passionate Engineer who loves learning new stuff.
 excerpt: Software Engineer
-linkedin: 
+linkedin: https://www.linkedin.com/in/ahmed-samir-756b191ba/
 websites: https://threefold.io/
-image: ./ahmed_samir_processed.jpg
+image: ./ahmed_samir.jpeg
 project_ids: threefold_tech
 countries: Egypt
 cities: Cairo

@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./lucie_nguyen_processed.jpg
 countries: France 
 cities:
-private: 0
+private: 1
 ---

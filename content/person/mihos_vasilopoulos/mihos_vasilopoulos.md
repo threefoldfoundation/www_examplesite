@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./mihos_vasilopoulos_processed.jpg
 countries: Greece
 cities:
-private: 0
+private: 1
 ---

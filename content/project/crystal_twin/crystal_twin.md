@@ -5,7 +5,7 @@ status: internal
 startdate: 2021-03-20
 countries: Global
 cities:
-rank: 5
+rank: 4
 excerpt: Your digital twin serving as a gateway to the new digital world of peer-to-peer experiences.
 created: 2020-04-20
 image: ./crystal_twin.png

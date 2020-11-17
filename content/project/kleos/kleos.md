@@ -11,8 +11,8 @@ created: 2020-04-20
 image: ./kleos.png
 image_caption: kleos
 logo: ./logo.png
-author: kristof_de_spiegeleer
-members: 
+author: adnan_fatayerji
+members: andreas_hartl, george_el_aily
 websites: www.kleos.net
 tags: tfgrid
 private: 0
@@ -24,29 +24,23 @@ linkedin: https://www.linkedin.com/company/kleos/
 
 ## About
 
-<BR>
-
-<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
 
 
 ## Mission
 
+Kleos aims at becoming the most ecofriendly telecom mediator leaving a minimal carbon footprint on the environment, through minimizing the need for bulk production of antennas, base stations and probes amongst other capacitors.
 
 ## Impact
 
+Approved to use ThreeFold Tech within the baystations they deploy. Critical in low income countries where internet connectivity is expensive and inaccessible. 
 
 ## Powered by ThreeFold
 
-
-## Join saving our planet
- 
-
-## Support this project
-
+Kleos' 5G Technology will help the ThreeFold platform to scale to serve the last mile in connectivity. 
 
 ## TFGrid Solution
 
 ### Roadmap
+
+5G+ will launch in Q4 2019
 

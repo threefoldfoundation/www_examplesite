@@ -8,7 +8,7 @@ excerpt: An international entrepreneur and part of a diverse team of innovators.
 linkedin: https://www.linkedin.com/in/weynandkuijpers/
 websites: https://threefold.io/, https://www.mazraa.io/
 image: ./weynand_kuijpers.jpeg
-project_ids: threefold_foundation, threefold_tech, mazraa
+project_ids: threefold_foundation, threefold_tech
 countries: UAE, Spain
 cities: Dubai, Madrid
 private: 0

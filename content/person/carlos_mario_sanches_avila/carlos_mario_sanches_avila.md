@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./carlos_mario_sanches_avila_processed.jpg
 countries: Mexican
 cities:
-private: 0
+private: 1
 ---

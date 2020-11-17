@@ -11,5 +11,5 @@ image: ./roel_p_castelein.jpg
 project_ids: threefold_foundation
 countries: Belgium
 cities: 
-private: 0
+private: 1
 ---

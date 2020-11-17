@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./olivia_kemp_processed.png
 countries: Austria, UK
 cities:
-private: 0
+private: 1
 ---

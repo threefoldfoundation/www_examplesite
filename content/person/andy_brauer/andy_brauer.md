@@ -11,7 +11,7 @@ image: ./andy_brauer_processed.jpg
 project_ids: threefold_foundation
 countries: South Africa
 cities: Johannesburg
-private: 0
+private: 1
 ---
 
 

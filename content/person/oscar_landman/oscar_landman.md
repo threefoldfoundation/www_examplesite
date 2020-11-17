@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./oscar_landman_processed.jpg
 countries: Dutch
 cities:
-private: 0
+private: 1
 ---

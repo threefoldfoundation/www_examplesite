@@ -8,13 +8,8 @@ excerpt: ThreeFold Connector building the ThreeFold Grid as a global ecosystem.
 linkedin: https://www.linkedin.com/in/castiglioneand/
 websites: https://threefold.io/
 image: ./andrea_castiglione.jpg
-project_ids: threeFold_tech
+project_ids: threeFold_foundation
 countries: Switzerland
 cities: Zurich
 private: 0
 ---
-
-# Andrea Castiglione
-
-<BR>
-<BR>

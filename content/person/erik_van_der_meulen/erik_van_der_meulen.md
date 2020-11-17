@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./erik_van_der_meulen_processed.jpg
 countries: The Netherlands
 cities:
-private: 0
+private: 1
 ---

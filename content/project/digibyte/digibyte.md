@@ -5,14 +5,14 @@ status: test
 startdate: 2021-03-20
 countries: Global
 cities:
-rank: 5
+rank: 4
 excerpt: An innovative blockchain that can be used for digital assets, smart contracts, decentralized applications and secure authentication.
 created: 2020-04-20
 image: ./digibyte.png
 image_caption: digibyte
 logo: ./logo.png
 author: benjelloun_oussama
-members: hans_koning, rudy_bouwman, rutger_krijnen
+members: hans_koning
 websites: https://digibyte.io/, https://digibytefoundation.io/
 tags: tfgrid
 private: 0

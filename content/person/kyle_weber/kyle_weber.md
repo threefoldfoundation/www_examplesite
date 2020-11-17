@@ -11,5 +11,4 @@ project_ids: threefold_foundation
 image: ./kyle_weber_processed.jpg
 countries: American
 cities:
-private: 0
----
+private: 1

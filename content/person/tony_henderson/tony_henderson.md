@@ -11,5 +11,5 @@ image: ./tony_henderson.jpg
 project_ids: threefold_foundation
 countries: UK
 cities:
-private: 0
+private: 1
 ---

@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./lucia_groenfelt_processed.jpg
 countries: The Netherlands
 cities:
-private: 0
+private: 1
 ---
