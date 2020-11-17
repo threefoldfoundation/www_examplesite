@@ -5,7 +5,7 @@ status: public
 startdate: 2021-03-20
 countries: Belgium
 cities: Lochristi
-rank: 1
+rank: 4
 excerpt: Powering the Information Technology workloads of tomorrow.
 created: 
 image: ./threefold_tech.png
@@ -23,12 +23,6 @@ linkedin: https://www.linkedin.com/company/threefold-tech/
 # Threefold Tech
 
 ## About
-
-<BR>
-
-<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
 
 
 ## Mission
