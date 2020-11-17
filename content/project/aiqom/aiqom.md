@@ -6,7 +6,7 @@ startdate:
 countries: Global
 cities: 
 rank: 4
-excerpt: The world’s first Artificial Intelligence (AI) Nation.
+excerpt: Leading AI R&D lab and is backed by impactful angel investors, visionary machine learning scientists.
 created:
 image: ./aiqom.png
 image_caption: aiqom
@@ -17,7 +17,7 @@ websites: https://aiqom.ai/
 tags: tfgrid, crystaltwin
 private: 1
 potential:
-linkedin: ''
+linkedin: https://www.linkedin.com/company/aiqom/
 ---
 
 # AIQOM
