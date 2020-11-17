@@ -5,7 +5,7 @@ status: planned
 startdate: 2021-03-20
 countries: Switzerland, Germany
 cities: Zürich, Berlin
-rank: 3
+rank: 4
 excerpt: Providing digital identity for those individuals most underserved.
 created: 2020-04-20
 image: ./the_humanized_internet.png
