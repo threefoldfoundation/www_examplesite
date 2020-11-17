@@ -8,7 +8,7 @@ bio: Chief Product officer at Matic, My personal background is in software produ
 excerpt: I have 11+ years of experience in building technology products.
 linkedin: https://www.linkedin.com/in/anuragarjun/
 websites: https://matic.network/
-image: ./anurag_arjun.jpg
+image: ./anurag.jpeg
 project_ids: matic_network
 countries: India 
 cities: Banglore
