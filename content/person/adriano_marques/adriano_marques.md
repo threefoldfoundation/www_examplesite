@@ -7,7 +7,7 @@ bio: Adriano has a 20-year career in which he held multiple roles in the Telecom
 excerpt: Hybrid Cloud Solutions | Digital Transformation | Blockchain at IBM
 linkedin: https://www.linkedin.com/in/adrianom/
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./adriano_marques_processed.jpg
+image: ./adriano.jpeg
 project_ids: 
 countries: Belgium
 cities: Brussels
