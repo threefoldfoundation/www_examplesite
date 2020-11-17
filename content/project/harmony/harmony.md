@@ -32,12 +32,6 @@ Harmony is a fast and open blockchain for decentralized applications.
 - Harmony aims to build an open network of nodes operated and governed by a large community.
 - Harmony has designed a novel Proof-of-Stake (PoS) mechanism for network security and economics - Effective Proof-of-Stake (EPoS) which reduces centralization and distributes rewards fairly to thousands of validators
 
-<BR>
-
-<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
-
 
 ## Harmony and ThreeFold
 
