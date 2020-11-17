@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./bart_weijermars_processed.jpg
 countries: Dutch
 cities:
-private: 0
+private: 1
 ---

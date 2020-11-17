@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./didem_gordon_processed.jpg
 countries: Turkey
 cities:
-private: 0
+private: 1
 ---

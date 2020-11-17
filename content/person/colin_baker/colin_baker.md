@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./colin_baker_processed.jpg
 countries:
 cities:
-private: 0
+private: 1
 ---

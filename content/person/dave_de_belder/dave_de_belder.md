@@ -8,7 +8,7 @@ excerpt: Michelin star chef, conscious about food and how it ties in with spirit
 linkedin: https://www.linkedin.com/in/ahmed-te-youssef/
 websites: https://threefold.io/
 image: ./dave_de_belder.jpeg
-project_ids: threefold
+project_ids: threefold_foundation
 countries: Spain
 cities: Ibiza
 private: 0

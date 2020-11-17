@@ -13,9 +13,3 @@ countries: Israel
 cities: Tel Aviv
 private: 0
 ---
-
-<BR>
-
-<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>

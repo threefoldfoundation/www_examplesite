@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./chris_hurd_processed.jpg
 countries: UK
 cities:
-private: 0
+private: 1
 ---

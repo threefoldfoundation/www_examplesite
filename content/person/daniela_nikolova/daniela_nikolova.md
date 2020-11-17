@@ -11,5 +11,5 @@ project_ids: threefold_foundaion
 image: ./daniela_nikolova_processed.jpg
 countries: Ukraine
 cities:
-private: 0
+private: 1
 ---

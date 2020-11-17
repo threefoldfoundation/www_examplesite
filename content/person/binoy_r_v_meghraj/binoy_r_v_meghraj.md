@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./binoy_r_v_meghraj_processed.jpg
 countries: British
 cities:
-private: 0
+private: 1
 ---
