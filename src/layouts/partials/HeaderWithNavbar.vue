@@ -10,14 +10,14 @@
         <div class="text-sm flex-grow inline-flex">
           <div class="inline-flex items-center flex-shrink-0 text-white mr-6">
             <img
-              src="../../../static/img/ACI_icon-01.png"
+              src="../../../static/img/TFN_white.svg"
               class="mr-3"
-              width="50"
+              width="180"
               alt=""
             />
-            <span class="font-semibold text-xl tracking-tight">{{
+            <!-- <span class="font-semibold text-xl tracking-tight">{{
               $static.metadata.siteName
-            }}</span>
+            }}</span> -->
           </div>
           <ul
             class="list-none inline-flex justify-left text-gray-300 uppercase mt-3"

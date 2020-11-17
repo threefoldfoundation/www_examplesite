@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    siteName: 'ACI',
+    siteName: 'ThreeFold Partners',
     siteDescription: 'ThreeFold Partners',
     siteUrl: 'http://localhost:8080',
     plugins: [

@@ -11,15 +11,15 @@
         <div class="inline-flex items-center flex-shrink-0 text-white mr-6">
           <a href="/" class="flex">
             <img
-              src="../../../static/img/ACI_icon-01.png"
+              src="../../../static/img/TFN_white.svg"
               class="mr-3"
-              width="50"
+              width="180"
               alt=""
             />
-            <span
+            <!-- <span
               class="hidden md:block font-semibold text-xl tracking-tight"
               >{{ $static.metadata.siteName }}</span
-            >
+            > -->
           </a>
         </div>
 
