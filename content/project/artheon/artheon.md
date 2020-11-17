@@ -5,7 +5,7 @@ status: test
 startdate: 2021-03-20
 countries: Russia
 cities: Moscow
-rank: 3
+rank: 5
 excerpt: A virtual museum online with 50.000+ pieces of art on top of TFGrid.
 created: 2020-04-20
 image: ./artheon.jpg
