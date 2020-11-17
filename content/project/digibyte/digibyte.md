@@ -5,7 +5,7 @@ status: test
 startdate: 2021-03-20
 countries: Global
 cities:
-rank: 4
+rank: 5
 excerpt: An innovative blockchain for digital assets, smart contracts, dApps and secure authentication.
 created: 2020-04-20
 image: ./digibyte.png
