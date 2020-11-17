@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
-      <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
+      <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem v-for="edge in $page.entries.edges" :key="edge.node.id" :record="edge.node" />
       </div>
     </div>
@@ -20,7 +20,7 @@
 <page-query>
 
 query($page:Int) {
-  entries: allPerson(perPage: 20, page: $page, sortBy: "rank", order: DESC) @paginate {
+  entries: allPerson(perPage: 21, page: $page, sortBy: "rank", order: DESC) @paginate {
     totalCount
     pageInfo {
       totalPages
