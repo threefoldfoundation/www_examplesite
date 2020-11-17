@@ -5,27 +5,14 @@
         <PostListItem v-for="edge in $page.entries.edges" :key="edge.node.id" :record="edge.node" />
       </div>
     </div>
-     <div class="pagination flex justify-center mb-8">
-        <Pagination
-          :baseUrl="baseurl"
-          :currentPage="$page.entries.pageInfo.currentPage"
-          :totalPages="$page.entries.pageInfo.totalPages"
-          :maxVisibleButtons="5"
-          v-if="$page.entries.pageInfo.totalPages > 1"
-        />
-      </div>
   </Layout>
 </template>
 
 <page-query>
 
 query($page:Int) {
-  entries: allProject(perPage: 10, page: $page, sortBy: "rank", order: DESC) @paginate {
+  entries: allProject( page: $page) {
     totalCount
-    pageInfo {
-      totalPages
-      currentPage
-    }
     edges {
       node {
         title
@@ -48,7 +35,6 @@ query($page:Int) {
         timeToRead
         author {
           id
-          
           image(width:64, height:64, fit:inside)
           path
         }
