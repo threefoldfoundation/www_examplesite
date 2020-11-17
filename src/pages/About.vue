@@ -3,9 +3,9 @@
 
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
        <h2 class="text-center">The Alliance for a Conscious Internet</h2>
-      <p class="text-center py-5">A planetary movement of people and organisations that take action now to shape a conscious digital <br> that empowers everyone equally, across borders.</p>
+      <p class="text-center py-5">A planetary movement of people and organisations that take action now to shape a conscious digital <br> world that empowers everyone equally across borders.</p>
       <VacationCard
-        img="/img/aci-banner-big.png"
+        img="/img/earth.png"
         imgAlt="Beach in Cancun"
         eyebrow=""
         title=""
