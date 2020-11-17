@@ -5,7 +5,7 @@ status: planned
 startdate: 2021-03-20
 countries: Vietnam
 cities: Saigon
-rank: 4
+rank: 3
 excerpt: The efficient blockchain powered by proof of stake voting consensus.
 created: 2019-06-20
 image: ./tomochain.png
