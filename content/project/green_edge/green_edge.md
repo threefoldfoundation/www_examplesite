@@ -1,6 +1,6 @@
 ---
 id: green_edge
-title: Green Edge Sustainable Development
+title: Green Edge
 status: public
 startdate: 2020-04-20
 countries: South Africa, East Africa
