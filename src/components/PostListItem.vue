@@ -70,9 +70,6 @@ export default {
       default: true,
     },
   },
-  mounted() {
-    // console.log(this.record)
-  },
 };
 </script>
 
