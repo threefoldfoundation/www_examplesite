@@ -11,5 +11,5 @@ image: ./ronald_de_bruijn.jpg
 project_ids: threefold_foundation
 countries: The Netherlands
 cities: 
-private: 0
+private: 1
 ---

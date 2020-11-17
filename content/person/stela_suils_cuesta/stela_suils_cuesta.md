@@ -11,5 +11,5 @@ image: ./stela_suils_cuesta.jpg
 project_ids: threefold_foundation
 countries: Spain
 cities:
-private: 0
+private: 1
 ---

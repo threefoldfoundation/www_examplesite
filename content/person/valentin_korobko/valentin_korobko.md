@@ -11,5 +11,5 @@ image: ./valentin_koroboko.jpg
 project_ids: threefold_foundation
 countries: Ukraine 
 cities:
-private: 0
+private: 1
 ---

@@ -11,5 +11,5 @@ image: ./roel_wofert.png
 project_ids: shareitt
 countries: Netherlands
 cities: Amsterdam
-private: 0
+private: 1
 ---

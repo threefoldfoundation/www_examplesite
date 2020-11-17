@@ -11,5 +11,5 @@ image: ./richard_sutton.jpeg
 project_ids: threefold_foundation
 countries: UK
 cities: 
-private: 0
+private: 1
 ---

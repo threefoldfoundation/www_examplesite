@@ -11,5 +11,5 @@ image: ./richard_walker.jpg
 project_ids: threefold_foundation
 countries: UK, US
 cities: 
-private: 0
+private: 1
 ---

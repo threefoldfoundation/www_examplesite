@@ -11,5 +11,5 @@ image: ./raphael_zöscher.jpg
 project_ids: threefold_foundation
 countries: Austria
 cities: 
-private: 0
+private: 1
 ---

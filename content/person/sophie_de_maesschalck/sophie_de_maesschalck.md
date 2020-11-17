@@ -11,5 +11,5 @@ image: ./sophie_de_maesschalck.jpg
 project_ids: threefold_foundation
 countries: Belgium
 cities: 
-private: 0
+private: 1
 ---
