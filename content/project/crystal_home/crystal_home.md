@@ -5,7 +5,7 @@ status: planned
 startdate: 2021-03-20
 countries: The Netherlands
 cities:
-rank: 4
+rank: 3
 excerpt: Circular & self-sufficient homes reducing the CO2 footprint and the waste flow of the construction industry.
 created: 2020-04-20
 image: ./crystal_home.jpg
