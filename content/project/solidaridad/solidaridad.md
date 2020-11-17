@@ -6,7 +6,7 @@ startdate: 2021-03-20
 countries: Central America, East and Central Africa, Europe, North America, Asia, South America, Southern Africa, West Africa
 cities: 
 rank: 3
-excerpt: Provide an alternative income stream for farmers and create digital services to allow the farmer to partake in the 21st century agriculture.
+excerpt: Provide an alternative income stream and create digital services for farmers across the globe.
 created: 2021-03-20
 image: ./solidaridad.jpg
 image_caption: solidaridad
