@@ -48,11 +48,6 @@ We believe well-being of all is important, and are committed to creating opportu
 
 We are planning to use ThreeFold's peer-to-peer infrastructure for the Unit.
 
-<BR>
- 
-<iframe src="https://player.vimeo.com/video/438885099" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
  
 ## Join saving our planet
  
