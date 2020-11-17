@@ -11,7 +11,7 @@
 <page-query>
 
 query {
-  entries: allProject {
+  entries: allProject (sortBy: "rank", order: DESC){
     totalCount
     edges {
       node {

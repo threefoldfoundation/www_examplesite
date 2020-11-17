@@ -11,7 +11,7 @@
 <page-query>
 
 query {
-  entries: allPerson {
+  entries: allPerson (sortBy: "rank", order: DESC){
     totalCount
     edges {
       node {
