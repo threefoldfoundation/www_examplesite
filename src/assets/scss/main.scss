@@ -105,10 +105,10 @@ ul {
         flex: 1 1 50%;
         @apply flex-col;
         .post-card-image-link {
-            @apply flex-auto;
+            
             @apply relative;
-            min-height: 380px;
-            @apply mr-6;
+            min-height: 400px;
+            
         }
         .post-card-image {
             @apply absolute;
