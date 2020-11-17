@@ -11,8 +11,8 @@ created: 2020-04-20
 image: ./kleos.png
 image_caption: kleos
 logo: ./logo.png
-author: sabrina_sadik
-members: Andreas Hartl, George El Aily
+author: adnan_fatayerji
+members: andreas_hartl, george_el_aily
 websites: www.kleos.net
 tags: tfgrid
 private: 0
