@@ -11,8 +11,8 @@ created: 2020-04-20
 image: ./flowgen.png
 logo: ./logo.png
 image_caption: flowgen
-author: sabrina_sadik
-members: Tom Clausen, Dirk Kuester, Peter Richter
+author: peter_richter
+members: tom_clausen, dirk_kuester
 websites: https://www.flowgen.com/
 tags: planned, grid
 private: 0
