@@ -11,10 +11,10 @@ created:
 image: ./sequoyah.png
 image_caption: sequoyah
 logo: ./logo.png
-author: sabrina_sadik
-members: Andreas Hartl, Dennis Lindberg
+author: andreas_hartl
+members: dennis_lindberg
 websites: https://sequoyah.dk/
-tags: planned, tfgrid
+tags: tfgrid
 private: 0
 potential: 
 linkedin: ''
