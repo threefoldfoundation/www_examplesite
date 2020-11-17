@@ -6,7 +6,7 @@ startdate: 2021-03-20
 countries: California, US
 cities: San Jose
 rank: 1
-excerpt: HPE wants to help ThreeFold to offer hardware and IT services to the community. Our joined service starts with 110 countries. First joint projects have been delivered with HPE recognising €2m in net new revenue already.
+excerpt: HPE wants to help ThreeFold to offer hardware and IT services to the community.
 created: 2021-03-20
 image: ./hpe.png
 image_caption: hpe
