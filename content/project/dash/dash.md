@@ -1,11 +1,11 @@
 ---
 id: dash
-title: Digital Cash
+title: Dash
 status: internal
 startdate: 2020-12-01
 countries: Global
 cities: 
-rank: 1
+rank: 3
 excerpt: Instant transactions and micro-fees. Any amount, anytime, anywhere. 
 created: 2020-04-28
 image: ./dash.png
