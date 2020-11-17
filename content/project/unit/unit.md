@@ -6,7 +6,7 @@ startdate: 2021-03-20
 countries: Global
 cities: 
 rank: 3
-excerpt: Powering the Global Economy
+excerpt: Supporting people by helping them to develop a business around their passion.
 created: 2020-04-20
 image: ./unit.png
 image_caption: unit
