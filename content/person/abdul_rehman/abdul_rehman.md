@@ -7,7 +7,7 @@ bio: A dynamic hardworking individual, a dreamer, a thinker, a planner, an explo
 excerpt: A dynamic hardworking individual, a dreamer, a thinker, a planner, an explorer.
 linkedin: https://www.linkedin.com/in/arrajput/
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./abdul_rehman_processed.jpg
+image: ./abdul_rehman.jpg
 project_ids: threefold_foundation
 countries: UAE
 cities: Dubai
