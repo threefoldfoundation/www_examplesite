@@ -1,7 +1,7 @@
 ---
 id: abdelrahman_ghanem
 name: Abdelrahman Ghanem
-rank: 4
+rank: 2
 memberships: threefold_tech
 bio: A software engineer, mainly working on Jumpscale platform and Kosmos
 excerpt: A software engineer, mainly working on Jumpscale platform and Kosmos
