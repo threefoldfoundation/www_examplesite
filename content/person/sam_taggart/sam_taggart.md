@@ -7,7 +7,7 @@ bio: New places, cultures, and experiences bring Sam joy – opportunities to le
 excerpt: Let's co-create a better future for humanity and for our planet.
 linkedin: https://www.linkedin.com/in/samtaggart/
 websites: https://threefold.io/
-image: ./sam_taggart.jpeg
+image: ./sam_taggart.jpg
 project_ids: threefold_foundation
 countries: Nomad
 cities: Nomad
