@@ -2,12 +2,12 @@
 id: sequoyah
 title: Sequoyah
 status: planned
-startdate: 
+startdate: 2021-03-20
 countries: 
 cities: 
 rank: 2
 excerpt: Build a decentralized banking system where by each user will have access to multiple digital and market assets at the palm of their hand.
-created: 
+created: 2021-03-20
 image: ./sequoyah.png
 image_caption: sequoyah
 logo: ./logo.png

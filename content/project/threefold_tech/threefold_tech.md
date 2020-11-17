@@ -7,7 +7,7 @@ countries: Belgium
 cities: Lochristi
 rank: 4
 excerpt: Powering the Information Technology workloads of tomorrow.
-created: 
+created: 2021-03-20
 image: ./threefold_tech.png
 image_caption: threefold tech
 logo: ./logo.png

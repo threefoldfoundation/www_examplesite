@@ -12,7 +12,7 @@ image: ./digibyte.png
 image_caption: digibyte
 logo: ./logo.png
 author: benjelloun_oussama
-members: hans_koning, rudy_bouwman, rutger_krijnen
+members: hans_koning
 websites: https://digibyte.io/, https://digibytefoundation.io/
 tags: tfgrid
 private: 0
