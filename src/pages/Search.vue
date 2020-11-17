@@ -1,27 +1,34 @@
 <template>
   <Layout>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
-      <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden my-auto">
+      <div
+        v-if="searchResults.length > 0"
+        class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4"
+      >
         <PostListItem
           v-for="edge in searchResults"
           :key="edge.node.id"
           :record="edge.node"
         />
       </div>
+      <div v-else class="flex flex-col with-large my-auto text-center">
+        <h1>404</h1>
+        <p>OOPS! Something went wrong here</p>
+      </div>
     </div>
-</Layout>
+  </Layout>
 </template>
 <page-query>
 
 query {
   projects: allProject {   
     edges {
-      node {
-        id
-        title
-        path
-        members {
-          id
+        node {
+                id
+          title
+          path
+          members {
+            id
           name
           image(width:64, height:64, fit:inside)
           path
@@ -106,39 +113,38 @@ export default {
   },
   data: () => ({
     q: "",
-    objects : {},
+    objects: {},
   }),
   computed: {
     searchResults() {
       const searchTerm = this.q;
       if (searchTerm.length < 3) return [];
       var searchRes = this.$search.search({ query: searchTerm, limit: 5 });
-      var result = []
-      for (var i = 0; i < searchRes.length; i++){
-        var item = searchRes[i]
-        result.push({"node" : this.objects[item.path]})
+      var result = [];
+      for (var i = 0; i < searchRes.length; i++) {
+        var item = searchRes[i];
+        result.push({ node: this.objects[item.path] });
       }
-      return result
+      return result;
     },
   },
   mounted() {
     this.q = new URL(location.href).searchParams.get("query");
-    
-    for(var i=0; i < this.$page.projects.edges.length; i++){
-      var item = this.$page.projects.edges[i]
-      this.objects[item.node.path] = item.node
+
+    for (var i = 0; i < this.$page.projects.edges.length; i++) {
+      var item = this.$page.projects.edges[i];
+      this.objects[item.node.path] = item.node;
     }
 
-    for(var i=0; i < this.$page.people.edges.length; i++){
-      var item = this.$page.people.edges[i]
-      this.objects[item.node.path] = item.node
+    for (var i = 0; i < this.$page.people.edges.length; i++) {
+      var item = this.$page.people.edges[i];
+      this.objects[item.node.path] = item.node;
     }
 
-    for(var i=0; i < this.$page.blogs.edges.length; i++){
-      var item = this.$page.blogs.edges[i]
-      this.objects[item.node.path] = item.node
+    for (var i = 0; i < this.$page.blogs.edges.length; i++) {
+      var item = this.$page.blogs.edges[i];
+      this.objects[item.node.path] = item.node;
     }
-
   },
   components: {
     PostListItem,
@@ -146,3 +152,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  h1 {
+    font-size: 13rem;;
+  }
+</style>

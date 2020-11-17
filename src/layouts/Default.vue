@@ -1,5 +1,5 @@
 <template>
-  <div id="app" dark>
+  <div id="app" dark class="min-h-screen flex flex-col font-sans">
     <HeaderPartial v-if="hideHeader!=true" @setTheme="setTheme" :theme="this.theme"></HeaderPartial>
     <slot/>
     <NavbarPartial :disableScroll="disableScroll" @setTheme="setTheme" :theme="this.theme"></NavbarPartial>
