@@ -6,7 +6,7 @@ startdate: 2021-03-20
 countries: Russia, Austria
 cities: Perm, Salzburg
 rank: 3
-excerpt: Increasing happiness by providing a new perspective on people's lifestyle empowering them to act on Earth’s global problems.
+excerpt: Providing a new perspective on people's lifestyle empowering them to act on Earth’s global problems.
 created: 2020-04-20
 image: ./vlinder.png
 image_caption: vlinder
