@@ -5,15 +5,6 @@
         <PostListItem v-for="edge in $page.entries.edges" :key="edge.node.id" :record="edge.node" />
       </div>
     </div>
-    <div class="pagination flex justify-center mb-8">
-        <Pagination
-          :baseUrl="baseurl"
-          :currentPage="$page.entries.pageInfo.currentPage"
-          :totalPages="$page.entries.pageInfo.totalPages"
-          :maxVisibleButtons="5"
-          v-if="$page.entries.pageInfo.totalPages > 1"
-        />
-      </div>
   </Layout>
 </template>
 
