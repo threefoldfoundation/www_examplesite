@@ -1,10 +1,10 @@
 ---
 id: ahmed_samir
 name: Ahmed Samir
-rank: 4
+rank: 2
 memberships: threefold_tech
-bio: Ahmed is a passionate Engineer who loves learning new stuff.
-excerpt: Software Engineer
+bio: Ahmed is a passionate Engineer who loves learning new stuff. I love what Threefold is doing to give the internet back to the people, enabling those who do not have internet access by providing them with free, easily—accessible internet
+excerpt: Ahmed is a passionate Engineer who loves learning new stuff.
 linkedin: 
 websites: https://threefold.io/
 image: ./ahmed_samir_processed.jpg
@@ -13,6 +13,3 @@ countries: Egypt
 cities: Cairo
 private: 0
 ---
-
-## Why ThreeFold?
-I love what Threefold is doing to give the internet back to the people, enabling those who do not have internet access by providing them with free, easily—accessible internet
