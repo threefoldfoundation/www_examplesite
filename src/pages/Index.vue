@@ -23,9 +23,9 @@
 
 <page-query>
 
-query($page:Int) {
+query{
 
-  entries: allBlog(perPage: 10, page: $page, sortBy: "created", order: DESC) @paginate {
+  entries: allBlog(sortBy: "created", order: DESC) {
     totalCount
     pageInfo {
       totalPages

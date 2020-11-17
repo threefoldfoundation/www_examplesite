@@ -10,8 +10,8 @@
 
 <page-query>
 
-query($page:Int) {
-  entries: allPerson(page: $page) {
+query {
+  entries: allPerson {
     totalCount
     edges {
       node {
