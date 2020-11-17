@@ -5,7 +5,7 @@ status: test
 startdate: 2021-03-20
 countries: California, US
 cities: San Jose
-rank: 1
+rank: 5
 excerpt: HPE wants to help ThreeFold to offer hardware and IT services to the community.
 created: 2021-03-20
 image: ./hpe.png
