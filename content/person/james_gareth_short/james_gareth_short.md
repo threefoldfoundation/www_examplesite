@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./james_gareth_short_processed.jpg
 countries: British
 cities:
-private: 0
+private: 1
 ---

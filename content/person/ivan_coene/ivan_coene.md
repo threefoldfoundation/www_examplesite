@@ -1,7 +1,7 @@
 ---
 id: ivan_coene
 name: Ivan Coene
-rank: 1
+rank: 2
 memberships: project
 bio: Front-end developer at Jimber
 excerpt: Front-end developer fell in love with Threefold  
