@@ -6,7 +6,7 @@ startdate: 2021-03-20
 countries: Global
 cities: 
 rank: 3
-excerpt: Scalable and instant Blockchain transactions.
+excerpt: Decentralized scalability platform solution using an adapted version of the Plasma framework.
 created: 2020-04-20
 image: ./matic.png
 image_caption: Matic
