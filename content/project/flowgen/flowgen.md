@@ -12,7 +12,7 @@ image: ./flowgen.png
 logo: ./logo.png
 image_caption: flowgen
 author: sabrina_sadik
-members: Tom Clausen, Dirk Kuester
+members: Tom Clausen, Dirk Kuester, Peter Richter
 websites: https://www.flowgen.com/
 tags: planned, grid
 private: 0
