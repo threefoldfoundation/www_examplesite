@@ -6,7 +6,7 @@ startdate: 2021-03-20
 countries: France, Switzerland
 cities:
 rank: 1
-excerpt: Bringing together visionaries from diverse fields to develop simple, practical ways to amplify network intelligence.
+excerpt: Bringing together visionaries from diverse fields to amplify network intelligence.
 created: 2020-04-20
 image: ./cicolab.png
 image_caption: cicolab
