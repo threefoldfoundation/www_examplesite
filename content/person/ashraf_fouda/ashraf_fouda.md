@@ -7,7 +7,7 @@ bio: Software Engineer with passion in new technologies, love every thing that i
 excerpt: Software Engineer with passion in new technologies, love every thing that is realy new.
 linkedin: https://www.linkedin.com/in/ashraffouda/
 websites: https://threefold.io/
-image: ./ashraf_fouda_processed.jpg
+image: ./ashraf.jpeg
 project_ids: threefold_tech
 countries: Egypt
 cities: Cairo
