@@ -5,7 +5,7 @@ status: planned
 startdate: 2021-03-20
 countries: Central America, East and Central Africa, Europe, North America, Asia, South America, Southern Africa, West Africa
 cities: 
-rank: 3
+rank: 5
 excerpt: Provide an alternative income stream and create digital services for farmers across the globe.
 created: 2021-03-20
 image: ./solidaridad.jpg
