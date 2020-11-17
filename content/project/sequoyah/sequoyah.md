@@ -5,7 +5,7 @@ status: planned
 startdate: 
 countries: 
 cities: 
-rank: 3
+rank: 2
 excerpt: Build a decentralized banking system where by each user will have access to multiple digital and market assets at the palm of their hand.
 created: 
 image: ./sequoyah.png
