@@ -30,11 +30,6 @@ It is a DPoS (Delegated Proof of Stake) public blockchain that is highly scalabl
 WaykiChain has a variety of product lines, with the WaykiChain core wallet, the WaykiTimes and their DeFi-vertical technologies that are built within the core layer of blockchain, i.e. the crypto-asset backed stablecoin technology as well as its built-in decentralized exchange.
 Waykichain’s blockchain enables developers to build performing dApps on top of it using its developer tools, and has throughout these 3 years, built an extended ecosystem of Dapps.
 
-<BR>
-
-<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
 
 ## WaykiChain and ThreeFold
 
