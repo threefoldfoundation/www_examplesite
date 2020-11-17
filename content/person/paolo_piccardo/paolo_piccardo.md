@@ -11,5 +11,5 @@ project_ids: theefold_foundation
 image: ./paolo_piccardo_processed.jpg
 countries: Italy
 cities:
-private: 0
+private: 1
 ---

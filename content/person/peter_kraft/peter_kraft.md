@@ -12,5 +12,5 @@ project_ids: threefold_foundation
 image: ./peter_kraf_processed.jpg
 countries: Austrian
 cities:
-private: 0
+private: 1
 ---

@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./osman_khan_processed.jpg
 countries: Pakistani/UK
 cities:
-private: 0
+private: 1
 ---

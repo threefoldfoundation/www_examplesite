@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./manish-kumar_processed.jpg
 countries: Indian
 cities:
-private: 0
+private: 1
 ---

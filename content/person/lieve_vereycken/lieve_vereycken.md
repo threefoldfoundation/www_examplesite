@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./lieve_vereycken_processed.jpg
 countries: Belgian
 cities:
-private: 0
+private: 1
 ---

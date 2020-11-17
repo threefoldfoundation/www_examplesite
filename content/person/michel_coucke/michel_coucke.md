@@ -9,5 +9,5 @@ linkedin: https://www.linkedin.com/in/michel-coucke-66112a/
 image: ./michel_coucke.jpg
 countries: Belgium
 cities: Brussel
-private: 0
+private: 1
 ---

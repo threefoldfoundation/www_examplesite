@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./nicola_moresi_processed.jpg
 countries: Switzerland
 cities:
-private: 0
+private: 1
 ---

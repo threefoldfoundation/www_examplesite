@@ -11,5 +11,5 @@ image: ./lucien_lecarme.jpg
 project_ids: threefold_foundation
 countries: 
 cities: 
-private: 0
+private: 1
 ---

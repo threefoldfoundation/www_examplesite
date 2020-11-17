@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./michael_gaffney_processed.jpg
 countries: American
 cities:
-private: 0
+private: 1
 ---

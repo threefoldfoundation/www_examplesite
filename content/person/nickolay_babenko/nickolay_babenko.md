@@ -13,8 +13,5 @@ countries: Russia
 cities: Moscow
 private: 0
 ---
-# Nickolay Babenko
-<BR>
-<BR>
 
 

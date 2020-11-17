@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./phil_horn_processed.jpg
 countries: Germany
 cities:
-private: 0
+private: 1
 ---

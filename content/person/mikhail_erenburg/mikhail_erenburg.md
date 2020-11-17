@@ -11,5 +11,5 @@ project_ids: threefold_foundation
 image: ./mikhail_erenburg_processed.jpg
 countries: Russia
 cities:
-private: 0
+private: 1
 ---
