@@ -4,7 +4,7 @@
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
        
       <VacationCard
-        img="/img/Homepage.jpg"
+        img="/img/homePage.png"
         imgAlt="Beach in Cancun"
         eyebrow=""
         title=""
