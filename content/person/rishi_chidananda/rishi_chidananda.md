@@ -13,7 +13,6 @@ countries:
 cities: 
 private: 0
 ---
-# Rishi Chidananda
 
 <BR>
 
