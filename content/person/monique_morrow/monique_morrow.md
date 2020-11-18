@@ -1,5 +1,5 @@
 ---
-id: monique
+id: monique_morrow
 name: Monique Morrow
 rank: 4
 memberships: project

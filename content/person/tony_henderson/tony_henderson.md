@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/tonyhendersonoxford/
 websites: https://threefold.io/
 image: ./tony_henderson.jpg
 project_ids: threefold_foundation
-countries: UK
+countries: 
 cities:
 private: 1
 ---

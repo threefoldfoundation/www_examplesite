@@ -11,7 +11,7 @@ created: 2020-04-20
 image: ./crystal_twin.png
 image_caption: crystal_twin
 logo: ./logo.png
-author: kristine_vilnite
+author: sacha_obeegadoo
 members: justin_snyder, brooks_cole
 websites:
 tags: tfgrid, crystaltwin

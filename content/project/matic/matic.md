@@ -29,11 +29,6 @@ Matic Network is a decentralized scalability platform solution using an adapted 
 - With 60+ DApps building on their network already, Matic Network is one of the most widely adopted DApp platforms in the industry.
 - The Matic Network blockchain achieves finality using PoS checkpoints which are pushed to the Ethereum mainchain. This enables a single Matic sidechain to theoretically achieve 65,535 transactions per block, and possibly millions of transactions on multiple chains in the future.
 
-<BR>
-
-<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
 
 ## Matic Network and ThreeFold
 
