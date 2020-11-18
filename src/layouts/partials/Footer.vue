@@ -3,7 +3,7 @@
     <div
       class="container mx-auto flex flex-wrap justify-between h-12 items-center"
     >
-      <div class="w-full md:w-1/2 text-center md:text-left">
+      <div class="w-full text-center">
         Copyright {{ currentYear }} by {{ $static.metadata.siteName }} | Design
         by ThreeFold
       </div>
