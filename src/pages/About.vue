@@ -4,14 +4,15 @@
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
        
       <VacationCard
-        img="/img/valuesHeader.png"
-        imgAlt="Beach in Cancun"
+        img=""
+        imgAlt=""
         eyebrow=""
         title=""
         pricing=""
         url=""
       />
-      <div class="center py-10">
+      <img class="pt-5" src="/img/valuesheader2.png" alt="">
+      <div class="center py-5">
       <h2 class="text-center">OUR PHILOSOPHY</h2>
       <p class="text-center py-1">The ThreeFold Foundation is not ThreeFold — rather, it is sparking a movement to bring the world <br> a truly peer-to-peer internet. We acknowledge and support the many people and organizations around the world <br>  who bring crucial support to the growth and adoption of the ThreeFold Grid.</p>
       </div>
