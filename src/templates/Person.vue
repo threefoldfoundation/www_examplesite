@@ -41,7 +41,7 @@
                     <g-image
                       :src="project.logo"
                       :alt="project.title"
-                      class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
+                      class="w-20 h-20 rounded-full bg-gray-200 border-2 border-white"
                     />
                   </g-link>
                 </li>
