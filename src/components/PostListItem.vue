@@ -10,7 +10,7 @@
         class="post-card-image"
       ></g-image>
     </g-link>
-    <div class="post-card-content">
+    <div>
       <g-link :to="record.path">
         <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
@@ -19,7 +19,7 @@
                 v-for="membership in record.memberships"
                 :key="membership.id"
                 :to="membership.path"
-                class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+                class="text-xs bg-transparent hover:text-blue-700 py-1 px-2 mr-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
                 >{{ membership.title }}</g-link
               >
             </section>
