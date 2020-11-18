@@ -7,7 +7,7 @@ bio: Stela is a firm believer that it’s possible to do business from the heart
 excerpt: Stela is a firm believer that it’s possible to do business from the heart.
 linkedin: https://www.linkedin.com/in/stelasuilscuesta/
 websites: https://threefold.io/
-image: ./stela_suils_cuesta.jpg
+image: ./stela_suils_cuesta.jpeg
 project_ids: threefold_foundation
 countries: Spain
 cities:
