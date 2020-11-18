@@ -27,13 +27,6 @@ Dash is an open source peer-to-peer cryptocurrency with a strong focus on the pa
 In addition to Bitcoin’s feature set, Dash currently also offers instant transactions (InstantSend), private transactions (PrivateSend) and operates a self-governing and self-funding model that enables the Dash network to pay individuals and businesses for work that adds value to the network. This decentralized governance and budgeting system makes it one of the first ever successful decentralized autonomous organizations (DAO).
 Learn more about Dash on their [website](https://www.dash.org).
 
-<BR>
-
-<iframe src="https://player.vimeo.com/video/" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<BR>
-
-
 
 ## Mission and Impact
 

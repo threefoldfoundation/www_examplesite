@@ -12,7 +12,7 @@ image: ./kleos.png
 image_caption: kleos
 logo: ./logo.png
 author: adnan_fatayerji
-members: andreas_hartl, george_el_aily
+members: george_el_aily
 websites: www.kleos.net
 tags: tfgrid
 private: 0
@@ -24,11 +24,11 @@ linkedin: https://www.linkedin.com/company/kleos/
 
 ## About
 
-
+Kleos aims at becoming the most ecofriendly telecom mediator leaving a minimal carbon footprint on the environment, through minimizing the need for bulk production of antennas, base stations and probes amongst other capacitors.
 
 ## Mission
 
-Kleos aims at becoming the most ecofriendly telecom mediator leaving a minimal carbon footprint on the environment, through minimizing the need for bulk production of antennas, base stations and probes amongst other capacitors.
+To empower the telecom industry in operating to the highest levels of technological breakthroughs by combining innovation with practicality.
 
 ## Impact
 
@@ -42,5 +42,5 @@ Kleos' 5G Technology will help the ThreeFold platform to scale to serve the last
 
 ### Roadmap
 
-5G+ will launch in Q4 2019
+5G+ will launch in Q2 2021
 

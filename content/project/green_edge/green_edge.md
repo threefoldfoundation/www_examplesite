@@ -12,7 +12,7 @@ image: ./green_edge.png
 image_caption: green_edge
 logo: ./logo.png
 author: kristine_vilnite
-members: joseph_foxton, mariza_kain
+members: joe_foxton, mariza_wellesley_wesley, michael_wellesley_wesley
 websites: https://green-edge.net/
 tags: tfgrid
 private: 0
