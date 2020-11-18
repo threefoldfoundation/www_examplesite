@@ -7,7 +7,7 @@ bio: Wolfgang is an IT Sales and Service veteran with 38 years at Hewlett Packar
 excerpt: Wolfgang is an IT Sales and Service veteran with 38 years at Hewlett Packard, Compaq and Digital Equipment.
 linkedin: https://www.linkedin.com/in/wolfgang-wittmer-4248a525/
 websites: https://threefold.io/
-image: ./wolfgang_wittmer_processed.jpeg
+image: ./wolfgang_wittmer.jpeg
 project_ids: threefold_foundation
 countries: Austria
 cities: 
