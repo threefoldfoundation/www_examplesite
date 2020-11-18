@@ -7,7 +7,7 @@ bio: Co-founder DASH Next
 excerpt: Entrepreneur, Investor, Blockchain Expert
 linkedin: https://www.linkedin.com/in/sascha-jochum/
 websites: https://dashnext.org/
-image: ./kristine_vilnite.png
+image: ./sascha_jochum.jpg
 project_ids: dash
 countries: Thailand
 cities: Bangkok City
