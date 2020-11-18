@@ -14,7 +14,17 @@
       <g-link :to="record.path">
         <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
+        <section class="post-tags container mx-auto relative py-5">
+              <g-link
+                v-for="membership in record.memberships"
+                :key="membership.id"
+                :to="membership.path"
+                class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+                >{{ membership.title }}</g-link
+              >
+            </section>
       </g-link>
+       
       <div class="w-full post-card-meta pt-4">
         <div class="avatars">
           <div class="flex items-center">
@@ -35,6 +45,7 @@
                 </li>
               </ul>
             </div>
+            
             <div
               class="ml-3 pl-3 border-l flex flex-col text-xs leading-none uppercase"
             >
@@ -53,8 +64,22 @@
                 </g-link>
                 {{ record.status }}
               </p>
+              
             </div>
+
+           
+
           </div>
+           <section class="post-tags container mx-auto relative py-5">
+              <g-link
+                v-for="tag in record.tags"
+                :key="tag.id"
+                :to="tag.path"
+                class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+                >{{ tag.title }}</g-link
+              >
+            </section>
+           
         </div>
       </div>
     </div>

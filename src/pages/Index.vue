@@ -1,77 +1,47 @@
 <template>
-  <Layout>
+  <Layout :hideHeader="true" :disableScroll="true">
+
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
-      <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <PostListItem
-          v-for="edge in $page.entries.edges"
-          :key="edge.node.id"
-          :record="edge.node"
-        />
+       
+      <VacationCard
+        img="/img/Homepage.jpg"
+        imgAlt="Beach in Cancun"
+        eyebrow=""
+        title=""
+        pricing=""
+        url=""
+      />
+      <div class="center py-10">
+      <h2 class="text-center">CO-CREATING BETTER FUTURES TOGETHER</h2>
+      <!-- <p class="text-center py-1">The ThreeFold Foundation is not ThreeFold — rather, it is sparking a movement to bring the world <br> a truly peer-to-peer internet. We acknowledge and support the many people and organizations around the world <br>  who bring crucial support to the growth and adoption of the ThreeFold Grid.</p> -->
       </div>
+
+      <vue-markdown>
+        
+      </vue-markdown>
     </div>
-     <div class="pagination flex justify-center mb-8">
-        <Pagination
-          :baseUrl="baseurl"
-          :currentPage="$page.entries.pageInfo.currentPage"
-          :totalPages="$page.entries.pageInfo.totalPages"
-          :maxVisibleButtons="5"
-          v-if="$page.entries.pageInfo.totalPages > 1"
-        />
-      </div>
-  </Layout>
+</Layout>
 </template>
 
-<page-query>
-
-query{
-
-  entries: allBlog(sortBy: "created", order: DESC) {
-    totalCount
-    pageInfo {
-      totalPages
-      currentPage
-    }
-    edges {
-      node {
-        name
-        title
-        team
-        rank
-        excerpt
-        image(width:800)
-        path
-        timeToRead
-        humanTime : created(format:"DD MMM YYYY")
-        datetime : created
-        author {
-          id
-          name
-          image(width:64, height:64, fit:inside)
-          path
-        }
-      }
-    }
-  }
-}
-
-</page-query>
-
 <script>
-import PostListItem from "~/components/PostListItem.vue";
-import Pagination from "~/components/Pagination.vue";
+import VueMarkdown from 'vue-markdown'
 
 export default {
   metaInfo: {
-    title: "Home",
+    title: "Home"
   },
+
   components: {
-    PostListItem,
-    Pagination
-  },
-  computed: {
-    baseurl: function() {
-     return ""
-    }
-  },
+    VueMarkdown
+  }
 };
 </script>
+<style scoped>
+/* h2 {
+  padding-bottom: 8rem;
+} */
+</style> >
+
+
+
+

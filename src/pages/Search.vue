@@ -62,7 +62,11 @@ query {
         content
         name
         rank
-        memberships
+         memberships{
+          id
+          title
+          path
+        }
         bio
         linkedin
         websites

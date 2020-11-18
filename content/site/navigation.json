@@ -10,23 +10,18 @@
       "link": "/people",
       "external": false
     },
+
     {
       "name": "Values",
       "link": "/about",
-      "external": false
-    },
-    {
-      "name": "Test",
-      "link": "/about2",
       "external": false
     }
   ],
   "footerNavigation": [
     {
-      "name": "Latest Posts",
-      "link": "/",
+      "name": "",
+      "link": "",
       "external": false
     }
-    
   ]
 }

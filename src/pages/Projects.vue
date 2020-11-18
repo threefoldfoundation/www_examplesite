@@ -22,7 +22,12 @@ query {
           name
           image(width:64, height:64, fit:inside)
           path
-      }
+        },
+        tags {
+          id
+          title
+          path
+        }  
         rank
         linkedin
         startDate : startdate(format:"MM YYYY")

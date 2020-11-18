@@ -64,8 +64,13 @@ module.exports = {
                     tags: {
                         typeName: 'Tag',
                         create: true
-                    }
-                }
+                    },
+                    memberships: {
+                        typeName: 'Membership',
+                        create: true
+                    },
+                    
+                },
             }
         },
         {
@@ -129,6 +134,11 @@ module.exports = {
             path: '/tags/:id',
             component: '~/templates/Tag.vue'
         }],
+        Membership: [{
+            path: '/memberships/:id',
+            component: '~/templates/Membership.vue'
+        }],
+
         Project: [{
             path: '/project/:id',
             component: '~/templates/Project.vue'

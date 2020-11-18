@@ -86,11 +86,15 @@
 <page-query>
   query($id: ID!, $page:Int) {
     person(id: $id) {
-       path
+        path
         content
         name
         rank
-        memberships
+        memberships{
+          id
+          title
+          path
+        }
         bio
         excerpt
         linkedin
