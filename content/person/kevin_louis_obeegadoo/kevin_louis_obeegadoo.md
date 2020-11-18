@@ -8,8 +8,8 @@ excerpt: Kevin enjoys 20+ years’ consulting across private and government sect
 linkedin: https://www.linkedin.com/in/klobeegadoo/
 websites: https://threefold.io/
 project_ids: threefold_foundation
-image: ./kevin_louis_obeegadoo_processed.jpg
-countries: British - Mauritian
+image: ./kevin_louis_obeegadoo.jpg
+countries: UK, Mauritius
 cities:
 private: 1
 ---

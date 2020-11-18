@@ -6,7 +6,7 @@ startdate: 2021-03-20
 countries: Global
 cities: 
 rank: 3
-excerpt: Impact technology startup empowering communities socially, financially, and environmentally.
+excerpt: Empowering communities socially, financially, and environmentally.
 created: 2020-04-20
 image: ./shareitt.png
 image_caption: shareitt

@@ -6,7 +6,7 @@ startdate: 2020-06-10
 countries: 
 cities: 
 rank: 2
-excerpt: 
+excerpt: Scalable, fast, and ultra-secure blockchain driven by a global community of developers.
 created: 2020-03-04
 image: ./neo.png
 image_caption: neo

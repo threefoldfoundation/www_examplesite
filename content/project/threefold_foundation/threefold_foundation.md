@@ -3,10 +3,10 @@ id: threefold_foundation
 title: ThreeFold Foundation
 status: public
 startdate: 2018-01-01
-countries: UAE, Switzerland
+countries: UAE, Switzerland, Belgium
 cities: Dubai, Lugano
 rank: 4
-excerpt: The ThreeFold Foundation along with its partners, advocates for the adoption, growth, and expansion of the ThreeFold Grid and a new peer-to-peer internet.
+excerpt: The ThreeFold Foundation along with its partners is growing the ThreeFold Grid and a new peer-to-peer internet.
 created: 2018-01-01
 image: ./threefold_foundation.png
 image_caption: threefold_foundation
