@@ -41,6 +41,7 @@ module.exports = function (api) {
 
 
     if (options.internal.typeName === 'Person') {
+      options.project_ids = (typeof options.project_ids === 'string') ? options.project_ids.split(',').map(string => string.trim()) : options.project_ids;
       options.memberships = (typeof options.memberships === 'string') ? options.memberships.split(',').map(string => string.trim()) : options.memberships;
       options.countries = (typeof options.countries === 'string') ? options.countries.split(',').map(string => string.trim()) : options.countries;
       options.cities = (typeof options.cities === 'string') ? options.cities.split(',').map(string => string.trim()) : options.cities;

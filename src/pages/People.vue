@@ -28,7 +28,6 @@ query {
         bio
         linkedin
         websites
-        project_ids
         countries
         cities
         image(width:800)

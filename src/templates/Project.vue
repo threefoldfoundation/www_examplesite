@@ -114,21 +114,13 @@
           </div>
         </div>
       </section>
-      <div class="pagination flex justify-center mb-8">
-        <Pagination
-          :baseUrl="$page.project.path"
-          :currentPage="$page.project.belongsTo.pageInfo.currentPage"
-          :totalPages="$page.project.belongsTo.pageInfo.totalPages"
-          :maxVisibleButtons="5"
-          v-if="$page.project.belongsTo.pageInfo.totalPages > 1"
-        />
-      </div>
+      
     </div>
   </Layout>
 </template>
 
 <page-query>
-  query($id: ID!, $page:Int) {
+  query($id: ID!) {
     project(id: $id) {
       id
       title
@@ -166,8 +158,8 @@
       }
       rank
       excerpt
-      content
-      belongsTo(perPage: 5, page: $page) @paginate {
+      
+      belongsTo {
         totalCount
         pageInfo {
           totalPages
@@ -180,6 +172,13 @@
               name
               image(width:64, height:64, fit:inside)
               path
+              project_ids{
+                  id
+                  title
+                  path
+                  logo
+                  image
+              }
             }
           }
         }

@@ -69,7 +69,7 @@ module.exports = {
                         typeName: 'Membership',
                         create: true
                     },
-                    
+                    project_ids: 'Project'
                 },
             }
         },

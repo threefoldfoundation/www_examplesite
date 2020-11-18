@@ -25,27 +25,32 @@
             {{ $page.person.bio }}
           </p>
           <div class="author-social">
-            {{ $page.person.belongsTo.totalCount }} Projects
-            &nbsp;&middot;&nbsp;
-            <!-- <a
-              :href="$page.person.facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-gray-400 hover:text-black"
-            >
-              <font-awesome :icon="['fab', 'facebook']" />
-            </a>
-            &nbsp;
-            <a
-              :href="$page.person.twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-gray-400 hover:text-black"
-            >
-              <font-awesome :icon="['fab', 'twitter']" />
-            </a>
-            &nbsp; -->
+            
           </div>
+                <section>
+        <div class="avatars">
+          <div class="flex items-center">
+            <div class="flex justify-between items-center">
+              <ul class="list-none flex author-list m-0">
+                <li
+                  v-for="project in $page.person.project_ids"
+                  :key="project.id"
+                  class="author-list-item"
+                >
+                  <g-link :to="project.path" v-tooltip="project.title">
+                    <g-image
+                      :src="project.logo"
+                      :alt="project.title"
+                      class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
+                    />
+                  </g-link>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </section>
         </div>
       </div>
 
@@ -70,21 +75,13 @@
         />
       </div>
 
-      <div class="pagination flex justify-center mb-8">
-        <Pagination
-          :baseUrl="$page.person.path"
-          :currentPage="$page.person.belongsTo.pageInfo.currentPage"
-          :totalPages="$page.person.belongsTo.pageInfo.totalPages"
-          :maxVisibleButtons="5"
-          v-if="$page.person.belongsTo.pageInfo.totalPages > 1"
-        />
-      </div>
+   
     </div>
   </Layout>
 </template>
 
 <page-query>
-  query($id: ID!, $page:Int) {
+  query($id: ID!) {
     person(id: $id) {
         path
         content
@@ -95,16 +92,21 @@
           title
           path
         }
+        project_ids{
+          id
+          title
+          path
+          logo
+        }
         bio
         excerpt
         linkedin
         websites
-        project_ids
         countries
         cities
         private
         image(width:150, height:150)
-        belongsTo(perPage: 5, page: $page) @paginate {
+        belongsTo {
         totalCount
         pageInfo {
           totalPages
@@ -113,6 +115,7 @@
         edges {
           node {
             ... on Blog {
+              id
               title
               excerpt
               image(width:800)
@@ -128,9 +131,11 @@
               }
             },
             ... on Project {
+              id
               title
               excerpt
               image(width:800)
+              logo
               path
               humanTime : startdate(format:"DD MMM YYYY")
               datetime : created

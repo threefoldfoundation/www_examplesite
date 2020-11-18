@@ -61,7 +61,6 @@
               excerpt
               linkedin
               websites
-              project_ids
               countries
               cities
               private
