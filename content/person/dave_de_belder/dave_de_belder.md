@@ -5,7 +5,7 @@ rank: 3
 memberships: ambassador, guardian
 bio: As the michelin star chef, Dave has always been very conscious about food and how it ties in with spirituality, healing and peoples conscience. Dave has worked in the best kitchens this world has to offer. Elbulli (ES), Librije (NL), El Celler de Can Roca (ES) and his own Godevaart (BE) & Cara & Co (AU).
 excerpt: Michelin star chef, conscious about food and how it ties in with spirituality and healing.
-linkedin: https://www.linkedin.com/in/ahmed-te-youssef/
+linkedin: 
 websites: https://threefold.io/
 image: ./dave_de_belder.jpeg
 project_ids: threefold_foundation
