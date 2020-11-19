@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./shareitt.png
 image_caption: shareitt
 logo: ./logo.png
-author: kristine_vilnite
 members: arie_ben_david
 websites: https://www.shareitt.com
 tags: tfgrid

@@ -11,12 +11,11 @@ created: 2020-04-28
 image: ./dash.png
 image_caption: dash
 logo: ./logo.png
-author: nickolay_babenko
 members: felix_mago, sascha_jochum
 websites: https://www.dash.org/
 private: 0
 potential:
-linkedin:
+linkedin: https://www.linkedin.com/groups/8642659/
 ---
 
 # Dash

@@ -11,7 +11,6 @@ created: 2019-07-20
 image: ./waykichain.png
 image_caption: waykichain
 logo: ./logo.png
-author: benjelloun_oussama
 members: richard_chen 
 websites: https://www.waykichain.com/
 tags: tfgrid

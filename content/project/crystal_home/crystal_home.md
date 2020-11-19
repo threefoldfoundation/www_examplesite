@@ -5,13 +5,12 @@ status: planned
 startdate: 2021-03-20
 countries: The Netherlands
 cities:
-rank: 3
+rank: 2
 excerpt: Circular & self-sufficient homes reducing the CO2 footprint and the waste production.
 created: 2020-04-20
 image: ./crystal_home.jpg
 image_caption: crystal_home
 logo: ./logo.png
-author: kristine_vilnite
 members: bert_van_decraen
 websites: https://www.crystalhome.org/
 tags: tfgrid, crystaltwin

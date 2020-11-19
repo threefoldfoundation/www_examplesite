@@ -3,7 +3,7 @@ id: neo
 title: NEO
 status: internal
 startdate: 2020-06-10
-countries: 
+countries: Global
 cities: 
 rank: 2
 excerpt: Scalable, fast, and ultra-secure blockchain driven by a global community of developers.
@@ -11,7 +11,6 @@ created: 2020-03-04
 image: ./neo.png
 image_caption: neo
 logo: ./logo.png
-author: nickolay_babenko  
 members: denis_suslov
 websites: https://neo.org/
 tags: tfgrid

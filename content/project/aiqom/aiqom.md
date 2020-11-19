@@ -2,16 +2,15 @@
 id: aiqom
 title: Create & Learn AI
 status: planned
-startdate: 
+startdate: 2021-01-02
 countries: Global
 cities: 
-rank: 4
+rank: 2
 excerpt: Leading AI R&D lab and is backed by impactful angel investors, visionary machine learning scientists.
-created:
+created: 2020-13-11
 image: ./aiqom.png
 image_caption: aiqom
 logo: ./logo.png
-author: kristine_vilnite
 members: samer_obeidat
 websites: https://aiqom.ai/
 tags: tfgrid, crystaltwin

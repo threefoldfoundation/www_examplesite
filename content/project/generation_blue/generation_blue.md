@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./generation_blue.png
 image_caption: generation_blue
 logo: ./logo.png
-author: kristine_vilnite
 members: alan_laubsch
 websites: https://generation.blue/
 tags: tfgrid

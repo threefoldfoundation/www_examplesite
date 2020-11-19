@@ -11,7 +11,6 @@ created: 2021-03-20
 image: ./hpe.png
 image_caption: hpe
 logo: ./logo.png
-author: weynand_kuijpers
 members: 
 websites: https://www.hpe.com/us/en/about.html
 tags: tfgrid

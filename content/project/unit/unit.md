@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./unit.png
 image_caption: unit
 logo: ./logo.png
-author: kristine_vilnite
 members: michael_healy
 websites: https://unit.ventures/
 tags: tfgrid, crystaltwin

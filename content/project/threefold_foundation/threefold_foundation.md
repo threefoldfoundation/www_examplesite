@@ -11,8 +11,7 @@ created: 2018-01-01
 image: ./threefold_foundation.png
 image_caption: threefold_foundation
 logo: ./logo.png
-author: kristine_vilnite
-members: kristof_de_spiegeleer, roel_van_sabben, kristine_vilnite, sam_taggart, sacha_obegadoo
+members: kristof_de_spiegeleer, roel_van_sabben, kristine_vilnite, sam_taggart, sacha_obegadoo, adnan_fatayerji, karoline_zizka, maximilian_rang
 websites: https://www.threefold.me
 tags: tfgrid, crystaltwin
 private: 0
