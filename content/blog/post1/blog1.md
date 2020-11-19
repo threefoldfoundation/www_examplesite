@@ -1,11 +1,12 @@
 ---
 id: threefold_tech
 title: Internet is growing wild
+tags: tech, internet, edge-cloud
 image: ./wild.jpg
 image_caption: internet
-tags: tech, internet, edge-cloud
+excerpt: Our mission is to empower and inspire people to recognize abundance by living new experiences one hour at a time.
 author: andreas_hartl
-created: 2020-04-20
+created: 2019-12-05
 ---
 
 
