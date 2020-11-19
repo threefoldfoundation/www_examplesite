@@ -5,6 +5,7 @@ image: ./wild.jpg
 image_caption: internet
 tags: tech, internet, edge-cloud
 author: andreas_hartl
+created: 2020-04-20
 ---
 
 
