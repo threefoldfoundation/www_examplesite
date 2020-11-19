@@ -8,7 +8,7 @@ excerpt: Organisational and Ecosystem Strategy
 linkedin: https://www.linkedin.com/in/sachaobeegadoo/
 websites: https://threefold.io/, https://www.mazraa.io/
 image: ./sacha_obeegadoo.jpg
-project_ids: threefold_foundation
+project_ids: threefold_foundation, crystal_twin
 countries: Nomad
 cities: Nomad
 private: 0
