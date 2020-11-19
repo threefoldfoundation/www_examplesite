@@ -137,6 +137,7 @@
       path
       timeToRead
       linkedin
+      content
       tags {
         id
         title
