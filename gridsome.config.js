@@ -79,7 +79,7 @@ module.exports = {
                 typeName: 'Blog',
                 path: './content/blog/**/*.md',
                 templates: {
-                    BlogPost: '/blog/:id'
+                    BlogPost: '/news/:id'
                 },
                 refs: {
                     author: 'Person',
@@ -124,7 +124,7 @@ module.exports = {
     },
     templates: {
         Blog: [{
-            path: '/blog/:id'
+            path: '/news/:id'
         }],
         Person: [{
             path: '/people/:id',
