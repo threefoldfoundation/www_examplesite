@@ -31,7 +31,7 @@
         <div class="avatars">
           <div class="flex items-center">
             <div class="flex justify-between items-center">
-              <ul class="list-none flex author-list m-0">
+              <ul class="list-none flex author-list m-0 py-2">
                 <li
                   v-for="project in $page.person.project_ids"
                   :key="project.id"
