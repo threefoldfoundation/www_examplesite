@@ -33,6 +33,12 @@ Every child deserves an education. We have built a community of thousands of tea
 
 <BR>
 
+<BR>
+
+<iframe src="https://player.vimeo.com/video/425810410" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+<BR>
+
 
 ## Mission
 
