@@ -2,7 +2,7 @@
 id: seeds
 title: Central America to Pioneer a Regenerative Financial Ecosystem
 tags: blockchain, regeneration, education
-image: ./regeneration.jpg
+image: ./regeneration.png
 image_caption: regeneration
 excerpt: Integrity.Earth is proud to announce a launch partnership with SEEDS.
 author: franz_josef_allmayer
