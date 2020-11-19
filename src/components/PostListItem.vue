@@ -14,7 +14,7 @@
       <g-link :to="record.path">
         <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
-        <section class="post-tags container mx-auto relative py-5">
+        <section class="post-tags container mx-auto relative py-1">
               <g-link
                 v-for="membership in record.memberships"
                 :key="membership.id"
@@ -25,7 +25,7 @@
             </section>
       </g-link>
        
-      <div class="w-full post-card-meta pt-4">
+      <div class="w-full post-card-meta pt-2">
         <div class="avatars">
           <div class="flex items-center">
             <div class="flex justify-between items-center">
@@ -47,7 +47,7 @@
             </div>
             
             <div
-              class="ml-3 pl-3 border-l flex flex-col text-xs leading-none uppercase"
+              class="flex flex-col text-xs leading-none uppercase"
             >
               <p>
                 <g-link :to="record.path">
@@ -70,7 +70,7 @@
            
 
           </div>
-           <section class="post-tags container mx-auto relative py-5">
+           <section class="post-tags container mx-auto relative py-3">
               <g-link
                 v-for="tag in record.tags"
                 :key="tag.id"
