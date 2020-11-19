@@ -11,7 +11,6 @@ created: 2021-03-20
 image: ./solidaridad.jpg
 image_caption: solidaridad
 logo: ./logo.png
-author: weynand_kuijpers
 members: jeroen_douglas
 websites: www.solidaridadnetwork.org
 tags: tfgrid, crystaltwin

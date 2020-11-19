@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./crystal_language.png
 image_caption: crystal_language
 logo: ./logo.png
-author: kristine_vilnite
 members: juan_wajnerman, brian_j_cardiff
 websites: https://crystal-lang.org/
 tags: tfgrid

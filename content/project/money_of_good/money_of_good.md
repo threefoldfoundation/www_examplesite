@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./money_of_good.jpg
 image_caption: money_of_good
 logo: ./logo.png
-author: kristine_vilnite
 members: marcelo_bohrer
 websites: https://www.thefutureofgood.info
 tags: tfgrid

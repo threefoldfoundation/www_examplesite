@@ -11,7 +11,6 @@ created: 2019-06-20
 image: ./tomochain.png
 image_caption: tomochain
 logo: ./logo.png
-author: benjelloun_oussama
 members: kyn_chaturvedi
 websites: https://tomochain.com/
 tags: tfgrid

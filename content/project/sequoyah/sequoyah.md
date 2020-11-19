@@ -5,13 +5,12 @@ status: planned
 startdate: 2021-03-20
 countries: 
 cities: 
-rank: 2
+rank: 1
 excerpt: Build a decentralized banking system where by each user will have access to multiple digital and market assets at the palm of their hand.
 created: 2021-03-20
 image: ./sequoyah.png
 image_caption: sequoyah
 logo: ./logo.png
-author: andreas_hartl
 members: dennis_lindberg
 websites: https://sequoyah.dk/
 tags: tfgrid

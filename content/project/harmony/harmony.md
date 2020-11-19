@@ -5,13 +5,12 @@ status: planned
 startdate: 2021-03-20
 countries: USA
 cities: San Francisco
-rank: 4
+rank: 3
 excerpt: Open consensus for 10 Billion people to scale trust and create a radically fair economy.
 created: 2019-07-20
 image: ./harmony.png
 image_caption: harmony
 logo: ./harmony_logo.png
-author: benjelloun_oussama
 members: li_jiang, nikalos_kost
 websites: https://www.harmony.one/
 tags: tfgrid

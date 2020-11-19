@@ -11,7 +11,6 @@ created: 2019-08-20
 image: ./skale_image.png
 image_caption: skale_labs
 logo: ./logo.png
-author: benjelloun_oussama
 members: christine_renee_perry
 websites: https://skale.network/
 tags: tfgrid

@@ -5,13 +5,12 @@ status: planned
 startdate: 2021-03-20
 countries: Brazil, US
 cities: San Francisco
-rank: 4
+rank: 3
 excerpt: Empowering people to recognize abundance by living new experiences one hour at a time.
 created: 2020-04-20
 image: ./beliive.png
 image_caption: beliive
 logo: ./logo.png
-author: kristine_vilnite
 members: lorrana_scarpioni
 websites: https://beliive.com
 tags: tfgrid, crystaltwin

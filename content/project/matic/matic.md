@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./matic.png
 image_caption: Matic
 logo: ./logo.png
-author: benjelloun_oussama
 members: anurag_arjun, arjun_kalsy
 websites: https://matic.network/
 tags: tfgrid

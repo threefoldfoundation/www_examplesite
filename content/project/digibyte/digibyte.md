@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./digibyte.png
 image_caption: digibyte
 logo: ./logo.png
-author: benjelloun_oussama
 members: hans_koning
 websites: https://digibyte.io/, https://digibytefoundation.io/
 tags: tfgrid
