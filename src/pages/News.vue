@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
-      <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
+      <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4 h-screen">
         <PostListItem
           v-for="edge in $page.entries.edges"
           :key="edge.node.id"
