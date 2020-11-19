@@ -8,7 +8,7 @@ excerpt: Founder at Artheon VR Museum born in 1980 in a family with a long histo
 linkedin: https://www.linkedin.com/in/gnuchev/
 websites: https://artheon.co/
 image: ./vasily_gnuchev.jpg
-project_ids: artheon, threefold_foundation
+project_ids: artheon
 countries: Russia
 cities: Moscow
 private: 0

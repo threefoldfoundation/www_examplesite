@@ -8,7 +8,7 @@ excerpt: Founder of The Music Medicine, a project committed to cultivating Globa
 linkedin: 
 websites: http://themusicmedicine.com/
 image: ./dimitrios_dermentzioglou.jpg
-project_ids: threefold
+project_ids: threefold_foundation
 countries: Turkey
 cities: Istanbul
 private: 0

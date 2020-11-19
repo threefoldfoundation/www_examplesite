@@ -8,7 +8,7 @@ excerpt: Audiovisual Creative, Yogi, Kabbalist and Strategic Thinker.
 linkedin: https://www.linkedin.com/in/maximilian-rang/
 websites: http://www.maximilianrang.net
 image: ./maximilian_rang.jpeg
-project_ids: threefold
+project_ids: threefold_foundation
 countries: Switzerland
 cities: Zurich
 private: 0

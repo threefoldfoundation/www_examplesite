@@ -7,6 +7,7 @@ bio: Michel has led numerous senior executive searches for board members, C-suit
 excerpt: Strategic Advisory Board Member and HR Guardian at ThreeFold
 linkedin: https://www.linkedin.com/in/michel-coucke-66112a/
 image: ./michel_coucke.jpg
+project_ids: threefold_foundation
 countries: Belgium
 cities: Brussel
 private: 1

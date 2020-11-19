@@ -2,13 +2,12 @@
 id: threefold_foundation
 title: You Are Unique
 tags: autonomy, equality, human
-image: ./unique.jpg
+image: ./unique.png
 image_caption: you
 excerpt: During a gathering with some friends, I noticed something that made me think about how important it is what we’re doing.
 author: sabrina_sadik
 created: 2019-12-05
 ---
-
 
 # You are unique
 
