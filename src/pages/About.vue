@@ -14,15 +14,15 @@
       <img class="pt-5" src="/img/valuesheader2.png" alt="">
       <div class="center py-5">
       <h2 class="text-center">OUR PHILOSOPHY</h2>
-      <p class="text-center py-1">The ThreeFold Foundation is not ThreeFold — rather, it is sparking a movement to bring the world <br> a truly peer-to-peer internet. We acknowledge and support the many people and organizations around the world <br>  who bring crucial support to the growth and adoption of the ThreeFold Grid.</p>
+      <p class="text-center py-1">We are sparking a movement to bring the world <br> a truly peer-to-peer internet. We acknowledge and support the many people and organizations around the world <br>  who bring crucial support to the growth and adoption of the ThreeFold Grid.</p>
       </div>
 
       <div class="center py-10">
 <h2 class="text-center pt-5">IF NOT US, WHO? IF NOT NOW, WHEN?</h2>
-      <p class="text-center">While to date we have maintained more of a focal role in terms of funding, development, and promotion, for example, this has been more out of necessity than out of desire. We know that the success of the project depends on a distributed and decentralized ecosystem all working towards the same vision.
+      <p class="text-center">While to date we have maintained more of a focal role in terms of funding, development, and promotion, for example, this has been more out of necessity than out of desire. We know that the success of the mission depends on a distributed and decentralized ecosystem all working towards the same vision.
       <br>
       <br>
-      We agree that the world needs some healing and that raising consciousness is the way forward. This happens on 3 levels: physical (climate, pollution), personal (spirituality) and digital. Our current internet is seriously broken, and it needs to be fixed.
+      We agree that the world needs healing and that raising consciousness is the way forward. This happens on 3 levels: physical (climate, pollution), personal (spirituality) and digital. Our current internet is seriously broken, and it needs to be fixed.
        </p>
 
       </div>
@@ -50,13 +50,13 @@
   <div class="p-2 text-center ">
     <img src="/img/sustainable.png" alt="">
     <h3 class="text-center">SUSTAINABILITY</h3>
-    <p>Sustainability ensures the future of life on  earth. It is about adopting the behavior and mindset to minimize our footprint.</p>
+    <p>Sustainability ensures the future of life on earth. It is about adopting the behavior and mindset to minimize our footprint.</p>
     </div>
 </div>
 
 <div class="center py-10">
 <h2 class="text-center">INTERNET ACCESS | A HUMAN RIGHT</h2>
-      <p class="text-center">n 2016, the United Nations officially declared Internet access to be a human right. The right to internet access aims to protect people’s freedom of expression and opinion, as well as other fundamentals such as access to knowledge and information. 
+      <p class="text-center">In 2016, the United Nations officially declared Internet access to be a human right. The right to internet access aims to protect people’s freedom of expression and opinion, as well as other fundamentals such as access to knowledge and information. 
 <br>
 <br>
 Yet as of today, about 48% of humanity remains unconnected to the Internet, creating huge inequalities in the access to information and knowledge. It is important that the right steps are taken to improve the relationship between governments and citizens and to uphold all human rights.
