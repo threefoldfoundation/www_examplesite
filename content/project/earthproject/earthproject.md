@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./earthproject.png
 image_caption: earthproject
 logo: ./logo.png
-author: kristine_vilnite
 members: koen_timmers
 websites: http://projectkakuma.com, http://innovationlabschools.com, http://takeactionglobal.org, https://www.climate-action.info/
 tags: tfgrid, crystaltwin

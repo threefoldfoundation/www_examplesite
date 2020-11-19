@@ -11,8 +11,7 @@ created: 2020-04-20
 image: ./crystal_twin.png
 image_caption: crystal_twin
 logo: ./logo.png
-author: sacha_obeegadoo
-members: justin_snyder, brooks_cole
+members: justin_snyder, brooks_cole, sacha_obeegadoo
 websites:
 tags: tfgrid, crystaltwin
 private: 0

@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./seeds.png
 image_caption: seeds
 logo: ./logo.png
-author: kristine_vilnite
 members: rieki_cordon, nikolaus_heger, franz_josef_allmayer
 websites: https://www.joinseeds.com/
 tags: tfgrid

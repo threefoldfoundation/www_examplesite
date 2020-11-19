@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./vlinder.png
 image_caption: vlinder
 logo: ./logo.png
-author: kristine_vilnite
 members: sergey_ivliev
 websites: https://vlinder.app
 tags: tfgrid

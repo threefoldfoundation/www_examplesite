@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./zetako.png
 image_caption: zetako
 logo: ./logo.png
-author: kristine_vilnite
 members: claus_rosenberg_gotthard
 websites: https://zetako.ai
 tags: tfgrid

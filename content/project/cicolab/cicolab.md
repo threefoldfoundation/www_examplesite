@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./cicolab.png
 image_caption: cicolab
 logo: ./logo.png
-author: kristine_vilnite
 members: lauren_moore_nignon, charles_blass
 websites: https://www.collectiveintelligencecollaboratory.com
 tags: tfgrid, crystaltwin

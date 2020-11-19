@@ -5,13 +5,12 @@ status: planned
 startdate: 2021-03-20
 countries: Australia, Kingdom of Bahrein, United Kingdom, Cyprus, Lebanon, France, Mozambique, DRC & Ghana
 cities: Sydney, Manama, Southport, Cyprus, Hazmieh, Cedex
-rank: 5
+rank: 4
 excerpt: 5G Telecommunication technology helping ThreeFold platform scale to serve the last mile in connectivity. 
 created: 2020-04-20 
 image: ./kleos.png
 image_caption: kleos
 logo: ./logo.png
-author: adnan_fatayerji
 members: george_el_aily
 websites: www.kleos.net
 tags: tfgrid

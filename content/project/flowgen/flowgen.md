@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./flowgen.png
 logo: ./logo.png
 image_caption: flowgen
-author: peter_richter
 members: tom_clausen, dirk_kuester
 websites: https://www.flowgen.com/
 tags: planned, grid

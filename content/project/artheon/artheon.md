@@ -5,13 +5,12 @@ status: test
 startdate: 2021-03-20
 countries: Russia
 cities: Moscow
-rank: 5
+rank: 3
 excerpt: A virtual museum online with 50.000+ pieces of art on top of TFGrid.
 created: 2020-04-20
 image: ./artheon.jpg
 image_caption: artheon
 logo: ./logo.png
-author: kristine_vilnite
 members: vasily_gnuchev
 websites: https://artheon.co/
 tags: tfgrid

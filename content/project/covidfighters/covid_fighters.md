@@ -11,7 +11,6 @@ created: 2020-04-20
 image: ./covid_fighters.png
 image_caption: covid_fighters
 logo: ./logo.png
-author: maximilian_rang
 members: boris_fahrnberger
 websites: https://www.artichoke-computing.com/
 tags: tfgrid, crystaltwin

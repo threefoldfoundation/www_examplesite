@@ -69,12 +69,7 @@
               path
               humanTime : startdate(format:"DD MMM YYYY")
               datetime : created
-              author {
-                id
-                name
-                image(width:64, height:64, fit:inside)
-                path
-              }
+              
             }
           }
         }
