@@ -17,19 +17,19 @@ module.exports = {
             {
               typeName: 'Blog',
               indexName: 'Blog',
-              fields: ['id', 'name', 'title', 'rank', 'excerpt', 'image', 'path', 'datetime', 'author', 'pageInfo']
+              fields: ['path']
             },
   
             {
               typeName: 'Project',
               indexName: 'Project',
-              fields: ['id', 'title', 'rank', 'excerpt', 'image', 'path', 'datetime', 'author', 'pageInfo']
+              fields: ['path']
             },
             
             {
               typeName: 'Person',
               indexName: 'Person',
-              fields: ['id', 'name', 'rank', 'excerpt', 'image', 'path', 'bio', 'pageInfo']
+              fields: ['path']
             },
           ]
         }

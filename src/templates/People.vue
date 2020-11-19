@@ -10,14 +10,14 @@
 
 <page-query>
 
-query {
-  entries: allPerson (sortBy: "rank", order: DESC){
+query ($private: Int){
+  entries: allPerson (sortBy: "rank", order: DESC, filter: { private: { ne: $private }}){
     totalCount
     edges {
       node {
         path
         excerpt
-        content
+        content 
         name
         rank
         memberships{

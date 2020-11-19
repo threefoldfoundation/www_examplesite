@@ -34,6 +34,7 @@ query{
     edges {
       node {
         title
+        excerpt
         image(width:800)
         path
         humanTime : created(format:"DD MMM YYYY")

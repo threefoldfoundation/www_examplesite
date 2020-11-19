@@ -119,6 +119,7 @@
       image(width:1600, height:800)
       image_caption
       content
+      excerpt
       humanTime : created(format:"DD MMMM YYYY")
       datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
       timeToRead

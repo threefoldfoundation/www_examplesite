@@ -10,8 +10,8 @@
 
 <page-query>
 
-query {
-  entries: allProject (sortBy: "rank", order: DESC){
+query ($private: Int){
+  entries: allProject (sortBy: "rank", order: DESC, filter: { private: { ne: $private }}){
     totalCount
     edges {
       node {

@@ -5,6 +5,12 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+var private =  process.env.SHOWPRIVATE
+if (private == "true")
+  private = null
+else if(private == "false")
+  private = 1
+
 module.exports = function (api) {
   api.loadSource(({
     addCollection
@@ -50,6 +56,36 @@ module.exports = function (api) {
       };
     }
   })
+
+    api.createPages(({ createPage }) => {
+      createPage({
+        path: '/people',
+        component: './src/templates/People.vue',
+        context: {
+          private: private
+        }
+      })
+    })
+
+    api.createPages(({ createPage }) => {
+      createPage({
+        path: '/search',
+        component: './src/templates/Search.vue',
+        context: {
+          private: private
+        }
+      })
+    })
+
+    api.createPages(({ createPage }) => {
+      createPage({
+        path: '/projects',
+        component: './src/templates/Projects.vue',
+        context: {
+          private: private
+        }
+      })
+    })
 
     api.createPages(async ({
       graphql,

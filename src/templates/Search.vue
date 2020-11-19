@@ -20,8 +20,8 @@
 </template>
 <page-query>
 
-query {
-  projects: allProject {   
+query ($private: Int){
+  projects: allProject (filter: { private: { ne: $private }}){   
     edges {
         node {
                 id
@@ -53,7 +53,7 @@ query {
     }
   }
 
-  people: allPerson {   
+  people: allPerson(filter: { private: { ne: $private }}) {   
      edges {
       node {
         id
