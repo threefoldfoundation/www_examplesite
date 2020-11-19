@@ -10,7 +10,7 @@
         pricing=""
         url=""
       />
-       <div class="flex flex-col h-screen flex flex-col h-screen">
+       <div class="flex flex-col h-screen">
       <img class="pt-10" src="/img/new_home.png" alt="">
       <div class="center py-10">
       <h2 class="text-center">CO-CREATING BETTER FUTURES TOGETHER</h2>
