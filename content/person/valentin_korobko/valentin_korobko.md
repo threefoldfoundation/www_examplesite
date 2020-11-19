@@ -10,6 +10,6 @@ websites: http://threefold.io/
 image: ./valentin_koroboko.jpg
 project_ids: threefold_foundation
 countries: Ukraine 
-cities:
+cities: Dnipro, Kyiv
 private: 1
 ---
