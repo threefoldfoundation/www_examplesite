@@ -91,7 +91,7 @@
     </div>
 
     <section
-      class="post-related bg-black text-gray-200 pt-10 border-b border-b-gray-900"
+      class="post-related text-gray-700 pt-10 border-b border-b-gray-900"
     >
       <div class="container mx-auto">
         <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
