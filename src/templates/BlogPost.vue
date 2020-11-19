@@ -115,13 +115,9 @@
   query($id: ID!, $previousElement: ID!, $nextElement: ID!) {
     blog(id: $id) {
       title
-      name
-      rank
       path
-      startDate : startdate(format:"MM YYYY")
       image(width:1600, height:800)
       image_caption
-      excerpt
       content
       humanTime : created(format:"DD MMMM YYYY")
       datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
@@ -135,11 +131,6 @@
         id
         name
         image
-        path
-      }
-      tags {
-        id
-        title
         path
       }
     }

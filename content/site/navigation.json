@@ -10,6 +10,11 @@
       "link": "/people",
       "external": false
     },
+    {
+      "name": "News",
+      "link": "/news",
+      "external": false
+    },
 
     {
       "name": "About",

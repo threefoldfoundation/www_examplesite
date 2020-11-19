@@ -38,11 +38,7 @@ query {
         image(width:800)
         path
         timeToRead
-        author {
-          id
-          image(width:64, height:64, fit:inside)
-          path
-        }
+       
       }
     }
   }

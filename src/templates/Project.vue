@@ -70,51 +70,6 @@
         ></div>
       </section>
       <div class="pt-8 border-b mx-4 sm:-mx-4"></div>
-      <br />
-
-      <section>
-        <div class="avatars">
-          <div class="flex items-center">
-            <div class="flex justify-between items-center">
-              <ul class="list-none flex author-list m-0">
-                <li
-                  v-for="author in $page.project.author"
-                  :key="author.id"
-                  class="author-list-item"
-                >
-                  <g-link :to="author.path" v-tooltip="author.name">
-                    <g-image
-                      :src="author.image"
-                      :alt="author.name"
-                      class="w-8 h-8 rounded-full bg-gray-200 border-2 border-white"
-                    />
-                  </g-link>
-                </li>
-              </ul>
-            </div>
-            <div
-              class="ml-3 pl-3 border-l flex flex-col text-xs leading-none uppercase"
-            >
-              <p>
-                <g-link :to="$page.project.path">
-                  <time :datetime="$page.project.datetime">{{
-                    $page.project.humanTime
-                  }}</time>
-                </g-link>
-              </p>
-              <p>
-                <g-link :to="$page.project.path">
-                  <time :datetime="$page.project.datetime">{{
-                    $page.project.startDate
-                  }}</time>
-                </g-link>
-                {{ $page.project.status }}
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      
     </div>
   </Layout>
 </template>
@@ -151,12 +106,7 @@
       }
       websites
       private
-      author {
-          id
-          name
-          image(width:64, height:64, fit:inside)
-          path
-      }
+     
       rank
       excerpt
       

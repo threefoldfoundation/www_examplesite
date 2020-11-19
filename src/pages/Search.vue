@@ -82,14 +82,9 @@ query {
     edges {
       node {
         id
-        name
         title
-        team
-        rank
-        excerpt
         image(width:800)
         path
-        timeToRead
         humanTime : created(format:"DD MMM YYYY")
         datetime : created
         author {
