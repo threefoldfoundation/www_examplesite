@@ -1,46 +1,26 @@
 ---
-id: internet
-title: The Humanized Internet
-name: Blog 2
-status: Published
-rank: 2
-team: teama
-startdate: 2019-03-20
-tags: crystaltwin, planned, grid
-excerpt: World First Time Token 2 enables 200.000+ users for exchanging value.
-created: 2019-03-20
-image: ./the_humanized_internet.png
-image_caption: beliive
-author: kristine_vilnite
+id: threefold_foundation
+title: You Are Unique
+tags: autonomy, equality, human
+image: ./unique.jpg
+image_caption: you
+author: sabrina_sadik
 ---
 
 
-# Beliive
+# You are unique
 
-## About
+During a gathering with some friends, I noticed something that made me think about how important it is what we’re doing.
 
-*Beliive* is a community where people can exchange experiences and services using time as the only currency. With 200.000 members to date Beliive is the world's largest time bank. Our vision is to be a movement that rethinks and rebuilds the value of money, the value of time and the way we collaborate with each other. When the money economy is failing at giving us a way to exchange our value independently of the circumstances, Beliive decided to create a complimentary economy based on an abundant resource available to everyone equally.
+One of my friends was complaining about how he couldn’t log in to one of his social media platforms, because all of his passwords are different and he forgot which one he used for this particular platform. Another friend was saying how she tagged her sister on a funny meme, but her sister couldn’t find it on Facebook. Turns out she tagged her on Instagram. And then one of them said something that I keep hearing more and more from people, “Why do we have so many apps, I can’t find anything anymore!”
 
-## Mission
+We exist so many times online, but why? There is only one me in the real world. Why should there not be only one me online? Why should I have 25 different profiles on 25 different platforms, with 25 different logins, when I am unique?
 
-Our mission is to empower and inspire people to recognize abundance by living new experiences one hour at a time.
+That is another dilemma that ThreeFold has a solution for with it's autonomous technology. 3Bot - a digital avatar like no other, that basically handles your entire online life. The focus lies on digital privacy, where only you can access your data, and no one else. The 3Bot has all the functionalities you need to interact and exchange information and value, there will be no need for that many applications on your device anymore. With 3Bot, everything changes.
 
-## Impact
+The 3Bot is built on the ThreeFold Grid, and has the same values as ThreeFold. Freedom, Equality, and Fairness. It is important that your data is safe, and what can be safer than you being the only one who not only has access to it, but also the only one who owns that data? Your online world should not be that different from your offline world. In your offline world, you are the center of your own life. That is what ThreeFold is doing with the 3Bot, putting you in the center of your online life too.
 
-We have created a platform where low-income and unemployed people can exchange their time (hours) of volunteering for knowledge and skills. To scale this and to allow for collaboration opportunities, Beliive has an open API and a web widget that can integrate our time banking technology with different platforms and systems. Soon our time credits will use blockchain technology.
+One decentralized application, one digital wallet, one login and one you. Because you’re unique.
 
-## Powered by ThreeFold
-
-Beliive and ThreeFold recognize the power of equality to include and connect people to their unlimited abundance. We are peer-to-peer systems that are here to support the awakening of humanity to its own potential. Beliive will connect users' wallets and identity with ThreeFold, using its technology to support time exchange transactions. Beliive will also connect time credits to TF Foundation partners and communities, providing a peer-to-peer platform for TF Foundation to spread the use of time credits for economic empowerment.
-
-## Join saving our planet!
-
-The world has 3 trillion idle hours per year and Beliive is using TIME as the common currency to promote reciprocal exchanges and financial inclusion. With Beliive you can offer for example one hour of Spanish Lessons receiving a time credit of one hour in return, then you can exchange this credit for any activity available in the community, like financial advice, dance lessons or someone to fix something for you.
-
-
-## Support this project
-
-Beliive is included in ThreeFold’s [Token Distribution Event (TDE)](https://wiki.threefold.io/#/tdeoverview)</a> for the impact it brings to our planet, humanity and the ThreeFold Grid.
-The ThreeFold Token (TFT) represents a unit of capacity on the new Internet and is created only when new capacity is added to the ThreeFold Grid.
-Each project on the TDE benefits from TFT fund allocations. You can buy TFT's and support Beliive, and the growth of a new Conscious Internet.
+More information on www.threefold.io
 
