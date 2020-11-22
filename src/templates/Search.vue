@@ -2,7 +2,7 @@
   <Layout>
     <div
       class="container sm:pxi-0 mx-auto"
-      :style="{ height: contentHeight + 'px' }"
+      :style="{ 'min-height': contentHeight + 'px' }"
     >
       <img
         v-if="loading"
