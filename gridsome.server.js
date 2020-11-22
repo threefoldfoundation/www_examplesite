@@ -87,6 +87,16 @@ module.exports = function (api) {
       })
     })
 
+    api.createPages(({ createPage }) => {
+      createPage({
+        path: '/overview',
+        component: './src/templates/Overview.vue',
+        context: {
+          private: private
+        }
+      })
+    })
+
     api.createPages(async ({
       graphql,
       createPage
