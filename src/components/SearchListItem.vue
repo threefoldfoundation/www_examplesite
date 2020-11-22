@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex px-0 sm:px-4 pb-8 mb-8"
+    class="flex search-post px-0 sm:px-4 pb-8 mb-8"
     v-bind:class="{ 'no-border': !border }"
   >
     <g-link :to="record.path" class="post-card-image-link">
@@ -100,6 +100,13 @@ export default {
 
 .flex-post {
   flex-direction: row;
+  
+}
+.search-post{
+  border-bottom-width: 1px;
+  border-bottom-color: #e2e8f0;
+  
+  width: 100%;
 }
 
 .post-card-image {
