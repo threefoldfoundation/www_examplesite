@@ -14,12 +14,12 @@
       <g-link :to="record.path">
         <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
-        <section class="post-tags container mx-auto relative py-1">
+        <section class="flex flex-wrap post-tags container mx-auto relative py-1">
               <g-link
                 v-for="membership in record.memberships"
                 :key="membership.id"
                 :to="membership.path"
-                class="text-xs bg-transparent hover:text-blue-700 py-1 px-2 mr-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+                class="text-xs bg-transparent hover:text-blue-700 py-1 px-2 mr-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full mb-2"
                 >{{ membership.title }}</g-link
               >
             </section>

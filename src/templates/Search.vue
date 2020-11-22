@@ -20,8 +20,8 @@
           :record="edge.node"
         />
       </div>
-      <div v-else class="flex flex-col with-large my-auto text-center">
-        <h1>404</h1>
+      <div v-else class="flex flex-col with-large my-auto text-center py-20">
+        <h1 class="">No results</h1>
         <p>OOPS! Something went wrong here</p>
       </div>
     </div>
@@ -165,6 +165,6 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 13rem;
+  font-size: 3rem;
 }
 </style>
