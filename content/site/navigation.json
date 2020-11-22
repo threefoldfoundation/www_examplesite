@@ -11,6 +11,11 @@
       "external": false
     },
     {
+      "name": "Overview",
+      "link": "/overview",
+      "external": false
+    },
+    {
       "name": "News",
       "link": "/news",
       "external": false
