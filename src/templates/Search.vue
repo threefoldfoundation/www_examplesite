@@ -1,11 +1,17 @@
 <template>
   <Layout>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden my-auto">
+    <div class="container sm:pxi-0 mx-auto">
+      <img
+        v-if="loading"
+        class="m-auto"
+        src="../assets/imgs/loader.gif"
+        alt=""
+      />
       <div
         v-if="searchResults.length > 0"
         class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4"
       >
-        <PostListItem
+        <SearchListItem
           v-for="edge in searchResults"
           :key="edge.node.id"
           :record="edge.node"
@@ -102,8 +108,7 @@ query ($private: Int){
 </page-query>
 
 <script>
-import PostListItem from "~/components/PostListItem.vue";
-import Pagination from "~/components/Pagination.vue";
+import SearchListItem from "~/components/SearchListItem.vue";
 
 export default {
   metaInfo: {
@@ -112,6 +117,7 @@ export default {
   data: () => ({
     q: "",
     objects: {},
+    loading: true,
   }),
   computed: {
     searchResults() {
@@ -123,6 +129,7 @@ export default {
         var item = searchRes[i];
         result.push({ node: this.objects[item.path] });
       }
+      this.loading = false;
       return result;
     },
   },
@@ -145,14 +152,13 @@ export default {
     }
   },
   components: {
-    PostListItem,
-    Pagination,
+    SearchListItem,
   },
 };
 </script>
 
 <style scoped>
-  h1 {
-    font-size: 13rem;;
-  }
+h1 {
+  font-size: 13rem;
+}
 </style>
