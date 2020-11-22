@@ -129,7 +129,6 @@ export default {
         var item = searchRes[i];
         result.push({ node: this.objects[item.path] });
       }
-      this.loading = false;
       return result;
     },
   },
@@ -150,6 +149,7 @@ export default {
       var item = this.$page.blogs.edges[i];
       this.objects[item.node.path] = item.node;
     }
+    this.loading = false;
   },
   components: {
     SearchListItem,
