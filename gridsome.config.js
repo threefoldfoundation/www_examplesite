@@ -58,6 +58,13 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'MarkdownPage',
+                path: './content/page/**/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'Person',
                 path: './content/person/**/*.md',
                 refs: {
@@ -142,6 +149,10 @@ module.exports = {
         Project: [{
             path: '/project/:id',
             component: '~/templates/Project.vue'
+        }],
+        MarkdownPage: [{
+            path: '/page/:id',
+            component: '~/templates/MarkdownPage.vue'
         }],
     }
 }
