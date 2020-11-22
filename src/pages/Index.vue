@@ -1,16 +1,16 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
-      <VacationCard img="" imgAlt="" eyebrow="" title="" pricing="" url="" />
-      <div class="flex flex-col">
-        <img class="py-20" src="/img/new_home.png" alt="" />
-        <div class="center py-10">
-          <!-- <h2 class="text-center">CO-CREATING BETTER FUTURES TOGETHER</h2> -->
-          <!-- <p class="text-center py-1">The ThreeFold Foundation is not ThreeFold — rather, it is sparking a movement to bring the world <br> a truly peer-to-peer internet. We acknowledge and support the many people and organizations around the world <br>  who bring crucial support to the growth and adoption of the ThreeFold Grid.</p> -->
-        </div>
+    <div class="container sm:pxi-0 mx-auto overflow-hidden">
+      <!-- <VacationCard img="" imgAlt="" eyebrow="" title="" pricing="" url="" /> -->
+      <div class="flex flex-col" :style="{ height: contentHeight + 'px' }">
+        <img src="/img/new_home.png" alt="" />
+        <!-- <div class="center py-10"> -->
+        <!-- <h2 class="text-center">CO-CREATING BETTER FUTURES TOGETHER</h2> -->
+        <!-- <p class="text-center py-1">The ThreeFold Foundation is not ThreeFold — rather, it is sparking a movement to bring the world <br> a truly peer-to-peer internet. We acknowledge and support the many people and organizations around the world <br>  who bring crucial support to the growth and adoption of the ThreeFold Grid.</p> -->
+        <!-- </div> -->
       </div>
 
-      <vue-markdown> </vue-markdown>
+      <!-- <vue-markdown> </vue-markdown> -->
     </div>
   </Layout>
 </template>
@@ -22,17 +22,16 @@ export default {
   metaInfo: {
     title: "Home",
   },
-
+  computed: {
+    contentHeight() {
+      return window.innerHeight - 128;
+    },
+  },
   components: {
     VueMarkdown,
   },
 };
 </script>
-<style scoped>
-/* h2 {
-  padding-bottom: 8rem;
-} */
-</style> >
 
 
 

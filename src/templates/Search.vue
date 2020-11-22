@@ -1,6 +1,9 @@
 <template>
   <Layout>
-    <div class="container sm:pxi-0 mx-auto">
+    <div
+      class="container sm:pxi-0 mx-auto"
+      :style="{ height: contentHeight + 'px' }"
+    >
       <img
         v-if="loading"
         class="m-auto"
@@ -18,8 +21,8 @@
         />
       </div>
       <div v-else class="flex flex-col with-large my-auto text-center">
-        <h1 class="py-1">No results</h1>
-        <p class="pb-5">OOPS! Something went wrong here</p>
+        <h1>404</h1>
+        <p>OOPS! Something went wrong here</p>
       </div>
     </div>
   </Layout>
@@ -131,6 +134,9 @@ export default {
       }
       return result;
     },
+    contentHeight() {
+      return window.innerHeight - 128;
+    },
   },
   mounted() {
     this.q = new URL(location.href).searchParams.get("query");
@@ -159,6 +165,6 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 3rem;
+  font-size: 13rem;
 }
 </style>

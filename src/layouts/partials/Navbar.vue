@@ -200,7 +200,7 @@ export default {
       headerHeight: 0,
       isOpen: false,
       search: "",
-      open: false
+      open: false,
     };
   },
 
@@ -247,5 +247,9 @@ query {
 input:focus,
 button:focus {
   outline: 0;
+}
+
+.inset-0 {
+  z-index: 999;
 }
 </style>

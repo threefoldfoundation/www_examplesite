@@ -1,7 +1,10 @@
 <template>
   <Layout>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
-      <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4 h-screen">
+    <div
+      class="container sm:pxi-0 mx-auto overflow-hidden"
+      :style="{ height: contentHeight + 'px' }"
+    >
+      <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
           v-for="edge in $page.entries.edges"
           :key="edge.node.id"
@@ -9,15 +12,15 @@
         />
       </div>
     </div>
-     <div class="pagination flex justify-center mb-8">
-        <Pagination
-          :baseUrl="baseurl"
-          :currentPage="$page.entries.pageInfo.currentPage"
-          :totalPages="$page.entries.pageInfo.totalPages"
-          :maxVisibleButtons="5"
-          v-if="$page.entries.pageInfo.totalPages > 1"
-        />
-      </div>
+    <div class="pagination flex justify-center mb-8">
+      <Pagination
+        :baseUrl="baseurl"
+        :currentPage="$page.entries.pageInfo.currentPage"
+        :totalPages="$page.entries.pageInfo.totalPages"
+        :maxVisibleButtons="5"
+        v-if="$page.entries.pageInfo.totalPages > 1"
+      />
+    </div>
   </Layout>
 </template>
 
@@ -62,12 +65,15 @@ export default {
   },
   components: {
     PostListItem,
-    Pagination
+    Pagination,
   },
   computed: {
-    baseurl: function() {
-     return ""
-    }
+    baseurl: function () {
+      return "";
+    },
+    contentHeight() {
+      return window.innerHeight - 160;
+    },
   },
 };
 </script>

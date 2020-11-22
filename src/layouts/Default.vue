@@ -1,8 +1,16 @@
 <template>
-  <div id="app" dark class="min-h-screen flex flex-col font-sans">
-    <HeaderPartial v-if="hideHeader!=true" @setTheme="setTheme" :theme="this.theme"></HeaderPartial>
-    <slot/>
-    <NavbarPartial :disableScroll="disableScroll" @setTheme="setTheme" :theme="this.theme"></NavbarPartial>
+  <div id="app" dark class="flex flex-col font-sans">
+    <HeaderPartial
+      v-if="hideHeader != true"
+      @setTheme="setTheme"
+      :theme="this.theme"
+    ></HeaderPartial>
+    <NavbarPartial
+      :disableScroll="disableScroll"
+      @setTheme="setTheme"
+      :theme="this.theme"
+    ></NavbarPartial>
+    <slot />
     <FooterPartial></FooterPartial>
   </div>
 </template>
@@ -16,41 +24,41 @@ query {
 </static-query>
 
 <script>
-import HeaderPartial from '~/layouts/partials/HeaderWithNavbar.vue'
-import NavbarPartial from '~/layouts/partials/Navbar.vue'
-import FooterPartial from '~/layouts/partials/Footer.vue'
+import HeaderPartial from "~/layouts/partials/HeaderWithNavbar.vue";
+import NavbarPartial from "~/layouts/partials/Navbar.vue";
+import FooterPartial from "~/layouts/partials/Footer.vue";
 
 export default {
   props: {
     hideHeader: {
       type: Boolean,
-      default: true
+      default: true,
     },
     disableScroll: {
       type: Boolean,
-      default: true
-    }
+      default: true,
+    },
   },
-  data: function() {
+  data: function () {
     return {
-      theme: 'light'
+      theme: "light",
     };
   },
   methods: {
     setTheme(mode) {
-        this.theme = mode
-    }
+      this.theme = mode;
+    },
   },
   components: {
     HeaderPartial,
     NavbarPartial,
-    FooterPartial
+    FooterPartial,
   },
-  
+
   metaInfo: {
     bodyAttrs: {
-      class: "m-0 pt-12"
-    }
-  }
-}
+      class: "m-0 pt-12",
+    },
+  },
+};
 </script>
