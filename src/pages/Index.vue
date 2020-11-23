@@ -24,7 +24,9 @@ export default {
   },
   computed: {
     contentHeight() {
-      return window.innerHeight - 128;
+      if (process.isClient) {
+        return window.innerHeight - 128;
+      }
     },
   },
   components: {

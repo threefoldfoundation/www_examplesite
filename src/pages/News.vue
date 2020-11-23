@@ -72,7 +72,9 @@ export default {
       return "";
     },
     contentHeight() {
-      return window.innerHeight - 160;
+      if (process.isClient) {
+        return window.innerHeight - 160;
+      }
     },
   },
 };
