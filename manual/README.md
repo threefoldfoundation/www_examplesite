@@ -19,7 +19,7 @@ logo: ./logo.png
 author: kristine_vilnite
 members: franz_josef_allmayer
 websites: 
-tags: digital_twin, grid, cloud
+tags: digital_twin, grid, cloud, farming
 private: 0
 potential: 
 linkedin:
