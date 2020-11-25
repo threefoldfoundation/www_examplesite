@@ -44,7 +44,10 @@ linkedin:
 - tags: generic to allow us to search & show. Choose from: 
     - digital_twin : for project who will use digital twin as backend
     - grid : for project will use the grid
-    - cloud : for projects that will use the VDC (Cloud)
+    - data_center : for projects that will use the VDC (Cloud)
+    - tech : techological solution
+    - security : safety layer projects 
+    - payment : token provider, issuer
     - farming : for projects that are farmers
 - private:
     - 0 : projects that are visible to all
