@@ -13,7 +13,7 @@ image_caption: aiqom
 logo: ./logo.png
 members: samer_obeidat
 websites: https://aiqom.ai/
-tags: tfgrid, crystaltwin
+tags: digital_twin, grid, cloud
 private: 1
 potential:
 linkedin: https://www.linkedin.com/company/aiqom/

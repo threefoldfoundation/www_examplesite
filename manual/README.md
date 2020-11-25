@@ -19,7 +19,7 @@ logo: ./logo.png
 author: kristine_vilnite
 members: franz_josef_allmayer
 websites: 
-tags: crystaltwin, tfgrid
+tags: digital_twin, grid, cloud
 private: 0
 potential: 
 linkedin:
@@ -34,18 +34,21 @@ linkedin:
 - cities: ...
 - rank: 1 is lowest prio, 5 highest (what to show first)
 - excerpt: short content to show in overview (DONT MAKE IT TOO LONG)
-- created: when the project was registered
+- created: when the project was registered/created
 - image:
 - image caption:
 - logo: 
 - author: 1 or more persons who created the content
 - members: 1 or more persons behind project (the members of the project, use the id)
 - websites:
-- tags: generic to allow us to search & shows. Choose from: 
-    - crystaltwin : for project who crystal twin as backend
-    - tfgrid : for project will use tfgrid
-    - only relevant for author/person
+- tags: generic to allow us to search & show. Choose from: 
+    - digital_twin : for project who will use digital twin as backend
+    - grid : for project will use the grid
+    - cloud : for projects that will use the VDC (Cloud)
+    - farming : for projects that are farmers
 - private:
+    - 0 : projects that are visible to all
+    - 1 : projects that we keep private
 - potential: describe the potential for a project e.g. 1m users in X months, X TB of storage, ... can use multiple lanes
 - linkedin: link to projects linkedin page
 

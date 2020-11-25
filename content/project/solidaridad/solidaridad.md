@@ -13,7 +13,7 @@ image_caption: solidaridad
 logo: ./logo.png
 members: jeroen_douglas
 websites: www.solidaridadnetwork.org
-tags: tfgrid, crystaltwin
+tags: digital_twin, grid, cloud
 private: 0
 potential: 
 linkedin: https://www.linkedin.com/company/solidaridad/

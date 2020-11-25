@@ -13,7 +13,7 @@ image_caption: zetako
 logo: ./logo.png
 members: claus_rosenberg_gotthard
 websites: https://zetako.ai
-tags: tfgrid
+tags: grid
 private: 0
 potential:
 linkedin: https://www.linkedin.com/company/zetako/

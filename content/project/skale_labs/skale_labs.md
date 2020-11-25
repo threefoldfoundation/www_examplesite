@@ -13,7 +13,7 @@ image_caption: skale_labs
 logo: ./logo.png
 members: christine_renee_perry
 websites: https://skale.network/
-tags: tfgrid
+tags: cloud
 private: 0
 potential:
 linkedin: https://www.linkedin.com/company/skale-labs/

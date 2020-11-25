@@ -13,7 +13,7 @@ image_caption: the_humanized_internet
 logo: ./logo.png
 members: monique_morrow, akram_alfawakheeri
 websites: https://www.thehumanizedinternet.org/
-tags: tfgrid
+tags: digital_twin, cloud
 private: 0
 potential:
 linkedin: ''

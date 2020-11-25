@@ -13,7 +13,7 @@ image_caption: tomochain
 logo: ./logo.png
 members: kyn_chaturvedi
 websites: https://tomochain.com/
-tags: tfgrid
+tags: cloud
 private: 0
 potential:
 linkedin: https://www.linkedin.com/company/tomochain/

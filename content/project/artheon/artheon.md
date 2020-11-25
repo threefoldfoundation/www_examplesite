@@ -13,7 +13,7 @@ image_caption: artheon
 logo: ./logo.png
 members: vasily_gnuchev
 websites: https://artheon.co/
-tags: tfgrid
+tags: digital_twin, grid, cloud
 private: 0
 potential:
 linkedin: 

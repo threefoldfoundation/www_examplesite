@@ -13,7 +13,7 @@ image_caption: crystal_home
 logo: ./logo.png
 members: bert_van_decraen
 websites: https://www.crystalhome.org/
-tags: tfgrid, crystaltwin
+tags: digital_twin, grid
 private: 0
 potential:
 linkedin: ''

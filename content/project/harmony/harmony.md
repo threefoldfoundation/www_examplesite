@@ -13,7 +13,7 @@ image_caption: harmony
 logo: ./harmony_logo.png
 members: li_jiang, nikalos_kost
 websites: https://www.harmony.one/
-tags: tfgrid
+tags: cloud
 private: 0
 potential:
 linkedin: https://www.linkedin.com/company/harmony-one/
