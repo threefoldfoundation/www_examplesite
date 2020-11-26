@@ -14,17 +14,19 @@
       <g-link :to="record.path">
         <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
-        <section class="flex flex-wrap post-tags container mx-auto relative py-1">
-              <g-link
-                v-for="membership in record.memberships"
-                :key="membership.id"
-                :to="membership.path"
-                class="text-xs bg-transparent hover:text-blue-700 py-1 px-2 mr-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full mb-2"
-                >{{ membership.title }}</g-link
-              >
-            </section>
+        <section
+          class="flex flex-wrap post-tags container mx-auto relative py-1"
+        >
+          <g-link
+            v-for="membership in record.memberships"
+            :key="membership.id"
+            :to="membership.path"
+            class="text-xs bg-transparent hover:text-blue-700 py-1 px-2 mr-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full mb-2"
+            >{{ membership.title }}</g-link
+          >
+        </section>
       </g-link>
-       
+
       <div class="w-full post-card-meta pt-2">
         <div class="avatars">
           <div class="flex items-center">
@@ -45,10 +47,8 @@
                 </li>
               </ul>
             </div>
-            
-            <div
-              class="flex flex-col text-xs leading-none uppercase"
-            >
+
+            <div class="flex flex-col text-xs leading-none uppercase">
               <p>
                 <g-link :to="record.path">
                   <time :datetime="record.datetime">{{
@@ -64,22 +64,17 @@
                 </g-link>
                 {{ record.status }}
               </p>
-              
             </div>
-
-           
-
           </div>
-           <section class="post-tags container mx-auto relative py-3">
-              <g-link
-                v-for="tag in record.tags"
-                :key="tag.id"
-                :to="tag.path"
-                class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
-                >{{ tag.title }}</g-link
-              >
-            </section>
-           
+          <section class="post-tags container mx-auto relative py-3">
+            <g-link
+              v-for="tag in record.tags"
+              :key="tag.id"
+              :to="tag.path"
+              class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+              >{{ tag.title }}</g-link
+            >
+          </section>
         </div>
       </div>
     </div>

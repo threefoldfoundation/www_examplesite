@@ -1,6 +1,11 @@
 {
   "headerNavigation": [
     {
+      "name": "About",
+      "link": "/about",
+      "external": false
+    },
+    {
       "name": "Projects",
       "link": "/projects",
       "external": false
@@ -11,19 +16,13 @@
       "external": false
     },
     {
-      "name": "Overview",
-      "link": "/overview",
+      "name": "Blog",
+      "link": "/blog",
       "external": false
     },
     {
-      "name": "News",
-      "link": "/news",
-      "external": false
-    },
-
-    {
-      "name": "About",
-      "link": "/about",
+      "name": "NewsRoom",
+      "link": "/newsroom",
       "external": false
     }
   ],

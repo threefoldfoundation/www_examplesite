@@ -51,9 +51,8 @@ ul {
     }
 }
 
-
 .animated-link:after {
-    content: '';
+    content: "";
     width: 0px;
     height: 1px;
     display: block;
@@ -95,33 +94,32 @@ ul {
     }
 }
 
-.author-list-item:nth-child(n+2) {
-    @apply -ml-3
+.author-list-item:nth-child(n + 2) {
+    @apply -ml-3;
 }
 
 @media (min-width: 768px) {
-    .with-large>.flex-post:nth-child(5n),
-    .with-large>.flex-post:nth-child(5n-1) {
-        // @apply flex-100;
-        flex: 1 1 50%;
-        @apply flex-col;
+    // .with-large>.flex-post:nth-child(5n),
+    .with-large>.flex-post:nth-child(6n + 1) {
+        @apply flex-100;
+        @apply flex-row;
         .post-card-image-link {
-            
+            //   @apply flex-auto;
+            flex: 1 1 100%;
             @apply relative;
-            min-height: 400px;
-            
+            min-height: 380px;
+            @apply mr-6;
         }
         .post-card-image {
             @apply absolute;
-            @apply h-full;
+            @apply h-auto;
             @apply w-full;
             @apply object-cover;
             @apply rounded-lg;
         }
         .post-card-content {
-            // @apply flex-post-large-content;
-            flex: 0 1 auto;
-            @apply self-center
+            @apply flex-post-large-content;
+            @apply self-center;
         }
         .post-card-title {
             @apply text-4xl;
@@ -130,6 +128,33 @@ ul {
             @apply text-xl;
         }
     }
+    // .with-large>.flex-overview:nth-child(6n + 1) {
+    //     @apply flex-100;
+    //     @apply flex-row;
+    //     .post-card-image-link {
+    //         @apply flex-auto;
+    //         @apply relative;
+    //         min-height: 380px;
+    //         @apply mr-6;
+    //     }
+    //     .post-card-image {
+    //         @apply absolute;
+    //         @apply h-full;
+    //         @apply w-full;
+    //         @apply object-cover;
+    //         @apply rounded-lg;
+    //     }
+    //     .post-card-content {
+    //         @apply flex-post-large-content;
+    //         @apply self-center;
+    //     }
+    //     .post-card-title {
+    //         @apply text-4xl;
+    //     }
+    //     .post-card-excerpt {
+    //         @apply text-xl;
+    //     }
+    // }
 }
 
 body[data-theme="dark"] {
@@ -165,7 +190,7 @@ body[data-theme="dark"] {
     .author-social {
         a {
             &:hover {
-                @apply text-white
+                @apply text-white;
             }
         }
     }
