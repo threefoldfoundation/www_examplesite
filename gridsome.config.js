@@ -160,7 +160,26 @@ module.exports = {
         Person: [{
             path: '/people/:id',
             component: '~/templates/Person.vue'
-        }],        
+        }],
+        
+        BlogTag: [{
+            path: '/tags/blog/:id',
+            component: '~/templates/Tag.vue'
+        }],
+        PersonTag: [{
+            path: '/people/tags/:id',
+            component: '~/templates/Tag.vue'
+        }],
+        NewsTag: [{
+            path: '/news/tags/:id',
+            component: '~/templates/Tag.vue'
+        }],
+
+        ProjectTag: [{
+            path: '/projects/tags/:id',
+            component: '~/templates/Tag.vue'
+        }],
+        
         Membership: [{
             path: '/memberships/:id',
             component: '~/templates/Membership.vue'
