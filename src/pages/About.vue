@@ -1,8 +1,9 @@
 <template>
   <Layout :hiddenHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
-      <img class="pt-5" src="/img/valuesheader2.png" alt="" />
-
+      <div class="max-w-xl mx-auto py-10">
+      <img class="" src="/img/valuesheader2.png" alt="" />
+      </div>
       <div class="my-4">
         <nav class="inline-block w-1/4 border-r-2 border-gray-200">
           <a
