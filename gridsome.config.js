@@ -69,7 +69,7 @@ module.exports = {
                 path: './content/person/**/*.md',
                 refs: {
                     tags: {
-                        typeName: 'Tag',
+                        typeName: 'PersonTag',
                         create: true
                     },
                     memberships: {
@@ -91,7 +91,7 @@ module.exports = {
                 refs: {
                     author: 'Person',
                     tags: {
-                        typeName: 'Tag',
+                        typeName: 'BlogTag',
                         create: true
                     }
                 }
@@ -109,7 +109,7 @@ module.exports = {
                 refs: {
                     author: 'Person',
                     tags: {
-                        typeName: 'Tag',
+                        typeName: 'NewsTag',
                         create: true
                     }
                 }
@@ -130,7 +130,7 @@ module.exports = {
                     members: 'Person',
 
                     tags: {
-                        typeName: 'Tag',
+                        typeName: 'ProjectTag',
                         create: true
                     }
                 }
@@ -160,11 +160,7 @@ module.exports = {
         Person: [{
             path: '/people/:id',
             component: '~/templates/Person.vue'
-        }],
-        Tag: [{
-            path: '/tags/:id',
-            component: '~/templates/Tag.vue'
-        }],
+        }],        
         Membership: [{
             path: '/memberships/:id',
             component: '~/templates/Membership.vue'

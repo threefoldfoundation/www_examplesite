@@ -2,7 +2,7 @@
   <Layout>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <PostListItem v-for="edge in $page.entries.edges" :key="edge.node.id" :record="edge.node" />
+        <Team title="THREEFOLD PROJECTS" description="The heartbeat behind the ThreeFold Movement." :objects="$page.entries.edges" :tags="$page.memberships.edges" tagsField="tags" />
       </div>
     </div>
   </Layout>
@@ -42,12 +42,22 @@ query ($private: Int){
       }
     }
   }
+
+  memberships: allProjectTag{
+     edges{
+      node{
+        id
+        title
+        path
+      }
+    }
+  }
 }
 
 </page-query>
 
 <script>
-import PostListItem from '~/components/PostListItem.vue';
+import Team from '~/components/Team.vue';
 import Pagination from "~/components/Pagination.vue";
 
 export default {
@@ -55,7 +65,7 @@ export default {
     title: "Projects"
   },
   components: {
-    PostListItem,
+    Team,
     Pagination
   },
   computed: {

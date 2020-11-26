@@ -2,7 +2,7 @@
   <Layout>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <Group title="THREEFOLD TEAM" description="The heartbeat behind the ThreeFold Movement." :objects="$page.entries.edges" :tags="$page.memberships.edges" tagsField="memberships" />
+        <Team title="THREEFOLD TEAM" description="The heartbeat behind the ThreeFold Movement." :objects="$page.entries.edges" :tags="$page.memberships.edges" tagsField="memberships" />
       </div>
     </div>
   </Layout>
@@ -50,14 +50,14 @@ query ($private: Int){
 
 <script>
 import Pagination from "~/components/Pagination.vue";
-import Group from '~/components/Group.vue';
+import Team from '~/components/Team.vue';
 
 export default {
   metaInfo: {
     title: "People"
   },
   components: {
-    Group,
+    Team,
     Pagination
   },
   computed: {

@@ -58,6 +58,7 @@ module.exports = function(api) {
 
 
         if (options.internal.typeName === 'Person') {
+            options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
             options.project_ids = (typeof options.project_ids === 'string') ? options.project_ids.split(',').map(string => string.trim()) : options.project_ids;
             options.memberships = (typeof options.memberships === 'string') ? options.memberships.split(',').map(string => string.trim()) : options.memberships;
             options.countries = (typeof options.countries === 'string') ? options.countries.split(',').map(string => string.trim()) : options.countries;
