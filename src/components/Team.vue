@@ -24,7 +24,7 @@
       >
         <a
           :href="`#${tag.node.title}`"
-          @click="setSelected(tag.node.title, index)"
+          @click.stop="setSelected(tag.node.title, index)"
           class="pb-2 hover:text-indigo-600 capitalize"
           :class="{ 'border-b-4 border-indigo-600': activeIndex == index + 1 }"
         >
@@ -62,7 +62,7 @@ export default {
 
     for (var i = 0; i < this.tags.length; i++) {
       if (this.tags[i].node.title == selected) {
-        activeIndex = i;
+        activeIndex = i + 1;
       }
     }
     return {
@@ -77,11 +77,6 @@ export default {
     objects: {},
     tags: {},
     tagsField: String,
-  },
-  computed: {
-    url: function () {
-      return window.location.href + "#" + this.selected;
-    },
   },
   methods: {
     setSelected: function (tag, index) {

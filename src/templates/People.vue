@@ -1,8 +1,17 @@
 <template>
   <Layout>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
+    <div
+      class="container sm:pxi-0 mx-auto overflow-x-hidden"
+      :style="{ 'min-height': contentHeight + 'px' }"
+    >
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <Team title="THREEFOLD TEAM" description="The heartbeat behind the ThreeFold Movement." :objects="$page.entries.edges" :tags="$page.memberships.edges" tagsField="memberships" />
+        <Team
+          title="THREEFOLD TEAM"
+          description="The heartbeat behind the ThreeFold Movement."
+          :objects="$page.entries.edges"
+          :tags="$page.memberships.edges"
+          tagsField="memberships"
+        />
       </div>
     </div>
   </Layout>
@@ -50,20 +59,25 @@ query ($private: Int){
 
 <script>
 import Pagination from "~/components/Pagination.vue";
-import Team from '~/components/Team.vue';
+import Team from "~/components/Team.vue";
 
 export default {
   metaInfo: {
-    title: "People"
+    title: "People",
   },
   components: {
     Team,
-    Pagination
+    Pagination,
   },
   computed: {
-    baseurl: function() {
-     return "/people/"
-    }
+    baseurl: function () {
+      return "/people/";
+    },
+    contentHeight() {
+      if (process.isClient) {
+        return window.innerHeight - 100;
+      }
+    },
   },
 };
 </script>
