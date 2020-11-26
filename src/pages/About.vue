@@ -56,21 +56,21 @@
               created. Below are the three pillars that ThreeFold is built on:
             </p>
 
-            <h3>EQUALITY</h3>
+            <h6>EQUALITY</h6>
             <p>
               Equality is the foundation for a fair world where everyone is
               given the opportunity to be empowered and to achieve their full
               potential.
             </p>
 
-            <h3>AUTONOMY</h3>
+            <h6>AUTONOMY</h6>
             <p>
               Being empowered to learn, partake, dream and succeed is
               fundamental to achieve peace and fulfillment of humankind's
               potential
             </p>
 
-            <h3>SUSTAINABILITY</h3>
+            <h6>SUSTAINABILITY</h6>
             <p>
               Sustainability ensures the future of life on earth. It is about
               adopting the behavior and mindset to minimize our footprint.
@@ -148,6 +148,12 @@
             </p>
           </div>
         </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
       </div>
 
       <vue-markdown> </vue-markdown>
