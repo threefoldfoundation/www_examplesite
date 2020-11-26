@@ -1,0 +1,17 @@
+---
+id: threefold_foundation
+title: Community update call
+tags: event
+image: ./post3.jpeg
+image_caption: community call
+excerpt: It’s the end of October and a lot has gone on this month.
+author: sam_taggart
+created: 2020-10-30
+---
+
+
+# Community Update
+
+It’s the end of October and a lot has gone on this month Jack-o-lantern An upgrade to testnet, progress on TF Now, some notable new team members, & more! & we have a community call this Monday.
+
+Full details here: http://bit.ly/tfoct2020update
