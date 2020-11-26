@@ -2,7 +2,13 @@
   <Layout>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <Group title="THREEFOLD TEAM" description="The heartbeat behind the ThreeFold Movement." :objects="people" :tags="memberships" :filter="filter" />
+        <Group
+          title="THREEFOLD TEAM"
+          description="The heartbeat behind the ThreeFold Movement."
+          :objects="people"
+          :tags="memberships"
+          :filter="filter"
+        />
       </div>
     </div>
   </Layout>
@@ -50,55 +56,54 @@ query ($private: Int){
 
 <script>
 import Pagination from "~/components/Pagination.vue";
-import Group from '~/components/Group.vue';
+import Group from "~/components/Group.vue";
 
 export default {
   metaInfo: {
-    title: "People"
+    title: "People",
   },
   components: {
     Group,
-    Pagination
+    Pagination,
   },
   methods: {
-    filter: function(tag){
-      if (tag == '')
-        return this.people
-      
-      var result = []
-      for(var i=0; i < this.people.length; i++){
-          var person = this.people[i];
-          for (var j=0; j<person.memberships.length; j++){
-            var membership = person.memberships[j];
-            if (membership.title == tag){
-              result.push(person);
-              break
-            }
+    filter: function (tag) {
+      if (tag == "") return this.people;
+
+      var result = [];
+      for (var i = 0; i < this.people.length; i++) {
+        var person = this.people[i];
+        for (var j = 0; j < person.memberships.length; j++) {
+          var membership = person.memberships[j];
+          if (membership.title == tag) {
+            result.push(person);
+            break;
           }
+        }
       }
       return result;
     },
   },
 
   computed: {
-    people: function(){
-      var result = []
-      for (var i=0; i < this.$page.entries.edges.length; i++){
-        result.push(this.$page.entries.edges[i].node)
+    people: function () {
+      var result = [];
+      for (var i = 0; i < this.$page.entries.edges.length; i++) {
+        result.push(this.$page.entries.edges[i].node);
       }
-      return result
+      return result;
     },
-    memberships: function(){
-      var result = []
-      for (var i=0; i < this.$page.memberships.edges.length; i++){
-        result.push(this.$page.memberships.edges[i].node.title)
+    memberships: function () {
+      var result = [];
+      for (var i = 0; i < this.$page.memberships.edges.length; i++) {
+        result.push(this.$page.memberships.edges[i].node.title);
       }
-      return result
+      return result;
     },
 
-    baseurl: function() {
-     return "/people/"
-    }
+    baseurl: function () {
+      return "/people/";
+    },
   },
 };
 </script>
