@@ -4,7 +4,7 @@
       {{ title }}
     </h2>
 
-    <p class="max-w-xl mx-auto mb-12 text-gray-400">{{ description }}</p>
+    <p class="max-w-xl mx-auto mb-12 text-gray-600">{{ description }}</p>
     <div class="flex max-w-lg mx-auto mb-12 justify-center border-b-2">
       <div class="w-1/3 mr-5 pb-2">
         <a
@@ -40,13 +40,13 @@
       >
         <g-link :to="obj.node.path" class="post-card-image-link">
           <g-image
-            :src="obj.node.image"
+            :src="obj.node.logo || obj.node.image"
             :alt="obj.node.name || obj.node.title"
-            class="w-1/2 mx-auto mb-4 rounded-full"
+            class="w-1/2 mx-auto mb-4 rounded-full img-thumbnail"
           ></g-image>
         </g-link>
         <h3 class="text-xl mb-1 font-semibold font-heading font-semibold">
-          {{ obj.node.name || obj.node.title }}
+          {{ obj.node.name }}
         </h3>
         <!-- <span>{{ edge.node.title }}</span> -->
       </div>
@@ -104,3 +104,14 @@ export default {
   },
 };
 </script>
+
+<style>
+.img-thumbnail {
+  padding: 0.15rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  /* border-radius: 0.25rem; */
+  max-width: 100%;
+  height: auto;
+}
+</style>
