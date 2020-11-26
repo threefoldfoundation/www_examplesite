@@ -86,7 +86,7 @@ module.exports = {
                 typeName: 'Blog',
                 path: './content/blog/**/*.md',
                 templates: {
-                    BlogPost: '/news/:id'
+                    BlogPost: '/blog/post/:id'
                 },
                 refs: {
                     author: 'Person',
@@ -97,6 +97,25 @@ module.exports = {
                 }
             }
         },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'News',
+                path: './content/news/**/*.md',
+                templates: {
+                    NewsPost: '/news/:id'
+                },
+                refs: {
+                    author: 'Person',
+                    tags: {
+                        typeName: 'Tag',
+                        create: true
+                    }
+                }
+            }
+        },
+
 
         {
             use: '@gridsome/source-filesystem',
@@ -131,8 +150,13 @@ module.exports = {
     },
     templates: {
         Blog: [{
+            path: '/blog/post/:id'
+        }],
+
+        News: [{
             path: '/news/:id'
         }],
+
         Person: [{
             path: '/people/:id',
             component: '~/templates/Person.vue'

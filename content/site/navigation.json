@@ -22,7 +22,7 @@
     },
     {
       "name": "NewsRoom",
-      "link": "/newsroom",
+      "link": "/news",
       "external": false
     }
   ],
