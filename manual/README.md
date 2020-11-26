@@ -88,7 +88,7 @@ private: 0
 ```
 
 - meberships, choose from:
-    - threefold_foundation, threefold_tech, ambassador, farmer, project, guardian
+    - threefold_foundation, threefold_tech, ambassador, farmer, project, guardian, techcounil, gridcouncil
 - bio: business experience/skills
 - project_ids: which projects person is part of
 - private:
