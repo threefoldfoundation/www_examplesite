@@ -13,7 +13,7 @@ image_caption: cicolab
 logo: ./logo.png
 members: lauren_moore_nignon, charles_blass
 websites: https://www.collectiveintelligencecollaboratory.com
-tags: digital_twin, grid, cloud
+tags: digitaltwin
 private: 0
 potential:
 linkedin: https://www.linkedin.com/company/cicollaboratory/

@@ -20,12 +20,12 @@
      <section class="py-10">
             <div class="flex flex-wrap items-center -mx-8">
               
-              <div class="md:ml-auto md:w-1/2 md:pl-10 px-20">
-                <h2 class="text-4xl font-bold font-tf-secondary">THANK YOU PARTNERS</h2>
-                <p class="text-gray-600 leading-relaxed">Welcome to the growing ecosystem of ThreeFold</p>
+              <div class="md:ml-auto md:w-1/2 md:pl-20 px-10">
+                <h2 class="text-4xl font-bold font-tf-secondary">Welcome to the growing ecosystem of ThreeFold</h2>
+                <!-- <p class="text-gray-600 leading-relaxed">Welcome to the growing ecosystem of ThreeFold</p> -->
               </div>
               <div class="md:ml-auto md:w-1/2 pl-8">
-                <img class="object-cover" src="img/new_home2.png" alt="imgAlt"/>
+                <img class="object-cover" src="img/equality.png" alt="imgAlt"/>
               </div>
             </div>
           </section>   

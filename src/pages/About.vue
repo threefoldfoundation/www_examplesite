@@ -2,8 +2,8 @@
   <Layout :hiddenHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <div class="max-w-xl mx-auto py-10">
-      <img class="" src="/img/valuesheader2.png" alt="" />
-      </div>
+      <!-- <img class="" src="/img/valuesheader2.png" alt="" />  -->
+      </div> 
       <div class="my-4">
         <nav class="inline-block w-1/4 border-r-2 border-gray-200">
           <a
@@ -25,9 +25,10 @@
           class="content inline-block h-full w-3/4 align-top p-5 transition ease-in-out duration-150"
         >
           <div :class="{ block: activeIndex == 0, hidden: activeIndex != 0 }">
+          <img class="" src="/img/valuesheader2.png" alt="" />
             <p>
-              We are sparking a movement to bring the world <br />
-              a truly peer-to-peer internet. We acknowledge and support the many
+              We are sparking a movement to bring the world
+              a truly peer-to-peer internet.  <br /> We acknowledge and support the many
               people and organizations around the world <br />
               who bring crucial support to the growth and adoption of the
               ThreeFold Grid.
@@ -53,27 +54,19 @@
 
           <div :class="{ block: activeIndex == 2, hidden: activeIndex != 2 }">
             <p>
-              Any technology is only as good as the values on which it is
-              created. Below are the three pillars that ThreeFold is built on:
-            </p>
-
-            <h6>EQUALITY</h6>
-            <p>
-              Equality is the foundation for a fair world where everyone is
+              <b>EQUALITY</b> is the foundation for a fair world where everyone is
               given the opportunity to be empowered and to achieve their full
               potential.
             </p>
-
-            <h6>AUTONOMY</h6>
+            <br />
             <p>
-              Being empowered to learn, partake, dream and succeed is
+              <b>AUTONOMY</b>. Being empowered to learn, partake, dream and succeed is
               fundamental to achieve peace and fulfillment of humankind's
               potential
             </p>
-
-            <h6>SUSTAINABILITY</h6>
+            <br />
             <p>
-              Sustainability ensures the future of life on earth. It is about
+              <b>SUSTAINABILITY</b> ensures the future of life on earth. It is about
               adopting the behavior and mindset to minimize our footprint.
             </p>
           </div>
@@ -149,6 +142,10 @@
             </p>
           </div>
         </div>
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />

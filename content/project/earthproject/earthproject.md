@@ -13,7 +13,7 @@ image_caption: earthproject
 logo: ./logo.png
 members: koen_timmers
 websites: http://projectkakuma.com, http://innovationlabschools.com, http://takeactionglobal.org, https://www.climate-action.info/
-tags: digital_twin
+tags: digitaltwin
 private: 0
 potential:
 linkedin: https://www.linkedin.com/company/take-action-global/

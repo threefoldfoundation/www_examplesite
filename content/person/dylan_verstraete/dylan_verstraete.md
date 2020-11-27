@@ -2,7 +2,7 @@
 id: dylan_verstraete
 name: Dylan Verstraete
 rank: 3
-memberships: threefold_tech
+memberships: tech
 bio: Coffee drinking cat lover that commits code to multiple projects within the Threefold Ecosystem. Has a passion for wakeboarding and webtechnologies.
 excerpt: Coffee drinking cat lover that commits code to multiple projects within the Threefold Ecosystem.
 linkedin: https://www.linkedin.com/in/dylan-verstraete-229539a4/
