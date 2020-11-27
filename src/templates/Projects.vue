@@ -7,7 +7,7 @@
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
         <Team
           title="THREEFOLD PARTNERS"
-          description="The heartbeat behind the ThreeFold Movement."
+          description="The heartbeat behind the ThreeFold Movement"
           :objects="$page.entries.edges"
           :tags="$page.memberships.edges"
           tagsField="tags"

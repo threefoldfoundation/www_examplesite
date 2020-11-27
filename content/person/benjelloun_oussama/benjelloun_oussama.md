@@ -7,7 +7,7 @@ bio: Oussama is a globetrotter that advocates for equality and inclusive communi
 excerpt: Blockchain Ecosystem development Lead
 linkedin: https://www.linkedin.com/in/oussama-benjelloun-110b51128/
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./benjelloun_oussama.jpg
+image: ./benjelloun_oussama.png
 project_ids: threefold_foundation
 countries: 
 cities: 
