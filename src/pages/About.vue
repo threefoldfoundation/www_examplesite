@@ -3,7 +3,7 @@
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
       <div class="max-w-xl mx-auto py-10">
       <!-- <img class="" src="/img/valuesheader2.png" alt="" />  -->
-      </div>
+      </div> 
       <div class="my-4">
         <nav class="inline-block w-1/4 border-r-2 border-gray-200">
           <a
@@ -27,8 +27,8 @@
           <div :class="{ block: activeIndex == 0, hidden: activeIndex != 0 }">
           <img class="" src="/img/valuesheader2.png" alt="" />
             <p>
-              We are sparking a movement to bring the world <br />
-              a truly peer-to-peer internet. We acknowledge and support the many
+              We are sparking a movement to bring the world
+              a truly peer-to-peer internet.  <br /> We acknowledge and support the many
               people and organizations around the world <br />
               who bring crucial support to the growth and adoption of the
               ThreeFold Grid.
