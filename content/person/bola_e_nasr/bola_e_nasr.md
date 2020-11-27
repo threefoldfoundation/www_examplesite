@@ -2,7 +2,7 @@
 id: bola_e_nasr
 name: Bola E. Nasr
 rank: 1
-memberships: threefold_tech
+memberships: tech
 bio: Software Engineer with a passion for everything new and challenging in life and technology. I strongly believe that the technology can help to create a better world and that is exactly the mission of the ThreeFold ,I find it very important for people to have equal chances, and a lot can be changed through technology these days.
 excerpt: Software Engineer with a passion for everything new and challenging in life and technology.
 linkedin: https://www.linkedin.com/in/bola-erian-nasr-24391764/

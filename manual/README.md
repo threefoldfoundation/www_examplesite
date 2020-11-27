@@ -19,7 +19,7 @@ logo: ./logo.png
 author: kristine_vilnite
 members: franz_josef_allmayer
 websites: 
-tags: digital_twin, grid, cloud, farming
+tags: digitaltwin, grid, cloud, farming
 private: 0
 potential: 
 linkedin:
@@ -42,7 +42,7 @@ linkedin:
 - members: 1 or more persons behind project (the members of the project, use the id)
 - websites:
 - tags: generic to allow us to search & show. Choose from: 
-    - digital_twin : for project who will use digital twin as backend
+    - digitaltwin : for project who will use digital twin as backend
     - grid : for project will use the grid
     - data_center : for projects that will use the VDC (Cloud)
     - tech : techological solution
@@ -74,7 +74,7 @@ to use breaks do ```enter <BR> enter```
 id: kristine_vilnite
 name: Kristine Vilnite
 rank: 4
-memberships: threefold_foundation (threefold_tech, project, ambassador, farmer, gridcouncil.. see other options below)
+memberships: foundation (threefold_tech, project, ambassador, farmer, gridcouncil.. see other options below)
 bio: info about the person (values, mission, why threefold, experience, current occupation etc.)
 excerpt: very short line highliting person (from description)
 linkedin: https://www.linkedin.com/...

@@ -13,7 +13,7 @@ image_caption: shareitt
 logo: ./logo.png
 members: arie_ben_david
 websites: https://www.shareitt.com
-tags: digital_twin, cloud
+tags: digitaltwin
 private: 0
 potential:
 linkedin: https://www.linkedin.com/company/shareitt/
