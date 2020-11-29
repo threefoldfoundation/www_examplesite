@@ -5,12 +5,10 @@
       :style="{ 'min-height': contentHeight + 'px' }"
     >
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <Team
-          title="THREEFOLD PEOPLE"
-          description="The heartbeat behind the ThreeFold Movement"
-          :objects="$page.entries.edges"
-          :tags="$page.memberships.edges"
-          tagsField="memberships"
+        <PostListItem
+          v-for="edge in $page.entries.edges"
+          :key="edge.node.id"
+          :record="edge.node"
         />
       </div>
     </div>
@@ -24,15 +22,9 @@ query ($private: Int){
     edges {
       node {
         path
-        excerpt
         content 
         name
         rank
-        memberships{
-          id
-          title
-          path
-        }
         bio
         linkedin
         websites
@@ -59,14 +51,14 @@ query ($private: Int){
 
 <script>
 import Pagination from "~/components/Pagination.vue";
-import Team from "~/components/Team.vue";
+import PostListItem from "~/components/PostListItem.vue";
 
 export default {
   metaInfo: {
     title: "People",
   },
   components: {
-    Team,
+    PostListItem,
     Pagination,
   },
   computed: {

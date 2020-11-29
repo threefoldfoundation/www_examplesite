@@ -103,26 +103,25 @@ button:focus {
 }
 
 @media (min-width: 768px) {
-    // .with-large>.flex-post:nth-child(5n),
-    .with-large>.flex-post:nth-child(6n + 1) {
-        @apply flex-100;
-        @apply flex-row;
+    .with-large>.flex-post:nth-child(5n),
+    .with-large>.flex-post:nth-child(5n-1) {
+        // @apply flex-100;
+        flex: 1 1 50%;
+        @apply flex-col;
         .post-card-image-link {
-            //   @apply flex-auto;
-            flex: 1 1 100%;
             @apply relative;
-            min-height: 380px;
-            @apply mr-6;
+            min-height: 400px;
         }
         .post-card-image {
             @apply absolute;
-            @apply h-auto;
+            @apply h-full;
             @apply w-full;
             @apply object-cover;
             @apply rounded-lg;
         }
         .post-card-content {
-            @apply flex-post-large-content;
+            // @apply flex-post-large-content;
+            flex: 0 1 auto;
             @apply self-center;
         }
         .post-card-title {
@@ -132,33 +131,15 @@ button:focus {
             @apply text-xl;
         }
     }
-    // .with-large>.flex-overview:nth-child(6n + 1) {
-    //     @apply flex-100;
-    //     @apply flex-row;
-    //     .post-card-image-link {
-    //         @apply flex-auto;
-    //         @apply relative;
-    //         min-height: 380px;
-    //         @apply mr-6;
-    //     }
-    //     .post-card-image {
-    //         @apply absolute;
-    //         @apply h-full;
-    //         @apply w-full;
-    //         @apply object-cover;
-    //         @apply rounded-lg;
-    //     }
-    //     .post-card-content {
-    //         @apply flex-post-large-content;
-    //         @apply self-center;
-    //     }
-    //     .post-card-title {
-    //         @apply text-4xl;
-    //     }
-    //     .post-card-excerpt {
-    //         @apply text-xl;
-    //     }
-    // }
+    .projects>.flex-post:nth-child(5n),
+    .projects>.flex-post:nth-child(5n-1) {
+        .post-card-image-link {
+            min-height: 300px;
+        }
+        .post-card-image {
+            @apply h-auto;
+        }
+    }
 }
 
 body[data-theme="dark"] {

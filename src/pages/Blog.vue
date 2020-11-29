@@ -1,6 +1,9 @@
 <template>
   <Layout>
-    <div class="container sm:pxi-0 mx-auto">
+    <div
+      class="container sm:pxi-0 mx-auto"
+      :style="{ 'min-height': contentHeight + 'px' }"
+    >
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
           v-for="edge in $page.entries.edges"
@@ -67,6 +70,11 @@ export default {
   computed: {
     baseurl: function () {
       return "";
+    },
+    contentHeight() {
+      if (process.isClient) {
+        return window.innerHeight - 100;
+      }
     },
   },
 };

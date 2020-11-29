@@ -4,13 +4,11 @@
       class="container sm:pxi-0 mx-auto overflow-x-hidden"
       :style="{ 'min-height': contentHeight + 'px' }"
     >
-      <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <Team
-          title="THREEFOLD PARTNERS"
-          description="The heartbeat behind the ThreeFold Movement"
-          :objects="$page.entries.edges"
-          :tags="$page.memberships.edges"
-          tagsField="tags"
+      <div class="flex flex-wrap with-large projects pt-8 pb-8 mx-4 sm:-mx-4">
+        <PostListItem
+          v-for="edge in $page.entries.edges"
+          :key="edge.node.id"
+          :record="edge.node"
         />
       </div>
     </div>
@@ -32,17 +30,8 @@ query ($private: Int){
           image(width:64, height:64, fit:inside)
           path
         },
-        tags {
-          id
-          title
-          path
-        }  
         rank
         linkedin
-        startDate : startdate(format:"MM YYYY")
-        humanTime : created(format:"DD MMMM YYYY")
-        datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
-        status
         excerpt
         image(width:800)
         path
@@ -66,7 +55,7 @@ query ($private: Int){
 </page-query>
 
 <script>
-import Team from "~/components/Team.vue";
+import PostListItem from "~/components/PostListItem.vue";
 import Pagination from "~/components/Pagination.vue";
 
 export default {
@@ -74,7 +63,7 @@ export default {
     title: "Projects",
   },
   components: {
-    Team,
+    PostListItem,
     Pagination,
   },
   computed: {
