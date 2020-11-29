@@ -3,34 +3,40 @@
     {
       "name": "About",
       "link": "/about",
-      "external": false
+      "external": false,
+      "expandable": false
     },
     {
       "name": "Projects",
       "link": "/projects",
-      "external": false
+      "external": false,
+      "expandable": false
     },
     {
       "name": "People",
       "link": "/people",
-      "external": false
+      "external": false,
+      "expandable": true
     },
     {
       "name": "Blog",
       "link": "/blog",
-      "external": false
+      "external": false,
+      "expandable": false
     },
     {
       "name": "NewsRoom",
       "link": "/news",
-      "external": false
+      "external": false,
+      "expandable": false
     }
   ],
   "footerNavigation": [
     {
       "name": "",
       "link": "",
-      "external": false
+      "external": false,
+      "expandable": false
     }
   ]
 }
