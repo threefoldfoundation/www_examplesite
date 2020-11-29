@@ -1,5 +1,5 @@
 <template>
-  <nav class="relative bg-black py-4 text-sm text-gray-500">
+  <nav class="relative py-4 text-sm">
     <div
       class="container mx-auto flex flex-wrap justify-between h-12 items-center"
     >
