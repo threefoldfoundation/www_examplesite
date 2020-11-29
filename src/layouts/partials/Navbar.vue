@@ -87,27 +87,6 @@
         <ul
           class="list-none sm:flex justify-left uppercase transition-all transition-500"
         >
-          <!-- <li
-            :key="element.name"
-            v-for="(element, index) in $static.metadata.navigation"
-            class="py-1"
-            v-bind:class="{
-              'mr-4':
-                index != Object.keys($static.metadata.navigation).length - 1,
-            }"
-          >
-            <a
-              :href="element.link"
-              v-if="element.external"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 animated-link"
-              >{{ element.name }}</a
-            >
-            <g-link v-else :to="element.link" class="animated-link">{{
-              element.name
-            }}</g-link>
-          </li> -->
           <li
             class="py-1"
             :key="element.name"
