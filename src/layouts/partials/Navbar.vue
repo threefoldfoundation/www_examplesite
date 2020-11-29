@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 h-16 bg-black">
+  <div class="fixed inset-0 h-16 bg-white">
     <header
       class="flex items-center justify-between flex-wrap container mx-auto px-4 sm:px-0 py-4 transition-all transition-500"
       v-bind:class="{
@@ -8,11 +8,11 @@
       }"
     >
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-        <div class="inline-flex items-center flex-shrink-0 text-white mr-6">
+        <div class="inline-flex items-center flex-shrink-0 mr-6">
           <a href="/" class="flex">
             <img
-              src="../../../static/img/TFN_white.svg"
-              class="mr-3"
+              src="../../../static/img/TFN_black.svg"
+              class="mr-3 fill-current"
               width="180"
               alt=""
             />
@@ -73,15 +73,15 @@
 
       <nav
         :class="isOpen ? 'block' : 'hidden'"
-        class="md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 bg-black"
+        class="md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 bg-white"
       >
         <ul
-          class="list-none sm:flex justify-left text-gray-300 uppercase transition-all transition-500"
+          class="list-none sm:flex justify-left uppercase transition-all transition-500"
         >
           <li
             :key="element.name"
             v-for="(element, index) in $static.metadata.navigation"
-            class="hover:text-white py-1"
+            class="py-1"
             v-bind:class="{
               'mr-4':
                 index != Object.keys($static.metadata.navigation).length - 1,
@@ -116,13 +116,13 @@
            </li> -->
         </ul>
         <div
-          class="md:hidden inline-flex rounded-full border-grey-light border w-1/2"
+          class="md:hidden inline-flex rounded-full border w-1/2"
         >
-          <span class="w-auto flex justify-end items-center text-grey p-2">
+          <span class="w-auto flex justify-end items-center p-2">
             <font-awesome :icon="['fas', 'search']" />
           </span>
           <input
-            class="w-full rounded mr-4 bg-black"
+            class="w-full rounded mr-4 bg-white"
             type="text"
             placeholder="Search..."
             v-model="search"
@@ -131,14 +131,14 @@
         </div>
       </nav>
       <div
-        class="hidden text-gray-400 md:ml-auto md:inline-block md:order-last"
+        class="hidden md:ml-auto md:inline-block md:order-last"
       >
-        <div class="inline-flex rounded-full border-grey-light border w-1/2">
-          <span class="w-auto flex justify-end items-center text-grey p-2">
+        <div class="inline-flex rounded-full border w-1/2">
+          <span class="w-auto flex justify-end items-center p-2">
             <font-awesome :icon="['fas', 'search']" />
           </span>
           <input
-            class="w-full rounded mr-4 bg-black"
+            class="w-full rounded mr-4 bg-white"
             type="text"
             placeholder="Search..."
             v-model="search"
@@ -152,7 +152,7 @@
           <li
             :key="element.name"
             v-for="(element, index) in $static.metadata.social"
-            class="hover:text-white sm:block"
+            class="sm:block"
             v-bind:class="{
               'mr-6': index != Object.keys($static.metadata.social).length - 1,
             }"
