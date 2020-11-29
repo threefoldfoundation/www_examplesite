@@ -14,6 +14,15 @@
               src="../../../static/img/TFN_black.svg"
               class="mr-3 fill-current"
               width="180"
+              v-if="theme == 'light'"
+              alt=""
+            />
+
+            <img
+              src="../../../static/img/TFN_white.svg"
+              class="mr-3 fill-current"
+              width="180"
+              v-else
               alt=""
             />
             <!-- <span
@@ -115,9 +124,7 @@
                 </div>
            </li> -->
         </ul>
-        <div
-          class="md:hidden inline-flex rounded-full border w-1/2"
-        >
+        <div class="md:hidden inline-flex rounded-full border w-1/2">
           <span class="w-auto flex justify-end items-center p-2">
             <font-awesome :icon="['fas', 'search']" />
           </span>
@@ -130,9 +137,7 @@
           />
         </div>
       </nav>
-      <div
-        class="hidden md:ml-auto md:inline-block md:order-last"
-      >
+      <div class="hidden md:ml-auto md:inline-block md:order-last">
         <div class="inline-flex rounded-full border w-1/2">
           <span class="w-auto flex justify-end items-center p-2">
             <font-awesome :icon="['fas', 'search']" />

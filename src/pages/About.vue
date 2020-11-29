@@ -1,16 +1,19 @@
 <template>
   <Layout :hiddenHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
+    <div
+      class="container sm:pxi-0 mx-auto overflow-x-hidden"
+      :style="{ 'min-height': contentHeight + 'px' }"
+    >
       <div class="max-w-xl mx-auto py-10">
-      <!-- <img class="" src="/img/valuesheader2.png" alt="" />  -->
-      </div> 
+        <!-- <img class="" src="/img/valuesheader2.png" alt="" />  -->
+      </div>
       <div class="my-4">
         <nav class="inline-block w-1/4 border-r-2 border-gray-200">
           <a
             v-for="(header, index) in headers"
             :key="index"
             :href="`#${index}`"
-            class="mt-1 capitalize group flex items-center px-3 py-2 text-sm leading-5 font-medium hover:text-gray-900 hover:bg-gray-400 focus:outline-none  transition ease-in-out duration-150"
+            class="mt-1 capitalize group flex items-center px-3 py-2 text-sm leading-5 font-medium hover:text-gray-900 hover:bg-gray-400 focus:outline-none transition ease-in-out duration-150"
             :class="{
               'border-r-3 border-blue-500 hover:bg-gray-100':
                 activeIndex === index,
@@ -25,11 +28,12 @@
           class="content inline-block h-full w-3/4 align-top p-5 transition ease-in-out duration-150"
         >
           <div :class="{ block: activeIndex == 0, hidden: activeIndex != 0 }">
-          <img class="" src="/img/valuesheader2.png" alt="" />
+            <img class="" src="/img/valuesheader2.png" alt="" />
             <p>
-              We are sparking a movement to bring the world
-              a truly peer-to-peer internet.  <br /> We acknowledge and support the many
-              people and organizations around the world <br />
+              We are sparking a movement to bring the world a truly peer-to-peer
+              internet. <br />
+              We acknowledge and support the many people and organizations
+              around the world <br />
               who bring crucial support to the growth and adoption of the
               ThreeFold Grid.
             </p>
@@ -54,20 +58,20 @@
 
           <div :class="{ block: activeIndex == 2, hidden: activeIndex != 2 }">
             <p>
-              <b>EQUALITY</b> is the foundation for a fair world where everyone is
-              given the opportunity to be empowered and to achieve their full
+              <b>EQUALITY</b> is the foundation for a fair world where everyone
+              is given the opportunity to be empowered and to achieve their full
               potential.
             </p>
             <br />
             <p>
-              <b>AUTONOMY</b>. Being empowered to learn, partake, dream and succeed is
-              fundamental to achieve peace and fulfillment of humankind's
-              potential
+              <b>AUTONOMY</b>. Being empowered to learn, partake, dream and
+              succeed is fundamental to achieve peace and fulfillment of
+              humankind's potential
             </p>
             <br />
             <p>
-              <b>SUSTAINABILITY</b> ensures the future of life on earth. It is about
-              adopting the behavior and mindset to minimize our footprint.
+              <b>SUSTAINABILITY</b> ensures the future of life on earth. It is
+              about adopting the behavior and mindset to minimize our footprint.
             </p>
           </div>
 
@@ -142,16 +146,16 @@
             </p>
           </div>
         </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
 
       <vue-markdown> </vue-markdown>
@@ -181,6 +185,13 @@ export default {
   methods: {
     setActive(index) {
       this.activeIndex = index;
+    },
+  },
+  computed: {
+    contentHeight() {
+      if (process.isClient) {
+        return window.innerHeight - 130;
+      }
     },
   },
   components: {
