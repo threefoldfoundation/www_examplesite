@@ -10,7 +10,7 @@
       "name": "Projects",
       "link": "/projects",
       "external": false,
-      "expandable": false
+      "expandable": true
     },
     {
       "name": "People",

@@ -92,7 +92,7 @@
             :key="element.name"
             v-for="(element, index) in $static.metadata.navigation"
             :class="{
-              'mr-4':
+              'mr-2':
                 index != Object.keys($static.metadata.navigation).length - 1,
             }"
           >
@@ -102,7 +102,7 @@
               x-data="{ open: false }"
             >
               <button
-                @click="open = !open"
+                @click="setActive(index)"
                 class="flex flex-row items-center w-full md:w-auto md:inline md:mt-0 md:ml-4 animated-link"
               >
                 <span class="uppercase">{{ element.name }}</span>
@@ -120,7 +120,7 @@
                 </svg>
               </button>
               <div
-                v-if="open"
+                v-if="active == index"
                 x-show="open"
                 x-transition:enter="transition ease-out duration-100"
                 x-transition:enter-start="transform opacity-0 scale-95"
@@ -131,6 +131,25 @@
                 class="absolute w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48 z-30"
               >
                 <div
+                  v-if="element.name == 'Projects'"
+                  class="px-2 py-2 bg-white rounded-md shadow dark:bg-gray-700"
+                >
+                  <g-link
+                    :to="element.link"
+                    class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                    >All</g-link
+                  >
+                  <g-link
+                    v-for="edge in $static.allProjectTag.edges"
+                    :key="edge.node.id"
+                    class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                    :to="edge.node.path"
+                    >{{ edge.node.title }}</g-link
+                  >
+                </div>
+
+                <div
+                  v-else
                   class="px-2 py-2 bg-white rounded-md shadow dark:bg-gray-700"
                 >
                   <g-link
@@ -236,6 +255,7 @@ export default {
       isOpen: false,
       search: "",
       open: false,
+      active: null,
     };
   },
 
@@ -248,6 +268,9 @@ export default {
     },
     result() {
       window.location.href = `/search?query=${this.search}`;
+    },
+    setActive(index) {
+      this.active = index;
     },
   },
 
@@ -277,6 +300,15 @@ query {
     }
   }
   allMembership{
+     edges{
+      node{
+        id
+        title
+        path
+      }
+    }
+  }
+  allProjectTag{
      edges{
       node{
         id
