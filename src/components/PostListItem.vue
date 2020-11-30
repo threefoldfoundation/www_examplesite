@@ -15,7 +15,7 @@
         <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
         <section
-          class="flex flex-wrap post-tags container mx-auto relative py-1"
+          class="flex flex-wrap post-tags container mx-auto relative py-1" v-if="displaytags()"
         >
           <g-link
             v-for="membership in record.memberships"
@@ -66,8 +66,8 @@
               </p>
             </div>
           </div>
-          <section class="post-tags container mx-auto relative py-3">
-            <g-link
+          <section class="post-tags container mx-auto relative py-3" v-if="displaytags()">
+            <g-link 
               v-for="tag in record.tags"
               :key="tag.id"
               :to="tag.path"
@@ -85,12 +85,18 @@
 export default {
   props: {
     record: {},
+    showtags: false,
     border: {
       type: Boolean,
       default: true,
     },
   },
-};
+  methods: {
+    displaytags(){
+      return this.showtags
+    }
+  }
+}
 </script>
 
 <style scoped>

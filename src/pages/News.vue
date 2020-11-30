@@ -2,7 +2,7 @@
   <Layout>
     <div class="container sm:pxi-0 mx-auto">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <PostListItem
+        <PostListItem :showtags=true
           v-for="edge in $page.entries.edges"
           :key="edge.node.id"
           :record="edge.node"
@@ -33,18 +33,18 @@ query{
     }
     edges {
       node {
-        title
+        
+        tags{
+          id
+          title
+          path
+        }
         excerpt
         image(width:800)
         path
         humanTime : created(format:"DD MMM YYYY")
         datetime : created
-        author {
-          id
-          name
-          image(width:64, height:64, fit:inside)
-          path
-        }
+       
       }
     }
   }
@@ -69,5 +69,10 @@ export default {
       return "";
     },
   },
+  methods: {
+    datefilter(){
+      
+    } 
+  }
 };
 </script>
