@@ -3,7 +3,7 @@
     <div class="container sm:pxi-0 mx-auto">
       <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem :showtags=true
-          v-for="edge in $page.entries.edges"
+          v-for="edge in news.edges"
           :key="edge.node.id"
           :record="edge.node"
         />
@@ -33,7 +33,7 @@ query{
     }
     edges {
       node {
-        
+        id
         tags{
           id
           title
@@ -44,7 +44,6 @@ query{
         path
         humanTime : created(format:"DD MMM YYYY")
         datetime : created
-       
       }
     }
   }
@@ -68,11 +67,24 @@ export default {
     baseurl: function () {
       return "";
     },
-  },
-  methods: {
-    datefilter(){
-      
-    } 
+
+    news(){
+      var res = {}
+      var old = this.$page.entries
+      res.totalCount = old.totalCount
+      res.pageInfo = old.pageInfo
+      res.edges = []
+
+      for(var i=0; i < old.edges.length; i++){
+        var node = old.edges[i].node;
+        const diff =  Math.abs(new Date() - new Date(node.datetime))
+        const diffDays = Math.ceil(diff / (1000 * 60 * 60 * 24));
+        if(diffDays <= 30){
+          res.edges.push({"node": node, "id": node.id})
+        }
+      }
+      return res;
+    }
   }
 };
 </script>

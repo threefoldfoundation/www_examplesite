@@ -15,7 +15,7 @@
         <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
         <p class="post-card-excerpt">{{ record.excerpt }}</p>
         <section
-          class="flex flex-wrap post-tags container mx-auto relative py-1" v-if="displaytags()"
+          class="flex flex-wrap post-tags container mx-auto relative py-1"
         >
           <g-link
             v-for="membership in record.memberships"
