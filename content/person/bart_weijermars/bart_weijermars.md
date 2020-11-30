@@ -8,7 +8,7 @@ excerpt: Bart Weijermars has extensive international experience in the telecommu
 linkedin: https://www.linkedin.com/in/bart-weijermars-88236a/
 websites: https://threefold.io/
 project_ids: threefold_foundation
-image: ./bart.jpeg
+image: ./bart_weijermars.jpeg
 countries: Dutch
 cities:
 private: 1
