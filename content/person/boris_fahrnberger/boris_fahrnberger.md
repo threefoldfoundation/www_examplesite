@@ -7,7 +7,7 @@ bio: Boris has worked in nearly all main sectors, including IT, finance, media a
 excerpt: Boris has worked in nearly all main sectors, including IT, finance, media and politics.
 linkedin: https://www.linkedin.com/in/bojofa/
 websites: https://threefold.io/, https://www.mazraa.io/
-image: ./boris.jpeg
+image: ./boris_fahrnberger.jpeg
 project_ids: covid_fighters
 countries: Austria
 cities: Vienna
