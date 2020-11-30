@@ -97,8 +97,9 @@ module.exports = function(api) {
                 private: private
             }
         })
-    })
+    });
 
+    
     api.createPages(async({
         graphql,
         createPage
@@ -178,4 +179,37 @@ module.exports = function(api) {
       });
 
   });
+
+  api.createPages(async({
+    graphql,
+    createPage
+}) => {
+    // Use the Pages API here: https://gridsome.org/docs/pages-api
+    const {
+        data
+    } = await graphql(`{
+        allProjectTag {
+    edges {
+      
+      node {
+        id
+        path
+      }
+    }
+  }
+}
+`);
+
+    data.allProjectTag.edges.forEach(function(element) {
+        createPage({
+            path: element.node.path,
+            component: './src/templates/Tag.vue',
+            context: {
+                id: element.node.id
+            }
+        });
+
+    });
+
+});
 }

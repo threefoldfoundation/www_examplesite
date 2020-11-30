@@ -2,12 +2,12 @@
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
       <div class="mx-4 sm:mx-0">
-        <h1 class="pb-0 mb-0 text-5xl font-medium">{{ $page.tag.title }}</h1>
+        <h1 class="pb-0 mb-0 text-5xl font-medium">{{ $page.projectTag.title }}</h1>
         <p class="text-gray-700 text-xl">
           A
           <span
             class="self-center"
-          >{{ $page.tag.belongsTo.totalCount }} Projects</span>
+          >{{ $page.projectTag.belongsTo.totalCount }} Projects</span>
         </p>
       </div>
 
@@ -15,7 +15,7 @@
 
       <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
-          v-for="edge in $page.tag.belongsTo.edges"
+          v-for="edge in $page.projectTag.belongsTo.edges"
           :key="edge.node.id"
           :record="edge.node"
         />
@@ -23,11 +23,11 @@
 
       <div class="pagination flex justify-center mb-8">
         <Pagination
-          :baseUrl="$page.tag.path"
-          :currentPage="$page.tag.belongsTo.pageInfo.currentPage"
-          :totalPages="$page.tag.belongsTo.pageInfo.totalPages"
+          :baseUrl="$page.projectTag.path"
+          :currentPage="$page.projectTag.belongsTo.pageInfo.currentPage"
+          :totalPages="$page.projectTag.belongsTo.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="$page.tag.belongsTo.pageInfo.totalPages > 1"
+          v-if="$page.projectTag.belongsTo.pageInfo.totalPages > 1"
         />
       </div>
     </div>
@@ -35,11 +35,11 @@
 </template>
 
 <page-query>
-  query($id: ID!, $page:Int) {
-    tag(id: $id) {
+  query($id: ID!) {
+    projectTag(id: $id) {
       title
       path
-      belongsTo(perPage: 10, page: $page) @paginate {
+      belongsTo{
         totalCount
         pageInfo {
           totalPages
@@ -90,7 +90,7 @@ export default {
  
   metaInfo() {
     return {
-      title: this.$page.tag.title
+      title: ""
     };
   }
 };
