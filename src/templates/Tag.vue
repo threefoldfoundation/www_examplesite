@@ -4,10 +4,10 @@
       <div class="mx-4 sm:mx-0">
         <h1 class="pb-0 mb-0 text-5xl font-medium">{{ $page.tag.title }}</h1>
         <p class="text-gray-700 text-xl">
-          A collection of
+          A
           <span
             class="self-center"
-          >{{ $page.tag.belongsTo.totalCount }} items</span>
+          >{{ $page.tag.belongsTo.totalCount }} Projects</span>
         </p>
       </div>
 

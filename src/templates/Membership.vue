@@ -6,9 +6,9 @@
           {{ $page.membership.title }}
         </h1>
         <p class="text-gray-700 text-xl">
-          A collection of
+          
           <span class="self-center"
-            >{{ $page.membership.belongsTo.totalCount }} items</span
+            >{{ $page.membership.belongsTo.totalCount }} People</span
           >
         </p>
       </div>
