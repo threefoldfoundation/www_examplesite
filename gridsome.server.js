@@ -212,4 +212,38 @@ module.exports = function(api) {
     });
 
 });
+
+api.createPages(async({
+    graphql,
+    createPage
+}) => {
+    // Use the Pages API here: https://gridsome.org/docs/pages-api
+    const {
+        data
+    } = await graphql(`{
+        allNewsTag {
+    edges {
+      
+      node {
+        id
+        path
+      }
+    }
+  }
+}
+`);
+
+    data.allNewsTag.edges.forEach(function(element) {
+        createPage({
+            path: element.node.path,
+            component: './src/templates/Tag.vue',
+            context: {
+                id: element.node.id
+            }
+        });
+
+    });
+
+});
+
 }

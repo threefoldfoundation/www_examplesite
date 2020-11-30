@@ -176,7 +176,7 @@ module.exports = {
         }],
 
         ProjectTag: [{
-            path: '/tags/:id',
+            path: '/projects/tags/:id',
             component: '~/templates/Tag.vue'
         }],
         

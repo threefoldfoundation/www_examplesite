@@ -2,12 +2,11 @@
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-24">
       <div class="mx-4 sm:mx-0">
-        <h1 class="pb-0 mb-0 text-5xl font-medium">{{ $page.projectTag.title }}</h1>
+        <h1 class="pb-0 mb-0 text-5xl font-medium">{{ tags.title }}</h1>
         <p class="text-gray-700 text-xl">
-          A
           <span
             class="self-center"
-          >{{ $page.projectTag.belongsTo.totalCount }} Projects</span>
+          >{{ tags.belongsTo.totalCount }} {{item}}</span>
         </p>
       </div>
 
@@ -15,7 +14,7 @@
 
       <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
-          v-for="edge in $page.projectTag.belongsTo.edges"
+          v-for="edge in tags.belongsTo.edges"
           :key="edge.node.id"
           :record="edge.node"
         />
@@ -23,11 +22,11 @@
 
       <div class="pagination flex justify-center mb-8">
         <Pagination
-          :baseUrl="$page.projectTag.path"
-          :currentPage="$page.projectTag.belongsTo.pageInfo.currentPage"
-          :totalPages="$page.projectTag.belongsTo.pageInfo.totalPages"
+          :baseUrl="tags.path"
+          :currentPage="tags.belongsTo.pageInfo.currentPage"
+          :totalPages="tags.belongsTo.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="$page.projectTag.belongsTo.pageInfo.totalPages > 1"
+          v-if="tags.belongsTo.pageInfo.totalPages > 1"
         />
       </div>
     </div>
@@ -74,7 +73,48 @@
           }
         }
       }
+    }
+
+    newsTag(id: $id) {
+      title
+      path
+      belongsTo{
+        totalCount
+        pageInfo {
+          totalPages
+          currentPage
+        }
+        edges {
+          node {
+            ... on News {
+              title
+              excerpt
+              image(width:800)
+              path
+              timeToRead
+              humanTime : created(format:"DD MMM YYYY")
+              datetime : created
+              author {
+                id
+                name
+                image(width:64, height:64, fit:inside)
+                path
+              }
+            },
+            ... on Project {
+              title
+              excerpt
+              image(width:800)
+              path
+              humanTime : startdate(format:"DD MMM YYYY")
+              datetime : created
+              
+            }
+          }
+        }
+      }
     }  
+
   }
 </page-query>
 
@@ -87,10 +127,21 @@ export default {
     Pagination,
     PostListItem
   },
+
+  computed:{
+    tags(){
+      return this.$page.projectTag || this.$page.newsTag
+    },
+    item(){
+      var plural = this.tags.belongsTo.totalCount > 0
+      return this.$page.projectTag? plural? "projects" : "project" : "news"
+    }
+
+  },
  
   metaInfo() {
     return {
-      title: ""
+      title: this.tags.title
     };
   }
 };
