@@ -81,6 +81,14 @@ module.exports = function(api) {
 
     api.createPages(({ createPage }) => {
         createPage({
+            path: '/news/archive',
+            component: './src/templates/NewsArchive.vue',
+            
+        })
+    })
+
+    api.createPages(({ createPage }) => {
+        createPage({
             path: '/search',
             component: './src/templates/Search.vue',
             context: {
@@ -245,5 +253,6 @@ api.createPages(async({
     });
 
 });
+
 
 }
