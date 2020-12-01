@@ -109,7 +109,10 @@
                 <svg
                   fill="currentColor"
                   viewBox="0 0 20 20"
-                  :class="{ 'rotate-180': open, 'rotate-0': !open }"
+                  :class="{
+                    'rotate-180': active == index,
+                    'rotate-0': !active == index,
+                  }"
                   class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"
                 >
                   <path
@@ -131,38 +134,40 @@
                 class="absolute w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48 z-30"
               >
                 <div
-                  v-if="element.name == 'Projects'"
+                  v-if="element.name == 'Projects' && open"
                   class="px-2 py-2 bg-white rounded-md shadow dark:bg-gray-700"
                 >
                   <g-link
                     :to="element.link"
-                    class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                    class="block px-4 py-2 capitalize mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                     >All</g-link
                   >
-                  <g-link
+                  <a
                     v-for="edge in $static.allProjectTag.edges"
                     :key="edge.node.id"
-                    class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                    :to="edge.node.path"
-                    >{{ edge.node.title }}</g-link
+                    class="block px-4 py-2 mt-2 capitalize text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                    @click="open = false"
+                    :href="edge.node.path"
+                    >{{ edge.node.title }}</a
                   >
                 </div>
 
                 <div
-                  v-else
+                  v-else-if="element.name == 'People' && open"
                   class="px-2 py-2 bg-white rounded-md shadow dark:bg-gray-700"
                 >
                   <g-link
                     :to="element.link"
-                    class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                    class="block px-4 py-2 mt-2 capitalize text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                     >All</g-link
                   >
-                  <g-link
+                  <a
                     v-for="edge in $static.allMembership.edges"
                     :key="edge.node.id"
-                    class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                    :to="edge.node.path"
-                    >{{ edge.node.title }}</g-link
+                    class="block px-4 py-2 mt-2 text-sm capitalize font-semibold bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark-:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                    @click="open = false"
+                    :href="edge.node.path"
+                    >{{ edge.node.title }}</a
                   >
                 </div>
               </div>
@@ -271,6 +276,7 @@ export default {
     },
     setActive(index) {
       this.active = index;
+      this.open = !this.open;
     },
   },
 
