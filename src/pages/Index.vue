@@ -2,24 +2,28 @@
   <Layout :hideHeader="true" :disableScroll="true">
     <div class="container sm:pxi-0 mx-auto overflow-hidden">
       <!-- <VacationCard img="" imgAlt="" eyebrow="" title="" pricing="" url="" /> -->
-
-      <div class="py-10 flex flex-col">
+            <Header
+        v-for="header in headers"
+        :key="header.title"
+        :header="header"
+      />
+      <!-- <div class="py-10 flex flex-col">
         <section class="py-10">
           <div class="flex flex-wrap items-center -mx-8">
             <div class="md:ml-auto md:w-1/2 md:pl-20 px-10">
               <h2 class="text-4xl font-bold font-tf-secondary">
                 Welcome to the growing ecosystem of ThreeFold
               </h2>
-              <!-- <p class="text-gray-600 leading-relaxed">Welcome to the growing ecosystem of ThreeFold</p> -->
+              <p class="text-gray-600 leading-relaxed">Welcome to the growing ecosystem of ThreeFold</p>
             </div>
             <div class="md:ml-auto md:w-1/2 pl-8">
               <img class="object-cover" src="img/equality.png" alt="imgAlt" />
             </div>
           </div>
         </section>
-      </div>
+      </div> -->
 
-              <!-- <section class="py-5 m-5 px-0 shadow-xl border border-gray-300">
+      <!-- <section class="py-5 m-5 px-0 shadow-xl border border-gray-300">
           <div class="flex flex-wrap items-center -mx-8">
             <div class="md:ml-auto md:w-1/3 pl-8">
               <img
@@ -70,6 +74,8 @@
 
       <!-- <vue-markdown> </vue-markdown> -->
       <NewCard v-for="card in cards" :key="card.title" :card="card" />
+
+
     </div>
   </Layout>
 </template>
@@ -77,6 +83,7 @@
 <script>
 import VueMarkdown from "vue-markdown";
 import NewCard from "~/components/NewCard.vue";
+import Header from "~/components/Header.vue";
 
 export default {
   metaInfo: {
@@ -110,6 +117,14 @@ export default {
           link: "/blog",
         },
       ],
+      headers: [
+        {
+          title: "THANK YOU THREEFOLD MEMBERS",
+          img: "img/equality.png",
+          altImg :"home",
+          content:"Welcome to the growing ecosystem of ThreeFold.",
+        },
+      ],
     };
   },
   computed: {
@@ -122,10 +137,7 @@ export default {
   components: {
     VueMarkdown,
     NewCard,
+    Header,
   },
 };
 </script>
-
-
-
-
