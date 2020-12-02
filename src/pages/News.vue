@@ -1,8 +1,10 @@
 <template>
   <Layout>
-    <div class="container sm:pxi-0 mx-auto">
-      <div class="flex flex-wrap with-large pt-8 pb-8 mx-4 sm:-mx-4">
-        <PostListItem :showtags=true
+    <FilterHeader />
+    <div class="container sm:pxi-0 mx-auto overflow-hidden">
+      <div class="flex flex-wrap with-large pt-12 mt-8 pb-8 mx-4 sm:-mx-4">
+        <PostListItem
+          :showtags="true"
           v-for="edge in news.edges"
           :key="edge.node.id"
           :record="edge.node"
@@ -52,6 +54,7 @@ query{
 </page-query>
 
 <script>
+import FilterHeader from "~/components/FilterHeader.vue";
 import PostListItem from "~/components/PostListItem.vue";
 import Pagination from "~/components/Pagination.vue";
 
@@ -62,29 +65,30 @@ export default {
   components: {
     PostListItem,
     Pagination,
+    FilterHeader,
   },
   computed: {
     baseurl: function () {
       return "";
     },
 
-    news(){
-      var res = {}
-      var old = this.$page.entries
-      res.totalCount = old.totalCount
-      res.pageInfo = old.pageInfo
-      res.edges = []
+    news() {
+      var res = {};
+      var old = this.$page.entries;
+      res.totalCount = old.totalCount;
+      res.pageInfo = old.pageInfo;
+      res.edges = [];
 
-      for(var i=0; i < old.edges.length; i++){
+      for (var i = 0; i < old.edges.length; i++) {
         var node = old.edges[i].node;
-        const diff =  Math.abs(new Date() - new Date(node.datetime))
+        const diff = Math.abs(new Date() - new Date(node.datetime));
         const diffDays = Math.ceil(diff / (1000 * 60 * 60 * 24));
-        if(diffDays <= 30){
-          res.edges.push({"node": node, "id": node.id})
+        if (diffDays <= 30) {
+          res.edges.push({ node: node, id: node.id });
         }
       }
       return res;
-    }
-  }
+    },
+  },
 };
 </script>
