@@ -8,33 +8,31 @@ module.exports = {
     siteName: 'ThreeFold Partners',
     siteDescription: 'ThreeFold Partners',
     siteUrl: 'http://localhost:8080',
-    plugins: [
-      {
-        use: 'gridsome-plugin-flexsearch',
-        options: {
-          searchFields: ['name', 'title','excerpt', 'author', 'content'],
-          collections: [
-            {
-              typeName: 'Blog',
-              indexName: 'Blog',
-              fields: ['path']
-            },
-  
-            {
-              typeName: 'Project',
-              indexName: 'Project',
-              fields: ['path']
-            },
-            
-            {
-              typeName: 'Person',
-              indexName: 'Person',
-              fields: ['path']
-            },
-          ]
-        }
-      },
-      {
+    plugins: [{
+            use: 'gridsome-plugin-flexsearch',
+            options: {
+                searchFields: ['name', 'title', 'excerpt', 'author', 'content'],
+                collections: [{
+                        typeName: 'Blog',
+                        indexName: 'Blog',
+                        fields: ['path']
+                    },
+
+                    {
+                        typeName: 'Project',
+                        indexName: 'Project',
+                        fields: ['path']
+                    },
+
+                    {
+                        typeName: 'Person',
+                        indexName: 'Person',
+                        fields: ['path']
+                    },
+                ]
+            }
+        },
+        {
             use: 'gridsome-plugin-tailwindcss',
             options: {
                 tailwindConfig: './tailwind.config.js',
@@ -115,8 +113,6 @@ module.exports = {
                 }
             }
         },
-
-
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -134,6 +130,13 @@ module.exports = {
                         create: true
                     }
                 }
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Slides',
+                path: './content/about/**/*.md'
             }
         }
     ],
@@ -161,7 +164,7 @@ module.exports = {
             path: '/people/:id',
             component: '~/templates/Person.vue'
         }],
-        
+
         BlogTag: [{
             path: '/tags/blog/:id',
             component: '~/templates/Tag.vue'
@@ -179,7 +182,7 @@ module.exports = {
             path: '/projects/tags/:id',
             component: '~/templates/Tag.vue'
         }],
-        
+
         Membership: [{
             path: '/memberships/:id',
             component: '~/templates/Membership.vue'

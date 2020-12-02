@@ -9,38 +9,13 @@
     >
       <div class="flex items-center justify-between px-4 sm:p-0">
         <div class="inline-flex items-center flex-shrink-0">
-          <span
-            class="flex hidden md:block text-xl p-3 capitalize tracking-tight"
+          <span class="flex text-xl p-3 capitalize tracking-tight"
             >filter:</span
           >
         </div>
-
-        <div class="sm:hidden ml-auto">
-          <button
-            @click="isOpen = !isOpen"
-            type="button"
-            class="block text-gray-500 hover:text-white focus:text-white focus:outline-none p-3"
-          >
-            <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
-              <path
-                v-if="isOpen"
-                fill-rule="evenodd"
-                d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
-              />
-              <path
-                v-if="!isOpen"
-                fill-rule="evenodd"
-                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-              />
-            </svg>
-          </button>
-        </div>
       </div>
 
-      <nav
-        :class="isOpen ? 'block' : 'hidden'"
-        class="md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 bg-transparent"
-      >
+      <nav class="inline-flex md:order-2 px-2 pt-2 pb-4 sm:flex sm:p-0 bg-transparent">
         <ul
           class="list-none sm:flex justify-left uppercase transition-all transition-500"
         >
