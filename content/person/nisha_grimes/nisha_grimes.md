@@ -7,7 +7,7 @@ bio: Nisha Grimes is an explorer, creator and a capacity development professiona
 excerpt: Nisha Grimes is an explorer, creator and a capacity development professional.
 linkedin: https://www.linkedin.com/in/nisha-grimes-8a61a689/
 websites: https://threefold.io/
-image: ./nisha_grimes_processed.jpg
+image: ./nisha_grimes.png
 project_ids: threefold_foundation
 countries: 
 cities: 
