@@ -119,10 +119,10 @@ export default {
       ],
       headers: [
         {
-          title: "Welcome to the growing ecosystem of ThreeFold",
+          title: "THANK YOU THREEFOLD MEMBERS",
           img: "img/equality.png",
           altImg :"home",
-          content:"Professional, dedicated, local. Dunder Mifflin is on its best patch to change the way you think about paper. That’s us - people who sell limitless paper in the paperless world.",
+          content:"Welcome to the growing ecosystem of ThreeFold.",
         },
       ],
     };
