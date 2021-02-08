@@ -33,7 +33,7 @@
             <div class="flex justify-between items-center">
               <ul class="list-none flex author-list m-0 py-2">
                 <li
-                  v-for="project in $page.person.project_ids"
+                  v-for="project in $page.person.projects"
                   :key="project.id"
                   class="author-list-item"
                 >
@@ -92,7 +92,7 @@
           title
           path
         }
-        project_ids{
+        projects{
           id
           title
           path
@@ -123,7 +123,7 @@
               timeToRead
               humanTime : created(format:"DD MMM YYYY")
               datetime : created
-              author {
+              authors {
                 id
                 name
                 image(width:64, height:64, fit:inside)
@@ -137,20 +137,28 @@
               image(width:800)
               logo
               path
-              humanTime : startdate(format:"DD MMM YYYY")
-              datetime : created
-             
+              
             }
           }
         }
       }
-    }  
+    }
+
+     memberships: allMembership(filter: {title: {in: ["foundation", "tech"]}}){
+     edges{
+      node{
+        id
+        title
+        path
+      }
+    }
+  }
   }
 </page-query>
 
 <script>
-import PostListItem from "~/components/PostListItem.vue";
-import Pagination from "~/components/Pagination.vue";
+import PostListItem from "~/components/custom/Cards/PostListItem.vue";
+import Pagination from "~/components/custom/Pagination.vue";
 
 export default {
   components: {
@@ -162,6 +170,18 @@ export default {
       var pluralize = require("pluralize");
       return pluralize("post", this.$page.person.belongsTo.totalCount);
     },
+
+    memberships(){
+      var all = []
+      this.$page.memberships.edges.forEach((edgs) => all.push(edge.node.title))
+      var res = []
+      this.$page.person.memberships.forEach(function(membership){
+        if (all.includes(membership.title)){
+          res.push(membership)
+        }
+      });
+      return res
+    }
   },
   metaInfo() {
     return {
