@@ -1,6 +1,6 @@
 ---
-id: img_1
+id: img_6
 title: ''
 excerpt: ''
-image : ./img_1.png
+image : ./img_6.png
 ---

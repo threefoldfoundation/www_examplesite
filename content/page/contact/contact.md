@@ -9,6 +9,7 @@ slides:
     digital_sovereignty_for_everyone,
     a_new_internet_for_our_planet,
   ]
-productMain: contact_product
+productData: [img_1, img_2, img_3, img_4, img_5, img_6]
+productsMain: graph_home
 contactData: [collaborate, support, press, join]
 ---

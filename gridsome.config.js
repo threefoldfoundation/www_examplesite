@@ -64,7 +64,13 @@ module.exports = {
                 path: './content/page/**/productData/**/*.md',
             }
         },
-
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'ProductTitle',
+                path: './content/page/**/productData/**/*.md',
+            }
+        },
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -163,8 +169,8 @@ module.exports = {
                     header: 'Header',
                     howItWorks: 'HowItWorks',
                     howItWorksMain: 'HowItWorks',
+                    productsMain: 'ProductTitle',
                     productData: 'Product',
-                    productMain: 'Product',
                     featuresMain: 'Features',
                     features: 'Features',
                     logos: 'Logo',

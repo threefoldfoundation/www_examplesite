@@ -1,5 +1,6 @@
 ---
-id: contact_product
-subtitle: subtitle
-title: title
+id: graph_home
+title: 'Products'
+subtitle: 'subtitle'
+image : ./tech_infogram.png
 ---

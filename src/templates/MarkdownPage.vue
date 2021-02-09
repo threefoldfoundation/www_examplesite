@@ -24,6 +24,15 @@
         :card="card"
       />
 
+     <ShowcaseProducts
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+      />
+
       <GetInTouch
         :contacts="$page.markdownPage.contactData"
         v-if="$page.markdownPage.contactData.length > 0"
@@ -32,15 +41,6 @@
       <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
-      />
-
-      <ShowcaseProducts
-        :main="$page.markdownPage.productMain"
-        :products="$page.markdownPage.productData"
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
       />
 
       <HowItWorks
@@ -164,15 +164,17 @@
          title
          image
        }
-       productMain{
-         id
-         subtitle
-         title
-       }
+       productsMain{
+          id
+          title
+          subtitle
+          image
+        }
        productData{
          id
          title
          excerpt
+         image
        }
        brandPanel{
          id

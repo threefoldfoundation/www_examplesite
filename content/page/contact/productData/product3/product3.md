@@ -1,6 +1,6 @@
 ---
-id: contact_product3
-title: myproducts
-content: ayklamdsf
-
+id: img_3
+title: ''
+excerpt: ''
+image : ./img_3.png
 ---
