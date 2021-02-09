@@ -5,5 +5,5 @@ image: ./live_stats_1.png
 button: TFT STATISTICS
 link: '/https://tokenstats.threefoldtoken.com/'
 order: 1
-excerpt: TFT is live and actively traded.
 ---
+TFT is live and actively traded.

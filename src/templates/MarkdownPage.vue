@@ -137,7 +137,7 @@
           button
           link
           order
-          excerpt
+          content
         }
        contactData{
          id
@@ -157,7 +157,7 @@
        howItWorks{
          id
          title
-         excerpt
+         content
        }
        howItWorksMain{
          id
@@ -173,7 +173,7 @@
        productData{
          id
          title
-         excerpt
+         content
          image
        }
        brandPanel{
@@ -190,7 +190,7 @@
           title 
           btn 
           link
-          excerpt
+          content
         }
         logos{
           id
@@ -200,7 +200,7 @@
           id
           title 
           svg
-          excerpt
+          content
         }
         cta{
           id
@@ -228,7 +228,7 @@
           id
           svg
           title
-          excerpt
+          content
         }
         roadmap{
           id
