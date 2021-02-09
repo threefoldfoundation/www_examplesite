@@ -7,14 +7,14 @@
     <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8 xl:col-span-1">
-          <img
+          <g-image
             class="h-10"
             src="/img/tf_icon_black.svg"
             alt="Company name"
             v-if="theme == 'light'"
           />
 
-          <img
+          <g-image
             class="h-10"
             src="/img/tf_icon_white.svg"
             alt="Company name"
@@ -136,17 +136,16 @@
               >
                 {{ footerLink.title }}
               </h4>
-              <ul class="mt-4 space-y-4">
+              <ul class="mt-4 space-y-4 footerlink">
                 <li v-for="item in footerLink.links" :key="item.name">
                   <a
                     v-if="item.link.includes('http')"
-                    target="_blank"
                     :href="item.link"
+                    target="_blank"
                     class="text-base leading-6 text-gray-500 hover:text-gray-900"
                   >
                     {{ item.name }}
                   </a>
-
                   <a
                     v-else
                     :href="item.link"
@@ -155,112 +154,14 @@
                     {{ item.name }}
                   </a>
                 </li>
-                <!-- <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Analytics
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Commerce
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Insights
-                </a>
-              </li> -->
               </ul>
             </div>
-            <!-- <div class="mt-12 md:mt-0">
-            <h4 class="text-sm leading-5 font-semibold text-gray-400 tracking-wider uppercase">
-              Support
-            </h4>
-            <ul class="mt-4 space-y-4">
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Guides
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  API Status
-                </a>
-              </li>
-            </ul>
-          </div> -->
           </div>
-          <!-- <div class="md:grid md:grid-cols-2 md:gap-8">
-          <div>
-            <h4 class="text-sm leading-5 font-semibold text-gray-400 tracking-wider uppercase">
-              Company
-            </h4>
-            <ul class="mt-4 space-y-4">
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Jobs
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Press
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Partners
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="mt-12 md:mt-0">
-            <h4 class="text-sm leading-5 font-semibold text-gray-400 tracking-wider uppercase">
-              Legal
-            </h4>
-            <ul class="mt-4 space-y-4">
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Claim
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Privacy
-                </a>
-              </li>
-              <li>
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                  Terms
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div> -->
         </div>
       </div>
       <div class="mt-12 border-t border-gray-200 pt-8">
         <p class="text-base leading-6 text-gray-400 xl:text-center">
-          &#xA9; 2020 Workflow, Inc. All rights reserved.
+          &#xA9; 2021 ThreeFold, All rights reserved.
         </p>
       </div>
     </div>
@@ -276,5 +177,5 @@ export default {
 <style scoped>
 ul {
   list-style-type: none;
-}
+};
 </style>
