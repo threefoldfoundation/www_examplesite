@@ -148,7 +148,7 @@
        header{
          title
          subtitle
-         excerpt
+         content
          btn1
          link1
          btn2
@@ -205,7 +205,7 @@
         cta{
           id
           title
-          excerpt
+          content
           button
           link
         }

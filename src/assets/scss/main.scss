@@ -113,6 +113,10 @@ button:focus {
   
 }
 
+.text-8xl {
+  font-size: 5rem;
+  line-height: 1;
+}
 @media (min-width: 768px) {
   .with-large > .flex-post:nth-child(5n),
   .with-large > .flex-post:nth-child(5n-1) {
