@@ -5,10 +5,9 @@
         v-for="(slide, index) in slides"
         :key="index"
         :href="`#${index}`"
-        class="mt-1 capitalize group flex items-center px-3 py-2 text-sm leading-5 font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition ease-in-out duration-150"
+        class="mt-1 capitalize group flex items-center px-3 py-2 text-sm leading-5 font-medium hover:text-gray-900 hover:bg-gray-400 focus:outline-none transition border-blue-500 hover:bg-gray-100 transition ease-in-out duration-150"
         :class="{
-          'text-gray-900 border-r-3 border-blue-500 hover:bg-gray-100':
-            activeIndex === index,
+          'border-r-3 border-blue-500 hover:bg-gray-100': activeIndex === index,
         }"
         @click="setActive(index)"
       >
@@ -20,12 +19,14 @@
       class="content inline-block h-full w-3/4 align-top p-5 transition ease-in-out duration-150"
     >
       <div :id="slides[activeIndex]" class="hidden" style="display: block">
-        <img
-          v-if="slides[activeIndex].img"
-          :src="slides[activeIndex].img.src"
+        <g-image
+          v-if="slides[activeIndex].image"
+          :src="
+            require(`!!assets-loader!@images/sliders/${slides[activeIndex].image}`)
+          "
           :alt="slides[activeIndex].title"
         />
-        <p v-html="slides[activeIndex].content"></p>
+        <div v-html="slides[activeIndex].content"></div>
       </div>
     </div>
   </div>
@@ -46,4 +47,3 @@ export default {
   },
 };
 </script>
-
