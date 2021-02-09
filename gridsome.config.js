@@ -238,13 +238,19 @@ module.exports = {
                     tags: {
                         typeName: 'BlogTag',
                         create: true
+                    },
+
+                    category: {
+                        typeName: 'BlogCategory',
+                        create: true
                     }
+
                 }
             }
         },
 
         {
-            use: '@gridsome/source-filesystem',
+             use: '@gridsome/source-filesystem',
             options: {
                 typeName: 'News',
                 path: './content/news/**/*.md',
@@ -252,6 +258,11 @@ module.exports = {
                     authors: 'Person',
                     tags: {
                         typeName: 'NewsTag',
+                        create: true
+                    },
+
+                    category: {
+                        typeName: 'NewsCategory',
                         create: true
                     }
                 }
