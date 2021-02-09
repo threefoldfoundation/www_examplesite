@@ -16,7 +16,7 @@
             <div class="flex justify-between items-center">
               <ul class="list-none flex author-list m-0">
                 <li
-                  v-for="author in $page.news.author"
+                  v-for="author in $page.news.authors"
                   :key="author.id"
                   class="author-list-item"
                 >
@@ -128,7 +128,7 @@
         title
         path
       }
-      author {
+      authors {
         id
         name
         image
@@ -142,7 +142,7 @@
       image(width:800)
       path
       timeToRead
-      author {
+      authors {
         id
         name
         image(width:64, height:64, fit:inside)
@@ -156,7 +156,7 @@
       image(width:800)
       path
       timeToRead
-      author {
+      authors {
         id
         name
         image(width:64, height:64, fit:inside)
@@ -170,7 +170,8 @@
 </page-query>
 
 <script>
-import PostListItem from "~/components/PostListItem.vue";
+import PostListItem from "~/components/custom/Cards/PostListItem.vue";
+
 
 export default {
   components: {

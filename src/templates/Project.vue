@@ -50,11 +50,11 @@
             </section>
             <section class="post-tags container mx-auto relative py-5">
               <g-link
-                v-for="tag in $page.project.tags"
-                :key="tag.id"
-                :to="tag.path"
+                v-for="edge in $page.tags.edges"
+                :key="edge.node.id"
+                :to="edge.node.path"
                 class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
-                >{{ tag.title }}</g-link
+                >{{ edge.node.title }}</g-link
               >
             </section>
           </div>
@@ -123,7 +123,7 @@
               name
               image(width:64, height:64, fit:inside)
               path
-              project_ids{
+              projects{
                   id
                   title
                   path
@@ -135,12 +135,26 @@
         }
       }
     }  
+
+    tags: allProjectTag (filter: { title: {in: ["farming"]}}) {
+     edges{
+      node{
+        id
+        title
+        path
+      }
   }
+  }
+
+  
+}
+
 </page-query>
 
 <script>
-import PostListItem from "~/components/PostListItem.vue";
-import Pagination from "~/components/Pagination.vue";
+import PostListItem from "~/components/custom/Cards/PostListItem.vue";
+import Pagination from "~/components/custom/Pagination.vue";
+
 
 export default {
   components: {

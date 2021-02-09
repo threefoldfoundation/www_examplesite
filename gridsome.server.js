@@ -12,102 +12,14 @@ else if (private == "false")
     private = 1
 
 module.exports = function(api) {
-    api.loadSource(({
-        addCollection
-    }) => {
+    api.loadSource(({ addCollection }) => {
         // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
     })
 
-    api.createPages(({
-        createPage
-    }) => {
+    api.createPages(({ createPage }) => {
         // Use the Pages API here: https://gridsome.org/docs/pages-api/
     })
 
-    api.onCreateNode(options => {
-        if (options.internal.typeName === 'Blog') {
-
-            options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
-            options.author = (typeof options.author === 'string') ? options.author.split(',').map(string => string.trim()) : options.author;
-            return {
-                ...options
-            };
-        }
-
-
-        if (options.internal.typeName === 'News') {
-
-          options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
-          options.author = (typeof options.author === 'string') ? options.author.split(',').map(string => string.trim()) : options.author;
-          return {
-              ...options
-          };
-        }
-
-
-        if (options.internal.typeName === 'Project') {
-            options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
-            options.countries = (typeof options.countries === 'string') ? options.countries.split(',').map(string => string.trim()) : options.countries;
-            options.cities = (typeof options.cities === 'string') ? options.cities.split(',').map(string => string.trim()) : options.cities;
-            options.members = (typeof options.members === 'string') ? options.members.split(',').map(string => string.trim()) : options.members;
-            options.author = (typeof options.author === 'string') ? options.author.split(',').map(string => string.trim()) : options.author;
-            return {
-                ...options
-            };
-        }
-
-
-        if (options.internal.typeName === 'Person') {
-            options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
-            options.project_ids = (typeof options.project_ids === 'string') ? options.project_ids.split(',').map(string => string.trim()) : options.project_ids;
-            options.memberships = (typeof options.memberships === 'string') ? options.memberships.split(',').map(string => string.trim()) : options.memberships;
-            options.countries = (typeof options.countries === 'string') ? options.countries.split(',').map(string => string.trim()) : options.countries;
-            options.cities = (typeof options.cities === 'string') ? options.cities.split(',').map(string => string.trim()) : options.cities;
-            return {
-                ...options
-            };
-        }
-    })
-
-    api.createPages(({ createPage }) => {
-        createPage({
-            path: '/people',
-            component: './src/templates/People.vue',
-            context: {
-                private: private
-            }
-        })
-    })
-
-    api.createPages(({ createPage }) => {
-        createPage({
-            path: '/news/archive',
-            component: './src/templates/NewsArchive.vue',
-            
-        })
-    })
-
-    api.createPages(({ createPage }) => {
-        createPage({
-            path: '/search',
-            component: './src/templates/Search.vue',
-            context: {
-                private: private
-            }
-        })
-    })
-
-    api.createPages(({ createPage }) => {
-        createPage({
-            path: '/projects',
-            component: './src/templates/Projects.vue',
-            context: {
-                private: private
-            }
-        })
-    });
-
-    
     api.createPages(async({
         graphql,
         createPage
@@ -188,71 +100,107 @@ module.exports = function(api) {
 
   });
 
-  api.createPages(async({
-    graphql,
-    createPage
-}) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api
-    const {
-        data
-    } = await graphql(`{
-        allProjectTag {
-    edges {
-      
-      node {
-        id
-        path
+  api.createPages(async ({ graphql, createPage }) => {
+    const { data } = await graphql(`{
+      allProjectTag(filter: { title: {in: ["farming"]}}) {
+        edges {
+          node {
+            id
+            path
+          }
+        }
       }
-    }
-  }
-}
-`);
+    }`)
 
-    data.allProjectTag.edges.forEach(function(element) {
-        createPage({
-            path: element.node.path,
-            component: './src/templates/Tag.vue',
-            context: {
-                id: element.node.id
-            }
-        });
+    data.allProjectTag.edges.forEach(({ node }) => {
+      createPage({
+        path: `${node.path}`,
+        component: './src/templates/Tag.vue',
+        context: {
+          id: node.id,
+          private: private
+        }
+      })
+    })
+  })
 
-    });
+  api.createPages(async ({ graphql, createPage }) => {
+    const { data } = await graphql(`{
+      allBlogTag {
+        edges {
+          node {
+            id
+            path
+          }
+        }
+      }
+    }`)
 
+    data.allBlogTag.edges.forEach(({ node }) => {
+      createPage({
+        path: `${node.path}`,
+        component: './src/templates/Tag.vue',
+        context: {
+          id: node.id,
+          private: private
+        }
+      })
+    })
+  })
+
+  api.createPages(async ({ graphql, createPage }) => {
+    const { data } = await graphql(`{
+      allNewsTag {
+        edges {
+          node {
+            id
+            path
+          }
+        }
+      }
+    }`)
+
+    data.allNewsTag.edges.forEach(({ node }) => {
+      createPage({
+        path: `${node.path}`,
+        component: './src/templates/Tag.vue',
+        context: {
+          id: node.id,
+          private: private
+        }
+      })
+    })
+  })
+
+  api.createPages(({ createPage }) => {
+    createPage({
+        path: '/partners',
+        component: './src/templates/Partners.vue',
+        context: {
+            private: private
+        }
+    })
+})
+
+api.createPages(({ createPage }) => {
+    createPage({
+        path: '/team',
+        component: './src/templates/Team.vue',
+        context: {
+            private: private
+        }
+    })
 });
 
-api.createPages(async({
-    graphql,
-    createPage
-}) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api
-    const {
-        data
-    } = await graphql(`{
-        allNewsTag {
-    edges {
-      
-      node {
-        id
-        path
+api.createPages(({ createPage }) => {
+  createPage({
+      path: '/search',
+      component: './src/templates/Search.vue',
+      context: {
+          private: private
       }
-    }
-  }
-}
-`);
-
-    data.allNewsTag.edges.forEach(function(element) {
-        createPage({
-            path: element.node.path,
-            component: './src/templates/Tag.vue',
-            context: {
-                id: element.node.id
-            }
-        });
-
-    });
-
+  })
 });
-
-
+  
+    
 }

@@ -1,45 +1,28 @@
 <template>
-  <div id="app" dark class="flex flex-col font-sans">
-    <HeaderPartial
-      v-if="hideHeader != true"
+  <div class="container mx-auto">
+    <NavBar
+      :navigation="$static.navigation"
       @setTheme="setTheme"
       :theme="this.theme"
-    ></HeaderPartial>
-    <NavbarPartial
-      :disableScroll="disableScroll"
-      @setTheme="setTheme"
-      :theme="this.theme"
-    ></NavbarPartial>
+    />
     <slot />
-    <FooterPartial></FooterPartial>
+    <Footer 
+      :record="$static.footer"
+      @setTheme="setTheme"
+      :theme="this.theme" />
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 
 <script>
-import HeaderPartial from "~/layouts/partials/HeaderWithNavbar.vue";
-import NavbarPartial from "~/layouts/partials/Navbar.vue";
-import FooterPartial from "~/layouts/partials/Footer.vue";
-
+import NavBar from "~/components/custom/Navbar/Navbar.vue";
+import Footer from "~/components/marketing/sections/cta-sections/Footer.vue";
 export default {
-  props: {
-    hideHeader: {
-      type: Boolean,
-      default: true,
-    },
-    disableScroll: {
-      type: Boolean,
-      default: true,
-    },
+  components: {
+    NavBar,
+    Footer,
   },
-  data: function () {
+  data() {
     return {
       theme: "light",
     };
@@ -49,16 +32,75 @@ export default {
       this.theme = mode;
     },
   },
-  components: {
-    HeaderPartial,
-    NavbarPartial,
-    FooterPartial,
-  },
-
-  metaInfo: {
-    bodyAttrs: {
-      class: "m-0 pt-12",
-    },
-  },
 };
 </script>
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+
+  navigation(id: "navigation"){
+    navLinks{
+      name
+      link
+      external
+      expandable
+      submenu {
+        title
+        path
+        external
+      }
+    }
+    social{
+      icon
+      link
+    }
+  }
+
+  footer(id: "footer"){
+      facebook
+      github
+      twitter
+      dribbble
+      instagram
+      description
+      items{
+        title
+        links{
+          name
+          link
+        }
+      }
+    }
+}
+</static-query>
+
+<style>
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding-top: 100px;
+  line-height: 1.5;
+}
+
+.layout {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 80px;
+}
+
+.nav__link {
+  margin-left: 20px;
+}
+</style>

@@ -16,7 +16,7 @@
             <div class="flex justify-between items-center">
               <ul class="list-none flex author-list m-0">
                 <li
-                  v-for="author in $page.blog.author"
+                  v-for="author in $page.blog.authors"
                   :key="author.id"
                   class="author-list-item"
                 >
@@ -34,7 +34,7 @@
             <div class="pl-3 flex flex-col text-xs leading-none uppercase">
               <p>
                 <span
-                  v-for="(author, index) in $page.blog.author"
+                  v-for="(author, index) in $page.blog.authors"
                   :key="author.id"
                 >
                   <g-link
@@ -43,7 +43,7 @@
                     class="hover:underline"
                     >{{ author.name }}</g-link
                   >
-                  <span v-if="index < $page.blog.author.length - 1">,</span>
+                  <span v-if="index < $page.blog.authors.length - 1">,</span>
                 </span>
               </p>
               <p class="text-gray-700">
@@ -128,7 +128,7 @@
         title
         path
       }
-      author {
+      authors {
         id
         name
         image
@@ -142,7 +142,9 @@
       image(width:800)
       path
       timeToRead
-      author {
+      humanTime : created(format:"DD MMMM YYYY")
+      datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
+      authors {
         id
         name
         image(width:64, height:64, fit:inside)
@@ -156,21 +158,21 @@
       image(width:800)
       path
       timeToRead
-      author {
+      humanTime : created(format:"DD MMMM YYYY")
+      datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
+      authors {
         id
         name
         image(width:64, height:64, fit:inside)
         path
       }
-    }
-
-
-    
+    }    
   }
 </page-query>
 
 <script>
-import PostListItem from "~/components/PostListItem.vue";
+import PostListItem from "~/components/custom/Cards/PostListItem.vue";
+
 
 export default {
   components: {
@@ -181,6 +183,7 @@ export default {
       title: this.$page.blog.title,
     };
   },
+
 };
 </script>
 

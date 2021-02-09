@@ -1,12 +1,12 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden">
+    <TagFilterHeader :tags="memberships" :selected="$page.membership.title" v-if="$page.allMembership.edges.length > 1"/>
+    <div class="container sm:pxi-0 mx-auto mt-8 overflow-x-hidden">
       <div class="mx-4 sm:mx-0">
         <h1 class="pb-0 mb-0 text-5xl font-medium capitalize">
           {{ $page.membership.title }}
         </h1>
         <p class="text-gray-700 text-xl">
-          
           <span class="self-center"
             >{{ $page.membership.belongsTo.totalCount }} People</span
           >
@@ -58,15 +58,38 @@
         }
       }
     }  
+
+    allMembership(filter: {title: {in: ["foundation", "tech"]}}){
+     edges{
+      node{
+        id
+        title
+        path
+      }
+    }
+  }
+
   }
 </page-query>
 
 <script>
-import PostListItem from "~/components/PostListItem.vue";
+import PostListItem from "~/components/custom/Cards/PostListItem.vue";
+import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
 
 export default {
   components: {
     PostListItem,
+    TagFilterHeader,
+  },
+
+  computed: {
+    memberships() {
+      var res = [{ title: "All", path: "/team" }];
+      this.$page.allMembership.edges.forEach((edge) =>
+        res.push({ title: edge.node.title, path: edge.node.path })
+      );
+      return res;
+    },
   },
 
   metaInfo() {
