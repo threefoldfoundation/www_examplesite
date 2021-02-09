@@ -11,6 +11,14 @@ blockquote {
   }
 }
 
+body {
+  padding-top: 100px;
+}
+
+.act-link {
+  @apply bg-gray-300;
+}
+
 pre {
   @apply border-l;
   @apply border-l-2;
