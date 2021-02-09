@@ -1,6 +1,5 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Header
         :title="$page.markdownPage.header_title"
         :image="$page.markdownPage.header_image"
@@ -9,12 +8,21 @@
         :button="$page.markdownPage.button"
         :link="$page.markdownPage.link"
       />
+      
+      <logoShowcase
+        v-if="$page.markdownPage.logos.length > 0"
+        :logos="$page.markdownPage.logos"
+      />
 
       <InTheNews
         v-if="$page.markdownPage.inTheNews"
         :news="$page.markdownPage.inTheNews"
       />
-    </div>
+      
+      <SignUp
+        v-if="$page.markdownPage.signup"
+        :signup="$page.markdownPage.signup"
+      />
   </Layout>
 </template>
 
@@ -29,6 +37,10 @@
         header_altImg
         button
         link
+        logos{
+          id
+          image
+        }
         inTheNews {
           id
           excerpt
@@ -36,6 +48,14 @@
             path
             logo
           }
+        }
+        signup{
+          id
+          title
+          button1
+          link1
+          button2
+          link2
         }
     }  
   }

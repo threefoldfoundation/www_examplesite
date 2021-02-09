@@ -63,18 +63,15 @@
         :logos="$page.markdownPage.logos"
       />
 
-      <template>
-        <ClientOnly>
           <CallToAction
             v-if="$page.markdownPage.cta"
             :cta="$page.markdownPage.cta"
           />
+
           <SignUp
             v-if="$page.markdownPage.signup"
             :signup="$page.markdownPage.signup"
           />
-        </ClientOnly>
-      </template>
 
       <template>
         <ClientOnly>
