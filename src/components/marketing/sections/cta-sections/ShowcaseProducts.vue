@@ -1,11 +1,11 @@
 <template>
   <div class="py-8 mb-5">
     <div class="w-full text-center">
-      <p class="text-sm tracking-widest text-gray-700">{{ main.subtitle }}</p>
-      <h1 class="text-4xl mt-2 mb-6 leading-tight font-heading">
+      <p v-if="main !== null" class="text-sm tracking-widest text-gray-700">{{ main.subtitle }}</p>
+      <h1 v-if="main !== null" class="text-4xl mt-2 mb-6 leading-tight font-heading">
         {{ main.title }}
       </h1>
-      <g-image :src="img(main.image)" class="hidden md:block" />
+      <g-image v-if="main !== null" :src="img(main.image)" class="hidden md:block" />
     </div>
 
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:hidden">
