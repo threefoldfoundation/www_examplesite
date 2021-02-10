@@ -22,6 +22,11 @@
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />
+      
+      <g-image
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
+      />
 
       <NewCard
         v-for="card in $page.markdownPage.cards"
@@ -112,6 +117,7 @@
         header_altImg
         header_title
         header_image
+        solution_image
         slides{
           id
           title

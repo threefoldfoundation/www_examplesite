@@ -1,8 +1,8 @@
 ---
-id: participate_pricing
-title: Pricing Plans
-button1: Monthly billing
-button2: Yearly billing
+id: pricing
+title: Title
+button1: Button
+button2: Button
 ---
 
-Start building for free, then add a site plan to go live. Account plans unlock additional features.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

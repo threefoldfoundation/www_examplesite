@@ -1,11 +1,11 @@
 ---
-id: participate_header
-title: ''
-subtitle: BECOME PART OF THE LARGEST P2P GRID IN THE WORLD
-btn1: ''
-link1: ''
-btn2: ''
-link2: ''
+id: header
+title: TITLE
+subtitle: Subtitle
+btn1: Button
+link1: '' #link for button
+btn2: Button
+link2: '' #link for button
 ---
 
-ThreeFold Farming is the process of providing hardware to expand the ThreeFold Grid and receiving ThreeFold Tokens TFT as passive income.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
