@@ -12,7 +12,7 @@
         :altImg="$page.markdownPage.header_altImg"
         :excerpt="$page.markdownPage.header_excerpt"
       />
-      
+
       <VerticalNav
         :slides="$page.markdownPage.slides"
         v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
@@ -22,7 +22,7 @@
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />
-      
+
       <g-image
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
@@ -49,7 +49,8 @@
       <Comparison
         v-if="
           $page.markdownPage.comparisonSecs &&
-          $page.markdownPage.comparisonSecs.length > 0"
+          $page.markdownPage.comparisonSecs.length > 0
+        "
         :main="$page.markdownPage.comparisonMain"
         :sections="$page.markdownPage.comparisonSecs"
       />
@@ -84,11 +85,11 @@
         :logos="$page.markdownPage.logos"
       />
 
-       <BrandPanel
+      <BrandPanel
         :brand="$page.markdownPage.brandPanel"
         v-if="$page.markdownPage.brandPanel"
       />
-      
+
       <CallToAction
         v-if="$page.markdownPage.cta"
         :cta="$page.markdownPage.cta"
@@ -98,7 +99,7 @@
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
       />
-      
+
       <GetInTouch
         :contacts="$page.markdownPage.contactData"
         v-if="$page.markdownPage.contactData.length > 0"
@@ -157,13 +158,13 @@
           id
           title
           subtitle
-          image
+      #    image
         }
        productData{
          id
          title
          content
-         image
+      #   image
        }
         featuresMain{
           id
@@ -307,7 +308,7 @@ export default {
     };
   },
   mounted() {
-    // console.log(this.$page.markdownPage.plans);
+    console.log(this.$page.markdownPage);
   },
 };
 </script>

@@ -1,44 +1,41 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-      <Header
-        :title="$page.markdownPage.header_title"
-        :image="$page.markdownPage.header_image"
-        :altImg="$page.markdownPage.header_altImg"
-        :excerpt="$page.markdownPage.header_excerpt"
-        :button="$page.markdownPage.button"
-        :link="$page.markdownPage.link"
-      />
-      
-      <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
-      />
-      
-      <NewCard
-        v-for="card in $page.markdownPage.cards"
-        :key="card.id"
-        :card="card"
-      />
-      
-      <CallToAction
-        v-if="$page.markdownPage.cta"
-        :cta="$page.markdownPage.cta"
-      />
-      
-      <logoShowcase
-        v-if="$page.markdownPage.logos.length > 0"
-        :logos="$page.markdownPage.logos"
-      />
+    <Header
+      :title="$page.markdownPage.header_title"
+      :image="$page.markdownPage.header_image"
+      :altImg="$page.markdownPage.header_altImg"
+      :excerpt="$page.markdownPage.header_excerpt"
+      :button="$page.markdownPage.button"
+      :link="$page.markdownPage.link"
+    />
 
-      <InTheNews
-        v-if="$page.markdownPage.inTheNews"
-        :news="$page.markdownPage.inTheNews"
-      />
-      
-      <SignUp
-        v-if="$page.markdownPage.signup"
-        :signup="$page.markdownPage.signup"
-      />
+    <SolutionsHeader
+      v-if="$page.markdownPage.header"
+      :header="$page.markdownPage.header"
+    />
+
+    <NewCard
+      v-for="card in $page.markdownPage.cards"
+      :key="card.id"
+      :card="card"
+    />
+
+    <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
+
+    <logoShowcase
+      v-if="$page.markdownPage.logos.length > 0"
+      :logos="$page.markdownPage.logos"
+    />
+
+    <InTheNews
+      v-if="$page.markdownPage.inTheNews"
+      :news="$page.markdownPage.inTheNews"
+    />
+
+    <SignUp
+      v-if="$page.markdownPage.signup"
+      :signup="$page.markdownPage.signup"
+    />
   </Layout>
 </template>
 
