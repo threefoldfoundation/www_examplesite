@@ -1,5 +1,5 @@
 ---
-id: solution
+id: page2
 header: header
 cards: [solution_card]
 slides:

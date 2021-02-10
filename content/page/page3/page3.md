@@ -1,5 +1,5 @@
 ---
-id: participate
+id: page3
 title: participate
 header: participate_header
 howItWorksMain: participate_main

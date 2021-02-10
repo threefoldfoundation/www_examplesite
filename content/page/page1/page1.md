@@ -1,5 +1,5 @@
 ---
-id: why
+id: page1
 header: header_why
 header_title: 404 - The Internet is Broken
 header_image: ./header_404.png
