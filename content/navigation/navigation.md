@@ -1,31 +1,21 @@
 ---
 id: navigation
 navLinks:
-  - name: Why
-    link: /why
+  - name: Page1
+    link: /page1
     external: false
     expandable: false
 
-  - name: Learn
-    link: /learn
+  - name: Dropdown
+    link: /dropdown
     external: false
     expandable: true
     submenu:
-      - title: Solution
-        path: /solution
+      - title: Page2
+        path: /page2
 
-      - title: Participate
-        path: /participate
-
-      - title: Token
-        path: /token
-
-      - title: Future
-        path: /future
-
-      - title: Knowledge
-        path: https://wiki.threefold.io/#/what_is_farming
-        external: true
+      - title: Page3
+        path: /page3
 
   - name: People
     link: /people
@@ -43,7 +33,7 @@ navLinks:
     external: false
     expandable: true
     submenu:
-      - title: Newsroom
+      - title: NewsRoom
         path: /news
 
       - title: Blog
@@ -53,10 +43,10 @@ navLinks:
         path: https://forums.threefold.io/
         external: true
 
-      - title: Contact
-        path: /contact
-
 social:
   - icon: telegram-plane
-    link: https://t.me/threefoldnews
+    link: '' #telegaram link
+
+  - icon: linkedin
+    link: '' #linkedin link
 ---

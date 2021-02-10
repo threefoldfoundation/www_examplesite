@@ -1,11 +1,11 @@
 ---
 id: home_header
-title: ThreeFold Farming
-subtitle: BE THE INTERNET
-btn1: Become a Farmer
-link1: /blog
-btn2: Learn More
-link2: /blog
+title: title
+subtitle: SUBTITLE
+btn1: Button
+link1: '' #link for button
+btn2: Button
+link2: '' #link for button
 ---
 
-Join the decentralization movement and empower a new paradigm for technology, humanity and our planet.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
