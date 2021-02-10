@@ -78,6 +78,7 @@
         logos{
           id
           image
+          url
         }
         inTheNews {
           id
