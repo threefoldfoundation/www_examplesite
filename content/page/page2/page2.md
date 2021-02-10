@@ -8,7 +8,7 @@ featuresMain: features
 features: [feature1, feature2, feature3, feature4, feature5]	
 comparisonMain: comparison
 comparisonSecs: [section1, section2, section3]
-productMain: product
+productsMain: product
 productData: [product1, product2, product3]
 brandPanel: brand_panel
 ---

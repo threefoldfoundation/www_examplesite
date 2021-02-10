@@ -1,5 +1,5 @@
 ---
 id: product
-title: Title
+title: product
 subtitle: Subtitle
 ---
