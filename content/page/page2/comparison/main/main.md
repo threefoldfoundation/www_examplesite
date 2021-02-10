@@ -1,7 +1,7 @@
 ---
-id: comparison_main
-title: How do we compare?
-description: The truth is there's no comparison
-button: Dive Deeper
-link: /solution #Add button link here
+id: comparison
+title: Title
+description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+button: Button
+link: '' #add button link here
 ---

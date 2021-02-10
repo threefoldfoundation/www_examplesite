@@ -1,30 +1,14 @@
 ---
 id: page2
 header: header
-cards: [solution_card]
-slides:
-  [
-    performance,
-    privacy,
-    security,
-    inclusive,
-    sustainable,
-  ]
-solution_image: ./grid_live.png
-cta: solution_cta
-howItWorksMain: how_it_works_main
-howItWorks: [
-  farmers_connect_capacity_and_compute,
-  get_rewarded_with_tokens,
-  users_reserve_capacity,
-]
-productData: [myproducts, test2]
-featuresMain: Feature_main	
-features: [high_durability, versatility, value_based_price, variety]	
-logos: [solution_logo1, solution_logo2, solution_logo3, solution_logo4, solution_logo5, solution_logo6]	
-signup: solution_signup	
-comparisonMain: comparison_main	
-comparisonSecs: [centralized, threefold, distributed]
-productMain: solution_product
-brandPanel: solution_brandPanel
+solution_image: ./image_name.png
+howItWorksMain: how_it_works
+howItWorks: [section1, section2, section3] #add as many sections you like
+featuresMain: features
+features: [feature1, feature2, feature3, feature4, feature5]	
+comparisonMain: comparison
+comparisonSecs: [section1, section2, section3]
+productMain: product
+productData: [product1, product2, product3]
+brandPanel: brand_panel
 ---

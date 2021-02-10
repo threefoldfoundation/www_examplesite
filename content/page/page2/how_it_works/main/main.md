@@ -1,5 +1,5 @@
 ---
-id: how_it_works_main
-title: How Does It Work?
-image: ./how_it_works.png
+id: how_it_works
+title: TITLE
+image: ./image_name.png
 ---

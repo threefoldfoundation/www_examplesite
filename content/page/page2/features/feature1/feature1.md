@@ -1,7 +1,7 @@
 ---
-id: high_durability
-svg: ./Full_Privacy.png
-title: High durability
+id: feature1
+svg: ./image_name.png
+title: Title
 ---
 
-Forget about paper jams with our increased stability product. Ideal for high-quality printing and photocopying.	
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.	

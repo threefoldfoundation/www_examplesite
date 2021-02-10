@@ -1,7 +1,7 @@
 ---
-id: value_based_price
-svg: ./peer_to_peer.png
-title: Value-based price
+id: feature3
+svg: ./image_name.png
+title: Title
 ---
 
-The best combination of quality and economy comes with our paper. The offer includes wides ranges of density.	
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.	

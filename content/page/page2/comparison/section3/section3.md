@@ -1,7 +1,7 @@
 ---
-id: distributed
-svg: ./waiting.svg
-title: Distributed
+id: section3
+svg: ./image_name.png
+title: Title
 ---
 
-You don’t buy a pig... or shall I say a paper in a poke. The supplies will be delivered to your company every first Monday of the month.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

@@ -1,7 +1,7 @@
 ---
-id: centralized
-svg: ./new_ideas.svg
-title: Centralized
+id: section1
+svg: ./image_name.png
+title: Title
 ---
 
-During the phone call we will be able to present you all details of cooperation, pricing and special offers, suited for your company.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

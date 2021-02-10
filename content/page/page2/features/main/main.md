@@ -1,8 +1,8 @@
 ---
-id: Feature_main
-title: Features of Dunder Mifflin copy paper
-btn: Sign up for free
-link: /solution # Add Btn link here
+id: features
+title: TITILE
+btn: Button
+link: '' #add link for button
 ---
 
-Your own Dunder Mifflin account will serve you in the wonderful voyage through our products.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

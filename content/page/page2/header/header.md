@@ -1,11 +1,11 @@
 ---
 id: header
-title: ThreeFold Farming
-subtitle: Be The Internet
-btn1: Learn more
-link1: /link1
-btn2: Stay Updated
-link2: /link2
+title: TITLE
+subtitle: Subtitle
+btn1: Button
+link1: '' #link for button
+btn2: Button
+link2: '' #link for button
 ---
 
-We're going back to the original vision of the Internet: By the people, for the people. With industry-transforming technology. And we are already live today.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
