@@ -1,53 +1,53 @@
 ---
 id: footer
-description: BE THE INTERNET
-linkedin: 'https://www.linkedin.com/company/threefold-foundation/'
-facebook: 'https://www.facebook.com/threefold.io'
-twitter: 'https://twitter.com/threefold_io'
+description: SLOGAN
+linkedin: '#' #replace # with a link 
+facebook: '#'
+twitter: '#'
 dribbble: '#'
 instagram: '#'
-youtube: 'https://www.youtube.com/threefoldfoundation'
-github: 'https://github.com/threefoldfoundation'
-telegram: 'https://t.me/threefoldnews'
+youtube: '#'
+github: '#'
+telegram: '#'
 items:
- - title: LEARN
+ - title: TITLE
    links:
-    - name: 3Node
+    - name: Link
       link: '#'
-    - name: Tech
+    - name: Link
       link: '#'
-    - name: Token
+    - name: Link
       link: '#'
-    - name: Blog
-      link: '#'
-    - name: Knowledgebase
-      link: '#'
-    - name: Community
-      link: '#'
- - title: ABOUT
+    - name: Link
+      link: '#' #add as many links as you like
+ - title: TITLE
    links:
-    - name: Newsroom
+    - name: Link
       link: '#'
-    - name: Team
+    - name: Link
       link: '#'
-    - name: Partners
+    - name: Link
       link: '#'
-    - name: Company
+    - name: Link
       link: '#'
- - title: SUPPORT
+ - title: TITLE
    links:
-    - name: FAQ
+    - name: Link
       link: '#'
-    - name: Community
+    - name: Link
       link: '#'
-    - name: Contact
+    - name: Link
       link: '#'
- - title: LEGAL
+    - name: Link
+      link: '#'
+ - title: TITLE
    links:
-    - name: Terms&Conditions
+    - name: Link
       link: '#'
-    - name: PrivacyPolicy
+    - name: Link
       link: '#'
-    - name: Impressum
+    - name: Link
+      link: '#'
+    - name: Link
       link: '#'
 ---
