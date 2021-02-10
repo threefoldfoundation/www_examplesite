@@ -4,17 +4,17 @@ title: 'Specs'
 rows:
   - title: 'Name'
     firstCol: include
-    secCol: 'specification'
+    secCol: none
     thirdCol: 'specification'
 
   - title: 'Name'
     firstCol: include
-    secCol: 'specification'
+    secCol: none
     thirdCol: 'specification'
 
   - title: 'Name'
     firstCol: include
-    secCol: 'specification'
+    secCol: none
     thirdCol: 'specification'
 
   - title: 'Name'
