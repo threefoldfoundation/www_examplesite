@@ -1,4 +1,4 @@
 ---
 id: logo3
-image: ./skale.png
+image: ./logo.png
 ---

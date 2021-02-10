@@ -1,10 +1,10 @@
 ---
-id: home5
-title: Demand showcase (eVDC)
-image: ./card5.jpeg
-button: eVDC
-link:
+id: card5
+title: TITLE
+image: ''
+button: Button
+link: '' #link for button
 order: 5
 ---
 
-Show evdc solution - k8s, s3, docker compatible, Quantum Safe Archive.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

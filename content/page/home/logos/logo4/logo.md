@@ -1,4 +1,4 @@
 ---
 id: logo4
-image: ./vlinder.png
+image: ./logo.png
 ---

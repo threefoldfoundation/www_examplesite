@@ -1,10 +1,10 @@
 ---
-id: home
-title: How it works
-image: ./card1.jpeg
-button: Get Started
-link: /why
+id: card1
+title: TITLE
+image: ./image_name.png
+button: Button
+link: '' #link for button
 order: 1
 ---
 
-You can help build the new inter-net infrastructure. Farmers connect capacity + compute. All you need is electricity + network + 3node. Link to solution. Get rewarded with tokens. Users reserve capacity.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

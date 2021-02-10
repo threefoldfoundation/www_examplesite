@@ -1,4 +1,4 @@
 ---
 id: logo6
-image: ./presearch_logo.png
+image: ./logo.png
 ---
