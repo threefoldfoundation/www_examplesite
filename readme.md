@@ -1,5 +1,5 @@
 
-# ThreeFold Website www_examplesite
+# ThreeFold Website www_examplesite - !!! DO NOT EDIT EXAMPLESITE !!!
 
 ### how to get started
 
