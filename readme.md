@@ -1,5 +1,7 @@
 
-# ThreeFold Website www_examplesite - !!! DO NOT EDIT EXAMPLESITE !!!
+# ThreeFold Website www_examplesite 
+
+## Examplesite is there to be replicated (copied) - !!! DO NOT EDIT EXAMPLESITE !!!
 
 ### how to get started
 
