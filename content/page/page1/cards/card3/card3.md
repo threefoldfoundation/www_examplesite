@@ -1,10 +1,10 @@
 ---
-id: why3
-title: The People Demand It
-image: ./card3.jpeg
-button: CTA
-link:
+id: card3
+title: TITLE
+image: ./image_name.png
+button: Button
+link: '' #link for button
 order: 3
 ---
 
-Thanks to the help of multiple documentaries (The Social Dilemma, The Great Hack, etc) it has become apparent to the masses that things need to change if we want to allow the internet to play such a big role in our lives.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

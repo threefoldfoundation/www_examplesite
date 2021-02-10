@@ -1,8 +1,9 @@
 ---
-id: peer-to-peer
-title: P2P puts people back in control
-image: peer-to-peer.png
+id: slide1
+title: TITLE
+image: '' #can add an image if you like
 order: 6
+
 ---
 
-We created a complete peer-to-peer architecture that can assist the world in it's journey towards decentralization. Blockchain and edge computing were only steps towards that end goal. Our model removes complexity and inefficiencies. No intermediaries. No marketing. No gimmicks. Everything is automated. Completely end-to-end. But it doesn't end there. Users get full control over their data with 100% security and privacy. Not even ThreeFold can access it.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

@@ -1,5 +1,5 @@
 ---
-id: why_roadmap_post2
+id: post2
 title: Lorem Ipsum
 ---
 

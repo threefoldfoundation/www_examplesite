@@ -1,11 +1,12 @@
 ---
 id: page1
-header: header_why
-header_title: 404 - The Internet is Broken
-header_image: ./header_404.png
-header_excerpt: The current internet infrastructure is based on hyper-scale data centers that cannot meet a lot of the problems the internet is facing today.
-slides: [peer-to-peer, availability, sustainability]
-roadmap:
-  [why_roadmap_post1, why_roadmap_post2, why_roadmap_post3, why_roadmap_post4]
-cards: [why1, why2, why3]
+header_title: BIG TITLE
+header_image: ./image_name.png
+header_excerpt: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+button: Button
+link: '' #link for button
+slides: [slide1, slide2, slide3, slide4, slide5] #add as many slides you like
+cards: [card1, card2, card3] #add as many cards you like
+header: header
+roadmap: [post1, post2, post3, post4] #add as many posts you like
 ---

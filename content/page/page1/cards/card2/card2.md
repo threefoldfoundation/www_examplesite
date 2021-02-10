@@ -1,10 +1,10 @@
 ---
-id: why2
-title: The Technology Demands Ite
-image: ./card2.jpeg
-button: Read More on Our Blog
-link:
-order: 1
+id: card2
+title: TITLE
+image: ./image_name.png
+button: Button
+link: '' #link for button
+order: 2
 ---
 
-Modern day technologies like 5G, IOT, AI,... demand more cloud resources near end-users. The central datacenter approach can't keep up with this deman. The ThreeFold Grid can cater to all the needs these industries as the decentralized nature of the the grid puts the capacity near the end user.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
