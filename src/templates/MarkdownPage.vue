@@ -164,7 +164,7 @@
          id
          title
          content
-      #   image
+         image
        }
         featuresMain{
           id
