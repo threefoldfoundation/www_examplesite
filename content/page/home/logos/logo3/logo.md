@@ -1,5 +1,5 @@
 ---
 id: logo3
-image: ./logo.png
+image: ./logo3.png
 url: ''
 ---
