@@ -1,6 +1,6 @@
 ---
 id: section1
-svg: ./image_name.png
+svg: ./section1.png
 title: Title
 ---
 
