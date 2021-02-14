@@ -12,10 +12,10 @@ navLinks:
     expandable: true
     submenu:
       - title: Page2
-        path: /examplesite/page2
+        path: /page2
 
       - title: Page3
-        path: /examplesite/page3
+        path: /page3
 
   - name: People
     link: /people
@@ -23,10 +23,10 @@ navLinks:
     expandable: true
     submenu:
       - title: Team
-        path: /examplesite/team
+        path: /team
 
       - title: Partners
-        path: /examplesite/partners
+        path: /partners
 
   - name: More
     link: /more
@@ -34,10 +34,10 @@ navLinks:
     expandable: true
     submenu:
       - title: NewsRoom
-        path: /examplesite/news
+        path: /news
 
       - title: Blog
-        path: /examplesite/blog
+        path: /blog
 
       - title: Community
         path: https://forums.threefold.io/
