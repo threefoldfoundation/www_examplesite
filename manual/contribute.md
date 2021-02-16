@@ -11,10 +11,10 @@
 - [ ] Master brach set up
 - [ ] All contributors have access to the Repo
 - [ ] Desired domainname is purchased
-- [ ] Records set for www2 to feed development branch
-- [ ] Records set for www to feed master branch
+- [ ] Records set for www2 to feed development branch. Reach out to: Hamdy (@hamdy)
+- [ ] Records set for www to feed master branch. Reach out to: Hamdy (@hamdy)
 - [ ] Check if both https://www2.domainname.xyz and https://www.domainname.xyz are working
-- [ ] Issues has standard labels and milestons set up
+- [ ] Issues has standard labels (see [label list](https://github.com/threefoldfoundation/www_examplesite/labels)) and milestons (Now, Next, Later) set up
 
 ### Graphics & Metadata    
 - [ ] Favicon is available and showing
