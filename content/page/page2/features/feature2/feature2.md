@@ -1,6 +1,6 @@
 ---
 id: featur2
-svg: ./image_name.png
+svg: ./feature2.png
 title: Title
 ---
 

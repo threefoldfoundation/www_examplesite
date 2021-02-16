@@ -10,17 +10,18 @@
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
-            <img
-              src="/img/TFN_black.svg"
-              class="mr-3 fill-current"
+        
+            <g-image
+              :src="require(`!!assets-loader!@images/TFN_black.svg`)"
+              class="mr-3 fill-current logo"
               width="180"
               v-if="theme == 'light'"
               alt=""
             />
 
-            <img
-              src="/img/TFN_white.svg"
-              class="mr-3 fill-current"
+            <g-image
+              :src="require(`!!assets-loader!@images/TFN_white.svg`)"
+              class="mr-3 fill-current logo"
               width="180"
               v-else
               alt=""
@@ -308,7 +309,9 @@ a.active--exact.active {
   background-color: rgba(237, 242, 247, 1);
   border-radius: 0.5rem;
 }
-
+.logo {
+  max-width: 200px;
+}
 .navbar {
   width: auto;
 }
