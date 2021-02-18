@@ -1,24 +1,23 @@
 # Get Started
 
 ## (Website's) Set up
-
-- [ ] Purchase desired domainname
-- [ ] Replicate (copy) www_examplesite repo in your new website's repo (suggested) in right the organization
-- [ ] Set up branches: Development (staging branch, set as default) & Master (production branch)
-- [ ] Set up labels (see [label list](https://github.com/threefoldfoundation/www_examplesite/labels) and milestones (Now, Next, Later) for issues
-- [ ] Give access to all contributors
-- [ ] Create a mockup with desired outcome; [Example](https://github.com/threefoldfoundation/www_threefold_io/issues/1)
-- [ ] Get stakeholders eyes and approval on mockup
-- [ ] Apply mockup to the website
-- [ ] Apply mobile responsiveness
-- [ ] Apply [Metadescriptions](https://www.w3schools.com/tags/tag_meta.asp)
-- [ ] Apply [Metadata: keywords](https://www.w3schools.com/tags/tag_meta.asp)
-- [ ] Analytics script is created for this specific website - talk to either one of the promotion team [Roel (@roelvansabben)](https://t.me/roelvansabben), [Sam (@samtaggart)](https://t.me/samtaggart),  [Sacha (@sachaobg)](https://t.me/sachaobg) to get a code specific for your website. You can also request access to the analytics tool through any of them.
-- [ ] Analytics script is added to the page and traffic is visible in the tools
-- [ ] Make sure the promotion team adds it to the Google Search Console for regular testing. Reach out to either: [Roel (@roelvansabben)](https://t.me/roelvansabben), [Sam (@samtaggart)](https://t.me/samtaggart), [Sacha (@sachaobg)](https://t.me/sachaobg)
-- [ ] Link and show Impressum of the entity that owns the website - check which entity needs to be added to the website, then go here to get the impressum from [this document.](https://secure.threefold.me/pad/#/2/pad/edit/SBviA-Q-3QP1vSiBcH4hLYgH/)
-- [ ] Link Privacy Policy and Terms & Conditions in footer
-- [ ] Set up github project(-s) for weekly scrums and progress tracking
+1. Purchase desired domainname
+2. Replicate (copy) www_examplesite repo in your new website's repo (suggested) in right the organization
+3. Set up branches: Development (staging branch, set as default) & Master (production branch)
+4. Set up labels (see [label list](https://github.com/threefoldfoundation/www_examplesite/labels) and milestones (Now, Next, Later) for issues
+5. Give access to all contributors
+6. Create a mockup with desired outcome; [Example](https://github.com/threefoldfoundation/www_threefold_io/issues/1)
+7. Get stakeholders eyes and approval on mockup
+8. Apply mockup to the website
+9. Apply mobile responsiveness
+10. Apply [Metadescriptions](https://www.w3schools.com/tags/tag_meta.asp)
+11. Apply [Metadata: keywords](https://www.w3schools.com/tags/tag_meta.asp)
+12. Analytics script is created for this specific website - talk to either one of the promotion team [Roel (@roelvansabben)](https://t.me/roelvansabben), [Sam (@samtaggart)](https://t.me/samtaggart),  [Sacha (@sachaobg)](https://t.me/sachaobg) to get a code specific for your website. You can also request access to the analytics tool through any of them.
+13. Analytics script is added to the page and traffic is visible in the tools
+14. Make sure the promotion team adds it to the Google Search Console for regular testing. Reach out to either: [Roel (@roelvansabben)](https://t.me/roelvansabben), [Sam (@samtaggart)](https://t.me/samtaggart), [Sacha (@sachaobg)](https://t.me/sachaobg)
+15. Link and show Impressum of the entity that owns the website - check which entity needs to be added to the website, then go here to get the impressum from [this document.](https://secure.threefold.me/pad/#/2/pad/edit/SBviA-Q-3QP1vSiBcH4hLYgH/)
+16. Link Privacy Policy and Terms & Conditions in footer
+17. Set up github project(-s) for weekly scrums and progress tracking
 
 
 ## (Website's) Checklist
@@ -63,12 +62,12 @@
 # Contribute
 
 ### Issues
-- [ ] Create an issue for your question/suggestion/fix/bug/feature etc in the project (e.g. website) repo
-- [ ] Label it (critical, major, minor, bug, blocked etc)
-- [ ] Set a Milestone (now, next, later)
-- [ ] Add it to active or future project (if applicable)
-- [ ] Assign it to a specific contributor, or owner of the repo
+- Create an issue for your question/suggestion/fix/bug/feature etc in the project (e.g. website) repo
+- Label it (critical, major, minor, bug, blocked etc)
+- Set a Milestone (now, next, later)
+- Add it to active or future project (if applicable)
+- Assign it to a specific contributor, or owner of the repo
 
 ### Branches
-- [ ] If you're not an owner of the repo always create your own development_<name> branch to work on
-- [ ] When done with work create a pull request and assign repo's owner to review and pull
+- If you're not an owner of the repo always create your own development_<name> branch to work on
+- When done with work create a pull request and assign repo's owner to review and pull
