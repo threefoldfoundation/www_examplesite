@@ -66,7 +66,7 @@
 - Label it (critical, major, minor, bug, blocked etc)
 - Set a Milestone (now, next, later)
 - Add it to active or future project (if applicable)
-- Assign it to a specific contributor, or owner of the repo
+- Assign it to a specific contributor, or owner of the repo (never leave it unnassigned).
 
 ### Branches
 - If you're not an owner of the repo always create your own development_<name> branch to work on
