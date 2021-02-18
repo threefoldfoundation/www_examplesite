@@ -2,19 +2,20 @@
 
 ....
 
+## Website Set Up; Prerequisites & Checklist
 
-## Website Prerequisites & Checklist
-
-### Repo and DNS
+### Repo
 - [ ] Github Repo in the right organisation
-- [ ] Development branch set up
-- [ ] Master brach set up
+- [ ] Replicate (copy) www_examplesite repo in your new website's repo (suggested)
+- [ ] Branches are set up: Development (as default) & Master
 - [ ] All contributors have access to the Repo
+- [ ] Issues has standard labels (see [label list](https://github.com/threefoldfoundation/www_examplesite/labels)) and milestones (Now, Next, Later) set up
+
+### DNS
 - [ ] Desired domainname is purchased
 - [ ] Records set for www2 to feed development branch. Reach out to: Hamdy (@hamdy_farag)
 - [ ] Records set for www to feed master branch. Reach out to: Hamdy (@hamdy_farag)
 - [ ] Check if both https://www2.domainname.xyz and https://www.domainname.xyz are working
-- [ ] Issues has standard labels (see [label list](https://github.com/threefoldfoundation/www_examplesite/labels)) and milestons (Now, Next, Later) set up
 
 ### Graphics & Metadata    
 - [ ] Favicon is available and showing
@@ -28,8 +29,9 @@
 - [ ] Analytics script is created for this specific website - talk to either one of the promotion team [Roel (@roelvansabben)](https://t.me/roelvansabben), [Sam (@samtaggart)](https://t.me/samtaggart),  [Sacha (@sachaobg)](https://t.me/sachaobg) to get a code specific for your website. You can also request access to the analytics tool through any of them.
 - [ ] Analytics script is added to the page and traffic is visible in the tools
 
-
 ### Website Content
+- [ ] Mockup with desired website's outcome is created; [Example](https://github.com/threefoldfoundation/www_threefold_io/issues/1)
+- [ ] Stakeholders approved (if applicable) mockup is applied to website
 - [ ] There are no dead links on the website (use deadlink checker) - use: https://www.deadlinkchecker.com/
 - [ ] Website looks good on all screens: XL, L, M, S (use responsiveness checker and own devices) - use https://responsivedesignchecker.com/
 - [ ] PageSpeed test is done - check with: https://developers.google.com/speed/pagespeed/insights/
