@@ -6,11 +6,12 @@
 - [Sourcetree](https://www.sourcetreeapp.com/) (manage your git repositories & branches)
 - [Visual Studio Code](https://code.visualstudio.com/) (code editor)
 
+```bash
+#Install publishtools on your machine (OSX only for now):
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/crystaluniverse/publishtools/master/scripts/install.sh)"
 
-Install publishtools on your machine (OSX only for now):
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/crystaluniverse/publishtools/master/scripts/install.sh)"`
-
-This will allow you to run all wiki's and websites on your local machine.
+#This will allow you to run all wiki's and websites on your local machine.
+```
 
 Make sure your ssh-key is loaded and you have it in your github account - [Instructions](docs/sshkey.md)
 
