@@ -40,4 +40,4 @@ publishtools develop
 publishtools <command> -r <repo_name>
 ```
 
-For more commands and details see **[Crystalunivers/Publishtools readme]**(https://github.com/crystaluniverse/publishtools)
+For more commands and details see [**Crystalunivers/Publishtools readme**](https://github.com/crystaluniverse/publishtools)
