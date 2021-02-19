@@ -1,5 +1,5 @@
 
-# Set up our publishtools environment
+# Set up publishtools environment
 
 ## Recommended additional tools
 
