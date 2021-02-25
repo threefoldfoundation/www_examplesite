@@ -82,6 +82,11 @@ export default {
     TagFilterHeader,
     Pagination,
   },
+  metaInfo() {
+    return {
+      title: this.$page.project.title,
+    };
+  },
   computed: {
     memberships() {
       var res = [{ title: "All", path: "/team" }];
