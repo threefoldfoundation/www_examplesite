@@ -99,10 +99,10 @@ export default {
       selected: "All",
     };
   },
-  methods: {
-    resetAll() {
-      this.selected = "All";
-    },
+  metaInfo() {
+    return {
+      title: 'Partners'
+    };
   },
   computed: {
     tags() {

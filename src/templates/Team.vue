@@ -63,7 +63,7 @@ query($page: Int){
      edges{
       node{
         id
-        title
+      #  title
         path
       }
     }
@@ -81,6 +81,11 @@ export default {
     PostListItem,
     TagFilterHeader,
     Pagination,
+  },
+  metaInfo() {
+    return {
+      title: "Team",
+    };
   },
   computed: {
     memberships() {
