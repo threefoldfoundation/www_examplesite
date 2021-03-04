@@ -63,7 +63,7 @@ query($page: Int){
      edges{
       node{
         id
-        title
+      #  title
         path
       }
     }
@@ -84,7 +84,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.project.title,
+      title: "Team",
     };
   },
   computed: {

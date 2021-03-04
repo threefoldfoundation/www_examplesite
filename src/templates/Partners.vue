@@ -101,7 +101,7 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.project.title,
+      title: 'Partners'
     };
   },
   computed: {
