@@ -10,6 +10,7 @@ header: home_header
 cards: [card1, card2, card3] #you can continue adding cards as needed
 cta: home_cta
 logos: [logo1, logo2, logo3, logo4, logo5, logo6] #you can continue adding logos as needed
+testimonialsSecs : [sec1, sec2,]
 inTheNews: in_the_news
 signup: home_signup
 ---

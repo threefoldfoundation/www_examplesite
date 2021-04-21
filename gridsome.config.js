@@ -116,6 +116,14 @@ module.exports = {
                 path: './content/page/**/comparison/**/*.md',
             }
         },
+        
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Testimonials',
+                path: './content/page/**/testimonials/**/*.md',
+            }
+        },
 
         {
             use: '@gridsome/source-filesystem',
@@ -178,6 +186,7 @@ module.exports = {
                     signup: 'SignUp',
                     comparisonMain: 'Comparison',
                     comparisonSecs: 'Comparison',
+                    testimonialsSecs :'Testimonials',
                     howItWorksMain_2: 'HowItWorks_2',
                     howItWorks_2: 'HowItWorks_2',
                     roadmap: 'Roadmap',

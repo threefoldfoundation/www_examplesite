@@ -27,6 +27,11 @@
       :logos="$page.markdownPage.logos"
     />
 
+   <Testimonials
+        v-if="$page.markdownPage.testimonialsSecs"
+        :sections="$page.markdownPage.testimonialsSecs"
+      />
+
     <InTheNews
       v-if="$page.markdownPage.inTheNews"
       :news="$page.markdownPage.inTheNews"
@@ -96,6 +101,16 @@
           button2
           link2
         }
+        testimonialsSecs{
+          id
+          image
+          content
+          url
+          company
+          name
+          imageperson 
+          urlperson 
+        }
     }  
   }
 
@@ -109,6 +124,7 @@ import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
+import Testimonials from "~/components/marketing/sections/cta-sections/Testimonials.vue";
 
 export default {
   components: {
@@ -119,6 +135,7 @@ export default {
     logoShowcase,
     InTheNews,
     SignUp,
+    Testimonials,
   },
 metaInfo: {
     title: "",
