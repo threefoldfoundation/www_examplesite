@@ -27,10 +27,10 @@
       :logos="$page.markdownPage.logos"
     />
 
-   <Testimonials
-        v-if="$page.markdownPage.testimonialsSecs"
-        :sections="$page.markdownPage.testimonialsSecs"
-      />
+    <Testimonials
+      v-if="$page.markdownPage.testimonialsSecs"
+      :sections="$page.markdownPage.testimonialsSecs"
+    />
 
     <InTheNews
       v-if="$page.markdownPage.inTheNews"
@@ -40,6 +40,12 @@
     <SignUp
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
+    />
+
+    <CenteredAccordion
+      v-if="$page.markdownPage.faqContent"
+      :main="$page.markdownPage.faqMain"
+      :faqs="$page.markdownPage.faqContent"
     />
   </Layout>
 </template>
@@ -111,6 +117,15 @@
           imageperson 
           urlperson 
         }
+        faqMain{
+          id
+          title
+        }
+        faqContent{
+          id
+          question
+          content
+        }
     }  
   }
 
@@ -125,6 +140,7 @@ import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowc
 import InTheNews from "~/components/marketing/sections/logo-clouds/off_white_grid.vue";
 import SignUp from "~/components/custom/sections/SignUp.vue";
 import Testimonials from "~/components/marketing/sections/cta-sections/Testimonials.vue";
+import CenteredAccordion from "~/components/marketing/sections/faq-sections/CenteredAccordion.vue";
 
 export default {
   components: {
@@ -136,11 +152,11 @@ export default {
     InTheNews,
     SignUp,
     Testimonials,
+    CenteredAccordion,
   },
-metaInfo: {
+  metaInfo: {
     title: "",
     titleTemplate: "examplesite",
- 
   },
 };
 </script>

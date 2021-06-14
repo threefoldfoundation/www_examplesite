@@ -13,4 +13,6 @@ logos: [logo1, logo2, logo3, logo4, logo5, logo6] #you can continue adding logos
 testimonialsSecs : [sec1, sec2,]
 inTheNews: in_the_news
 signup: home_signup
+faqMain: homeFAQ
+faqContent: [q1, q2, q3, q4, q5, q6]
 ---
