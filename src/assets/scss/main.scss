@@ -68,6 +68,10 @@ ul {
   @apply bg-gray-500;
 }
 
+.post-content a {
+  color: #4ec48f;
+}
+
 .footerlink {
   margin-left: 0rem !important;
 }
@@ -116,9 +120,8 @@ ul {
 button:focus {
   outline: none;
 }
-.telegram_icon{
+.telegram_icon {
   font-size: 1.2rem;
-  
 }
 
 .text-8xl {
@@ -279,7 +282,7 @@ body[data-theme="dark"] {
   }
   .brandpanel {
     background-color: #1072ba !important;
-}
+  }
   .text-gray-700,
   .text-gray-900 {
     @apply text-white;
@@ -303,7 +306,6 @@ body[data-theme="dark"] {
     background-color: #191b1f;
   }
   .bg-white,
-   
   .bg-gray-100,
   .bg-gray-200 {
     background-color: #191b1f;
