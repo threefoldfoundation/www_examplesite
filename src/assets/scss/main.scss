@@ -19,6 +19,12 @@ body {
   @apply bg-gray-300;
 }
 
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 pre {
   @apply border-l;
   @apply border-l-2;

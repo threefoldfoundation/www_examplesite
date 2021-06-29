@@ -184,6 +184,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Carousel',
+                path: './content/page/**/carousel/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -213,7 +221,8 @@ module.exports = {
                     brandPanel: 'BrandPanel',
                     allSlides: 'About',
                     faqMain: 'FAQMain',
-                    faqContent: 'FAQContent'
+                    faqContent: 'FAQContent',
+                    carousel: 'Carousel'
                 }
             }
         },

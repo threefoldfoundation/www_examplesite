@@ -30,6 +30,7 @@
     "tailwindcss-gradients": "^3.0.0",
     "tailwindcss-tables": "^0.4.0",
     "v-tooltip": "^2.0.3",
-    "vue-markdown": "^2.2.4"
+    "vue-markdown": "^2.2.4",
+    "vue-slick-carousel": "^1.0.6"
   }
 }
