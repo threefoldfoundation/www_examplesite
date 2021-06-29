@@ -19,6 +19,7 @@ export default {
     return {
       settings: {
         dots: true,
+        arrows: false,
         lazyLoad: "ondemand",
         dotsClass: "slick-dots custom-dot-class",
         edgeFriction: 0.35,
