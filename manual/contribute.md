@@ -2,7 +2,7 @@
 
 ## (Website's) Set up
 1. Purchase desired domainname
-2. Replicate (copy) www_examplesite repo in your new website's repo (suggested) in right the organization
+2. Replicate (copy) www_examplesite repo in your new website's repo (suggested) in the right organization
 3. Set up branches: Development (staging branch, set as default) & Master (production branch)
 4. Set up labels (see [label list](https://github.com/threefoldfoundation/www_examplesite/labels) and milestones (Now, Next, Later) for issues
 5. Give access to all contributors
