@@ -3,6 +3,8 @@
 
 ## Examplesite is there to be replicated (copied) if you'd like to base your website on our template >> !!! DO NOT EDIT EXAMPLESITE !!!
 
+For this reason just copy expmplesite repo and import it when creating a new repository for your website.
+
 ### How to get started with websites
 
 See [getting started doc](https://github.com/threefoldfoundation/www_examplesite/blob/development/manual/install.md)
