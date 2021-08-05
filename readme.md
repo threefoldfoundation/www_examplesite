@@ -15,8 +15,8 @@ See [getting started doc](https://github.com/threefoldfoundation/www_examplesite
  - If you want to open mannualy and escape the previous step, press **ctrl+click** (Mac) on the link in terminal ``` Site running at: http://localhost:8080/  ```
  - You will find the website running in new tab
 
-### Consider our best practice guide
+### Consider our best practice guide on setting up websites
 
-See [best practices](https://github.com/threefoldfoundation/www_examplesite/blob/development/manual/contribute.md)
+See [our check-list of full website setup process](https://github.com/threefoldfoundation/www_examplesite/blob/development/manual/website_setup_checklist.md)
 
 
