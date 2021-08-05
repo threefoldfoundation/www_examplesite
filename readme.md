@@ -1,5 +1,5 @@
 
-# ThreeFold examplesite to be used as a template
+# ThreeFold examplesite = website template
 
 ## Examplesite is there to be replicated (copied) if you'd like to base your website on our template >> !!! DO NOT EDIT EXAMPLESITE !!!
 
