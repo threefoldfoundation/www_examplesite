@@ -13,7 +13,7 @@
 #This will allow you to run all wiki's and websites on your local machine.
 ```
 
-Make sure your ssh-key is loaded and you have it in your github account - [Instructions](docs/sshkey.md)
+Make sure your ssh-key is loaded and you have it in your github account - [Instructions](https://threefold.io/info/publishtools#/publishtools__sshkey)
 
 ```bash
 #Install publishtools
