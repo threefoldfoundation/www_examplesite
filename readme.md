@@ -15,7 +15,7 @@ See [getting started doc](https://github.com/threefoldfoundation/www_examplesite
  - If you want to open mannualy and escape the previous step, press **ctrl+click** (Mac) on the link in terminal ``` Site running at: http://localhost:8080/  ```
  - You will find the website running in new tab
 
-### Consider our best practice guidelines
+### Consider our best practice guide
 
 See [best practices](https://github.com/threefoldfoundation/www_examplesite/blob/development/manual/contribute.md)
 
