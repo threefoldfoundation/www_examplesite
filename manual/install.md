@@ -6,6 +6,8 @@
 - [Sourcetree](https://www.sourcetreeapp.com/) (manage your git repositories & branches)
 - [Visual Studio Code](https://code.visualstudio.com/) (code editor)
 
+Run this script to install Publishtools
+
 ```bash
 #Install publishtools on your machine (OSX only for now):
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/crystaluniverse/publishtools/master/scripts/install.sh)"
