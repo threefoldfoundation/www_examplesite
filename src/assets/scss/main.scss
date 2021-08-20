@@ -19,6 +19,12 @@ body {
   @apply bg-gray-300;
 }
 
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 pre {
   @apply border-l;
   @apply border-l-2;
@@ -66,6 +72,10 @@ ul {
   display: block;
   transition: 300ms;
   @apply bg-gray-500;
+}
+
+.post-content a {
+  color: #4ec48f;
 }
 
 .footerlink {
@@ -116,9 +126,8 @@ ul {
 button:focus {
   outline: none;
 }
-.telegram_icon{
+.telegram_icon {
   font-size: 1.2rem;
-  
 }
 
 .text-8xl {
@@ -279,7 +288,7 @@ body[data-theme="dark"] {
   }
   .brandpanel {
     background-color: #1072ba !important;
-}
+  }
   .text-gray-700,
   .text-gray-900 {
     @apply text-white;
@@ -303,7 +312,6 @@ body[data-theme="dark"] {
     background-color: #191b1f;
   }
   .bg-white,
-   
   .bg-gray-100,
   .bg-gray-200 {
     background-color: #191b1f;

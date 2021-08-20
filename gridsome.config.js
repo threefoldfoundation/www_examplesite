@@ -116,7 +116,7 @@ module.exports = {
                 path: './content/page/**/comparison/**/*.md',
             }
         },
-        
+
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -168,6 +168,30 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'FAQMain',
+                path: './content/page/**/faq/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'FAQContent',
+                path: './content/page/**/faq/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Carousel',
+                path: './content/page/**/carousel/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -186,7 +210,7 @@ module.exports = {
                     signup: 'SignUp',
                     comparisonMain: 'Comparison',
                     comparisonSecs: 'Comparison',
-                    testimonialsSecs :'Testimonials',
+                    testimonialsSecs: 'Testimonials',
                     howItWorksMain_2: 'HowItWorks_2',
                     howItWorks_2: 'HowItWorks_2',
                     roadmap: 'Roadmap',
@@ -195,7 +219,10 @@ module.exports = {
                     plans: 'Plans',
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
-                    allSlides : 'About'
+                    allSlides: 'About',
+                    faqMain: 'FAQMain',
+                    faqContent: 'FAQContent',
+                    carousel: 'Carousel'
                 }
             }
         },
@@ -259,7 +286,7 @@ module.exports = {
         },
 
         {
-             use: '@gridsome/source-filesystem',
+            use: '@gridsome/source-filesystem',
             options: {
                 typeName: 'News',
                 path: './content/news/**/*.md',
@@ -310,45 +337,6 @@ module.exports = {
                 shouldImport: true,
                 shouldTimeTravel: true,
                 shouldPurgeUnusedKeyframes: true,
-            }
-        },
-
-        // Full Text search
-        {
-            use: 'gridsome-plugin-flexsearch',
-            options: {
-                searchFields: ['title', 'name', 'content', 'status', 'linkedin', 'excerpt', 'cities', 'countries', 'websites'],
-                collections: [{
-                        typeName: 'Blog',
-                        indexName: 'Blog',
-                        fields: ['path']
-                    },
-
-                    {
-                        typeName: 'Project',
-                        indexName: 'Project',
-                        fields: ['path']
-                    },
-
-                    {
-                        typeName: 'Person',
-                        indexName: 'Person',
-                        fields: ['path']
-                    },
-
-                    {
-                        typeName: 'News',
-                        indexName: 'News',
-                        fields: ['path']
-                    },
-
-                    {
-                        typeName: 'MarkdownPage',
-                        indexName: 'MarkdownPage',
-                        fields: ['path']
-                    },
-
-                ]
             }
         },
     ],
@@ -415,19 +403,19 @@ module.exports = {
             anchorClassName: 'icon icon-link',
             plugins: [
                 ['gridsome-plugin-remark-prismjs-all', {
-                        highlightClassName: "gridsome-highlight",
-                        codeTitleClassName: "gridsome-code-title",
-                        classPrefix: 'language-',
-                        aliases: {},
-                        noInlineHighlight: false,
-                        showLineNumbers: false, //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
-                        languageExtensions: [],
-                        prompt: { //  `require("prismjs/plugins/command-line/prism-command-line.css");`
-                            user: `root`,
-                            host: `localhost`,
-                            global: false,
-                        }
-                    },
+                    highlightClassName: "gridsome-highlight",
+                    codeTitleClassName: "gridsome-code-title",
+                    classPrefix: 'language-',
+                    aliases: {},
+                    noInlineHighlight: false,
+                    showLineNumbers: false, //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
+                    languageExtensions: [],
+                    prompt: { //  `require("prismjs/plugins/command-line/prism-command-line.css");`
+                        user: `root`,
+                        host: `localhost`,
+                        global: false,
+                    }
+                },
                     // '@noxify/gridsome-remark-table-align', ['@noxify/gridsome-remark-classes', {
                     //     'table': 'table table-striped',
                     //     'tableCell[align=center]': 'text-center',
