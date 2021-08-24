@@ -1,6 +1,8 @@
 
 # ThreeFold examplesite = website template
 
+### Follow working board on Circles tool: https://circles.threefold.me/project/despiegk-product_web_threefold/wiki/home
+
 ## Examplesite is there to be replicated (copied) if you'd like to base your website on our template >> !!! DO NOT EDIT EXAMPLESITE !!!
 
 For this reason just copy expmplesite repo and import it when creating a new repository for your website.
